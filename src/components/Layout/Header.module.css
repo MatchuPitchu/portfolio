@@ -1,0 +1,17 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: calc(100% - 30px);
+  height: 97vh;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  background: #ffeccf;
+  padding: 0 1rem;
+  margin: 1rem auto 0 auto;
+}
+
+.header h1 {
+  color: #3a3a3a;
+}
