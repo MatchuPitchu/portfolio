@@ -1,4 +1,4 @@
-# React Portfolio Website of Michael Flohr
+# React Portfolio Website
 
 ## Getting Started with Create React App
 
