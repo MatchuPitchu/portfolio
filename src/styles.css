@@ -1,0 +1,49 @@
+:root {
+  --color-primary: #f7cc4b;
+  --color-primary-rgb: 247, 204, 75;
+  --color-primary-contrast: #000000;
+  --color-primary-contrast-rgb: 0, 0, 0;
+  --color-primary-shade: #d9b442;
+  --color-primary-tint: #f8d15d;
+
+  --color-secondary: #ffeccf;
+  --color-secondary-rgb: 255, 236, 207;
+  --color-secondary-contrast: #000000;
+  --color-secondary-contrast-rgb: 0, 0, 0;
+  --color-secondary-shade: #e0d0b6;
+  --color-secondary-tint: #ffeed4;
+
+  --color-dark: #3a3a3a;
+  --color-dark-rgb: 58, 58, 58;
+  --color-dark-contrast: #ffffff;
+  --color-dark-contrast-rgb: 255, 255, 255;
+  --color-dark-shade: #333333;
+  --color-dark-tint: #4e4e4e;
+
+  --color-medium: #92949c;
+  --color-medium-rgb: 146, 148, 156;
+  --color-medium-contrast: #ffffff;
+  --color-medium-contrast-rgb: 255, 255, 255;
+  --color-medium-shade: #808289;
+  --color-medium-tint: #9d9fa6;
+
+  --color-light: #f4f5f8;
+  --color-light-rgb: 244, 245, 248;
+  --color-light-contrast: #000000;
+  --color-light-contrast-rgb: 0, 0, 0;
+  --color-light-shade: #d7d8da;
+  --color-light-tint: #f5f6f9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  background: #fff;
+}
+
+body {
+  margin: 0;
+}
