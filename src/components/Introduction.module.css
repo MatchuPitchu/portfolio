@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.imageBox1 {
+  width: 400px;
+  height: auto;
+  z-index: 2;
+  transform: translate(5%, 0%);
+}
+
+.imageBox2 {
+  width: 200px;
+  height: auto;
+  z-index: 2;
+  transform: translate(125%, -10%);
+}
+
+.imageBox1 img,
+.imageBox2 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
