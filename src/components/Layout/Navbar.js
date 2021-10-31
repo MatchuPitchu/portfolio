@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classes from './Navbar.module.css';
 
 const Navigation = () => {
@@ -30,11 +31,19 @@ const Navigation = () => {
 
   return (
     <nav className={classes.navbar}>
-      <div className={classes.logo}>LOGO</div>
-      {toggleContent}
-      <div className={classes['btn-container']}>
-        <button onClick={toggleMenuHandler}></button>
+      <div className={classes.logo}>
+        <div>
+          Michael<span>Flohr</span>
+        </div>
       </div>
+      {toggleContent}
+      <button onClick={toggleMenuHandler}>
+        {!toggleMenu ? (
+          <FontAwesomeIcon icon={['fa', 'bars']} />
+        ) : (
+          <FontAwesomeIcon icon={['fa', 'times']} />
+        )}
+      </button>
     </nav>
   );
 };
