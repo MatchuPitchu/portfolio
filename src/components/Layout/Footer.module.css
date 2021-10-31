@@ -1,0 +1,56 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: calc(100% - 30px);
+  height: 10rem;
+  margin: 1rem auto;
+  background: linear-gradient(-45deg, #f7cc4b, #fffdfa, #fcecd6, #ffeccf);
+  background-size: 400% 400%;
+  animation: background-gradient 20s ease infinite;
+}
+
+@keyframes background-gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.icons {
+  flex: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  will-change: transform, opacity;
+}
+
+.icons > * {
+  font-size: 3.5rem;
+  color: #3a3a3a;
+  border-radius: 100%;
+  margin: 1rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  background-color: #fff;
+  opacity: 0.9;
+  transition: all 0.2s ease;
+}
+
+.icons > *:hover {
+  opacity: 1;
+  transition: all 0.2s ease;
+  transform: scale(1.15);
+}
+
+.footer p {
+  flex: 100%;
+  text-align: center;
+  opacity: 0.8;
+}

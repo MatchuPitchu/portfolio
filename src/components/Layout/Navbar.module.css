@@ -28,7 +28,6 @@
 
 .navbar li {
   margin-right: 2rem;
-  color: #3a3a3a;
 }
 
 .navbar a {
@@ -62,8 +61,8 @@
 .navbar button:before {
   content: '';
   position: absolute;
-  top: 8px;
-  left: 0;
+  top: 0.5rem;
+  right: 0;
   width: 2rem;
   height: 2px;
   border-top: 4px solid #f7cc4b;
@@ -72,8 +71,8 @@
 .navbar button:after {
   content: '';
   position: absolute;
-  top: 0px;
-  left: 0;
+  top: 0;
+  right: 0;
   width: 2rem;
   height: 2px;
   border-top: 4px solid #f7cc4b;

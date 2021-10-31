@@ -41,9 +41,12 @@
 
 html {
   font-family: sans-serif;
+  color: #3a3a3a;
   background: #fff;
+  height: 100%;
 }
 
 body {
   margin: 0;
+  height: 100%;
 }
