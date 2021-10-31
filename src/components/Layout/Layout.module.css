@@ -1,0 +1,20 @@
+.header {
+  width: calc(100% - 30px);
+  height: 97vh;
+  margin: 1rem auto;
+  background: linear-gradient(-45deg, #f7cc4b, #fffdfa, #fcecd6, #ffeccf);
+  background-size: 400% 400%;
+  animation: background-gradient 20s ease infinite;
+}
+
+@keyframes background-gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

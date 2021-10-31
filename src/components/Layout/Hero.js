@@ -4,7 +4,7 @@ import classes from './Hero.module.css';
 
 const Hero = () => {
   return (
-    <section>
+    <section className={classes.hero}>
       <h1>
         <div className={classes.title}>Dr.</div>
         <div className={classes.firstName}>Michael</div>
