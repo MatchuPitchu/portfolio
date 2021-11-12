@@ -1,17 +1,31 @@
-import Introduction from './components/Introduction';
-import Layout from './components/Layout/Layout';
+import { Routes, Route } from 'react-router-dom';
 
 // create fontawesome library and import needed icons
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faXing, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
-library.add(fab, faBars, faTimes);
+import Layout from './components/Layout/Layout';
+import Navbar from './components/Layout/Navbar';
+import Introduction from './Pages/Introduction';
+import About from './Pages/About';
+import Kontakt from './Pages/Kontakt';
+import Footer from './components/Layout/Footer';
+
+library.add(faLinkedin, faXing, faGithub, faBars, faTimes);
 
 const App = () => {
   return (
     <Layout>
-      <Introduction />
+      <Navbar />
+      <main>
+        <Routes>
+          <Route path='/' element={<Introduction />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/kontakt' element={<Kontakt />} />
+        </Routes>
+      </main>
+      <Footer />
     </Layout>
   );
 };

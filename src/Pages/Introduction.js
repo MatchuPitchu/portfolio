@@ -1,12 +1,14 @@
 import classes from './Introduction.module.css';
-import Button from './UI/Button/Button';
-import Card from './UI/Card/Card';
+import Button from '../components/UI/Button/Button';
+import Card from '../components/UI/Card/Card';
 import image1 from '../assets/michael_flohr_2021_web.jpg';
 import image2 from '../assets/michael_flohr_2019_web.jpg';
+import Hero from '../components/Layout/Hero';
 
 const Introduction = () => {
   return (
     <div className={classes.container}>
+      <Hero />
       <div className={classes.col}>
         <div className={classes.imageBox1}>
           <img src={image1} alt='Foto Michael Flohr' />

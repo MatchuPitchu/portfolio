@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { NavLink, Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classes from './Navbar.module.css';
 
@@ -19,12 +20,12 @@ const Navigation = () => {
 
   // nav is displayed if toggle clicked or screen greater than 500px
   const toggleContent = (toggleMenu || screenWidth > 500) && (
-    <ul>
+    <ul className={classes.menu}>
       <li>
-        <a href='/'>meine arbeit</a>
+        <NavLink to='/about'>meine arbeit</NavLink>
       </li>
       <li>
-        <a href='/'>kontakt</a>
+        <NavLink to='/kontakt'>kontakt</NavLink>
       </li>
     </ul>
   );
@@ -32,9 +33,9 @@ const Navigation = () => {
   return (
     <nav className={classes.navbar}>
       <div className={classes.logo}>
-        <div>
+        <Link className={classes['logo--link']} to='/'>
           Michael<span>Flohr</span>
-        </div>
+        </Link>
       </div>
       {toggleContent}
       <button onClick={toggleMenuHandler}>

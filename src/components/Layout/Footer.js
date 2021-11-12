@@ -19,7 +19,7 @@ const Footer = () => {
           <Icon href='#' icon={['fab', 'github']} />
         </a>
       </div>
-      <p class='copyright'>Michael Flohr © 2021</p>
+      <p className='copyright'>Michael Flohr © 2021</p>
     </footer>
   );
 };

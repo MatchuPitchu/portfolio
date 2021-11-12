@@ -43,10 +43,15 @@ html {
   font-family: sans-serif;
   color: #3a3a3a;
   background: #fff;
-  height: 100%;
 }
 
 body {
   margin: 0;
   height: 100%;
+}
+
+main {
+  /* stretch main website part over screen that footer stays always fixed at bottom of screen */
+  flex: 1 0 auto;
+  width: 100%;
 }

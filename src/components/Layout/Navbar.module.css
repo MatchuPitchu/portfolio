@@ -13,19 +13,24 @@
   z-index: 10;
 }
 
-.navbar .logo {
+.logo {
   font-family: 'Brush Script MT', 'Bradley Hand ITC', cursive, 'Lucida Calligraphy';
   font-size: 2rem;
   padding: 0.7rem 1rem;
   display: flex;
 }
 
-.navbar .logo span {
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo span {
   position: absolute;
   margin-top: 5px;
 }
 
-.navbar ul {
+.menu {
   position: relative;
   list-style: none;
   display: flex;
@@ -34,11 +39,11 @@
   padding: 0;
 }
 
-.navbar li {
+.menu li {
   margin-right: 2rem;
 }
 
-.navbar a {
+.menu a {
   text-decoration: none;
   color: #3a3a3a;
   font-weight: 900;
@@ -47,8 +52,8 @@
   padding: 0 0.5rem;
 }
 
-.navbar a:hover,
-.navbar a:active {
+.menu a:hover,
+.menu a:active {
   color: #f7cc4b;
   box-shadow: inset 0 1.4rem 0 0 #3a3a3a;
 }
@@ -77,12 +82,12 @@
 
 /* responsive navbar for mobile */
 @media screen and (max-width: 500px) {
-  .navbar .logo {
+  .logo {
     flex-basis: calc(960px * 999 - 100% * 999);
     text-align: center;
     height: 4rem;
   }
-  .navbar ul {
+  .menu {
     flex-basis: calc(960px * 999 - 100% * 999);
     flex-direction: column;
     margin-top: 0rem;
@@ -90,7 +95,7 @@
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
   }
-  .navbar li {
+  .menu li {
     width: 100%;
     background-color: #ffeccf;
     border-top: 2px solid #fff;

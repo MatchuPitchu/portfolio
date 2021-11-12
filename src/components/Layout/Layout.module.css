@@ -1,34 +1,8 @@
 .layout {
-  width: calc(100% - 30px);
-  margin: 0 auto;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.layout main {
-  /* stretch main website part over screen that footer stays always fixed at bottom of screen */
-  flex: 1;
-}
-
-.header {
-  width: 100%;
-  height: 97vh;
+  width: calc(100% - 1rem);
   margin: 1rem auto;
-  background: linear-gradient(-45deg, #f7cc4b, #fffdfa, #fcecd6, #ffeccf);
-  background-size: 400% 400%;
-  animation: background-gradient 20s ease infinite;
-}
-
-@keyframes background-gradient {
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
+  height: calc(100vh - 2rem);
 }
