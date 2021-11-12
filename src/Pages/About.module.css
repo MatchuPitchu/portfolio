@@ -1,0 +1,22 @@
+.container {
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 2px solid #ffeccf;
+  text-align: center;
+}
+
+.btn {
+  background-color: #ffeccf;
+  border: 2px solid #f7cc4b;
+  padding: 0.3rem 0.6rem;
+  color: #3a3a3a;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #f7cc4b;
+  border-color: #f7cc4b;
+  color: #3a3a3a;
+}
