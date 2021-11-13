@@ -10,7 +10,7 @@ import classes from './About.module.css';
 // **************************************************
 //  SVG Layout
 // **************************************************
-const view = [1000, 450]; // [width, height]
+const view = [1000, 300]; // [width, height]
 const trbl = [10, 10, 30, 10]; // [top, right, bottom, left] margins
 
 const dims = [

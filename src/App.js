@@ -9,6 +9,7 @@ import Layout from './components/Layout/Layout';
 import Navbar from './components/Layout/Navbar';
 import Introduction from './Pages/Introduction';
 import About from './Pages/About';
+import Angebote from './Pages/Angebote';
 import Kontakt from './Pages/Kontakt';
 import Footer from './components/Layout/Footer';
 
@@ -22,6 +23,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Introduction />} />
           <Route path='/about' element={<About />} />
+          <Route path='/angebote' element={<Angebote />} />
           <Route path='/kontakt' element={<Kontakt />} />
         </Routes>
       </main>

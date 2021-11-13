@@ -1,9 +1,14 @@
-.navbar {
-  position: sticky;
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -18,6 +23,7 @@
   font-size: 2rem;
   padding: 0.7rem 1rem;
   display: flex;
+  width: 165px;
 }
 
 .logo a {
@@ -81,7 +87,7 @@
 }
 
 /* responsive navbar for mobile */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 596px) {
   .logo {
     flex-basis: calc(960px * 999 - 100% * 999);
     text-align: center;

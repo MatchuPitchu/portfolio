@@ -1,7 +1,13 @@
 import { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
 import classes from './Navbar.module.css';
+
+const menu = [
+  { path: '/about', name: 'meine arbeit' },
+  { path: '/angebote', name: 'angebote' },
+  { path: '/kontakt', name: 'kontakt' },
+];
 
 const Navigation = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -18,33 +24,30 @@ const Navigation = () => {
 
   const toggleMenuHandler = () => setToggleMenu((prev) => !prev);
 
-  // nav is displayed if toggle clicked or screen greater than 500px
-  const toggleContent = (toggleMenu || screenWidth > 500) && (
+  // nav is displayed if toggle clicked or screen greater than 600px
+  const toggleContent = (toggleMenu || screenWidth > 600) && (
     <ul className={classes.menu}>
-      <li>
-        <NavLink to='/about'>meine arbeit</NavLink>
-      </li>
-      <li>
-        <NavLink to='/kontakt'>kontakt</NavLink>
-      </li>
+      {menu.map((nav) => (
+        <li key={nav.name}>
+          <NavLink to={nav.path}>{nav.name}</NavLink>
+        </li>
+      ))}
     </ul>
   );
 
   return (
     <nav className={classes.navbar}>
-      <div className={classes.logo}>
-        <Link className={classes['logo--link']} to='/'>
-          Michael<span>Flohr</span>
-        </Link>
+      <div className={classes.container}>
+        <div className={classes.logo}>
+          <Link to='/'>
+            Michael<span>Flohr</span>
+          </Link>
+        </div>
+        {toggleContent}
+        <button onClick={toggleMenuHandler}>
+          {!toggleMenu ? <Icon icon={['fa', 'bars']} /> : <Icon icon={['fa', 'times']} />}
+        </button>
       </div>
-      {toggleContent}
-      <button onClick={toggleMenuHandler}>
-        {!toggleMenu ? (
-          <FontAwesomeIcon icon={['fa', 'bars']} />
-        ) : (
-          <FontAwesomeIcon icon={['fa', 'times']} />
-        )}
-      </button>
     </nav>
   );
 };

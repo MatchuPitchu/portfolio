@@ -1,0 +1,17 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 992px;
+}
+
+.container {
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 2px solid #ffeccf;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}

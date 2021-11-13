@@ -1,0 +1,170 @@
+.card {
+  color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  max-width: 440px;
+  height: 100%;
+  width: 100%;
+  margin: 1rem;
+  background: linear-gradient(-45deg, #f7cc4b, #fffdfa, #fcecd6, #ffeccf);
+  background-size: 400% 400%;
+  animation: background-gradient 20s ease infinite;
+}
+
+@keyframes background-gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.card .header {
+  position: relative;
+}
+
+.card .cardTitleLine {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 0.7rem 1rem;
+  width: 100%;
+  background: linear-gradient(-45deg, #f7cc4b60, #fffdfa60, #fcecd6, #ffeccf);
+}
+
+.cardTitleLine .title::first-letter {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: -0.5rem;
+  padding: 0.5rem;
+  user-select: none;
+  color: #f7cc4b;
+  box-shadow: inset 0.2rem -0.5rem 0 0 #f7cc4b;
+}
+
+.image {
+  width: 100%;
+  max-height: 17rem;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card .description {
+  padding: 1rem;
+}
+
+.description p,
+.references,
+.list {
+  margin: 0;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  letter-spacing: 0.01071em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.card .references {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.references button {
+  border-style: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+  text-align: center;
+  flex: 0 0 auto;
+  font-size: 1.5rem;
+  overflow: visible;
+  color: #3a3a3a;
+  margin-left: auto;
+}
+
+.references .rotate-open {
+  border-radius: 50%;
+  background-color: #ffeccf;
+  transform: rotate(0deg);
+  transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.references .rotate-closed {
+  border-radius: 10%;
+  background-color: #f7cc4b;
+  transform: rotate(180deg);
+  transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.references .rotate-open:hover {
+  background-color: #f7cc4b;
+  border-radius: 10%;
+}
+
+.references .rotate-closed:hover {
+  background-color: #ffeccf;
+  border-radius: 50%;
+}
+
+.references button svg {
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  flex-shrink: 0;
+  font-size: 1.5rem;
+}
+
+.references button span {
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.list ul {
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+
+.list li {
+  list-style: none;
+  display: flex;
+  padding: 0.2rem 0;
+}
+
+.list .listItem {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+  margin-top: -0.2rem;
+  border-radius: 50%;
+  fill: #f7cc4b;
+  transform: rotate(-90deg);
+}
