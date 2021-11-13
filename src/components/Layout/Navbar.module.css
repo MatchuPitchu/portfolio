@@ -1,12 +1,3 @@
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .navbar {
   position: sticky;
   top: 0;
@@ -18,12 +9,18 @@
   z-index: 10;
 }
 
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .logo {
   font-family: 'Brush Script MT', 'Bradley Hand ITC', cursive, 'Lucida Calligraphy';
   font-size: 2rem;
   padding: 0.7rem 1rem;
-  display: flex;
-  width: 165px;
 }
 
 .logo a {
@@ -37,8 +34,6 @@
 }
 
 .menu {
-  position: relative;
-  list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,6 +42,7 @@
 
 .menu li {
   margin-right: 2rem;
+  list-style: none;
 }
 
 .menu a {
@@ -54,7 +50,7 @@
   color: #3a3a3a;
   font-weight: 900;
   box-shadow: inset 0 0.7rem 0 0 #f7cc4b;
-  transition: all 300ms ease-in-out;
+  transition: all 300ms ease-out;
   padding: 0 0.5rem;
 }
 
@@ -66,18 +62,17 @@
 
 .navbar button {
   display: none;
-  position: absolute;
-  top: 0.7rem;
-  right: 1rem;
   border: none;
   border: 2px solid #f7cc4b;
   border-radius: 5px;
   font-size: 1.5rem;
   color: #3a3a3a;
   padding: 0.5rem;
+  margin: 0.5rem;
   background: #ffeccf;
   cursor: pointer;
   opacity: 0.8;
+  min-width: 2.5rem;
 }
 
 .navbar button:hover {
@@ -87,29 +82,37 @@
 }
 
 /* responsive navbar for mobile */
-@media screen and (max-width: 596px) {
+@media all and (max-width: 600px) {
   .logo {
-    flex-basis: calc(960px * 999 - 100% * 999);
-    text-align: center;
-    height: 4rem;
+    flex-basis: auto;
   }
+
   .menu {
-    flex-basis: calc(960px * 999 - 100% * 999);
-    flex-direction: column;
-    margin-top: 0rem;
+    flex-basis: 100%;
+    flex-flow: column wrap;
+    margin-top: 0;
     height: auto;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
   }
+
   .menu li {
     width: 100%;
     background-color: #ffeccf;
     border-top: 2px solid #fff;
     text-align: center;
     margin-right: 0;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
+
+  .menu li:last-of-type {
+    border-bottom: none;
+  }
+
   .navbar button {
-    display: flex;
+    display: block;
+    flex-basis: 1rem;
   }
 }

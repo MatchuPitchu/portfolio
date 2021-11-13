@@ -5,9 +5,8 @@
     0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   overflow: hidden;
   max-width: 440px;
-  height: 100%;
+  height: auto;
   width: 100%;
-  margin: 1rem;
   background: linear-gradient(-45deg, #f7cc4b, #fffdfa, #fcecd6, #ffeccf);
   background-size: 400% 400%;
   animation: background-gradient 20s ease infinite;
@@ -29,13 +28,22 @@
   position: relative;
 }
 
-.card .cardTitleLine {
+.header .cardTitleLine {
   position: absolute;
-  display: flex;
-  align-items: center;
+  top: 0;
+  font-weight: bold;
+  color: #3a3a3a;
   padding: 0.7rem 1rem;
-  width: 100%;
-  background: linear-gradient(-45deg, #f7cc4b60, #fffdfa60, #fcecd6, #ffeccf);
+  padding-right: 3rem;
+  border-bottom-right-radius: 2rem;
+  background: linear-gradient(-45deg, #f7cc4b60, #fffdfa99, #fcecd6, #ffeccf);
+}
+
+@media all and (max-width: 600px) {
+  .header .cardTitleLine {
+    width: 100%;
+    border-radius: 0;
+  }
 }
 
 .cardTitleLine .title::first-letter {
@@ -48,15 +56,14 @@
   box-shadow: inset 0.2rem -0.5rem 0 0 #f7cc4b;
 }
 
-.image {
+.header .image {
   width: 100%;
-  max-height: 17rem;
   overflow: hidden;
 }
 
-.image img {
+.header .image img {
   width: 100%;
-  height: auto;
+  height: 17rem;
   object-fit: cover;
 }
 
@@ -65,7 +72,6 @@
 }
 
 .description p,
-.references,
 .list {
   margin: 0;
   font-weight: 400;
@@ -77,29 +83,20 @@
 
 .card .references {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 0.5rem 1rem;
+  font-weight: bold;
+  color: #3a3a3a;
 }
 
 .references button {
-  border-style: none;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  box-sizing: border-box;
   background-color: transparent;
-  outline: 0;
-  border: 0;
-  margin: 0;
   cursor: pointer;
+  border-style: none;
   user-select: none;
-  text-decoration: none;
-  text-align: center;
-  flex: 0 0 auto;
-  font-size: 1.5rem;
-  overflow: visible;
   color: #3a3a3a;
   margin-left: auto;
 }
@@ -129,24 +126,9 @@
 }
 
 .references button svg {
-  user-select: none;
-  width: 1em;
-  height: 1em;
-  display: inline-block;
-  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
   font-size: 1.5rem;
-}
-
-.references button span {
-  overflow: hidden;
-  pointer-events: none;
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border-radius: inherit;
 }
 
 .list ul {
@@ -160,7 +142,7 @@
   padding: 0.2rem 0;
 }
 
-.list .listItem {
+.list .listIcon {
   width: 1.5rem;
   margin-right: 0.5rem;
   margin-top: -0.2rem;

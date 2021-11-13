@@ -43,10 +43,10 @@ const Navigation = () => {
             Michael<span>Flohr</span>
           </Link>
         </div>
-        {toggleContent}
         <button onClick={toggleMenuHandler}>
           {!toggleMenu ? <Icon icon={['fa', 'bars']} /> : <Icon icon={['fa', 'times']} />}
         </button>
+        {toggleContent}
       </div>
     </nav>
   );
