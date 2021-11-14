@@ -24,26 +24,23 @@
   }
 }
 
-.card .header {
-  position: relative;
+.image {
+  width: 100%;
+  overflow: hidden;
 }
 
-.header .cardTitleLine {
-  position: absolute;
-  top: 0;
+.image img {
+  width: 100%;
+  height: 17rem;
+  object-fit: cover;
+}
+
+.cardTitleLine {
   font-weight: bold;
   color: #3a3a3a;
-  padding: 0.7rem 1rem;
-  padding-right: 3rem;
-  border-bottom-right-radius: 2rem;
-  background: linear-gradient(-45deg, #f7cc4b60, #fffdfa99, #fcecd6, #ffeccf);
-}
-
-@media all and (max-width: 600px) {
-  .header .cardTitleLine {
-    width: 100%;
-    border-radius: 0;
-  }
+  padding: 0.5rem 1rem;
+  width: 100%;
+  background: transparent;
 }
 
 .cardTitleLine .title::first-letter {
@@ -54,17 +51,6 @@
   user-select: none;
   color: #f7cc4b;
   box-shadow: inset 0.2rem -0.5rem 0 0 #f7cc4b;
-}
-
-.header .image {
-  width: 100%;
-  overflow: hidden;
-}
-
-.header .image img {
-  width: 100%;
-  height: 17rem;
-  object-fit: cover;
 }
 
 .card .description {

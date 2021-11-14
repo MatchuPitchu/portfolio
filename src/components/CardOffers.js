@@ -9,13 +9,11 @@ const CardOffers = ({ offer }) => {
 
   return (
     <div className={classes.card}>
-      <div className={classes.header}>
-        <div className={classes.cardTitleLine}>
-          <div className={classes.title}>{offer.title}</div>
-        </div>
-        <div className={classes.image}>
-          <img src={offer.image} alt={offer.title} />
-        </div>
+      <div className={classes.image}>
+        <img src={offer.image} alt={offer.title} />
+      </div>
+      <div className={classes.cardTitleLine}>
+        <div className={classes.title}>{offer.title}</div>
       </div>
       <div className={classes.description}>
         <p>Kurzbeschreibung</p>

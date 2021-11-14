@@ -54,18 +54,6 @@ const offers = [
   },
   {
     id: '3',
-    title: 'Moderation & Vorträge',
-    image: moderation,
-    activities: [
-      'Moderation von öffentlichen Veranstaltungen wie Diskussionsformaten, Workshops, Tagungen, Konferenzen ...',
-      'Moderation von internen Veranstaltungen wie Strategieentwicklungen, Entscheidungsprozessen, Multi-Stakeholder-Gesprächen',
-      'Workshops zum Thema Moderation und Sprechen',
-      'Vorträge u.a. zu Nachhaltigkeit, Klimaschutz, nachhaltiger Digitalisierung, nachhaltige Hochschulentwicklung, Kulturpolitik, Selbst- und Zeitmanagement ...',
-    ],
-    references: [''],
-  },
-  {
-    id: '4',
     title: 'Forschung',
     image: buecherregal,
     activities: [
@@ -78,6 +66,18 @@ const offers = [
       'Studie über die staatliche Förderung der außerschulischen Bildung für nachhaltige Entwicklung in Deutschland',
       'Studie zum Entwicklungsstand und Perspektiven der außerschulischen Bildung für nachhaltige Entwicklung und Umweltbildung in Thüringen',
     ],
+  },
+  {
+    id: '4',
+    title: 'Moderation & Vorträge',
+    image: moderation,
+    activities: [
+      'Moderation von öffentlichen Veranstaltungen wie Diskussionsformaten, Workshops, Tagungen, Konferenzen ...',
+      'Moderation von internen Veranstaltungen wie Strategieentwicklungen, Entscheidungsprozessen, Multi-Stakeholder-Gesprächen',
+      'Workshops zum Thema Moderation und Sprechen',
+      'Vorträge u.a. zu Nachhaltigkeit, Klimaschutz, nachhaltiger Digitalisierung, nachhaltige Hochschulentwicklung, Kulturpolitik, Selbst- und Zeitmanagement ...',
+    ],
+    references: [''],
   },
 ];
 
