@@ -96,6 +96,10 @@
   padding: 0.4rem 0;
 }
 
+.submenu > li:first-child {
+  padding-top: 0.8rem;
+}
+
 .menu-btn {
   display: none;
   border: none;

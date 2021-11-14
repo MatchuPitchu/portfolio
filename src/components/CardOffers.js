@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import classes from './CardOffers.module.css';
+import Card from './UI/Card/Card';
 
 const CardOffers = ({ offer }) => {
   const [expanded, setExpanded] = useState(false);
@@ -8,18 +9,18 @@ const CardOffers = ({ offer }) => {
   const handleExpandClick = () => setExpanded((prev) => !prev);
 
   return (
-    <div className={classes.card}>
+    <Card className={classes['card-customize']}>
       <div className={classes.image}>
         <img src={offer.image} alt={offer.title} />
       </div>
       <div className={classes.cardTitleLine}>
-        <div className={classes.title}>{offer.title}</div>
+        <h2>{offer.title}</h2>
       </div>
       <div className={classes.description}>
         <p>Kurzbeschreibung</p>
       </div>
       <div className={classes.references}>
-        <div>Referenzen</div>
+        <h3>Referenzen</h3>
         <button onClick={handleExpandClick} aria-expanded={expanded}>
           <svg
             className={expanded ? classes['rotate-open'] : classes['rotate-closed']}
@@ -54,7 +55,7 @@ const CardOffers = ({ offer }) => {
           </ul>
         </div>
       )}
-    </div>
+    </Card>
   );
 };
 

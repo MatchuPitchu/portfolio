@@ -1,10 +1,28 @@
 .card {
-  background: #ffeccf;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-  min-width: 25rem;
-  max-width: 40rem;
-  padding: 3rem 2rem 3rem 7rem;
-  z-index: 1;
+  color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  min-width: 300px;
+  max-width: 440px;
+  height: auto;
+  width: 100%;
+  background: linear-gradient(-45deg, #f7cc4b, #fffdfa, #fcecd6, #ffeccf);
+  background-size: 400% 400%;
+  animation: background-gradient 20s ease infinite;
+}
+
+@keyframes background-gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 .card h2 {

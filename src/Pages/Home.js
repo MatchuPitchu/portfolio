@@ -1,4 +1,4 @@
-import classes from './Introduction.module.css';
+import classes from './Home.module.css';
 import Button from '../components/UI/Button/Button';
 import Card from '../components/UI/Card/Card';
 import image1 from '../assets/michael-flohr_2021_web.jpg';
@@ -17,7 +17,7 @@ const Introduction = () => {
           <img src={image2} alt='Foto Michael Flohr' />
         </div>
       </div>
-      <Card className={`${classes.col} ${classes.alignRight}`}>
+      <Card className={`${classes.col} ${classes['card-customize']} `}>
         <h2>Interdisziplinär</h2>
         <h3>
           Nachhaltigkeit

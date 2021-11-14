@@ -1,5 +1,5 @@
 import CardOffers from '../components/CardOffers';
-import classes from './Angebote.module.css';
+import Container from '../components/UI/Container';
 
 import laptop from '../assets/laptop-javascript-clement-helardot-unsplash.jpg';
 import beratung from '../assets/beratung_michael-flohr_verband-der-schweizer-studierendenschaften.jpg';
@@ -83,14 +83,12 @@ const offers = [
 
 const Angebote = () => {
   return (
-    <div className={classes.center}>
-      <div className={classes.container}>
-        {offers.map((offer) => (
-          <CardOffers key={offer.id} offer={offer} />
-        ))}
-        <IframeMap />
-      </div>
-    </div>
+    <Container>
+      {offers.map((offer) => (
+        <CardOffers key={offer.id} offer={offer} />
+      ))}
+      <IframeMap />
+    </Container>
   );
 };
 

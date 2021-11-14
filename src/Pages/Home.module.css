@@ -11,8 +11,9 @@
   flex-wrap: wrap;
 }
 
-.alignRight {
+.card-customize {
   text-align: right;
+  padding: 1.5rem 1.5rem 1.5rem 7rem;
 }
 
 .imageBox1 {

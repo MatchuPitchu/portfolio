@@ -1,0 +1,21 @@
+.card-customize {
+  flex: 1 1 calc(440px + 1rem);
+  display: flex;
+}
+
+.card-customize > * {
+  flex: 1 1 440px;
+}
+
+.image {
+  width: 100%;
+  padding: 0.7rem;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}

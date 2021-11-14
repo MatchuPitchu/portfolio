@@ -7,8 +7,10 @@ import { faBars, faTimes, faPlus, faMinus } from '@fortawesome/free-solid-svg-ic
 
 import Layout from './components/Layout/Layout';
 import Navbar from './components/Layout/Navbar';
-import Introduction from './Pages/Introduction';
+import Home from './Pages/Home';
 import About from './Pages/About';
+import Veroeffentlichungen from './Pages/Veroeffentlichungen';
+import Kulturpolitik from './Pages/Kulturpolitik';
 import Angebote from './Pages/Angebote';
 import Kontakt from './Pages/Kontakt';
 import Footer from './components/Layout/Footer';
@@ -21,8 +23,10 @@ const App = () => {
       <Navbar />
       <main>
         <Routes>
-          <Route path='/' element={<Introduction />} />
+          <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
+          <Route path='/veroeffentlichungen' element={<Veroeffentlichungen />} />
+          <Route path='/kulturpolitik' element={<Kulturpolitik />} />
           <Route path='/angebote' element={<Angebote />} />
           <Route path='/kontakt' element={<Kontakt />} />
         </Routes>
