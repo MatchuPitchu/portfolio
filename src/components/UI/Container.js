@@ -1,8 +1,8 @@
 import classes from './Container.module.css';
 
-const Container = ({ children }) => (
+const Container = ({ children, className }) => (
   <div className={classes.center}>
-    <div className={classes.container}>{children}</div>
+    <div className={`${classes.container} ${className}`}>{children}</div>
   </div>
 );
 

@@ -124,7 +124,7 @@ const publications = [
 
 const Veroeffentlichungen = () => {
   return (
-    <Container>
+    <Container className={classes['customize-container']}>
       {publications.map((pub) => (
         <Publication key={pub.id} pub={pub} />
       ))}
