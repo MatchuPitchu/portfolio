@@ -1,0 +1,8 @@
+.listIcon {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+  margin-top: -0.2rem;
+  border-radius: 50%;
+  fill: #f7cc4b;
+  transform: rotate(-90deg);
+}

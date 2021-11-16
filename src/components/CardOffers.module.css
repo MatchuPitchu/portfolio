@@ -46,8 +46,7 @@
   padding: 0.2rem 1rem;
 }
 
-.description p,
-.list {
+.description p {
   margin: 0;
   font-weight: 400;
   font-size: 0.875rem;
@@ -104,24 +103,4 @@
   width: 1.5rem;
   height: 1.5rem;
   font-size: 1.5rem;
-}
-
-.list ul {
-  margin: 0;
-  padding: 0.5rem 1rem;
-}
-
-.list li {
-  list-style: none;
-  display: flex;
-  padding: 0.2rem 0;
-}
-
-.list .listIcon {
-  width: 1.5rem;
-  margin-right: 0.5rem;
-  margin-top: -0.2rem;
-  border-radius: 50%;
-  fill: #f7cc4b;
-  transform: rotate(-90deg);
 }

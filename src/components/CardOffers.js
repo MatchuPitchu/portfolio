@@ -1,7 +1,9 @@
 import { useState } from 'react';
 
 import classes from './CardOffers.module.css';
+import KeyPoint from './SVG/KeyPoint';
 import Card from './UI/Card/Card';
+import List from './UI/List';
 
 const CardOffers = ({ offer }) => {
   const [expanded, setExpanded] = useState(false);
@@ -34,26 +36,14 @@ const CardOffers = ({ offer }) => {
         </button>
       </div>
       {expanded && (
-        <div className={classes.list}>
-          <ul>
-            {offer.references.map((ref, index) => (
-              <li key={index}>
-                <div>
-                  <svg
-                    className={classes.listIcon}
-                    focusable='false'
-                    viewBox='0 0 24 24'
-                    aria-hidden='true'
-                    data-testid='ExpandMoreIcon'
-                  >
-                    <path d='M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z'></path>
-                  </svg>
-                </div>
-                {ref}
-              </li>
-            ))}
-          </ul>
-        </div>
+        <List>
+          {offer.references.map((ref, index) => (
+            <li key={index}>
+              <KeyPoint />
+              {ref}
+            </li>
+          ))}
+        </List>
       )}
     </Card>
   );

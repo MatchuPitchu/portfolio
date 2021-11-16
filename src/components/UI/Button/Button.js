@@ -2,7 +2,10 @@ import React from 'react';
 
 import classes from './Button.module.css';
 
-const Button = props => {
+const width = '140';
+const height = '50';
+
+const Button = (props) => {
   return (
     <div className={classes['btn-container']}>
       <button
@@ -11,9 +14,13 @@ const Button = props => {
         onClick={props.onClick}
         disabled={props.disabled}
       >
-        <svg width='180px' height='60px' viewBox='0 0 180 60'>
-          <polyline points='179,1 179,59 1,59 1,1 179,1'></polyline>
-          <polyline points='179,1 179,59 1,59 1,1 179,1'></polyline>
+        <svg width={`${width}px`} height={`${height}px`} viewBox={`0 0 ${width} ${height}`}>
+          <polyline
+            points={`${width - 1},1 ${width - 1},${height - 1} 1,${height - 1} 1,1 ${width - 1},1`}
+          ></polyline>
+          <polyline
+            points={`${width - 1},1 ${width - 1},${height - 1} 1,${height - 1} 1,1 ${width - 1},1`}
+          ></polyline>
         </svg>
         {props.children}
       </button>
