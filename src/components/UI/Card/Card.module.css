@@ -1,11 +1,8 @@
 .card {
-  color: rgba(0, 0, 0, 0.6);
   border-radius: 4px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   overflow: hidden;
-  min-width: 300px;
-  max-width: 440px;
   height: auto;
   width: 100%;
   background: linear-gradient(-45deg, #f7cc4b, #fffdfa, #fcecd6, #ffeccf);
@@ -23,28 +20,4 @@
   100% {
     background-position: 0 50%;
   }
-}
-
-.card h2 {
-  font-size: 1rem;
-  font-weight: 900;
-  letter-spacing: 4px;
-  line-height: 1rem;
-  color: #f7cc4b;
-  text-transform: uppercase;
-}
-
-.card h3 {
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 2.5rem;
-  color: #3a3a3a;
-  margin: 1rem 0;
-}
-
-.card p {
-  color: #3a3a3a;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.5rem;
 }

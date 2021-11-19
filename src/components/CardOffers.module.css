@@ -1,3 +1,8 @@
+.card-customize {
+  min-width: 300px;
+  max-width: 440px;
+}
+
 .card-customize h2 {
   font-size: 1.2rem;
   font-weight: 600;
@@ -29,6 +34,7 @@
   font-weight: bold;
   color: #3a3a3a;
   padding: 0.5rem 1rem;
+  margin: 0.7rem 0 0.3rem 0;
   width: 100%;
   background: transparent;
 }
@@ -42,17 +48,9 @@
   box-shadow: inset 0.2rem -0.5rem 0 0 #f7cc4b;
 }
 
-.description {
-  padding: 0.2rem 1rem;
-}
-
 .description p {
   margin: 0;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.4;
-  letter-spacing: 0.01071em;
-  color: rgba(0, 0, 0, 0.6);
+  padding: 0.2rem 1rem;
 }
 
 .references {

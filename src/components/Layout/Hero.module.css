@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  height: calc(100vh - 6rem);
+  height: calc(100vh - 5rem);
   margin-bottom: 1rem;
   background: linear-gradient(-45deg, #f7cc4b, #fffdfa, #fcecd6, #ffeccf);
   background-size: 400% 400%;
@@ -32,6 +32,7 @@
 h1 .title {
   font-size: 5rem;
   color: #3a3a3a;
+  margin-bottom: 1.5rem;
   z-index: 2;
   user-select: none;
   animation: slideInTitle 2s ease-out 0s 1 normal forwards;
@@ -54,6 +55,7 @@ h1 .title {
 h1 .firstName {
   font-size: 6rem;
   color: #f7cc4b;
+  margin-bottom: 3rem;
   z-index: 3;
   user-select: none;
 }

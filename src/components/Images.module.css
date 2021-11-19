@@ -1,0 +1,48 @@
+.images {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 992px;
+  gap: 0.5rem;
+}
+
+.imageBox1 {
+  flex-basis: 60%;
+  height: auto;
+  z-index: 1;
+  transform: translate(5%, 10%);
+}
+
+.imageBox2 {
+  flex-basis: 30%;
+  height: auto;
+  z-index: 3;
+  transform: translate(-20%, 40%);
+}
+
+.imageBox3 {
+  flex-basis: 50%;
+  height: auto;
+  z-index: 2;
+  transform: translate(-5%, -5%);
+}
+
+@media all and (max-width: 500px) {
+  .imageBox1,
+  .imageBox2,
+  .imageBox3 {
+    transform: none;
+  }
+}
+
+.imageBox1 img,
+.imageBox2 img,
+.imageBox3 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}

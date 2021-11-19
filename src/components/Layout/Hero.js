@@ -1,3 +1,4 @@
+import Images from '../Images';
 import Button from '../UI/Button/Button';
 import Pointer from '../UI/Pointer';
 import classes from './Hero.module.css';
