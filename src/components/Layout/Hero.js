@@ -6,11 +6,15 @@ import classes from './Hero.module.css';
 const Hero = () => {
   return (
     <section className={classes.hero}>
-      <h1>
-        <div className={classes.title}>Dr.</div>
-        <div className={classes.firstName}>Michael</div>
-        <div className={classes.lastName}>Flohr</div>
-      </h1>
+      <div className={classes.container}>
+        <h1>
+          <div className={classes.title}>Dr</div>
+          <div className={classes.name}>
+            <span className={classes.firstName}>Michael</span>{' '}
+            <span className={classes.lastName}>Flohr</span>
+          </div>
+        </h1>
+      </div>
       <Button>Test</Button>
       <Pointer />
     </section>
