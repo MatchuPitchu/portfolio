@@ -4,13 +4,11 @@ import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
 import classes from './Navbar.module.css';
 
 const menu = [
+  { path: 'veroeffentlichungen', name: 'veröffentlichungen' },
   {
     path: '/about',
     name: 'meine arbeit',
-    subpath: [
-      { path: 'veroeffentlichungen', name: 'veröffentlichungen' },
-      { path: 'kulturpolitik', name: 'kulturpolitik' },
-    ],
+    subpath: [{ path: 'kulturpolitik', name: 'kulturpolitik' }],
   },
   { path: '/angebote', name: 'angebote' },
   { path: '/kontakt', name: 'kontakt' },
