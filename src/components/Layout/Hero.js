@@ -1,4 +1,3 @@
-import Images from '../Images';
 import Button from '../UI/Button/Button';
 import Pointer from '../UI/Pointer';
 import classes from './Hero.module.css';
@@ -8,11 +7,11 @@ const Hero = () => {
     <section className={classes.hero}>
       <div className={classes.container}>
         <h1>
-          <div className={classes.title}>Dr</div>
-          <div className={classes.name}>
+          <span className={classes.title}>Dr</span>
+          <span className={classes.name}>
             <span className={classes.firstName}>Michael</span>{' '}
             <span className={classes.lastName}>Flohr</span>
-          </div>
+          </span>
         </h1>
       </div>
       <Button>Test</Button>

@@ -1,10 +1,10 @@
 import classes from './KeyPoint.module.css';
 
-const KeyPoint = () => {
+const KeyPoint = ({ className }) => {
   return (
     <div>
       <svg
-        className={classes.listIcon}
+        className={`${classes.listIcon} ${className}`}
         focusable='false'
         viewBox='0 0 24 24'
         aria-hidden='true'

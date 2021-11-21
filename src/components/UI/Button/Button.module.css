@@ -24,11 +24,13 @@
 .btn:active {
   transition: all 1s ease-in-out;
   border: 0;
+  color: #3a3a3a;
 }
 
 .btn:focus {
   outline: none;
-  background-color: #fff1c6;
+  background-color: #f7cc4b90;
+  color: #3a3a3a;
 }
 
 .btn svg {

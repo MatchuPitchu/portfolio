@@ -1,15 +1,15 @@
 import { useState, useEffect } from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink, Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
 import classes from './Navbar.module.css';
 
 const menu = [
   { path: 'veroeffentlichungen', name: 'veröffentlichungen' },
-  {
-    path: '/about',
-    name: 'meine arbeit',
-    subpath: [{ path: 'kulturpolitik', name: 'kulturpolitik' }],
-  },
+  // {
+  //   path: '/about',
+  //   name: 'meine arbeit',
+  //   subpath: [{ path: 'kulturpolitik', name: 'kulturpolitik' }],
+  // },
   { path: '/angebote', name: 'angebote' },
   { path: '/kontakt', name: 'kontakt' },
 ];
@@ -18,6 +18,8 @@ const Navigation = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [toggleSubmenu, setToggleSubmenu] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  const { pathname } = useLocation();
 
   useEffect(() => {
     // create fn that's called every time window is shrunk or widened
@@ -49,9 +51,9 @@ const Navigation = () => {
               </button>
             )}
           </div>
-          <ul className={classes.submenu}>
-            {toggleSubmenu &&
-              nav.subpath?.map((sub) => (
+          {toggleSubmenu && (
+            <ul className={classes.submenu}>
+              {nav.subpath?.map((sub) => (
                 <li key={sub.name}>
                   <NavLink
                     className={(navData) => (navData.isActive ? classes.active : '')}
@@ -61,7 +63,8 @@ const Navigation = () => {
                   </NavLink>
                 </li>
               ))}
-          </ul>
+            </ul>
+          )}
         </li>
       ))}
     </ul>
@@ -71,9 +74,11 @@ const Navigation = () => {
     <nav className={classes.navbar}>
       <div className={classes.container}>
         <div className={classes.logo}>
-          <Link to='/'>
-            Michael<span>Flohr</span>
-          </Link>
+          {pathname !== '/' && (
+            <Link to='/'>
+              <Icon icon={['fa', 'hiking']} />
+            </Link>
+          )}
         </div>
         <button className={classes['menu-btn']} onClick={toggleMenuHandler}>
           {!toggleMenu ? <Icon icon={['fa', 'bars']} /> : <Icon icon={['fa', 'times']} />}

@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 import classes from './CardOffers.module.css';
-import KeyPoint from './SVG/KeyPoint';
-import Card from './UI/Card/Card';
-import List from './UI/List';
+import KeyPoint from '../SVG/KeyPoint';
+import Card from '../UI/Card/Card';
+import List from '../UI/List';
 
 const CardOffers = ({ offer }) => {
   const [expanded, setExpanded] = useState(false);
@@ -39,7 +39,7 @@ const CardOffers = ({ offer }) => {
         <List>
           {offer.references.map((ref, index) => (
             <li key={index}>
-              <KeyPoint />
+              <KeyPoint className={classes['keypoint-customize']} />
               {ref}
             </li>
           ))}

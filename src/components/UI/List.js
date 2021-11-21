@@ -1,11 +1,7 @@
 import classes from './List.module.css';
 
-const List = ({ children }) => {
-  return (
-    <div className={classes.list}>
-      <ul>{children}</ul>
-    </div>
-  );
+const List = ({ children, className }) => {
+  return <ul className={`${classes.list} ${className}`}>{children}</ul>;
 };
 
 export default List;

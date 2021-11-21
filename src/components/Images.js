@@ -15,7 +15,7 @@ const Images = () => {
   return (
     <Container className={classes.images}>
       {photos.map((photo) => (
-        <div className={photo.class}>
+        <div key={photo.alt} className={photo.class}>
           <img src={photo.src} alt={photo.alt} />
         </div>
       ))}
