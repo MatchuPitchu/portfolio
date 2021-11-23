@@ -9,7 +9,7 @@ import {
   faPlus,
   faMinus,
   faExternalLinkAlt,
-  faHiking,
+  faSun,
 } from '@fortawesome/free-solid-svg-icons';
 
 import Layout from './components/Layout/Layout';
@@ -35,7 +35,7 @@ library.add(
   faPlus,
   faMinus,
   faExternalLinkAlt,
-  faHiking
+  faSun
 );
 
 const App = () => {

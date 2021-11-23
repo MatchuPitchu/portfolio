@@ -3,7 +3,7 @@ import classes from './Images.module.css';
 import image1 from '../assets/michael-flohr_2021_web.jpg';
 import image2 from '../assets/michael-flohr_2019_web.jpg';
 import laptop from '../assets/laptop-javascript-clement-helardot-unsplash.jpg';
-import Container from './UI/Container';
+import Container from './Layout/Container';
 
 const photos = [
   { src: laptop, class: classes.imageBox1, alt: 'Laptop Beispielbild Clement Helardot Unsplash' },

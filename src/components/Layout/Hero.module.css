@@ -3,10 +3,9 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  height: calc(100vh - 5rem);
-  margin-bottom: 1rem;
+  height: calc(100vh - 4rem);
   padding: 1rem;
-  margin: 1rem;
+  margin: 1rem 0;
   background: linear-gradient(-45deg, #f7cc4b, #fffdfa, #fcecd6, #ffeccf);
   background-size: 400% 400%;
   animation: background-gradient 20s ease infinite;

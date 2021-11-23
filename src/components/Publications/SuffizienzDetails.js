@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
 import KeyPoint from '../SVG/KeyPoint';
-import Container from '../UI/Container';
+import Container from '../Layout/Container';
 import List from '../UI/List';
 import Button from '../UI/Button/Button';
 
