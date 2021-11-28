@@ -15,7 +15,7 @@ const paths = [
 ];
 
 const Navigation = () => {
-  const [toggleMenu, setToggleMenu] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -27,10 +27,10 @@ const Navigation = () => {
     return () => window.removeEventListener('resize', changeWidth);
   }, []);
 
-  const toggleMenuHandler = () => setToggleMenu((prev) => !prev);
+  const toggleMenuHandler = () => setIsMenuOpen((prev) => !prev);
 
   // nav is displayed if toggle clicked or screen greater than 600px
-  const menu = (toggleMenu || screenWidth > 600) && (
+  const menu = (isMenuOpen || screenWidth > 600) && (
     <ul className={classes.menu}>
       {paths.map((nav) => (
         <li key={nav.name}>
@@ -48,8 +48,13 @@ const Navigation = () => {
         <Link to='/'>
           <Icon className={classes.icon} icon={['fa', 'sun']} />
         </Link>
-        <button className={classes['menu-btn']} onClick={toggleMenuHandler}>
-          {!toggleMenu ? <Icon icon={['fa', 'bars']} /> : <Icon icon={['fa', 'times']} />}
+        <button
+          className={`${classes['menu-btn']} ${isMenuOpen ? classes.open : ''}`}
+          onClick={toggleMenuHandler}
+        >
+          <div className={classes['bar-one']} />
+          <div className={classes['bar-two']} />
+          <div className={classes['bar-three']} />
         </button>
         {menu}
       </div>
