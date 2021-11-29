@@ -14,14 +14,14 @@ const BNEDetails = () => {
       <div className={classes['buttons-box']}>
         <Button onClick={pageBackHandler}>Zurück</Button>
         <a
-          href='https://www.researchgate.net/publication/346082640_Transformation_durch_Digitalisierung_gestalten_Die_plattform_n_als_Vernetzungs-_und_Kollaborationsplattform_fur_nachhaltige_Hochschulen'
+          href='https://www.researchgate.net/publication/321193032_Un-bezahlbar_un-zahlbar_Die_staatliche_Forderung_der_ausserschulischen_Bildung_fur_nachhaltige_Entwicklung_in_Deutschland_im_Zeitraum_2011_bis_2016'
           target='_blank'
           rel='noreferrer'
         >
-          <Button>Ansicht</Button>
+          <Button>Download</Button>
         </a>
       </div>
-      <div className={classes.row}>
+      <section className={classes.row}>
         <div className={classes['col-left']}>
           <h1>
             Die staatliche Förderung der außerschulischen Bildung für nachhaltige Entwicklung in
@@ -79,7 +79,7 @@ const BNEDetails = () => {
             Erfassung gerecht werden kann.
           </p>
         </div>
-      </div>
+      </section>
     </Container>
   );
 };

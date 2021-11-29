@@ -7,14 +7,14 @@ const ButtonsPublication = ({ url, path }) => {
   return (
     <div className={classes.buttons}>
       <div>
-        <a href={url} target='_blank' rel='noreferrer'>
-          <Button>Ansicht</Button>
-        </a>
+        <Link to={path}>
+          <Button>Mehr Infos</Button>
+        </Link>
       </div>
       <div>
-        <Link to={path}>
-          <Button>Mehr lesen</Button>
-        </Link>
+        <a href={url} target='_blank' rel='noreferrer'>
+          <Button>Link</Button>
+        </a>
       </div>
     </div>
   );

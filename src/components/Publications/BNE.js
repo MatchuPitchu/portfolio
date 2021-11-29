@@ -35,7 +35,7 @@ const BNE = () => {
         </div>
         <Tags tags={tags} />
         <ButtonsPublication
-          url='https://www.researchgate.net/publication/331894285_Nachhaltigkeitsnetzwerke_an_Hochschulen_Die_transformative_Kraft_von_Verbindungen'
+          url='https://www.researchgate.net/publication/321193032_Un-bezahlbar_un-zahlbar_Die_staatliche_Forderung_der_ausserschulischen_Bildung_fur_nachhaltige_Entwicklung_in_Deutschland_im_Zeitraum_2011_bis_2016'
           path='bne'
         />
       </div>

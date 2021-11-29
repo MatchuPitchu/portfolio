@@ -64,10 +64,10 @@ const SuffizienzDetails = () => {
           target='_blank'
           rel='noreferrer'
         >
-          <Button>Ansicht</Button>
+          <Button>Download</Button>
         </a>
       </div>
-      <div className={classes.row}>
+      <section className={classes.row}>
         <div className={classes['col-left']}>
           <h1>Suffizienz an Hochschulen im ländlichen Raum</h1>
         </div>
@@ -120,31 +120,26 @@ const SuffizienzDetails = () => {
             Entwicklung ein.
           </p>
         </div>
-        <div className={classes.row}>
-          <div className={classes['col-left']}>
-            <h3>Hinweise auf die Sammlung</h3>
-          </div>
-          <div className={classes['col-right']}>
-            <List>
-              {data?.map((item) => (
-                <li key={item.id} className={classes['li-customize']}>
-                  <KeyPoint className={classes['keypoint-customize']} />
-                  <div className={classes.text}>
-                    <span>{item.p}</span>
-                  </div>
-                  <div>
-                    {item.href && (
-                      <a className={classes.link} href={item.href} target='_blank' rel='noreferrer'>
-                        <Icon className={classes.icon} icon={['fa', 'external-link-alt']} />
-                      </a>
-                    )}
-                  </div>
-                </li>
-              ))}
-            </List>
-          </div>
+      </section>
+      <section className={classes.row}>
+        <div className={classes['col-left']}>
+          <h3>Hinweise auf die Sammlung</h3>
         </div>
-      </div>
+        <div className={classes['col-right']}>
+          <List>
+            {data?.map((item) => (
+              <li key={item.id} className={classes['li-customize']}>
+                <KeyPoint className={classes['keypoint-customize']} />
+                <p className={classes.text}>
+                  <a href={item.href} target='_blank' rel='noreferrer'>
+                    {item.p}{' '}
+                  </a>
+                </p>
+              </li>
+            ))}
+          </List>
+        </div>
+      </section>
     </Container>
   );
 };

@@ -18,10 +18,10 @@ const DigitalisierungsDetails = () => {
           target='_blank'
           rel='noreferrer'
         >
-          <Button>Ansicht</Button>
+          <Button>Link</Button>
         </a>
       </div>
-      <div className={classes.row}>
+      <section className={classes.row}>
         <div className={classes['col-left']}>
           <h1>Transformation durch Digitalisierung gestalten</h1>
         </div>
@@ -54,7 +54,7 @@ const DigitalisierungsDetails = () => {
             Plattform weiterzudenken und weiterzuentwickeln ist.
           </p>
         </div>
-      </div>
+      </section>
     </Container>
   );
 };

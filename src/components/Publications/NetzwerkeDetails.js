@@ -10,21 +10,18 @@ import classes from './PublicationsDetails.module.css';
 const data = [
   {
     id: '1',
-    title: 'Stichprobe: ',
+    title: 'Stichprobe',
     p: '114 Mitglieder von 18 Nachhaltigkeitsinitiativen aus neun Bundesländern und dem deutschsprachigen Ausland',
-    href: '',
   },
   {
     id: '2',
-    title: 'Einbezogene Hochschultypen: ',
+    title: 'Einbezogene Hochschultypen',
     p: 'Universitäten, Technische Universitäten, Fachhochschulen und Privathochschulen',
-    href: '',
   },
   {
     id: '3',
-    title: 'Erhebungszeitraum: ',
+    title: 'Erhebungszeitraum',
     p: 'April bis August 2018',
-    href: '',
   },
 ];
 
@@ -37,8 +34,8 @@ const NetzwerkeDetails = () => {
       <li key={item.id}>
         <KeyPoint />
         <div className={classes.text}>
-          <span className={classes.title}>{item.title}</span>
-          <span>{item.p}</span>
+          <div className={classes.title}>{item.title}</div>
+          <div>{item.p}</div>
         </div>
       </li>
     );
@@ -53,10 +50,10 @@ const NetzwerkeDetails = () => {
           target='_blank'
           rel='noreferrer'
         >
-          <Button>Ansicht</Button>
+          <Button>Download</Button>
         </a>
       </div>
-      <div className={classes.row}>
+      <section className={classes.row}>
         <div className={classes['col-left']}>
           <h1>Netzwerke für die nachhaltige Entwicklung an Hochschulen</h1>
         </div>
@@ -79,15 +76,15 @@ const NetzwerkeDetails = () => {
             Hochschulen erklären und gestalten zu können.
           </p>
         </div>
-        <div className={classes.row}>
-          <div className={classes['col-left']}>
-            <h3>Rahmendaten</h3>
-          </div>
-          <div className={classes['col-right']}>
-            <List>{specificData}</List>
-          </div>
+      </section>
+      <section className={classes.row}>
+        <div className={classes['col-left']}>
+          <h3>Rahmendaten</h3>
         </div>
-      </div>
+        <div className={classes['col-right']}>
+          <List>{specificData}</List>
+        </div>
+      </section>
     </Container>
   );
 };

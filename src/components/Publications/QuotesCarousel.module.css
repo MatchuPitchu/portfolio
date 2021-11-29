@@ -1,0 +1,132 @@
+.cards-box {
+  flex: 1 1 60%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  height: auto;
+  padding: 2rem 1rem 1rem 1rem;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.slider-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  border: none;
+  background-color: #f8d878;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0 2rem;
+  user-select: none;
+  width: auto;
+  text-decoration: none;
+  color: #3a3a3a;
+  z-index: 10;
+  border-radius: 4px;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.slider-link:hover,
+.slider-link:active,
+.slider-btn .btn:hover,
+.slider-btn .btn:active {
+  background-color: #fdecd4;
+  transition: all 0.3s ease;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 0.5rem;
+  z-index: 10;
+  background-color: #fdecd4;
+  border-radius: 4px;
+  margin-right: 1rem;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.slider-btn .btn {
+  border: none;
+  background-color: #f8d878;
+  cursor: pointer;
+  user-select: none;
+  width: 3rem;
+}
+
+.slider-btn .btn:first-child {
+  border-radius: 0 0 4px 4px;
+}
+
+.slider-btn .btn:last-child {
+  border-radius: 4px 4px 0 0;
+}
+
+.slider-btn div {
+  align-self: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.card {
+  opacity: 0;
+  transition: all 1s ease;
+  transform: translateX(100%);
+}
+
+.card.active {
+  opacity: 1;
+  transition: all 1s ease;
+  transform: translateX(0px);
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  position: relative;
+}
+
+.quote .text {
+  font-weight: 600;
+  line-height: 1.6rem;
+  text-align: center;
+}
+
+.quote .mark {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  font-size: 4rem;
+  color: #f8d878;
+  opacity: 0.6;
+}
+
+.quote .author {
+  text-align: right;
+  width: 90%;
+  margin-left: auto;
+}
+
+.quote .origin {
+  text-align: right;
+  font-size: 0.8rem;
+  width: 90%;
+  margin-left: auto;
+}
