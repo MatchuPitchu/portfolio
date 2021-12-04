@@ -27,7 +27,7 @@ const data = [
 
 const NetzwerkeDetails = () => {
   const navigate = useNavigate();
-  const pageBackHandler = () => navigate(-1);
+  const pageBackHandler = () => navigate('/veroeffentlichungen');
 
   const specificData = data?.map((item) => {
     return (

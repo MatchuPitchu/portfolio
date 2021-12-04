@@ -4,12 +4,20 @@ import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
 import classes from './Navbar.module.css';
 
 const paths = [
-  { path: 'veroeffentlichungen', name: 'veröffentlichungen' },
-  // {
-  //   path: '/about',
-  //   name: 'meine arbeit',
-  //   subpath: [{ path: 'kulturpolitik', name: 'kulturpolitik' }],
-  // },
+  {
+    path: '/veroeffentlichungen',
+    name: 'veröffentlichungen',
+    subpath: [
+      { path: '/veroeffentlichungen/digitalisierung', name: 'digitalisierung' },
+      { path: '/veroeffentlichungen/suffizienz-an-hochschulen', name: 'suffizienz' },
+      {
+        path: '/veroeffentlichungen/nachhaltigkeitsnetzwerke-an-hochschulen',
+        name: 'netzwerke',
+      },
+      { path: '/veroeffentlichungen/kulturpolitik', name: 'kulturpolitik' },
+      { path: '/veroeffentlichungen/bne', name: 'bne' },
+    ],
+  },
   { path: '/angebote', name: 'angebote' },
   { path: '/kontakt', name: 'kontakt' },
 ];
@@ -33,10 +41,22 @@ const Navigation = () => {
   const menu = (isMenuOpen || screenWidth > 600) && (
     <ul className={classes.menu}>
       {paths.map((nav) => (
-        <li key={nav.name}>
+        <li key={nav.name} className={classes.dropdown}>
           <NavLink className={(navData) => (navData.isActive ? classes.active : '')} to={nav.path}>
             {nav.name}
           </NavLink>
+          {nav.subpath && (
+            <div className={classes['dropdown-content']}>
+              {nav.subpath.map((subNav) => (
+                <NavLink
+                  className={(navData) => (navData.isActive ? classes.active : '')}
+                  to={subNav.path}
+                >
+                  {subNav.name}
+                </NavLink>
+              ))}
+            </div>
+          )}
         </li>
       ))}
     </ul>

@@ -7,7 +7,7 @@ import classes from './PublicationsDetails.module.css';
 
 const BNEDetails = () => {
   const navigate = useNavigate();
-  const pageBackHandler = () => navigate(-1);
+  const pageBackHandler = () => navigate('/veroeffentlichungen');
 
   return (
     <Container>

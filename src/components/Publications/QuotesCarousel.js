@@ -135,7 +135,13 @@ const QuotesCarousel = () => {
   return (
     <div className={classes['cards-box']}>
       {findQuote.href && (
-        <a href={findQuote.href} className={classes['slider-link']}>
+        <a
+          href={findQuote.href}
+          target='_blank'
+          rel='noreferrer'
+          download
+          className={classes['slider-link']}
+        >
           <Icon className={classes.mark} icon={['fa', 'external-link-alt']} />
           Rezension
         </a>
