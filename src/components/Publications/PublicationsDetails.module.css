@@ -38,7 +38,7 @@
 }
 
 .cards-box {
-  flex: 1 1 60%;
+  flex: 1 1 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;

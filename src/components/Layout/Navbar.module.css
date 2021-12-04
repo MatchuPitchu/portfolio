@@ -88,19 +88,14 @@
 }
 
 .dropdown-content a {
-  border-top: 1px solid #ffeccf;
-  border-bottom: 2px solid #ffeccf;
   font-size: 0.8rem;
   line-height: 1.2rem;
   font-weight: 600;
+  box-shadow: inset 0 0.25rem 0 0 #f8d878;
 }
 
 .dropdown-content a:last-child {
   border-bottom: none;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
 }
 
 .dropdown:hover .dropdown-content {

@@ -119,15 +119,18 @@ const quotes = [
 
 const QuotesCarousel = () => {
   const [index, setIndex] = useState(0);
+  const [slideInFromRight, setSlideInFromRight] = useState(false);
 
   const prevSlide = () => {
     if (index === 0) setIndex(quotes.length - 1); // restart carousel at the end
     if (index > 0) setIndex(index - 1);
+    setSlideInFromRight(false);
   };
 
   const nextSlide = () => {
     if (index === quotes.length - 1) setIndex(0); // restart carousel at the beginning
     if (index < quotes.length - 1) setIndex(index + 1);
+    setSlideInFromRight(true);
   };
 
   const findQuote = quotes.find((quote) => +quote.id === index + 1);
@@ -157,21 +160,28 @@ const QuotesCarousel = () => {
           <Icon icon={['fa', 'caret-right']} />
         </button>
       </div>
-      {quotes.map((quote, i) => (
-        <div
-          key={quote.id}
-          className={i === index ? ` ${classes.card} ${classes.active}` : classes.card}
-        >
-          {i === index && (
-            <Card className={classes.quote}>
-              <Icon className={classes.mark} icon={['fa', 'quote-left']} />
-              <p className={classes.text}>{quote.text}</p>
-              <p className={classes.author}>{quote.author}</p>
-              <div className={classes.origin}>{quote.origin}</div>
-            </Card>
-          )}
-        </div>
-      ))}
+      {quotes.map((quote, i) => {
+        if (i === index) {
+          return (
+            <div
+              key={quote.id}
+              className={
+                slideInFromRight
+                  ? `${classes.card} ${classes['slide-from-right']}`
+                  : `${classes.card} ${classes['slide-from-left']}`
+              }
+            >
+              <Card className={classes.quote}>
+                <Icon className={classes.mark} icon={['fa', 'quote-left']} />
+                <p className={classes.text}>{quote.text}</p>
+                <p className={classes.author}>{quote.author}</p>
+                <div className={classes.origin}>{quote.origin}</div>
+              </Card>
+            </div>
+          );
+        }
+        return null;
+      })}
     </div>
   );
 };
