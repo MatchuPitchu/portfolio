@@ -1,6 +1,6 @@
 import ButtonsPublication from './ButtonsPublication';
 import Card from '../UI/Card/Card';
-import Tags from './Tags';
+import Tags from '../UI/Tags/Tags';
 import classes from './Publications.module.css';
 
 import coverTransformation from '../../assets/Cover Flohr 2021 Digitalisierung und Nachhaltigkeit 2021 978-3-662-61534-8.jpg';

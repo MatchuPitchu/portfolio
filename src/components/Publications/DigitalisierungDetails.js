@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import Container from '../Layout/Container';
 import Button from '../UI/Button/Button';
-import Section from '../UI/Section';
+import Section from '../UI/Section/Section';
 
 import classes from './PublicationsDetails.module.css';
 

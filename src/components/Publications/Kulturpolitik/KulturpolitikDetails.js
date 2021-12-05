@@ -1,11 +1,11 @@
 import { useNavigate } from 'react-router-dom';
-import Container from '../Layout/Container';
-import Button from '../UI/Button/Button';
-import Card from '../UI/Card/Card';
-import Section from '../UI/Section';
-
-import classes from './PublicationsDetails.module.css';
+import Container from '../../Layout/Container';
+import Button from '../../UI/Button/Button';
+import Card from '../../UI/Card/Card';
+import Section from '../../UI/Section/Section';
 import QuotesCarousel from './QuotesCarousel';
+
+import classes from '../PublicationsDetails.module.css';
 
 const theses = [
   {

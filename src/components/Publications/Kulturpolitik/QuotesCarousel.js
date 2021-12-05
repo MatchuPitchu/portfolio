@@ -1,7 +1,15 @@
 import { useState } from 'react';
 import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
-import Card from '../UI/Card/Card';
+import Card from '../../UI/Card/Card';
 import classes from './QuotesCarousel.module.css';
+
+import rezensionKnoblich from '../../../assets/pdf/2018_12-Rezension-Kulturpolitik-in-Thüringen-Tobias-Knoblich-in-Kulturpolitische-Mitteilungen-Nr.-163.pdf';
+import artikel1Helbing from '../../../assets/pdf/2018_11_08-TLZ-Eichsfeld-Leitartikel-Kulturpolitik-in-Thüringen.pdf';
+import interviewKroeger from '../../../assets/pdf/2018_10-hEFt53-Interview_Flohr_Kulturpolitik.pdf';
+import artikel2Helbing from '../../../assets/pdf/2018_11_08-Thüringer-Allgemeine-zu-Buch-Kulturpolitik-in-Thüringen.pdf';
+import artikel3Helbing from '../../../assets/pdf/2018_12_10-Thüringer-Allgemeine-Kulturminister-Hoff-reagiert-auf-Buch-Kulturpolitik-in-Thüringen.pdf';
+import rezensionPlote from '../../../assets/pdf/2019_01-Rezension-Kulturpolitik-in-Thüringen-Michael-Plote-in-Thüringer-Museumshefte-2018-2.pdf';
+import artikel4Helbing from '../../../assets/pdf/2018_11_27-Thüringer-Allgemeine-Kulturpolitischer-Rundumschlag.pdf';
 
 const quotes = [
   {
@@ -47,7 +55,7 @@ const quotes = [
     author: 'Dr. Tobias J. Knoblich',
     origin:
       'Präsident der Kulturpolitischen Gesellschaft und Dezernent für Kultur und Stadtentwicklung der Landeshauptstadt Erfurt, Kulturpolitische Mitteilungen, 4 (2018)',
-    href: '../../assets/pdf/2018_12-Rezension-Kulturpolitik-in-Thüringen-Tobias-Knoblich-in-Kulturpolitische-Mitteilungen-Nr.-163.pdf',
+    href: rezensionKnoblich,
   },
   {
     id: '7',
@@ -55,7 +63,7 @@ const quotes = [
     author: 'Michael Helbing',
     origin:
       'Thüringer Landeszeitung, Leitartikel »Warum und wofür. Debattenkultur fehlt’s an Kulturdebatten«, 08.11.2018',
-    href: '../../assets/pdf/2018_11_08-TLZ-Eichsfeld-Leitartikel-Kulturpolitik-in-Thüringen.pdf',
+    href: artikel1Helbing,
   },
   {
     id: '8',
@@ -70,7 +78,7 @@ const quotes = [
     author: 'Kathleen Kröger',
     origin:
       'Interview in heft für literatur, stadt und alltag, Nr. 53, »Ein mühsamer Lobbyprozess«',
-    href: '../../assets/pdf/2018_10-hEFt53-Interview_Flohr_Kulturpolitik.pdf',
+    href: interviewKroeger,
   },
   {
     id: '10',
@@ -84,36 +92,36 @@ const quotes = [
     text: 'Autor beschäftigt sich mit dem Kreislauf der Thüringer Kulturpolitik. Ein Buch beschreibt und kritisiert Strukturen sowie Inhalte der Kulturpolitik. Sie sei zentralistisch und auf Bestandswahrung ausgerichtet.',
     author: 'Michael Helbing',
     origin: 'Thüringer Allgemeine, 08.11.2018',
-    href: '../../assets/pdf/2018_11_08-Thüringer-Allgemeine-zu-Buch-Kulturpolitik-in-Thüringen.pdf',
+    href: artikel2Helbing,
   },
   {
     id: '12',
     text: 'Kulturminister Hoff hält das Buch für eine ›wichtige Beschreibung des Ist-Stands‹ und will dieser, im Grundsatz jedenfalls, nicht widersprechen.',
     author: 'Michael Helbing',
     origin:
-      'Thüringer Allgemeine, »›Danke, staatstragende Opposition! Es ist ein Traum‹ . Kulturminister freut sich über Große Anfrage der CDU und reagiert auf das aktuelle Buch Kulturpolitik in Thüringen«, 20.12.2018',
-    href: '../../assets/pdf/2018_12_10-Thüringer-Allgemeine-Kulturminister-Hoff-reagiert-auf-Buch-Kulturpolitik-in-Thüringen.pdf',
+      'Thüringer Allgemeine, »Danke, staatstragende Opposition! Es ist ein Traum.« Kulturminister freut sich über Große Anfrage der CDU und reagiert auf das aktuelle Buch Kulturpolitik in Thüringen, 20.12.2018',
+    href: artikel3Helbing,
   },
   {
     id: '13',
     text: 'Kulturpolitik in Thüringen ist in der Kultur- und Politikwissenschaft ein weites und weithin kaum beackertes Feld. Jetzt liegt eine Studie vor, die theoretisch, analytisch und praktisch dieses Feld bestellt und bewertet.« »Der Politikwissenschaftler provoziert pointiert mit seiner Doktorarbeit, formuliert eigene Positionen, belegt und begründet sie mit nachvollziehbaren Argumenten und Erkenntnissen.',
     author: 'Dr. Michael Plote',
     origin: 'Thüringer Museumshefte, 2|2018',
-    href: '../../assets/pdf/2019_01-Rezension-Kulturpolitik-in-Thüringen-Michael-Plote-in-Thüringer-Museumshefte-2018-2.pdf',
+    href: rezensionPlote,
   },
   {
     id: '14',
     text: 'Kulturpolitischer Rundumschlag. CDU-Landtagsfraktion stellt Regierung 238 Fragen zu allen möglichen Themen. Antworten werden wohl ein halbes Jahr brauchen.',
     author: 'Michael Helbing',
     origin: 'Thüringer Allgemeine, 27.11.2018',
-    href: '../../assets/pdf/2018_11_27-Thüringer-Allgemeine-Kulturpolitischer-Rundumschlag.pdf',
+    href: artikel4Helbing,
   },
   {
     id: '15',
     text: 'Die Lektüre dieses praxisnahen Buches lohnt sowohl für Wissenschaftler und Studierende als auch für Praktiker, ehrenamtlich Engagierte und Kultur- und Kunstinteressierte.',
     author: 'WortMelder',
     origin: 'Das News-Portal der Universität Erfurt, 14.06.2018',
-    href: 'https://aktuell.uni-erfurt.de/2018/06/14/wie-funktioniert-die-thueringer-kulturpolitik/',
+    href: 'https://www.uni-erfurt.de/forschung/aktuelles/forschungsblog-wortmelder',
   },
 ];
 
@@ -142,7 +150,6 @@ const QuotesCarousel = () => {
           href={findQuote.href}
           target='_blank'
           rel='noreferrer'
-          download
           className={classes['slider-link']}
         >
           <Icon className={classes.mark} icon={['fa', 'external-link-alt']} />

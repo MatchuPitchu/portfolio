@@ -1,9 +1,9 @@
-import ButtonsPublication from './ButtonsPublication';
-import Card from '../UI/Card/Card';
-import Tags from './Tags';
-import classes from './Publications.module.css';
+import ButtonsPublication from '../ButtonsPublication';
+import Card from '../../UI/Card/Card';
+import Tags from '../../UI/Tags/Tags';
+import classes from '../Publications.module.css';
 
-import coverKulturpolitik from '../../assets/Cover Flohr 2018 Kulturpolitik in Thüringen.jpg';
+import coverKulturpolitik from '../../../assets/Cover Flohr 2018 Kulturpolitik in Thüringen.jpg';
 
 const tags = [
   'Kulturpolitik',

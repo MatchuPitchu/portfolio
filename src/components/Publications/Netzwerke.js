@@ -1,6 +1,6 @@
 import Card from '../UI/Card/Card';
 import ButtonsPublication from './ButtonsPublication';
-import Tags from './Tags';
+import Tags from '../UI/Tags/Tags';
 import classes from './Publications.module.css';
 
 import coverNachhaltigkeitsnetzwerke from '../../assets/Cover Flohr 2019 Nachhaltigkeitsnetzwerke von Hochschulinitiativen.jpg';
@@ -10,7 +10,7 @@ const tags = ['Netzwerke', 'Vernetzung', 'Nachhaltigkeit', 'Hochschule', 'Explor
 const Netzwerke = () => {
   return (
     <Card className={classes['card-customize']}>
-      <div className={classes.cover}>
+      <div className={classes.cover} id='test'>
         <img src={coverNachhaltigkeitsnetzwerke} alt='Nachhaltigkeitsnetzwerke an Hochschulen' />
       </div>
       <div className={classes.content}>

@@ -1,10 +1,9 @@
 import { useNavigate } from 'react-router-dom';
-
 import KeyPoint from '../SVG/KeyPoint';
 import Container from '../Layout/Container';
-import List from '../UI/List';
+import List from '../UI/List/List';
 import Button from '../UI/Button/Button';
-import Section from '../UI/Section';
+import Section from '../UI/Section/Section';
 
 import classes from './PublicationsDetails.module.css';
 

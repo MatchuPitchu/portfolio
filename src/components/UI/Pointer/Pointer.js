@@ -1,12 +1,13 @@
+import { HashLink } from 'react-router-hash-link';
 import classes from './Pointer.module.css';
 
-const Pointer = () => {
+const Pointer = ({ to }) => {
   return (
-    <a href='#text' className={classes.scroll}>
+    <HashLink smooth to={to} className={classes.scroll}>
       <div className={classes.pointer}>
         <span></span>
       </div>
-    </a>
+    </HashLink>
   );
 };
 

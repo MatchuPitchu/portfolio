@@ -1,6 +1,6 @@
 import Card from '../UI/Card/Card';
 import ButtonsPublication from './ButtonsPublication';
-import Tags from './Tags';
+import Tags from '../UI/Tags/Tags';
 import classes from './Publications.module.css';
 
 import coverBNE from '../../assets/Cover Flohr 2017 Studie Staatliche Förderung außerschulischer BNE in Deutschland.jpg';

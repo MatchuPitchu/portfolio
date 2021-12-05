@@ -3,12 +3,12 @@ import { useState } from 'react';
 import classes from './CardOffers.module.css';
 import KeyPoint from '../SVG/KeyPoint';
 import Card from '../UI/Card/Card';
-import List from '../UI/List';
+import List from '../UI/List/List';
 
 const CardOffers = ({ offer }) => {
-  const [expanded, setExpanded] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
 
-  const handleExpandClick = () => setExpanded((prev) => !prev);
+  const handleExpandClick = () => setIsExpanded((prev) => !prev);
 
   return (
     <Card className={classes['card-customize']}>
@@ -23,9 +23,9 @@ const CardOffers = ({ offer }) => {
       </div>
       <div className={classes.references}>
         <h3>Referenzen</h3>
-        <button onClick={handleExpandClick} aria-expanded={expanded}>
+        <button onClick={handleExpandClick} aria-expanded={isExpanded}>
           <svg
-            className={expanded ? classes['rotate-open'] : classes['rotate-closed']}
+            className={isExpanded ? classes['rotate-open'] : classes['rotate-closed']}
             focusable='false'
             viewBox='0 0 24 24'
             aria-hidden='true'
@@ -35,16 +35,18 @@ const CardOffers = ({ offer }) => {
           </svg>
         </button>
       </div>
-      {expanded && (
-        <List>
-          {offer.references.map((ref, index) => (
-            <li key={index}>
-              <KeyPoint className={classes['keypoint-customize']} />
-              {ref}
-            </li>
-          ))}
-        </List>
-      )}
+      <div className={`${classes.panel} ${isExpanded ? classes.active : ''}`}>
+        {isExpanded && (
+          <List>
+            {offer.references.map((reference, index) => (
+              <li key={index}>
+                <KeyPoint className={classes['keypoint-customize']} />
+                {reference}
+              </li>
+            ))}
+          </List>
+        )}
+      </div>
     </Card>
   );
 };

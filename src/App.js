@@ -22,7 +22,7 @@ import Veroeffentlichungen from './Pages/Veroeffentlichungen';
 import DigitalisierungDetails from './components/Publications/DigitalisierungDetails';
 import SuffizienzDetails from './components/Publications/SuffizienzDetails';
 import NetzwerkeDetails from './components/Publications/NetzwerkeDetails';
-import KulturpolitikDetails from './components/Publications/KulturpolitikDetails';
+import KulturpolitikDetails from './components/Publications/Kulturpolitik/KulturpolitikDetails';
 import BNEDetails from './components/Publications/BNEDetails';
 import Angebote from './Pages/Angebote';
 import Kontakt from './Pages/Kontakt';

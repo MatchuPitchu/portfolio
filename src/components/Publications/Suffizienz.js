@@ -1,6 +1,6 @@
 import Card from '../UI/Card/Card';
 import ButtonsPublication from './ButtonsPublication';
-import Tags from './Tags';
+import Tags from '../UI/Tags/Tags';
 import classes from './Publications.module.css';
 
 import coverSuffizienz from '../../assets/Cover Flohr & Markus 2020 Suffizienz an Hochschulen im ländlichen Raum.png';

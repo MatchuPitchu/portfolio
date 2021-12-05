@@ -49,6 +49,7 @@ const Navigation = () => {
             <div className={classes['dropdown-content']}>
               {nav.subpath.map((subNav) => (
                 <NavLink
+                  key={subNav.name}
                   className={(navData) => (navData.isActive ? classes.active : '')}
                   to={subNav.path}
                 >

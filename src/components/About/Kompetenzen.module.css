@@ -1,0 +1,28 @@
+.tab-box {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0rem 2rem;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.tab-box > * {
+  flex: 1 0 45%;
+}
+
+.tab-box h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media all and (max-width: 768px) {
+  .tab-box > * {
+    flex: 1 0 100%;
+  }
+}
+
+.customize-tags {
+  justify-content: center;
+}
