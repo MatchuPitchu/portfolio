@@ -20,7 +20,7 @@ const Hero = () => {
           <h2>über mich</h2>
           <p>
             Studium, Engagement und berufliche Aktivitäten führten mich in allerlei Themenfelder:
-            von Musik, über Wirtschaft, Politik, Kultur, Interkulturelle Kommunikation, nachhaltige
+            von Musik, über Wirtschaft, Politik, Kultur, interkulturelle Kommunikation, nachhaltige
             Entwicklung, Digitalisierung bis zur Full-Stack Web- & App-Entwicklung. Jedes Puzzleteil
             hat meinen Blick auf die Welt verändert und mich bereichert. Sowieso bin ich davon
             überzeugt: Nur inter- und transdiziplinär lässt sich die Welt verstehen und zu einem
