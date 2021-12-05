@@ -9,11 +9,12 @@
   display: flex;
   flex-flow: row wrap;
   gap: 1rem;
+  width: 100%;
 }
 
 .col-left {
+  flex: 1 1 calc(40% - 1rem);
   height: auto;
-  width: 400px;
   padding: 1rem;
   text-align: right;
   border-right: 0.2rem solid #f7cc4b;
@@ -26,7 +27,7 @@
 }
 
 .col-right {
-  flex: 1 1 50%;
+  flex: 1 1 calc(60% - 1rem);
   height: auto;
   padding: 1rem;
 }
@@ -38,13 +39,20 @@
 }
 
 .cards-box {
-  flex: 1 1 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   gap: 1rem;
-  height: auto;
-  padding: 1rem;
+}
+
+.quotes-box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 2rem 1rem 1rem 1rem;
+  overflow: hidden;
+  position: relative;
 }
 
 .card-theses {
@@ -72,9 +80,8 @@
 }
 
 .card-theses p {
-  font-size: 0.8rem;
-  font-weight: 600;
-  line-height: 1.1rem;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
   padding: 0.5rem;
 }
 

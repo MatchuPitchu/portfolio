@@ -4,6 +4,7 @@ import KeyPoint from '../SVG/KeyPoint';
 import Container from '../Layout/Container';
 import List from '../UI/List';
 import Button from '../UI/Button/Button';
+import Section from '../UI/Section';
 
 import classes from './PublicationsDetails.module.css';
 
@@ -53,7 +54,7 @@ const NetzwerkeDetails = () => {
           <Button>Download</Button>
         </a>
       </div>
-      <section className={classes.row}>
+      <Section>
         <div className={classes['col-left']}>
           <h1>Netzwerke für die nachhaltige Entwicklung an Hochschulen</h1>
         </div>
@@ -76,15 +77,15 @@ const NetzwerkeDetails = () => {
             Hochschulen erklären und gestalten zu können.
           </p>
         </div>
-      </section>
-      <section className={classes.row}>
+      </Section>
+      <Section>
         <div className={classes['col-left']}>
           <h3>Rahmendaten</h3>
         </div>
         <div className={classes['col-right']}>
           <List>{specificData}</List>
         </div>
-      </section>
+      </Section>
     </Container>
   );
 };

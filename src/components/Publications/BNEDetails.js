@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
-
 import Container from '../Layout/Container';
 import Button from '../UI/Button/Button';
+import Section from '../UI/Section';
 
 import classes from './PublicationsDetails.module.css';
 
@@ -21,7 +21,7 @@ const BNEDetails = () => {
           <Button>Download</Button>
         </a>
       </div>
-      <section className={classes.row}>
+      <Section>
         <div className={classes['col-left']}>
           <h1>
             Die staatliche Förderung der außerschulischen Bildung für nachhaltige Entwicklung in
@@ -79,7 +79,7 @@ const BNEDetails = () => {
             Erfassung gerecht werden kann.
           </p>
         </div>
-      </section>
+      </Section>
     </Container>
   );
 };

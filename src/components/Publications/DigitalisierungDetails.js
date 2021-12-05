@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
-
 import Container from '../Layout/Container';
 import Button from '../UI/Button/Button';
+import Section from '../UI/Section';
 
 import classes from './PublicationsDetails.module.css';
 
@@ -21,7 +21,7 @@ const DigitalisierungsDetails = () => {
           <Button>Link</Button>
         </a>
       </div>
-      <section className={classes.row}>
+      <Section>
         <div className={classes['col-left']}>
           <h1>Transformation durch Digitalisierung gestalten</h1>
         </div>
@@ -54,7 +54,7 @@ const DigitalisierungsDetails = () => {
             Plattform weiterzudenken und weiterzuentwickeln ist.
           </p>
         </div>
-      </section>
+      </Section>
     </Container>
   );
 };

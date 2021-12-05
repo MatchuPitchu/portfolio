@@ -7,6 +7,7 @@ import List from '../UI/List';
 import Button from '../UI/Button/Button';
 
 import classes from './PublicationsDetails.module.css';
+import Section from '../UI/Section';
 
 const data = [
   {
@@ -67,7 +68,7 @@ const SuffizienzDetails = () => {
           <Button>Download</Button>
         </a>
       </div>
-      <section className={classes.row}>
+      <Section className={classes.row}>
         <div className={classes['col-left']}>
           <h1>Suffizienz an Hochschulen im ländlichen Raum</h1>
         </div>
@@ -120,8 +121,8 @@ const SuffizienzDetails = () => {
             Entwicklung ein.
           </p>
         </div>
-      </section>
-      <section className={classes.row}>
+      </Section>
+      <Section>
         <div className={classes['col-left']}>
           <h3>Hinweise auf die Sammlung</h3>
         </div>
@@ -139,7 +140,7 @@ const SuffizienzDetails = () => {
             ))}
           </List>
         </div>
-      </section>
+      </Section>
     </Container>
   );
 };

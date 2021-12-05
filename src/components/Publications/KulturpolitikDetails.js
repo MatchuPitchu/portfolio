@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import Container from '../Layout/Container';
 import Button from '../UI/Button/Button';
 import Card from '../UI/Card/Card';
+import Section from '../UI/Section';
 
 import classes from './PublicationsDetails.module.css';
 import QuotesCarousel from './QuotesCarousel';
@@ -88,14 +89,14 @@ const KulturpolitikDetails = () => {
       <div className={classes['buttons-box']}>
         <Button onClick={pageBackHandler}>Zurück</Button>
         <a
-          href='https://www.transcript-verlag.de/media/pdf/c7/fd/c7/oa9783839442555ybSD5jbKbJKqU.pdf'
+          href='https://www.transcript-verlag.de/shopMedia/openaccess/pdf/oa9783839442555.pdf'
           target='_blank'
           rel='noreferrer'
         >
           <Button>Download</Button>
         </a>
       </div>
-      <section className={classes.row}>
+      <Section>
         <div className={classes['col-left']}>
           <h1>Kulturpolitik in Thüringen</h1>
         </div>
@@ -134,12 +135,12 @@ const KulturpolitikDetails = () => {
             Scharpf 1995; Scharpf 2006) rahmt die Politikfeldanalyse.
           </p>
         </div>
-      </section>
-      <section className={classes.row}>
+      </Section>
+      <Section>
         <div className={classes['col-left']}>
           <h3>Thesen zur Kulturpolitik in Thüringen</h3>
         </div>
-        <div className={classes['cards-box']}>
+        <div className={`${classes['cards-box']} ${classes['col-right']}`}>
           {theses.map((these) => (
             <Card key={these.id} className={classes['card-theses']}>
               <div className={classes['card-header']}>
@@ -150,13 +151,15 @@ const KulturpolitikDetails = () => {
             </Card>
           ))}
         </div>
-      </section>
-      <section className={classes.row}>
+      </Section>
+      <Section>
         <div className={classes['col-left']}>
           <h3>Zitate und Rezensionen</h3>
         </div>
-        <QuotesCarousel />
-      </section>
+        <div className={`${classes['quotes-box']} ${classes['col-right']}`}>
+          <QuotesCarousel />
+        </div>
+      </Section>
     </Container>
   );
 };

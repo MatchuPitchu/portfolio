@@ -136,7 +136,7 @@ const QuotesCarousel = () => {
   const findQuote = quotes.find((quote) => +quote.id === index + 1);
 
   return (
-    <div className={classes['cards-box']}>
+    <>
       {findQuote.href && (
         <a
           href={findQuote.href}
@@ -182,7 +182,7 @@ const QuotesCarousel = () => {
         }
         return null;
       })}
-    </div>
+    </>
   );
 };
 

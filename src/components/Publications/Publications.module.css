@@ -1,13 +1,12 @@
 .card-customize {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   min-width: 300px;
+  width: 100%;
 }
 
 .cover {
   flex: 1 1 auto;
-  height: auto;
-  max-width: 100%;
   background-color: #fff;
   display: flex;
   padding: 2rem;
@@ -15,9 +14,9 @@
 
 .cover img {
   object-fit: contain;
-  height: auto;
-  width: 100%;
-  max-width: 350px;
+  height: 100%;
+  width: auto;
+  max-width: 280px;
   transition: all 0.2s ease-out;
 }
 
@@ -29,7 +28,7 @@
 }
 
 .content {
-  flex: 1 1 50%;
+  flex: 1 1 60%;
   width: 100%;
   padding: 1.5rem;
 }
