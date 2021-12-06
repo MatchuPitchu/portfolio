@@ -5,7 +5,7 @@ import { scaleLinear, scaleBand } from 'd3-scale';
 import { easeExpInOut } from 'd3-ease';
 import { ascending, max } from 'd3-array';
 
-import classes from './About.module.css';
+import classes from './Test.module.css';
 
 // **************************************************
 //  SVG Layout
@@ -34,7 +34,7 @@ const y = scaleLinear()
   .range([dims[1], 0])
   .domain([0, max(letters, (d) => d.frequency)]);
 
-const About = () => {
+const Test = () => {
   const [sortAlpha, setSortAlpha] = useState(true);
 
   const update = () => {
@@ -105,4 +105,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Test;

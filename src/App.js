@@ -17,7 +17,7 @@ import {
 import Layout from './components/Layout/Layout';
 import Navbar from './components/Layout/Navbar';
 import Home from './Pages/Home';
-import About from './Pages/About';
+import Test from './Pages/Test';
 import Veroeffentlichungen from './Pages/Veroeffentlichungen';
 import DigitalisierungDetails from './components/Publications/DigitalisierungDetails';
 import SuffizienzDetails from './components/Publications/SuffizienzDetails';
@@ -49,7 +49,7 @@ const App = () => {
       <main>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
+          <Route path='/test' element={<Test />} />
           <Route path='/veroeffentlichungen/' element={<Veroeffentlichungen />} />
           <Route path='/veroeffentlichungen/digitalisierung' element={<DigitalisierungDetails />} />
           <Route

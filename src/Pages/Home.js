@@ -1,23 +1,12 @@
 import classes from './Home.module.css';
 import Hero from '../components/About/Hero';
-import Kompetenzen from '../components/About/Kompetenzen';
-import Container from '../components/Layout/Container';
-import Card from '../components/UI/Card/Card';
+import About from '../components/About/About';
 
 const Introduction = () => {
   return (
     <div className={classes.container}>
       <Hero />
-      <Container className={classes['tabs-container']}>
-        <Card>
-          <ul className={classes.tabs} id='tabs'>
-            <li>Kompetenzen</li>
-            <li>Auszeichnungen</li>
-            <li>Test</li>
-          </ul>
-          <Kompetenzen />
-        </Card>
-      </Container>
+      <About />
       {/* <Card className={`${classes.col} ${classes['card-customize']} `}>
         <h3>Interdisziplinär</h3>
         <h2>

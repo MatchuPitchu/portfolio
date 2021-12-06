@@ -4,8 +4,9 @@
   gap: 0rem 2rem;
   width: 100%;
   padding: 0.5rem 1rem;
-  background-color: #fff;
+  /* background-color: #fff; */
   text-align: center;
+  width: 100%;
 }
 
 .tab-box > * {
