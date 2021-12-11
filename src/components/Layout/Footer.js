@@ -22,7 +22,11 @@ const Footer = () => {
           <img className={classes.logo} src={github} alt='Logo GitHub' />
         </a>
       </div>
-      <p className={classes.copyright}>Michael Flohr © 2021</p>
+      <p className={classes.copyright}>
+        Built with passion and React
+        <br />
+        Michael Flohr © 2021
+      </p>
     </footer>
   );
 };

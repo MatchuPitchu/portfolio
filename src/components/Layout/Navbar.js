@@ -37,6 +37,13 @@ const Navigation = () => {
 
   const toggleMenuHandler = () => setIsMenuOpen((prev) => !prev);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
   // nav is displayed if toggle clicked or screen greater than 600px
   const menu = (isMenuOpen || screenWidth > 600) && (
     <ul className={classes.menu}>
@@ -66,7 +73,7 @@ const Navigation = () => {
   return (
     <nav className={classes.navbar}>
       <div className={classes.container}>
-        <Link to='/'>
+        <Link to='/' onClick={scrollToTop}>
           <Icon className={classes.icon} icon={['fa', 'sun']} />
         </Link>
         <button

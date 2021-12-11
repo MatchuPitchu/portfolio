@@ -1,9 +1,9 @@
 .tab-box {
   display: flex;
   flex-flow: row wrap;
-  column-gap: 2rem;
+  gap: 2rem;
   width: 100%;
-  padding: 1rem;
+  padding: 2rem 1rem;
   width: 100%;
 }
 
