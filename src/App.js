@@ -2,7 +2,6 @@ import { Routes, Route } from 'react-router-dom';
 
 // create fontawesome library and import needed icons
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faLinkedin, faXing, faGithub } from '@fortawesome/free-brands-svg-icons';
 import {
   faPlus,
   faMinus,
@@ -31,9 +30,6 @@ import Footer from './components/Layout/Footer';
 import ScrollToTopButton from './components/ScrollToTopButton';
 
 library.add(
-  faLinkedin,
-  faXing,
-  faGithub,
   faPlus,
   faMinus,
   faExternalLinkAlt,

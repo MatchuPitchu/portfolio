@@ -1,5 +1,8 @@
-import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
 import classes from './Footer.module.css';
+
+import linkedin from '../../assets/logos/logo-linkedin.svg';
+import xing from '../../assets/logos/logo-xing.svg';
+import github from '../../assets/logos/logo-github.svg';
 
 const Footer = () => {
   return (
@@ -10,16 +13,16 @@ const Footer = () => {
           rel='noreferrer'
           target='_blank'
         >
-          <Icon icon={['fab', 'linkedin']} />
+          <img className={classes.logo} src={linkedin} alt='Logo LinkedIn' />
         </a>
         <a href='https://www.xing.com/profile/Michael_Flohr9' rel='noreferrer' target='_blank'>
-          <Icon icon={['fab', 'xing']} />
+          <img className={classes.logo} src={xing} alt='Logo Xing' />
         </a>
         <a href='https://github.com/MatchuPitchu' rel='noreferrer' target='_blank'>
-          <Icon icon={['fab', 'github']} />
+          <img className={classes.logo} src={github} alt='Logo GitHub' />
         </a>
       </div>
-      <p className='copyright'>Michael Flohr © 2021</p>
+      <p className={classes.copyright}>Michael Flohr © 2021</p>
     </footer>
   );
 };

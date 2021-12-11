@@ -1,3 +1,4 @@
+import AnimatingItem from '../UI/CSSTransition/AnimatingItem';
 import StationPoint from '../UI/StationPoint/StationPoint';
 import classes from './WorkExperience.module.css';
 
@@ -43,13 +44,15 @@ const workExperience = [
   },
 ];
 
-const WorkExperience = () => {
+const WorkExperience = ({ isOpen }) => {
   return (
-    <div className={classes['cv-box']}>
-      {workExperience.map((item, index) => (
-        <StationPoint key={index} item={item} className={classes['work-box']} />
-      ))}
-    </div>
+    <AnimatingItem show={isOpen}>
+      <div className={classes['cv-box']}>
+        {workExperience.map((item, index) => (
+          <StationPoint key={index} item={item} className={classes['work-box']} />
+        ))}
+      </div>
+    </AnimatingItem>
   );
 };
 

@@ -1,11 +1,13 @@
 .footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  gap: 0.5em;
   width: 100%;
   height: 10rem;
   margin-top: 1rem;
+  padding-top: 2rem;
   background: linear-gradient(-45deg, #f7cc4b, #fffdfa, #fcecd6, #ffeccf);
   background-size: 400% 400%;
   animation: background-gradient 20s ease infinite;
@@ -24,33 +26,29 @@
 }
 
 .icons {
-  flex: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  will-change: transform, opacity;
+  gap: 2rem;
 }
 
-.icons > * {
+.icons > a {
   font-size: 2rem;
   color: #3a3a3a;
-  border-radius: 100%;
-  margin: 1rem;
-  padding: 0.7rem;
-  cursor: pointer;
-  background-color: #fff;
-  opacity: 0.9;
-  transition: all 0.2s ease;
+  transition: all 0.2s ease-out;
 }
 
-.icons > *:hover {
-  opacity: 1;
-  transition: all 0.2s ease;
+.icons > a:hover {
+  transition: all 0.2s ease-out;
   transform: scale(1.15);
 }
 
-.footer p {
-  flex: 100%;
+.logo {
+  height: 2rem;
+  width: auto;
+}
+
+.copyright {
   text-align: center;
   opacity: 0.8;
 }

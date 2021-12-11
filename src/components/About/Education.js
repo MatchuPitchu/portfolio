@@ -1,3 +1,4 @@
+import AnimatingItem from '../UI/CSSTransition/AnimatingItem';
 import StationPoint from '../UI/StationPoint/StationPoint';
 import classes from './Education.module.css';
 
@@ -40,13 +41,15 @@ const education = [
   },
 ];
 
-const Education = () => {
+const Education = ({ isOpen }) => {
   return (
-    <div className={classes['cv-box']}>
-      {education.map((item, index) => (
-        <StationPoint key={index} item={item} className={classes['education-box']} />
-      ))}
-    </div>
+    <AnimatingItem show={isOpen}>
+      <div className={classes['cv-box']}>
+        {education.map((item, index) => (
+          <StationPoint key={index} item={item} className={classes['education-box']} />
+        ))}
+      </div>
+    </AnimatingItem>
   );
 };
 

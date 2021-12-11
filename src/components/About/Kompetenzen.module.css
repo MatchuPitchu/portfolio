@@ -21,6 +21,29 @@
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.title::first-letter {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-right: -0.2rem;
+  padding: 0.3rem;
+  color: #f7cc4b;
+}
+
+.title:after {
+  position: absolute;
+  background: #f7cc4b;
+  content: '';
+  height: 0.25rem;
+  top: 0;
+  width: 1260px;
+}
+
+.title:after {
+  margin-left: 1rem;
 }
 
 .skill-box {
@@ -44,7 +67,7 @@
 }
 
 .skill--text {
-  background-color: #f7cc4b80;
+  background-color: #f7cc4b10;
 }
 
 .skill--logo:last-child,

@@ -69,6 +69,7 @@ const About = () => {
   return (
     <Container className={classes['tabs-container']}>
       <Card>
+        {/* id for scroll btn */}
         <ul className={classes.tabs} id='tabs'>
           <li className={isOpen.skills ? classes.active : ''} onClick={onClickHandler}>
             Kompetenzen
@@ -96,11 +97,11 @@ const About = () => {
           </li>
         </ul>
         <div className={classes['tabs-content']}>
-          {isOpen.skills && <Kompetenzen />}
-          {isOpen.work && <WorkExperience />}
-          {isOpen.education && <Education />}
-          {isOpen.awards && <Awards />}
-          {isOpen.involvement && <Involvement />}
+          <Kompetenzen isOpen={isOpen.skills} />
+          <WorkExperience isOpen={isOpen.work} />
+          <Education isOpen={isOpen.education} />
+          <Awards isOpen={isOpen.awards} />
+          <Involvement isOpen={isOpen.involvement} />
         </div>
       </Card>
     </Container>

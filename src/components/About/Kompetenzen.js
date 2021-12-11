@@ -1,3 +1,5 @@
+import AnimatingItem from '../UI/CSSTransition/AnimatingItem';
+import H3Title from '../UI/Titles/H2Title';
 import classes from './Kompetenzen.module.css';
 
 import html5 from '../../assets/logos/logo-HTML5.svg';
@@ -83,36 +85,38 @@ const tags = [
   },
 ];
 
-const Kompetenzen = () => {
+const Kompetenzen = ({ isOpen }) => {
   return (
-    <div className={classes['tab-box']}>
-      {webSkills.map((element) => (
-        <div key={element.title} className={classes.elements}>
-          <h3 className={classes.title}>{element.title}</h3>
-          <div className={classes['skill-box']}>
-            {element.tags.map((item) => (
-              <div key={item.name} className={classes['skill--logo']}>
-                <img className={classes.logo} src={item.logo} alt={item.name} />
-                <div className={classes.name}>{item.name}</div>
-              </div>
-            ))}
+    <AnimatingItem show={isOpen}>
+      <div className={classes['tab-box']}>
+        {webSkills.map((element) => (
+          <div key={element.title} className={classes.elements}>
+            <H3Title>{element.title}</H3Title>
+            <div className={classes['skill-box']}>
+              {element.tags.map((item) => (
+                <div key={item.name} className={classes['skill--logo']}>
+                  <img className={classes.logo} src={item.logo} alt={item.name} />
+                  <div className={classes.name}>{item.name}</div>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
 
-      {tags.map((element) => (
-        <div key={element.title} className={classes.elements}>
-          <h3 className={classes.title}>{element.title}</h3>
-          <div className={classes['skill-box']}>
-            {element.tags.map((item) => (
-              <div key={item} className={classes['skill--text']}>
-                {item}
-              </div>
-            ))}
+        {tags.map((element) => (
+          <div key={element.title} className={classes.elements}>
+            <H3Title>{element.title}</H3Title>
+            <div className={classes['skill-box']}>
+              {element.tags.map((item) => (
+                <div key={item} className={classes['skill--text']}>
+                  {item}
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+    </AnimatingItem>
   );
 };
 

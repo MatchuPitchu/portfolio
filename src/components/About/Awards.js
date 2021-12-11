@@ -1,3 +1,4 @@
+import AnimatingItem from '../UI/CSSTransition/AnimatingItem';
 import StationPoint from '../UI/StationPoint/StationPoint';
 import classes from './Awards.module.css';
 
@@ -36,13 +37,15 @@ const awards = [
   },
 ];
 
-const Awards = () => {
+const Awards = ({ isOpen }) => {
   return (
-    <div className={classes['cv-box']}>
-      {awards.map((item, index) => (
-        <StationPoint key={index} item={item} className={classes['award-box']} />
-      ))}
-    </div>
+    <AnimatingItem show={isOpen}>
+      <div className={classes['cv-box']}>
+        {awards.map((item, index) => (
+          <StationPoint key={index} item={item} className={classes['award-box']} />
+        ))}
+      </div>
+    </AnimatingItem>
   );
 };
 

@@ -1,0 +1,17 @@
+.enterActive {
+  animation: enterItem 1s ease-out forwards;
+}
+
+.exit {
+  display: none;
+}
+
+.exitActive {
+  display: none;
+}
+
+@keyframes enterItem {
+  0% {
+    transform: translateY(-100%);
+  }
+}

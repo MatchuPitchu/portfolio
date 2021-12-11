@@ -32,7 +32,7 @@
   overflow: hidden;
 }
 
-.title-container h1 {
+.title-container > h1 {
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -44,8 +44,8 @@
   margin-bottom: 0;
 }
 
-.title-container h1:before,
-.title-container h1:after {
+.title-container > h1:before,
+.title-container > h1:after {
   position: absolute;
   background: #f7cc4b;
   content: '';
@@ -54,17 +54,17 @@
   width: 1260px;
 }
 
-.title-container h1:before {
+.title-container > h1:before {
   left: 100%;
   margin-left: 1rem;
 }
 
-.title-container h1:after {
+.title-container > h1:after {
   right: 100%;
   margin-right: 1rem;
 }
 
-h1 .title {
+.title {
   align-self: flex-start;
   display: flex;
   justify-content: center;

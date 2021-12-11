@@ -4,6 +4,7 @@ import classes from './CardOffers.module.css';
 import KeyPoint from '../SVG/KeyPoint';
 import Card from '../UI/Card/Card';
 import List from '../UI/List/List';
+import H2Title from '../UI/Titles/H2Title';
 
 const CardOffers = ({ offer }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -15,8 +16,8 @@ const CardOffers = ({ offer }) => {
       <div className={classes.image}>
         <img src={offer.image} alt={offer.title} />
       </div>
-      <div className={classes.cardTitleLine}>
-        <h2>{offer.title}</h2>
+      <div className={classes['card-header']}>
+        <H2Title>{offer.title}</H2Title>
       </div>
       <div className={classes.description}>
         <p>Kurzbeschreibung</p>
