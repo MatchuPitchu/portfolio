@@ -10,13 +10,13 @@ const Footer = () => {
           rel='noreferrer'
           target='_blank'
         >
-          <Icon href='#' icon={['fab', 'linkedin']} />
+          <Icon icon={['fab', 'linkedin']} />
         </a>
         <a href='https://www.xing.com/profile/Michael_Flohr9' rel='noreferrer' target='_blank'>
-          <Icon href='#' icon={['fab', 'xing']} />
+          <Icon icon={['fab', 'xing']} />
         </a>
         <a href='https://github.com/MatchuPitchu' rel='noreferrer' target='_blank'>
-          <Icon href='#' icon={['fab', 'github']} />
+          <Icon icon={['fab', 'github']} />
         </a>
       </div>
       <p className='copyright'>Michael Flohr © 2021</p>

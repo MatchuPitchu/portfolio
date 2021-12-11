@@ -12,6 +12,7 @@ import {
   faQuoteRight,
   faCaretLeft,
   faCaretRight,
+  faArrowAltCircleUp,
 } from '@fortawesome/free-solid-svg-icons';
 
 import Layout from './components/Layout/Layout';
@@ -27,6 +28,7 @@ import BNEDetails from './components/Publications/BNEDetails';
 import Angebote from './Pages/Angebote';
 import Kontakt from './Pages/Kontakt';
 import Footer from './components/Layout/Footer';
+import ScrollToTopButton from './components/ScrollToTopButton';
 
 library.add(
   faLinkedin,
@@ -39,7 +41,8 @@ library.add(
   faQuoteLeft,
   faQuoteRight,
   faCaretLeft,
-  faCaretRight
+  faCaretRight,
+  faArrowAltCircleUp
 );
 
 const App = () => {
@@ -67,6 +70,7 @@ const App = () => {
         </Routes>
       </main>
       <Footer />
+      <ScrollToTopButton />
     </Layout>
   );
 };

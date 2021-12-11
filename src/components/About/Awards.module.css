@@ -1,0 +1,15 @@
+.cv-box {
+  padding: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.award-box {
+  flex: 1 1 calc(50% - 0.5rem);
+}
+
+@media all and (max-width: 768px) {
+  .award-box {
+    flex: 1 1 100%;
+  }
+}

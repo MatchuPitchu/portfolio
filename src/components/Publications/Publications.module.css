@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+.restPubs-customize {
+  background: #fff;
+}
+
 .cover {
   flex: 1 1 auto;
   background-color: #fff;
@@ -52,4 +56,15 @@
   font-size: 3.3rem;
   font-weight: bold;
   color: #f7cc4b;
+}
+
+.rest-publication-box {
+  flex: 1 1 calc(50% - 2rem);
+  margin-left: 2rem;
+}
+
+@media all and (max-width: 768px) {
+  .rest-publication-box {
+    flex: 1 1 100%;
+  }
 }

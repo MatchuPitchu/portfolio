@@ -1,0 +1,12 @@
+.btn {
+  position: fixed;
+  width: 100%;
+  left: calc(100vw - 5rem);
+  bottom: 2rem;
+  font-size: 2.5rem;
+  z-index: 10;
+  cursor: pointer;
+  color: #f7cc4b;
+  background-color: #fff;
+  border-radius: 50%;
+}

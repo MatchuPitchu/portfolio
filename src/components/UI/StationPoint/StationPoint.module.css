@@ -1,0 +1,77 @@
+.station {
+  border-left: 5px solid #f7cc4b;
+  padding: 1rem 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.date {
+  position: relative;
+}
+
+.date__icon {
+  position: absolute;
+  top: -1px;
+  left: -31.5px;
+  font-size: 1.7rem;
+  color: #d3a418;
+  animation: rotate 20s ease-in-out infinite;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+
+@keyframes rotate {
+  0% {
+    color: #d3a418;
+    transform: rotate(90deg);
+  }
+  50% {
+    color: #3a3a3a;
+  }
+  100% {
+    color: #d3a418;
+    transform: rotate(360deg);
+  }
+}
+
+.date__text,
+.link {
+  flex: 0;
+  background-color: #f7cc4b20;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid #f7cc4b;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  position: relative;
+}
+
+.link {
+  text-decoration: none;
+  margin-left: 0.5rem;
+  color: inherit;
+}
+
+.link:hover {
+  background-color: #f7cc4b60;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-top: 0.5rem;
+}
+
+.organization {
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 0.2rem;
+}
+
+.content {
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  margin-top: 0.2rem;
+}
