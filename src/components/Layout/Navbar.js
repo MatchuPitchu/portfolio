@@ -36,6 +36,7 @@ const Navigation = () => {
   }, []);
 
   const toggleMenuHandler = () => setIsMenuOpen((prev) => !prev);
+  const closeMenuHandler = () => setIsMenuOpen(false);
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -48,7 +49,7 @@ const Navigation = () => {
   const menu = (isMenuOpen || screenWidth > 600) && (
     <ul className={classes.menu}>
       {paths.map((nav) => (
-        <li key={nav.name} className={classes.dropdown}>
+        <li key={nav.name} className={classes.dropdown} onClick={closeMenuHandler}>
           <NavLink className={(navData) => (navData.isActive ? classes.active : '')} to={nav.path}>
             {nav.name}
           </NavLink>

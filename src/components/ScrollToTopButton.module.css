@@ -9,4 +9,11 @@
   color: #f7cc4b;
   background-color: #fff;
   border-radius: 50%;
+  display: none;
+}
+
+@media all and (max-width: 576px) {
+  .btn {
+    display: none !important;
+  }
 }

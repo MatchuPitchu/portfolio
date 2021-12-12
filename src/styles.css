@@ -50,7 +50,7 @@ body {
   margin: 0;
   height: 100%;
   scroll-behavior: smooth; /* behavior when scroll event is triggered */
-  min-width: 375px;
+  min-width: 325px;
 }
 
 h1 {
