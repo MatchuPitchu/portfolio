@@ -2,8 +2,6 @@ import CardOffers from '../components/Angebote/CardOffers';
 import IframeMap from '../components/Angebote/IframeMap';
 import Container from '../components/Layout/Container';
 
-import classes from './Angebote.module.css';
-
 import laptop from '../assets/laptop-javascript-clement-helardot-unsplash.jpg';
 import beratung from '../assets/beratung_michael-flohr_verband-der-schweizer-studierendenschaften.jpg';
 import moderation from '../assets/moderation_michael-flohr.jpg';

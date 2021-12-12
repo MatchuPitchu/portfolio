@@ -67,44 +67,50 @@ const About = () => {
   };
 
   return (
-    <Container className={classes['tabs-container']}>
-      <Card>
+    <section className={classes.hero}>
+      <Container className={classes['tabs-container']}>
         {/* id for scroll btn */}
-        <ul className={classes.tabs} id='tabs'>
-          <li className={isOpen.skills ? classes.active : ''} onClick={onClickHandler}>
-            Kompetenzen
-          </li>
-          <li className={isOpen.work ? classes.active : ''} onClick={() => onClickHandler('work')}>
-            Berufserfahrung
-          </li>
-          <li
-            className={isOpen.education ? classes.active : ''}
-            onClick={() => onClickHandler('education')}
-          >
-            Ausbildung
-          </li>
-          <li
-            className={isOpen.awards ? classes.active : ''}
-            onClick={() => onClickHandler('awards')}
-          >
-            Stipendien & Auszeichnungen
-          </li>
-          <li
-            className={isOpen.involvement ? classes.active : ''}
-            onClick={() => onClickHandler('involvement')}
-          >
-            Engagement
-          </li>
-        </ul>
-        <div className={classes['tabs-content']}>
-          <Kompetenzen isOpen={isOpen.skills} />
-          <WorkExperience isOpen={isOpen.work} />
-          <Education isOpen={isOpen.education} />
-          <Awards isOpen={isOpen.awards} />
-          <Involvement isOpen={isOpen.involvement} />
-        </div>
-      </Card>
-    </Container>
+        <span className={classes.anchor} id='tabs' />
+        <Card>
+          <ul className={classes.tabs}>
+            <li className={isOpen.skills ? classes.active : ''} onClick={onClickHandler}>
+              Kompetenzen
+            </li>
+            <li
+              className={isOpen.work ? classes.active : ''}
+              onClick={() => onClickHandler('work')}
+            >
+              Berufserfahrung
+            </li>
+            <li
+              className={isOpen.education ? classes.active : ''}
+              onClick={() => onClickHandler('education')}
+            >
+              Ausbildung
+            </li>
+            <li
+              className={isOpen.awards ? classes.active : ''}
+              onClick={() => onClickHandler('awards')}
+            >
+              Stipendien & Auszeichnungen
+            </li>
+            <li
+              className={isOpen.involvement ? classes.active : ''}
+              onClick={() => onClickHandler('involvement')}
+            >
+              Engagement
+            </li>
+          </ul>
+          <div className={classes['tabs-content']}>
+            <Kompetenzen isOpen={isOpen.skills} />
+            <WorkExperience isOpen={isOpen.work} />
+            <Education isOpen={isOpen.education} />
+            <Awards isOpen={isOpen.awards} />
+            <Involvement isOpen={isOpen.involvement} />
+          </div>
+        </Card>
+      </Container>
+    </section>
   );
 };
 

@@ -1,7 +1,40 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  min-height: calc(100vh - 2rem);
+  padding: 1rem;
+  background: linear-gradient(-45deg, #f7cc4b, #fffdfa, #fcecd6, #ffeccf);
+  background-size: 400% 400%;
+  animation: background-gradient 20s ease infinite;
+}
+
+@keyframes background-gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
 .tabs-container {
   border: 0;
   padding: 0;
   width: 100%;
+  height: 100%;
+}
+
+.anchor {
+  display: block;
+  height: 92px;
+  margin-top: -92px;
+  visibility: hidden;
 }
 
 .tabs {
@@ -35,4 +68,10 @@
   background-color: #fff;
   width: 100%;
   overflow: hidden;
+}
+
+@media all and (max-width: 576px) {
+  .tabs > li {
+    flex: 1 1 100%;
+  }
 }

@@ -5,9 +5,9 @@ import image2 from '../../assets/michael-flohr_2019_web.jpg';
 import laptop from '../../assets/laptop-javascript-clement-helardot-unsplash.jpg';
 
 const photos = [
-  { src: laptop, class: classes.imageBox1, alt: 'Laptop Beispielbild Clement Helardot Unsplash' },
+  { src: image1, class: classes.imageBox1, alt: 'Michael Flohr (1)' },
   { src: image2, class: classes.imageBox2, alt: 'Michael Flohr (2)' },
-  { src: image1, class: classes.imageBox3, alt: 'Michael Flohr (1)' },
+  { src: laptop, class: classes.imageBox3, alt: 'Laptop Beispielbild Clement Helardot Unsplash' },
 ];
 
 const Images = () => {
@@ -15,7 +15,7 @@ const Images = () => {
     <div className={classes.images}>
       {photos.map((photo) => (
         <div key={photo.alt} className={photo.class}>
-          <img src={photo.src} alt={photo.alt} />
+          <img className={classes.image} src={photo.src} alt={photo.alt} />
         </div>
       ))}
     </div>

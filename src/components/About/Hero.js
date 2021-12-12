@@ -7,12 +7,10 @@ const Hero = () => {
   return (
     <section className={classes.hero}>
       <div className={classes['title-container']}>
-        <h1>
-          <span className={classes.title}>Dr</span>
-          <span className={classes.name}>
-            <span className={classes.firstName}>Michael</span>{' '}
-            <span className={classes.lastName}>Flohr</span>
-          </span>
+        <h1 className={classes.name}>
+          <span className={classes.title}>Dr</span>{' '}
+          <span className={classes.firstName}>Michael</span>{' '}
+          <span className={classes.lastName}>Flohr</span>
         </h1>
       </div>
       <Container className={classes['customize-container']}>
