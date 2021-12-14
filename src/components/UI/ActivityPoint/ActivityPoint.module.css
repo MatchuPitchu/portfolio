@@ -1,0 +1,42 @@
+.activity {
+  flex: 1 1 calc(50% - 2rem);
+  display: flex;
+  gap: 0.5rem;
+  background-color: #f7cc4b20;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid #f7cc4b;
+  border-radius: 4px;
+}
+
+.content__icon {
+  font-size: 1.7rem;
+  color: #d3a418;
+  animation: rotate 10s ease-in-out infinite;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+
+@keyframes rotate {
+  0% {
+    color: #d3a418;
+    transform: rotate(90deg);
+  }
+  50% {
+    color: #3a3a3a;
+  }
+  100% {
+    color: #d3a418;
+    transform: rotate(360deg);
+  }
+}
+
+.content__text {
+  font-size: 0.8rem;
+}
+
+@media all and (max-width: 768px) {
+  .activity {
+    flex: 1 1 100%;
+  }
+}

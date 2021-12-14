@@ -1,10 +1,11 @@
 import { useState } from 'react';
-
-import classes from './CardOffers.module.css';
 import KeyPoint from '../SVG/KeyPoint';
 import Card from '../UI/Card/Card';
 import List from '../UI/List/List';
 import H2Title from '../UI/Titles/H2Title';
+import ActivityPoint from '../UI/ActivityPoint/ActivityPoint';
+import classes from './CardOffers.module.css';
+import H3Title from '../UI/Titles/H2Title';
 
 const CardOffers = ({ offer }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -22,8 +23,15 @@ const CardOffers = ({ offer }) => {
       <div className={classes.description}>
         <p>Kurzbeschreibung</p>
       </div>
+      <div className={classes['activity-box']}>
+        <H3Title>Tätigkeitsbereiche</H3Title>
+
+        {offer.activities.map((item, index) => (
+          <ActivityPoint key={index} item={item} />
+        ))}
+      </div>
       <div className={classes.references}>
-        <h3>Referenzen</h3>
+        <H3Title>Referenzen</H3Title>
         <button onClick={handleExpandClick} aria-expanded={isExpanded}>
           <svg
             className={isExpanded ? classes['rotate-open'] : classes['rotate-closed']}

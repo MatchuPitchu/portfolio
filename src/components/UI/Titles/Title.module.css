@@ -4,6 +4,7 @@
   letter-spacing: 0.5px;
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 .title::first-letter {
@@ -18,7 +19,7 @@
   position: absolute;
   background: #f7cc4b;
   content: '';
-  height: 0.25rem;
+  height: 0.1rem;
   top: 0;
   width: 1260px;
 }

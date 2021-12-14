@@ -16,10 +16,10 @@ const offers = [
       'App & Web Development',
       'Aufsetzen & Gestaltung von Webseiten auf WordPress-Basis mit kllimapositivem Hosting',
       'HTML5, CSS3 und Responsive Web Design',
-      'Frontend Programmierung mit Vanilla JavaScript/ReactJS/Ionic',
+      'Frontend Programmierung mit JavaScript, TypeScript, React, Ionic',
       'Backend Programmierung mit Node.js (Express)',
       'Version Control Systems (Git & GitHub)',
-      'Databases und databases management: SQL, MongoDB',
+      'Datenbanken und Datenbanken-Management: SQL, MongoDB',
       'APIs (REST)',
       'DevOps: Hosting, Deployment, Monitoring',
       'Software Testing (TDD)',
@@ -27,9 +27,10 @@ const offers = [
       'Agile Tools und Methoden (z.B. Scrum)',
     ],
     references: [
-      'Grundinstallation Citizen Science-Projekt "Logbuch der Veränderungen" der Hochschule für nachhaltige Entwicklung Eberswalde, Forschungszentrum Nachhaltigkeit - Transformation - Transfer',
-      'Betreuung, Konzeption und Gestaltung Online-Plattform für nachhaltige Hochschulentwicklung plattform n',
-      'Grundstruktur und Mitbetreuung Webseite netzwerk n',
+      'Schule ein Gesicht geben e.V.: Gestaltung und Aufsetzen einer Web-App als Wissensplattform für die Arbeit von Schülervertretungen',
+      'Hochschule für nachhaltige Entwicklung Eberswalde, Forschungszentrum Nachhaltigkeit - Transformation - Transfer: Grundinstallation Citizen Science-Projekt "Logbuch der Veränderungen"',
+      'netzwerk n e.V.: Betreuung, Konzeption und Gestaltung Online-Plattform für nachhaltige Hochschulentwicklung plattform n',
+      'netzwerk n e.V.: Betreuung der Website des netzwerk n',
     ],
   },
   {
@@ -57,7 +58,7 @@ const offers = [
     title: 'Forschung',
     image: buecherregal,
     activities: [
-      'Wirkungsmessung und Evaluation von Veranstaltungen, Projekten und Entscheidungsprozessen',
+      'Wirkungsmessung und Evaluation von Veranstaltungen, Projekten und Prozessen',
       'quantitative und qualitative Netzwerkanalyse',
     ],
     references: [

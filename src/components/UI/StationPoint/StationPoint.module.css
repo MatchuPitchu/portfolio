@@ -8,6 +8,7 @@
 
 .date {
   position: relative;
+  display: flex;
 }
 
 .date__icon {
@@ -38,7 +39,7 @@
 
 .date__text,
 .link {
-  flex: 0;
+  flex: 0 1 auto;
   background-color: #f7cc4b20;
   padding: 0.3rem 0.7rem;
   border: 1px solid #f7cc4b;
