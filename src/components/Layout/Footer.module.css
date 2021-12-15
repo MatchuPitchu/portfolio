@@ -8,7 +8,13 @@
   height: 10rem;
   margin-top: 1rem;
   padding-top: 2rem;
-  background: linear-gradient(-45deg, #f7cc4b, #fffdfa, #fcecd6, #ffeccf);
+  background: linear-gradient(
+    -45deg,
+    var(--color-primary),
+    var(--color-light),
+    var(--color-tertiary),
+    var(--color-secondary)
+  );
   background-size: 400% 400%;
   animation: background-gradient 20s ease infinite;
 }
@@ -34,7 +40,7 @@
 
 .icons > a {
   font-size: 2rem;
-  color: #3a3a3a;
+  color: var(--color-dark);
   transition: all 0.2s ease-out;
 }
 
@@ -52,5 +58,5 @@
   text-align: center;
   opacity: 0.8;
   margin: 0;
-  padding: 0.5rem;
+  padding: var(--padding-even-sm);
 }

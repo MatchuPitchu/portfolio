@@ -1,4 +1,4 @@
 .text {
-  padding: 1rem;
+  padding: var(--padding-even-md);
   margin: 0;
 }

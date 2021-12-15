@@ -4,8 +4,8 @@
 }
 
 .container {
-  padding: 1rem;
-  border: 2px solid #ffeccf;
+  padding: var(--padding-even-md);
+  border: 2px solid var(--color-tertiary);
   display: flex;
   flex-flow: row wrap;
   justify-content: center;

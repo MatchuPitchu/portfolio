@@ -17,7 +17,7 @@
 }
 
 .card-customize h2 {
-  color: #f7cc4b;
+  color: var(--color-primary);
   text-transform: uppercase;
 }
 

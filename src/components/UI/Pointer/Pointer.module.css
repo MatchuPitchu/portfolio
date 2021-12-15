@@ -9,17 +9,16 @@
   flex-flow: column nowrap;
   height: 6rem;
   width: 3rem;
-  border: 1px solid #f7cc4b;
-  border-radius: 10px;
-  background-color: #fff;
+  border: 1px solid var(--color-primary);
+  border-radius: var(--border-radius);
+  background-color: var(--color-white);
 }
 
 .pointer span {
   height: 1rem;
   width: 1rem;
-  border-right: 3px solid #f7cc4b;
-  border-bottom: 3px solid #f7cc4b;
-  border-radius: 0%;
+  border-right: 3px solid var(--color-primary);
+  border-bottom: 3px solid var(--color-primary);
   background-color: transparent;
   margin: 0 auto;
   animation: move 1.5s linear infinite;

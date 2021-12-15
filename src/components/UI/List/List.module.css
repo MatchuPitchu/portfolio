@@ -4,9 +4,9 @@
   font-size: 0.875rem;
   line-height: 1.3;
   letter-spacing: 0.01071em;
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--color-medium);
   margin: 0;
-  padding: 0.5rem 1rem;
+  padding: var(--padding-less-y);
 }
 
 .list li {

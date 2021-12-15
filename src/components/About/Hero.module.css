@@ -5,9 +5,15 @@
   width: 100%;
   height: 100%;
   min-height: calc(100vh - 4rem);
-  padding: 1rem;
+  padding: var(--padding-even-md);
   margin: 1rem 0;
-  background: linear-gradient(-45deg, #f7cc4b, #fffdfa, #fcecd6, #ffeccf);
+  background: linear-gradient(
+    -45deg,
+    var(--color-primary),
+    var(--color-light),
+    var(--color-tertiary),
+    var(--color-secondary)
+  );
   background-size: 400% 400%;
   animation: background-gradient 20s ease infinite;
 }
@@ -45,7 +51,7 @@
 .name:before,
 .name:after {
   position: absolute;
-  background: #f7cc4b;
+  background: var(--color-primary);
   content: '';
   height: 0.1rem;
   bottom: 1.7rem;
@@ -64,7 +70,7 @@
 
 .title {
   font-size: 2rem;
-  color: #3a3a3a;
+  color: var(--color-dark);
   animation: slideInTitle 3s ease-out forwards;
 }
 
@@ -87,12 +93,12 @@
 
 .firstName {
   font-size: 4rem;
-  color: #f7cc4b;
+  color: var(--color-primary);
 }
 
 .lastName {
   font-size: 4rem;
-  color: #3a3a3a;
+  color: var(--color-dark);
   animation: slideInName 2s ease-out forwards;
 }
 

@@ -15,9 +15,9 @@
 .col-left {
   flex: 1 1 calc(40% - 1rem);
   height: auto;
-  padding: 1rem;
+  padding: var(--padding-even-md);
   text-align: right;
-  border-right: 0.2rem solid #f7cc4b;
+  border-right: 0.2rem solid var(--color-primary);
 }
 
 .col-left h1,
@@ -29,7 +29,7 @@
 .col-right {
   flex: 1 1 calc(60% - 1rem);
   height: auto;
-  padding: 1rem;
+  padding: var(--padding-even-md);
 }
 
 .col-right h2 {
@@ -68,21 +68,21 @@
 .card-theses .card-number {
   flex: 1 1 auto;
   font-weight: 600;
-  padding: 0.5rem;
-  background-color: #f8d878;
+  padding: var(--padding-even-sm);
+  background-color: var(--color-secondary);
 }
 
 .card-theses h4 {
   flex: 1 1 100%;
   text-align: center;
-  padding: 0.5rem;
-  border-bottom: 1px solid #f7cc4b;
+  padding: var(--padding-even-sm);
+  border-bottom: 1px solid var(--color-primary);
 }
 
 .card-theses p {
   font-size: 0.9rem;
   line-height: 1.2rem;
-  padding: 0.5rem;
+  padding: var(--padding-even-sm);
 }
 
 .li-customize {
@@ -139,7 +139,7 @@
   .col-left h3:before,
   .col-left h3:after {
     position: absolute;
-    background: #f7cc4b;
+    background: var(--color-primary);
     content: '';
     height: 0.1rem;
     bottom: 50%;

@@ -1,38 +1,52 @@
 :root {
   --color-primary: #f7cc4b;
-  --color-primary-rgb: 247, 204, 75;
+  /* --color-primary-rgb: 247, 204, 75;
   --color-primary-contrast: #000000;
-  --color-primary-contrast-rgb: 0, 0, 0;
-  --color-primary-shade: #d9b442;
-  --color-primary-tint: #f8d15d;
+  --color-primary-contrast-rgb: 0, 0, 0; */
+  --color-primary-shade: #d3a418;
+  /* --color-primary-tint: #f8d15d; */
 
-  --color-secondary: #ffeccf;
-  --color-secondary-rgb: 255, 236, 207;
+  --color-primary-transparent20: #f7cc4b20;
+  --color-primary-transparent60: #f7cc4b60;
+
+  --color-secondary: #f8d97d;
+  /* --color-secondary-rgb: 255, 236, 207;
   --color-secondary-contrast: #000000;
   --color-secondary-contrast-rgb: 0, 0, 0;
   --color-secondary-shade: #e0d0b6;
-  --color-secondary-tint: #ffeed4;
+  --color-secondary-tint: #ffeed4; */
+
+  --color-tertiary: #ffeccf;
 
   --color-dark: #3a3a3a;
-  --color-dark-rgb: 58, 58, 58;
+  /* --color-dark-rgb: 58, 58, 58;
   --color-dark-contrast: #ffffff;
   --color-dark-contrast-rgb: 255, 255, 255;
   --color-dark-shade: #333333;
-  --color-dark-tint: #4e4e4e;
+  --color-dark-tint: #4e4e4e; */
 
-  --color-medium: #92949c;
-  --color-medium-rgb: 146, 148, 156;
+  --color-medium: #666666;
+  /* --color-medium-rgb: 146, 148, 156;
   --color-medium-contrast: #ffffff;
   --color-medium-contrast-rgb: 255, 255, 255;
   --color-medium-shade: #808289;
-  --color-medium-tint: #9d9fa6;
+  --color-medium-tint: #9d9fa6; */
 
-  --color-light: #f4f5f8;
-  --color-light-rgb: 244, 245, 248;
+  --color-light: #fffdfa;
+  /* --color-light-rgb: 244, 245, 248;
   --color-light-contrast: #000000;
   --color-light-contrast-rgb: 0, 0, 0;
   --color-light-shade: #d7d8da;
-  --color-light-tint: #f5f6f9;
+  --color-light-tint: #f5f6f9; */
+
+  --color-white: #ffffff;
+
+  --border-radius: 4px;
+  --box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  --padding-even-sm: 0.5rem;
+  --padding-even-md: 1rem;
+  --padding-less-y: 0.5rem 1rem;
 }
 
 * {
@@ -41,8 +55,8 @@
 
 html {
   font-family: 'Jost', sans-serif;
-  color: #3a3a3a;
-  background: #fff;
+  color: var(--color-dark);
+  background: var(--color-white);
   font-size: 16px;
 }
 
@@ -83,7 +97,7 @@ h4 {
 }
 
 p {
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--color-medium);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -92,7 +106,7 @@ p {
 
 p a {
   text-decoration: none;
-  color: #3a3a3a;
+  color: var(--color-dark);
   box-shadow: inset 0 -0.5rem 0 0 #ffeccf;
   transition: all 0.3s ease-out;
 }

@@ -4,7 +4,7 @@
   left: 0;
   height: 1.5rem;
   border: none;
-  background-color: #f8d878;
+  background-color: var(--color-secondary);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -13,15 +13,14 @@
   user-select: none;
   width: auto;
   text-decoration: none;
-  color: #3a3a3a;
+  color: var(--color-dark);
   z-index: 10;
-  border-radius: 4px;
+  border-radius: var(--border-radius);
   margin-left: 1rem;
   font-size: 0.8rem;
   font-weight: 600;
   transition: all 0.3s ease;
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: var(--box-shadow);
 }
 
 .slider-link:hover,
@@ -43,15 +42,14 @@
   gap: 0.5rem;
   z-index: 10;
   background-color: #fdecd4;
-  border-radius: 4px;
+  border-radius: var(--border-radius);
   margin-right: 1rem;
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: var(--box-shadow);
 }
 
 .slider-btn .btn {
   border: none;
-  background-color: #f8d878;
+  background-color: var(--color-secondary);
   cursor: pointer;
   user-select: none;
   width: 3rem;
@@ -100,7 +98,7 @@
 .quote {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: var(--padding-even-md);
   position: relative;
 }
 
@@ -115,7 +113,7 @@
   bottom: 2%;
   left: 2%;
   font-size: 4rem;
-  color: #f8d878;
+  color: var(--color-secondary);
   opacity: 0.6;
 }
 

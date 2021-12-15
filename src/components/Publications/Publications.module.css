@@ -6,12 +6,12 @@
 }
 
 .restPubs-customize {
-  background: #fff;
+  background: var(--color-white);
 }
 
 .cover {
   flex: 1 1 auto;
-  background-color: #fff;
+  background-color: var(--color-white);
   display: flex;
   padding: 2rem;
 }
@@ -39,7 +39,7 @@
 
 .card-customize h2 {
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #f7cc4b;
+  border-bottom: 2px solid var(--color-primary);
 }
 
 @media all and (max-width: 600px) {
@@ -55,7 +55,7 @@
 .card-customize h2::first-letter {
   font-size: 3.3rem;
   font-weight: bold;
-  color: #f7cc4b;
+  color: var(--color-primary);
 }
 
 .rest-publication-box {

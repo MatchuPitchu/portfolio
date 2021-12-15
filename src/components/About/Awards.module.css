@@ -1,5 +1,5 @@
 .cv-box {
-  padding: 1rem;
+  padding: var(--padding-even-md);
   display: flex;
   flex-flow: row wrap;
 }

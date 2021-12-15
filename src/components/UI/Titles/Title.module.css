@@ -12,12 +12,12 @@
   font-weight: 500;
   margin-right: -0.2rem;
   padding: 0.3rem 0.3rem 0.3rem 0;
-  color: #f7cc4b;
+  color: var(--color-primary);
 }
 
 .title:after {
   position: absolute;
-  background: #f7cc4b;
+  background: var(--color-primary);
   content: '';
   height: 0.1rem;
   top: 0;
