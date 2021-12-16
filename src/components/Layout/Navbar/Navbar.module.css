@@ -37,7 +37,7 @@
     transform: rotate(90deg);
   }
   50% {
-    color: var(--color-dark);
+    color: var(--color-text);
   }
   100% {
     color: var(--color-primary-shade);

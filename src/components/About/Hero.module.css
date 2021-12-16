@@ -7,13 +7,7 @@
   min-height: calc(100vh - 4rem);
   padding: var(--padding-even-md);
   margin: 1rem 0;
-  background: linear-gradient(
-    -45deg,
-    var(--color-primary),
-    var(--color-light),
-    var(--color-tertiary),
-    var(--color-secondary)
-  );
+  background: var(--bg-linear-gradient);
   background-size: 400% 400%;
   animation: background-gradient 20s ease infinite;
 }
@@ -70,7 +64,6 @@
 
 .title {
   font-size: 2rem;
-  color: var(--color-dark);
   animation: slideInTitle 3s ease-out forwards;
 }
 
@@ -98,7 +91,6 @@
 
 .lastName {
   font-size: 4rem;
-  color: var(--color-dark);
   animation: slideInName 2s ease-out forwards;
 }
 

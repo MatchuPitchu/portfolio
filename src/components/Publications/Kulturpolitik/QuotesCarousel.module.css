@@ -13,7 +13,7 @@
   user-select: none;
   width: auto;
   text-decoration: none;
-  color: var(--color-dark);
+  color: var(--color-text);
   z-index: 10;
   border-radius: var(--border-radius);
   margin-left: 1rem;
@@ -27,7 +27,7 @@
 .slider-link:active,
 .slider-btn .btn:hover,
 .slider-btn .btn:active {
-  background-color: #fdecd4;
+  background-color: var(--color-tertiary);
   transition: all 0.3s ease;
 }
 
@@ -41,7 +41,7 @@
   align-items: stretch;
   gap: 0.5rem;
   z-index: 10;
-  background-color: #fdecd4;
+  background-color: var(--color-tertiary);
   border-radius: var(--border-radius);
   margin-right: 1rem;
   box-shadow: var(--box-shadow);
@@ -49,6 +49,7 @@
 
 .slider-btn .btn {
   border: none;
+  color: var(--color-text);
   background-color: var(--color-secondary);
   cursor: pointer;
   user-select: none;
@@ -126,6 +127,7 @@
 .quote .origin {
   text-align: right;
   font-size: 0.8rem;
+  color: var(--color-text-shade);
   width: 70%;
   margin-left: auto;
 }

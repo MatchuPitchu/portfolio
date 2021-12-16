@@ -2,6 +2,7 @@
   flex: 1 1 calc(50% - 2rem);
   display: flex;
   gap: 0.5rem;
+  color: var(--color-text-shade);
   background-color: var(--color-primary-transparent20);
   padding: 0.3rem 0.7rem;
   border: 1px solid var(--color-primary);
@@ -12,7 +13,7 @@
   font-size: 1.7rem;
   color: var(--color-primary-shade);
   animation: rotate 10s ease-in-out infinite;
-  background-color: var(--color-white);
+  background-color: var(--color-primary-transparent60);
   border-radius: 50%;
   padding: 0.3rem;
 }
@@ -23,7 +24,7 @@
     transform: rotate(90deg);
   }
   50% {
-    color: var(--color-dark);
+    color: var(--color-text);
   }
   100% {
     color: var(--color-primary-shade);

@@ -1,12 +1,13 @@
 .switch {
   position: relative;
   border: none;
-  margin: 0.4rem;
+  margin: 0.4rem auto 0.4rem 2rem;
   height: 27px;
   width: 55px;
   border-radius: var(--border-radius);
   background-image: linear-gradient(aqua, skyblue);
   cursor: pointer;
+  box-shadow: var(--box-shadow);
 }
 
 .switch.night {

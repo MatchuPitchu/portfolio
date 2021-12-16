@@ -17,8 +17,8 @@
 .menu-btn:hover,
 .menu-btn:active {
   color: var(--color-primary);
-  background: var(--color-dark);
-  outline: 2px solid var(--color-dark);
+  background: var(--color-text);
+  outline: 2px solid var(--color-text);
 }
 
 @media all and (max-width: 600px) {

@@ -38,7 +38,8 @@
   line-height: 1.7rem;
 }
 
-.cards-box {
+.cards-box,
+.quotes-box {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -46,10 +47,6 @@
 }
 
 .quotes-box {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  gap: 0.5rem;
   padding: 2rem 1rem 1rem 1rem;
   overflow: hidden;
   position: relative;
@@ -106,6 +103,7 @@
 
 @media all and (max-width: 950px) {
   .col-left {
+    flex: 1 1 100%;
     border: 0;
     position: relative;
     width: 100%;
@@ -162,10 +160,14 @@
     padding: 0;
   }
 
-  .cards-box {
+  .cards-box,
+  .quotes-box {
     flex: 1 1 100%;
     gap: 1rem;
-    padding: 0;
+  }
+
+  .quotes-box {
+    padding: 2rem 1rem 1rem 1rem;
   }
 
   .card-theses {

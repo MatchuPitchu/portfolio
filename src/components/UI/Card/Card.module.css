@@ -4,13 +4,7 @@
   overflow: hidden;
   height: auto;
   width: 100%;
-  background: linear-gradient(
-    -45deg,
-    var(--color-primary),
-    var(--color-light),
-    var(--color-tertiary),
-    var(--color-secondary)
-  );
+  background: var(--bg-linear-gradient);
   background-size: 400% 400%;
   animation: background-gradient 20s ease infinite;
 }

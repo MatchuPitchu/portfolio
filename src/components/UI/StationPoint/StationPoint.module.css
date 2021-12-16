@@ -9,6 +9,7 @@
 .date {
   position: relative;
   display: flex;
+  color: var(--color-text-shade);
 }
 
 .date__icon {
@@ -18,7 +19,7 @@
   font-size: 1.7rem;
   color: var(--color-primary-shade);
   animation: rotate 10s ease-in-out infinite;
-  background-color: var(--color-white);
+  background-color: var(--color-bg);
   border-radius: 50%;
   padding: 0.3rem;
 }
@@ -29,7 +30,7 @@
     transform: rotate(90deg);
   }
   50% {
-    color: var(--color-dark);
+    color: var(--color-text);
   }
   100% {
     color: var(--color-primary-shade);
