@@ -14,8 +14,9 @@ import {
   faArrowAltCircleUp,
 } from '@fortawesome/free-solid-svg-icons';
 
+import Theme from './components/Theme';
 import Layout from './components/Layout/Layout';
-import Navbar from './components/Layout/Navbar';
+import Navbar from './components/Layout/Navbar/Navbar';
 import Home from './Pages/Home';
 import Test from './Pages/Test';
 import Veroeffentlichungen from './Pages/Veroeffentlichungen';
@@ -43,31 +44,36 @@ library.add(
 
 const App = () => {
   return (
-    <Layout>
-      <Navbar />
-      <main>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/test' element={<Test />} />
-          <Route path='/veroeffentlichungen/' element={<Veroeffentlichungen />} />
-          <Route path='/veroeffentlichungen/digitalisierung' element={<DigitalisierungDetails />} />
-          <Route
-            path='/veroeffentlichungen/suffizienz-an-hochschulen'
-            element={<SuffizienzDetails />}
-          />
-          <Route
-            path='/veroeffentlichungen/nachhaltigkeitsnetzwerke-an-hochschulen'
-            element={<NetzwerkeDetails />}
-          />
-          <Route path='/veroeffentlichungen/kulturpolitik' element={<KulturpolitikDetails />} />
-          <Route path='/veroeffentlichungen/bne' element={<BNEDetails />} />
-          <Route path='/angebote' element={<Angebote />} />
-          <Route path='/kontakt' element={<Kontakt />} />
-        </Routes>
-      </main>
-      <Footer />
-      <ScrollToTopButton />
-    </Layout>
+    <Theme>
+      <Layout>
+        <Navbar />
+        <main>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/test' element={<Test />} />
+            <Route path='/veroeffentlichungen/' element={<Veroeffentlichungen />} />
+            <Route
+              path='/veroeffentlichungen/digitalisierung'
+              element={<DigitalisierungDetails />}
+            />
+            <Route
+              path='/veroeffentlichungen/suffizienz-an-hochschulen'
+              element={<SuffizienzDetails />}
+            />
+            <Route
+              path='/veroeffentlichungen/nachhaltigkeitsnetzwerke-an-hochschulen'
+              element={<NetzwerkeDetails />}
+            />
+            <Route path='/veroeffentlichungen/kulturpolitik' element={<KulturpolitikDetails />} />
+            <Route path='/veroeffentlichungen/bne' element={<BNEDetails />} />
+            <Route path='/angebote' element={<Angebote />} />
+            <Route path='/kontakt' element={<Kontakt />} />
+          </Routes>
+        </main>
+        <Footer />
+        <ScrollToTopButton />
+      </Layout>
+    </Theme>
   );
 };
 

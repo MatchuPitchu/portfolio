@@ -49,6 +49,26 @@
   --padding-less-y: 0.5rem 1rem;
 }
 
+.dark {
+  --color-primary: red;
+  --color-primary-shade: #d3a418;
+
+  --color-primary-transparent20: #f7cc4b20;
+  --color-primary-transparent60: #f7cc4b60;
+
+  --color-secondary: #f8d97d;
+
+  --color-tertiary: #ffeccf;
+
+  --color-dark: #3a3a3a;
+
+  --color-medium: #666666;
+
+  --color-light: #fffdfa;
+
+  --color-white: #ffffff;
+}
+
 * {
   box-sizing: border-box;
 }
