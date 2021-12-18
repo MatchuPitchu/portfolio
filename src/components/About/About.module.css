@@ -1,10 +1,8 @@
-.hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+.section {
   width: 100%;
   height: 100%;
-  min-height: calc(100vh - 2rem);
+  min-height: calc(100vh - 4rem);
+  margin: 1rem 0;
   padding: var(--padding-even-md);
   background: var(--bg-linear-gradient);
   background-size: 400% 400%;
@@ -23,7 +21,7 @@
   }
 }
 
-.tabs-container {
+.container {
   border: 0;
   padding: 0;
   width: 100%;
@@ -44,28 +42,29 @@
   padding: 0;
   margin: 0;
   width: 100%;
+  background-color: var(--color-bg-items-primary);
 }
 
 .tabs > li {
   flex: 1 1 auto;
-  box-shadow: inset 0 -0.3rem 0 0 var(--color-secondary);
+  box-shadow: inset 0 0 0 0 var(--color-primary);
   transition: all 1s ease-out;
   padding: var(--padding-less-y);
   font-weight: 600;
   font-size: 1.2rem;
-  outline: 1px solid var(--color-primary);
+  outline: 1px solid var(--color-bg-items-secondary);
   cursor: pointer;
 }
 
 .tabs > li:hover,
 .tabs > li.active {
-  box-shadow: inset 0 -5rem 0 0 var(--color-bg);
+  box-shadow: inset 0 -5rem 0 0 var(--color-bg-items-secondary);
   transition: all 1s ease-out;
 }
 
 .tabs-content {
   height: 100%;
-  background-color: var(--color-bg);
+  background-color: var(--color-bg-items-primary);
   width: 100%;
   overflow: hidden;
 }

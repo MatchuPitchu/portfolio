@@ -67,10 +67,10 @@ const About = () => {
   };
 
   return (
-    <section className={classes.hero}>
-      <Container className={classes['tabs-container']}>
-        {/* id for scroll btn */}
-        <span className={classes.anchor} id='tabs' />
+    // id for scroll btn
+    <section className={classes.section} id='tabs'>
+      <Container className={classes.container}>
+        <span className={classes.anchor} />
         <Card>
           <ul className={classes.tabs}>
             <li className={isOpen.skills ? classes.active : ''} onClick={onClickHandler}>
@@ -80,7 +80,7 @@ const About = () => {
               className={isOpen.work ? classes.active : ''}
               onClick={() => onClickHandler('work')}
             >
-              Berufserfahrung
+              Beruf
             </li>
             <li
               className={isOpen.education ? classes.active : ''}

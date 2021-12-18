@@ -27,6 +27,7 @@ const offers = [
       'Agile Tools und Methoden (z.B. Scrum)',
     ],
     references: [
+      'Eis mit Stil - Vegan Ice Cream App',
       'Schule ein Gesicht geben e.V.: Gestaltung und Aufsetzen einer Web-App als Wissensplattform für die Arbeit von Schülervertretungen',
       'Hochschule für nachhaltige Entwicklung Eberswalde, Forschungszentrum Nachhaltigkeit - Transformation - Transfer: Grundinstallation Citizen Science-Projekt "Logbuch der Veränderungen"',
       'netzwerk n e.V.: Betreuung, Konzeption und Gestaltung Online-Plattform für nachhaltige Hochschulentwicklung plattform n',

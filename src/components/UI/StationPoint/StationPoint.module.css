@@ -19,7 +19,7 @@
   font-size: 1.7rem;
   color: var(--color-primary-shade);
   animation: rotate 10s ease-in-out infinite;
-  background-color: var(--color-bg);
+  background-color: var(--color-bg-items-primary);
   border-radius: 50%;
   padding: 0.3rem;
 }
@@ -41,7 +41,7 @@
 .date__text,
 .link {
   flex: 0 1 auto;
-  background-color: var(--color-primary-transparent20);
+  background-color: var(--color-bg-transparent20);
   padding: 0.3rem 0.7rem;
   border: 1px solid var(--color-primary);
   border-radius: var(--border-radius);
@@ -56,7 +56,7 @@
 }
 
 .link:hover {
-  background-color: var(--color-primary-transparent60);
+  background-color: var(--color-bg-transparent60);
 }
 
 .title {

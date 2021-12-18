@@ -1,10 +1,15 @@
+import { useContext } from 'react';
+import { ThemeContext } from '../../store/ThemeContext';
 import classes from './Footer.module.css';
 
 import linkedin from '../../assets/logos/logo-linkedin.svg';
 import xing from '../../assets/logos/logo-xing.svg';
 import github from '../../assets/logos/logo-github.svg';
+import githubDark from '../../assets/logos/logo-github-dark.svg';
 
 const Footer = () => {
+  const { isLight } = useContext(ThemeContext);
+
   return (
     <footer className={classes.footer}>
       <div className={classes.icons}>
@@ -19,7 +24,7 @@ const Footer = () => {
           <img className={classes.logo} src={xing} alt='Logo Xing' />
         </a>
         <a href='https://github.com/MatchuPitchu' rel='noreferrer' target='_blank'>
-          <img className={classes.logo} src={github} alt='Logo GitHub' />
+          <img className={classes.logo} src={isLight ? github : githubDark} alt='Logo GitHub' />
         </a>
       </div>
       <p className={classes.copyright}>

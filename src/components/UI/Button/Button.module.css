@@ -29,7 +29,7 @@
 
 .btn:focus {
   outline: none;
-  background-color: var(--color-primary-transparent60);
+  background-color: var(--color-bg-transparent60);
   color: var(--color-text);
 }
 

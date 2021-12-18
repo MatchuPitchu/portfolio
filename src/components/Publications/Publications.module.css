@@ -6,12 +6,12 @@
 }
 
 .restPubs-customize {
-  background: var(--color-bg);
+  background: var(--color-bg-items-primary);
 }
 
 .cover {
   flex: 1 1 auto;
-  background-color: var(--color-bg);
+  background-color: var(--color-bg-items-primary);
   display: flex;
   padding: 2rem;
 }

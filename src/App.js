@@ -1,3 +1,5 @@
+import { useContext } from 'react';
+import { ThemeContext } from './store/ThemeContext';
 import { Routes, Route } from 'react-router-dom';
 
 // create fontawesome library and import needed icons
@@ -43,6 +45,10 @@ library.add(
 );
 
 const App = () => {
+  const { isLocalStorageChecked } = useContext(ThemeContext);
+
+  if (!isLocalStorageChecked) return null;
+
   return (
     <Theme>
       <Layout>

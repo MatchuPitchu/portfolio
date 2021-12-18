@@ -58,17 +58,17 @@
   flex: 1 1 auto;
   display: flex;
   padding: var(--padding-even-sm);
-  border: 1px solid var(--color-primary-transparent60);
+  border: 1px solid var(--color-bg-transparent60);
   border-radius: var(--border-radius);
 }
 
 .skill--logo {
-  background-color: var(--color-primary-transparent20);
+  background-color: var(--color-bg-transparent20);
 }
 
 .skill--text {
   font-size: 0.9rem;
-  background-color: var(--color-primary-transparent20);
+  background-color: var(--color-bg-transparent20);
 }
 
 .skill--logo:last-child,
