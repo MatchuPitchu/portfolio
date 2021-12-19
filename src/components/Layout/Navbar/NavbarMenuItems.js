@@ -21,7 +21,7 @@ const paths = [
   { path: '/kontakt', name: 'kontakt' },
 ];
 
-const NavbarMenuItems = ({ isMenuOpen, closeMenuHandler: onClose }) => {
+const NavbarMenuItems = ({ isMenuOpen, onClose }) => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -49,6 +49,7 @@ const NavbarMenuItems = ({ isMenuOpen, closeMenuHandler: onClose }) => {
               <div className={classes['dropdown-content']}>
                 {nav.subpath.map((subNav) => (
                   <NavLink
+                    onClick={onClose}
                     key={subNav.name}
                     className={(navData) => (navData.isActive ? classes.active : '')}
                     to={subNav.path}
