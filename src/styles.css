@@ -26,6 +26,7 @@
   --color-bg-body: #ffffff;
   --color-bg-items-primary: #ffffff;
   --color-bg-items-secondary: #fae299;
+  --color-bg-navbar: #ffeccf;
 
   --color-bg-transparent20: #f7cc4b20;
   --color-bg-transparent60: #f7cc4b60;
@@ -61,6 +62,7 @@
   --color-bg-body: #1f2028;
   --color-bg-items-primary: #2e3039;
   --color-bg-items-secondary: #4d4632;
+  --color-bg-navbar: #1d1c1a;
 
   --color-bg-transparent20: #ffffff20;
   --color-bg-transparent60: #ffffff60;

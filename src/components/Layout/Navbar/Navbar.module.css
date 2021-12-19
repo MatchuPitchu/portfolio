@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   height: auto;
-  background-color: var(--color-tertiary);
+  background-color: var(--color-bg-navbar);
   box-shadow: var(--box-shadow);
   z-index: 10;
 }

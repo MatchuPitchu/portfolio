@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
+import { ThemeContext } from '../../../store/ThemeContext';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
 import NavbarMenuBtn from './NavbarMenuBtn';
@@ -7,6 +8,7 @@ import SwitchBtn from './SwitchBtn';
 import classes from './Navbar.module.css';
 
 const Navigation = () => {
+  const { isLight } = useContext(ThemeContext);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenuHandler = () => setIsMenuOpen((prev) => !prev);
@@ -23,7 +25,7 @@ const Navigation = () => {
     <nav className={classes.navbar}>
       <div className={classes.container}>
         <Link to='/' onClick={scrollToTop}>
-          <Icon className={classes.icon} icon={['fa', 'sun']} />
+          <Icon className={classes.icon} icon={isLight ? ['fa', 'sun'] : ['fa', 'moon']} />
         </Link>
         <SwitchBtn />
         <NavbarMenuBtn onToggleMenu={toggleMenuHandler} isMenuOpen={isMenuOpen} />
