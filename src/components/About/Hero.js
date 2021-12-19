@@ -2,17 +2,16 @@ import Images from './Images';
 import Container from '../Layout/Container';
 import Pointer from '../UI/Pointer/Pointer';
 import classes from './Hero.module.css';
+import H1Title from '../UI/Titles/H1Title';
 
 const Hero = () => {
   return (
     <section className={classes.hero}>
-      <div className={classes['title-container']}>
-        <h1 className={classes.name}>
-          <span className={classes.title}>Dr</span>{' '}
-          <span className={classes.firstName}>Michael</span>{' '}
-          <span className={classes.lastName}>Flohr</span>
-        </h1>
-      </div>
+      <H1Title>
+        <div className={classes.title}>Dr</div>
+        <div className={classes.firstName}>Michael</div>
+        <div className={classes.lastName}>Flohr</div>
+      </H1Title>
       <Container className={classes['customize-container']}>
         <div className={classes.presentation}>
           <h2>über mich</h2>

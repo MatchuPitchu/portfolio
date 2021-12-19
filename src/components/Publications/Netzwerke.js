@@ -15,13 +15,11 @@ const Netzwerke = () => {
       </div>
       <div className={classes.content}>
         <h2>Netzwerke für die nachhaltige Entwicklung an Hochschulen</h2>
-        <div className={classes.description}>
-          <p>
-            Netzwerk, Vernetzung und Beziehung sind omnipräsente Begriffe, wenn es um Transformation
-            und Veränderung hin zu mehr Nachhaltigkeit geht. In dieser kleinen, explorativen Studie
-            schaue ich mir Netzwerke an Hochschulen an, die im Themenfeld Nachhaltigkeit aktiv sind.
-          </p>
-        </div>
+        <p>
+          Netzwerk, Vernetzung und Beziehung sind omnipräsente Begriffe, wenn es um Transformation
+          und Veränderung hin zu mehr Nachhaltigkeit geht. In dieser kleinen, explorativen Studie
+          schaue ich mir Netzwerke an Hochschulen an, die im Themenfeld Nachhaltigkeit aktiv sind.
+        </p>
         <Tags tags={tags} />
         <ButtonsPublication
           url='https://www.researchgate.net/publication/331894285_Nachhaltigkeitsnetzwerke_an_Hochschulen_Die_transformative_Kraft_von_Verbindungen'

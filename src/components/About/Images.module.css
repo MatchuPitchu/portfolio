@@ -30,7 +30,7 @@
   transform: translate(-5%, -5%);
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 576px) {
   .imageBox1,
   .imageBox2,
   .imageBox3 {

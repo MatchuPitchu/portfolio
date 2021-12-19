@@ -1,6 +1,8 @@
+import H1Title from '../components/UI/Titles/H1Title';
 import CardOffers from '../components/Angebote/CardOffers';
-import IframeMap from '../components/Angebote/IframeMap';
+import Map from '../components/Angebote/Map';
 import Container from '../components/Layout/Container';
+import classes from './Angebote.module.css';
 
 import laptop from '../assets/laptop-javascript-clement-helardot-unsplash.jpg';
 import beratung from '../assets/beratung_michael-flohr_verband-der-schweizer-studierendenschaften.jpg';
@@ -12,16 +14,18 @@ const offers = [
     id: '1',
     title: 'Web- & App-Entwicklung',
     image: laptop,
+    description:
+      'Viele Jahre habe ich für Vereine Websites - u.a. auf WordPress-Basis - betreut und Inhalte eingepflegt. Durch meine Tätigkeit beim netzwerk n e.V. have ich intensiv an der Entwicklung einer Open Source-Kollaborationsplattform mitgewirkt. Daraus ergab sich der Impuls, sich stärker mit der Programmierseite zu beschäftigen. In einer 15-wöchigen Weiterbildung zum Full-Stack Web & App Developer an der WBS Coding School in Berlin habe ich mir das Wissen über einen modernen Tech Stack angeeignet und all die Wissensbereiche vertieft, die für die Arbeit als Entwickler grundlegend sind. Hauptberuflich bin ich mittlerweile als Webentwickler bei der team neusta Unternehmensgruppe tätig.',
     activities: [
       'App & Web Development',
-      'Aufsetzen & Gestaltung von Webseiten auf WordPress-Basis mit kllimapositivem Hosting',
       'HTML5, CSS3 und Responsive Web Design',
+      'Aufsetzen & Gestaltung von Webseiten auf WordPress-Basis mit kllimapositivem Hosting',
       'Frontend Programmierung mit JavaScript, TypeScript, React, Ionic',
       'Backend Programmierung mit Node.js (Express)',
       'Version Control Systems (Git & GitHub)',
       'Datenbanken und Datenbanken-Management: SQL, MongoDB',
-      'APIs (REST)',
       'DevOps: Hosting, Deployment, Monitoring',
+      'APIs (REST)',
       'Software Testing (TDD)',
       'User Interface & User Experience',
       'Agile Tools und Methoden (z.B. Scrum)',
@@ -38,14 +42,16 @@ const offers = [
     id: '2',
     title: 'Beratung',
     image: beratung,
+    description:
+      'Ein viel genutzter und auch teils entwerteter Begriff. Beratung setzt für mich den Wunsch nach Veränderung voraus. Mein Verständnis der Beratungstätigkeit selbst ist es, einerseits aus einer externen Perspektive heraus, Wissen und Erfahrungen zu vermitteln, um Impulse für Verhaltens- und strukturelle Veränderungen zu setzen. Andererseits geht es darum, ein Reflektionsangebot zu machen, um gemeinsam mit dem Kunden Handlungsbereiche, Ziele und Maßnahmen zu identifizieren, um einen möglichen Pfad zur gewünschten Veränderung konkret abzustecken.',
     activities: [
-      'Nachhaltige Hochschulentwicklung',
+      'nachhaltige Hochschulentwicklung',
       'Nachhaltigkeitsstrategien für Organisationen',
-      'Nachhaltige Digitalisierung',
+      'nachhaltige Digitalisierung',
       'Kulturpolitik, Kulturverbände, Kulturmanagement',
       'Partizipation und Methoden in Aushandlungsprozessen',
-      'Zeitmanagement, Arbeitsorganisation für Organisationen wie Vereine, Verbände ...',
-      'Zeitmanagement, Arbeitsorganisation, wissenschaftliches Arbeiten für Einzelpersonen wie Studierende, Doktorand*innen, Berufsanfänger*innen ... ',
+      'Zeitmanagement, Arbeitsorganisation für Organisationen (Vereine, Verbände etc.)',
+      'Zeitmanagement, Arbeitsorganisation, wissenschaftliches Arbeiten für Einzelpersonen (Studierende, Doktorand*innen, Berufsanfänger*innen etc.) ',
     ],
     references: [
       'Beratung von Nachhaltigkeitsakteuren an Hochschulen (Verbände, Hochschulleitung, Verwaltung, studentische und statusgruppenübergreifende Initiativen)',
@@ -58,6 +64,8 @@ const offers = [
     id: '3',
     title: 'Forschung',
     image: buecherregal,
+    description:
+      'Durch meine Zeit der Promotion an der Universität Erfurt habe ich das Privileg erfahren, intrinisch motiviert ein Forschungsfeld über einen längeren Zeitraum zu ergründen, zu analysieren und zu verstehen. Zudem vermittelte mir diese Zeit, was wissenschaftliches Denken und Arbeiten eigentlich konkret bedeutet. Vieles davon ist auch außerhalb der Forschung essentiell und bereichernd – egal in welchem Tätigkeitsbereich.',
     activities: [
       'Wirkungsmessung und Evaluation von Veranstaltungen, Projekten und Prozessen',
       'quantitative und qualitative Netzwerkanalyse',
@@ -72,24 +80,42 @@ const offers = [
   {
     id: '4',
     title: 'Moderation & Vorträge',
+    description:
+      'Ich hatte das Glück, ausgehend aus meinem ehrenamtlichen Engagement und später beruflich beim netzwerk n e.V. mich als Moderator und Referent ausgiebig auszuprobieren. Dank der von mir 2016 initiierten, konzipierten und auch überwiegend moderierten Diskussionsreihe perspektive n hatte ich die Freude, intensive Erfahrungen als Moderator zu sammeln, der heterogene Statusgruppen und Entscheidungsträger durch partizipative und aktivierende Methoden in einen Austausch auf Augenhöhe bringt. Vieles davon kann ich nun auch auf andere Kontexte übertragen.',
     image: moderation,
     activities: [
       'Moderation von öffentlichen Veranstaltungen wie Diskussionsformaten, Workshops, Tagungen, Konferenzen ...',
       'Moderation von internen Veranstaltungen wie Strategieentwicklungen, Entscheidungsprozessen, Multi-Stakeholder-Gesprächen',
-      'Workshops zum Thema Moderation und Sprechen',
       'Vorträge u.a. zu Nachhaltigkeit, Klimaschutz, nachhaltiger Digitalisierung, nachhaltige Hochschulentwicklung, Kulturpolitik, Selbst- und Zeitmanagement ...',
+      'Workshops zum Thema Moderation und Sprechen',
     ],
-    references: [''],
+    references: [
+      'Initiierung, Konzeption und Moderation der Diskussionsreihe perspektive n, die sich der nachhaltigen Entwicklung von Hochschulen widmet - ausgezeichnet vom Rat für Nachhaltige Entwicklung als "Projekt Nachhaltigkeit 2018" und "Transformationsprojekt 2018"',
+      'diverse Hochschulen, Universitäten und Nachhaltigkeitsnetzwerke in Deutschland',
+      'Vorträge auf wissenschaftlichen Tagungen u.a. der Deutschen Vereinigung für Politikwissenschaft, der Deutschen Gesellschaft für Soziologie Sektion Soziologische Netzwerkforschung sowie der Schader Stiftung',
+    ],
   },
 ];
 
 const Angebote = () => {
   return (
     <Container>
+      <div className={classes.description}>
+        <H1Title classTitle={classes.title}>Angebote</H1Title>
+        <p>
+          In der Vergangenheit war ich beruflich, freiberuflich und im ehrenamtlichen Kontext
+          bereits in den verschiedensten Aufgabenbereichen tätig. Die untere Übersicht gibt einen
+          guten Einblick. Seitdem ich im Jahr 2021 meinen hauptberuflichen Fokus auf die Web- und
+          App-Entwicklung lege, möchte ich mich auch freiberuflich stärker auf dieses Tätigkeitsfeld
+          konzentrieren. Gleichwohl freue ich mich auch weiterhin über Anfragen aus den Bereichen{' '}
+          <i>Beratung</i> und <i>Moderation & Vorträge</i>. In der Forschung bin ich aktuell nicht
+          mehr aktiv.
+        </p>
+      </div>
       {offers.map((offer) => (
         <CardOffers key={offer.id} offer={offer} />
       ))}
-      <IframeMap />
+      <Map />
     </Container>
   );
 };

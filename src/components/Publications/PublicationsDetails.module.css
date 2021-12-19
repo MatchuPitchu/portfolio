@@ -101,7 +101,7 @@
   font-weight: bold;
 }
 
-@media all and (max-width: 950px) {
+@media all and (max-width: 768px) {
   .col-left {
     flex: 1 1 100%;
     border: 0;
@@ -172,6 +172,7 @@
 
   .card-theses {
     width: calc(33% - 1rem);
-    min-width: 300px;
+    width: 100%;
+    min-width: 200px;
   }
 }

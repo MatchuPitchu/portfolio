@@ -54,7 +54,7 @@
 }
 
 /* responsive navbar for mobile */
-@media all and (max-width: 600px) {
+@media all and (max-width: 576px) {
   .menu {
     gap: 0;
     height: auto;

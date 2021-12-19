@@ -33,8 +33,8 @@ const NavbarMenuItems = ({ isMenuOpen, closeMenuHandler: onClose }) => {
     return () => window.removeEventListener('resize', changeWidth);
   }, []);
 
-  // navbar is only shown if toggle is clicked or screen greater than 600px
-  if (isMenuOpen || screenWidth > 600)
+  // navbar is only shown if toggle is clicked or screen greater than 576px
+  if (isMenuOpen || screenWidth > 576)
     return (
       <ul className={classes.menu}>
         {paths.map((nav) => (

@@ -3,9 +3,9 @@ import KeyPoint from '../SVG/KeyPoint';
 import Card from '../UI/Card/Card';
 import List from '../UI/List/List';
 import H2Title from '../UI/Titles/H2Title';
+import H3Title from '../UI/Titles/H2Title';
 import ActivityPoint from '../UI/ActivityPoint/ActivityPoint';
 import classes from './CardOffers.module.css';
-import H3Title from '../UI/Titles/H2Title';
 
 const CardOffers = ({ offer }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -21,11 +21,10 @@ const CardOffers = ({ offer }) => {
         <H2Title>{offer.title}</H2Title>
       </div>
       <div className={classes.description}>
-        <p>Kurzbeschreibung</p>
+        <p>{offer.description}</p>
       </div>
       <div className={classes['activity-box']}>
-        <H3Title>Tätigkeitsbereiche</H3Title>
-
+        <H3Title>Bereiche</H3Title>
         {offer.activities.map((item, index) => (
           <ActivityPoint key={index} item={item} />
         ))}

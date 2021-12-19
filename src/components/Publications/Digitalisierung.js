@@ -23,15 +23,13 @@ const Digitalisierung = () => {
       </div>
       <div className={classes.content}>
         <h2>Digitalisierung und Nachhaltigkeit</h2>
-        <div className={classes.description}>
-          <p>
-            Im fünften Kapitel dieses Sammelbandes schreibe ich über das Themenfeld Digitalisierung,
-            Nachhaltigkeit und Hochschule. Als Fallbeispiel dient die Online-Plattform{' '}
-            <i>plattform n</i>, auf der sich Engagierte für mehr Nachhaltigkeit an Hochschulen
-            organisieren und austauschen. Die Plattform basiert umfänglich auf den Prinzipien Open
-            Source, Greent IT, Gemeinnützigkeit, Datenschutz und Privatsphäre.
-          </p>
-        </div>
+        <p>
+          Im fünften Kapitel dieses Sammelbandes schreibe ich über das Themenfeld Digitalisierung,
+          Nachhaltigkeit und Hochschule. Als Fallbeispiel dient die Online-Plattform{' '}
+          <i>plattform n</i>, auf der sich Engagierte für mehr Nachhaltigkeit an Hochschulen
+          organisieren und austauschen. Die Plattform basiert umfänglich auf den Prinzipien Open
+          Source, Greent IT, Gemeinnützigkeit, Datenschutz und Privatsphäre.
+        </p>
         <Tags tags={tags} />
         <ButtonsPublication
           url='https://www.researchgate.net/publication/346082640_Transformation_durch_Digitalisierung_gestalten_Die_plattform_n_als_Vernetzungs-_und_Kollaborationsplattform_fur_nachhaltige_Hochschulen'
