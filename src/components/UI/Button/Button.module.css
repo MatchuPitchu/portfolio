@@ -6,11 +6,11 @@
 
 .btn {
   font: inherit;
-  font-size: 1.15rem;
+  font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
   color: var(--color-primary);
-  width: 140px;
+  width: 105px;
   height: 50px;
   text-align: center;
   cursor: pointer;

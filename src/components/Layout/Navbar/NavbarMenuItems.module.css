@@ -88,4 +88,9 @@
   .menu .active {
     box-shadow: inset 40rem 0 0 0 var(--color-menu-items);
   }
+
+  .dropdown-content {
+    display: flex;
+    flex-flow: column;
+  }
 }

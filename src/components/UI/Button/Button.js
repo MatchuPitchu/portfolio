@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './Button.module.css';
 
-const width = '140';
+const width = '105';
 const height = '50';
 
 const Button = (props) => {
