@@ -14,7 +14,7 @@ const paths = [
         name: 'netzwerke',
       },
       { path: '/veroeffentlichungen/kulturpolitik', name: 'kulturpolitik' },
-      { path: '/veroeffentlichungen/bne', name: 'bne' },
+      { path: '/veroeffentlichungen/bne', name: 'bildung' },
     ],
   },
   { path: '/angebote', name: 'angebote' },
