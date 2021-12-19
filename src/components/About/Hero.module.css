@@ -10,6 +10,7 @@
   background: var(--bg-linear-gradient);
   background-size: 400% 400%;
   animation: background-gradient 20s ease infinite;
+  gap: 2rem;
 }
 
 @keyframes background-gradient {
@@ -85,6 +86,7 @@
 @media all and (max-width: 576px) {
   .hero {
     margin: 0;
+    padding: 0 0.5rem 7rem;
   }
 }
 
