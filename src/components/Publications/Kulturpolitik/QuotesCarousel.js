@@ -145,27 +145,29 @@ const QuotesCarousel = () => {
 
   return (
     <>
-      {findQuote.href && (
-        <a
-          href={findQuote.href}
-          target='_blank'
-          rel='noreferrer'
-          className={classes['slider-link']}
-        >
-          <Icon className={classes.mark} icon={['fa', 'external-link-alt']} />
-          Rezension
-        </a>
-      )}
-      <div className={classes['slider-btn']}>
-        <button className={classes.btn} onClick={prevSlide}>
-          <Icon icon={['fa', 'caret-left']} />
-        </button>
-        <div>
-          Zitat {index + 1} von {quotes.length}
+      <div className={classes['quotes-header']}>
+        {findQuote.href && (
+          <a
+            href={findQuote.href}
+            target='_blank'
+            rel='noreferrer'
+            className={classes['slider-link']}
+          >
+            <Icon className={classes.mark} icon={['fa', 'external-link-alt']} />
+            Rezension
+          </a>
+        )}
+        <div className={classes['slider-btn']}>
+          <button className={classes.btn} onClick={prevSlide}>
+            <Icon icon={['fa', 'caret-left']} />
+          </button>
+          <div>
+            Zitat {index + 1} von {quotes.length}
+          </div>
+          <button className={classes.btn} onClick={nextSlide}>
+            <Icon icon={['fa', 'caret-right']} />
+          </button>
         </div>
-        <button className={classes.btn} onClick={nextSlide}>
-          <Icon icon={['fa', 'caret-right']} />
-        </button>
       </div>
       {quotes.map((quote, i) => {
         if (i === index) {

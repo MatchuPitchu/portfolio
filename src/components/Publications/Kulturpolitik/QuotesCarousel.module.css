@@ -1,7 +1,19 @@
+.quotes-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media all and (max-width: 768px) {
+  .quotes-header {
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1rem;
+    height: 4rem;
+  }
+}
+
 .slider-link {
-  position: absolute;
-  top: 0;
-  left: 0;
   height: 1.5rem;
   border: none;
   background-color: var(--color-secondary);
@@ -16,7 +28,6 @@
   color: var(--color-text);
   z-index: 10;
   border-radius: var(--border-radius);
-  margin-left: 1rem;
   font-size: 0.8rem;
   font-weight: 600;
   transition: all 0.3s ease;
@@ -32,9 +43,6 @@
 }
 
 .slider-btn {
-  position: absolute;
-  top: 0;
-  right: 0;
   height: 1.5rem;
   display: flex;
   justify-content: space-between;
@@ -43,7 +51,6 @@
   z-index: 10;
   background-color: var(--color-tertiary);
   border-radius: var(--border-radius);
-  margin-right: 1rem;
   box-shadow: var(--box-shadow);
 }
 

@@ -166,13 +166,13 @@
     gap: 1rem;
   }
 
-  .quotes-box {
-    padding: 2rem 1rem 1rem 1rem;
-  }
-
   .card-theses {
     width: calc(33% - 1rem);
     width: 100%;
     min-width: 200px;
+  }
+
+  .quotes-box {
+    padding: 0;
   }
 }
