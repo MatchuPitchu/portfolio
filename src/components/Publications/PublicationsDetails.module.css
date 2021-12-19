@@ -101,6 +101,13 @@
   font-weight: bold;
 }
 
+@media all and (max-width: 576px) {
+  .container-customized {
+    padding: var(--padding-even-md);
+    border: 0;
+  }
+}
+
 @media all and (max-width: 768px) {
   .col-left {
     flex: 1 1 100%;

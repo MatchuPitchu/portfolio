@@ -55,7 +55,7 @@ const SuffizienzDetails = () => {
   const pageBackHandler = () => navigate('/veroeffentlichungen');
 
   return (
-    <Container>
+    <Container className={classes['container-customized']}>
       <div className={classes['buttons-box']}>
         <Button onClick={pageBackHandler}>Zurück</Button>
         <a
