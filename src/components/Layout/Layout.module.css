@@ -8,3 +8,9 @@
   min-height: 100vh;
   margin: 0 auto;
 }
+
+@media all and (max-width: 576px) {
+  .layout {
+    min-width: 100%;
+  }
+}

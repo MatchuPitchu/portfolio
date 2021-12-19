@@ -74,11 +74,18 @@
 
 .presentation {
   flex: 1 1 35%;
+  padding: var(--padding-even-md);
 }
 
 .images {
   flex: 1 1 45%;
   height: 300px;
+}
+
+@media all and (max-width: 576px) {
+  .hero {
+    margin: 0;
+  }
 }
 
 @media all and (max-width: 768px) {

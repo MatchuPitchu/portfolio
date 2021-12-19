@@ -4,4 +4,18 @@
 
 .description {
   flex: 100%;
+  padding: var(--padding-less-y);
+}
+
+.container-offers {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  height: 100%;
+}
+
+@media all and (max-width: 576px) {
+  .container-offers {
+    gap: 6rem;
+  }
 }

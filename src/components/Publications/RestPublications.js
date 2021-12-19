@@ -1,4 +1,5 @@
 import Card from '../UI/Card/Card';
+import H2Title from '../UI/Titles/H2Title';
 import StationPoint from '../UI/StationPoint/StationPoint';
 import classes from './Publications.module.css';
 
@@ -86,6 +87,7 @@ const restPublications = [
 const RestPublications = () => {
   return (
     <Card className={`${classes['card-customize']} ${classes['restPubs-customize']}`}>
+      <H2Title className={classes['h2-customize']}>Weitere Veröffentlichungen</H2Title>
       {restPublications.map((item, index) => (
         <StationPoint key={index} item={item} className={classes['rest-publication-box']} />
       ))}

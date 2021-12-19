@@ -30,11 +30,12 @@
     transform: rotate(90deg);
   }
   50% {
+    transform: rotate(360deg);
     color: var(--color-text);
   }
   100% {
     color: var(--color-primary-shade);
-    transform: rotate(360deg);
+    transform: rotate(90deg);
   }
 }
 

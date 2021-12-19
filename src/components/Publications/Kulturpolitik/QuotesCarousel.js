@@ -161,7 +161,7 @@ const QuotesCarousel = () => {
           <button className={classes.btn} onClick={prevSlide}>
             <Icon icon={['fa', 'caret-left']} />
           </button>
-          <div>
+          <div className={classes['slider-btn__text']}>
             Zitat {index + 1} von {quotes.length}
           </div>
           <button className={classes.btn} onClick={nextSlide}>

@@ -1,5 +1,5 @@
 import AnimatingItem from '../UI/CSSTransition/AnimatingItem';
-import H3Title from '../UI/Titles/H2Title';
+import H3Title from '../UI/Titles/H3Title';
 import classes from './Kompetenzen.module.css';
 
 import html5 from '../../assets/logos/logo-HTML5.svg';

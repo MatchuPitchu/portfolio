@@ -112,10 +112,12 @@ const Angebote = () => {
           mehr aktiv.
         </p>
       </div>
-      {offers.map((offer) => (
-        <CardOffers key={offer.id} offer={offer} />
-      ))}
-      <Map />
+      <div className={classes['container-offers']}>
+        {offers.map((offer) => (
+          <CardOffers key={offer.id} offer={offer} />
+        ))}
+        <Map />
+      </div>
     </Container>
   );
 };

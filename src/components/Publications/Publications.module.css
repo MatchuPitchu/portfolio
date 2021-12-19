@@ -71,6 +71,22 @@
   margin-left: 2rem;
 }
 
+.h2-customize {
+  padding: var(--padding-even-md);
+  margin: 1rem 0 0 0;
+}
+
+@media all and (max-width: 576px) {
+  .card-customize,
+  .restPubs-customize {
+    border-radius: 0;
+  }
+
+  .rest-publication-box {
+    margin-left: 1rem;
+  }
+}
+
 @media all and (max-width: 768px) {
   .rest-publication-box {
     flex: 1 1 100%;

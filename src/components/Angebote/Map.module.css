@@ -26,8 +26,9 @@
 
 .legend-items {
   display: flex;
+  flex-flow: row wrap;
   width: 100%;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .legend-item-customized {
@@ -59,7 +60,10 @@
   0% {
     transform: rotate(90deg);
   }
-  100% {
+  50% {
     transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(90deg);
   }
 }

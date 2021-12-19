@@ -3,7 +3,7 @@ import KeyPoint from '../SVG/KeyPoint';
 import Card from '../UI/Card/Card';
 import List from '../UI/List/List';
 import H2Title from '../UI/Titles/H2Title';
-import H3Title from '../UI/Titles/H2Title';
+import H3Title from '../UI/Titles/H3Title';
 import ActivityPoint from '../UI/ActivityPoint/ActivityPoint';
 import classes from './CardOffers.module.css';
 

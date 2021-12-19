@@ -12,3 +12,14 @@
   gap: 2rem;
   width: 100%;
 }
+
+@media all and (max-width: 576px) {
+  .center {
+    margin: 0 auto;
+  }
+
+  .container {
+    padding: 0;
+    gap: 0;
+  }
+}
