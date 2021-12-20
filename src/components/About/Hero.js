@@ -1,8 +1,8 @@
-import Images from './Images';
+import H1Title from '../UI/Titles/H1Title';
 import Container from '../Layout/Container';
+import Images from './Images';
 import Pointer from '../UI/Pointer/Pointer';
 import classes from './Hero.module.css';
-import H1Title from '../UI/Titles/H1Title';
 
 const Hero = () => {
   return (

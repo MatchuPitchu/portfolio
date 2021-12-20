@@ -6,7 +6,7 @@ const Datenschutz = () => {
   return (
     <Container className={classes['container-customized']}>
       <H1Title classTitle={classes['h1-title']}>Datenschutzerklärung</H1Title>
-      <div>
+      <section>
         <h2 className={classes.h2}>1. Datenschutz auf einen Blick</h2>
         <h3 className={classes.h3}>Allgemeine Hinweise</h3>
         <p>
@@ -64,8 +64,8 @@ const Datenschutz = () => {
           Detaillierte Informationen zu diesen Analyseprogrammen finden Sie in der folgenden
           Datenschutzerklärung.
         </p>
-      </div>
-      <div>
+      </section>
+      <section>
         <h2 className={classes.h2}>2. Hosting</h2>
         <h3 className={classes.h3}>Externes Hosting</h3>
         <p>
@@ -97,8 +97,8 @@ const Datenschutz = () => {
           <br />
           Datenschutzerklärung: https://www.netlify.com/privacy
         </p>
-      </div>
-      <div>
+      </section>
+      <section>
         <h2 className={classes.h2}>3. Allgemeine Hinweise und Pflicht&shy;informationen</h2>
         <h3 className={classes.h3}>Datenschutz</h3>
         <p>
@@ -292,172 +292,181 @@ const Datenschutz = () => {
           Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch
           Spam-E-Mails, vor.
         </p>
-      </div>
-      <h2 className={classes.h2}>4. Datenerfassung auf dieser Website</h2>
-      <h3 className={classes.h3}>Kontaktformular</h3>
-      <p>
-        Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem
-        Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der
-        Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir
-        nicht ohne Ihre Einwilligung weiter.
-      </p>
-      <p>
-        Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern
-        Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung
-        vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung
-        auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten
-        Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a
-        DSGVO) sofern diese abgefragt wurde.
-      </p>
-      <p>
-        Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis Sie uns zur
-        Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die
-        Datenspeicherung entfällt (z.B. nach abgeschlossener Bearbeitung Ihrer Anfrage). Zwingende
-        gesetzliche Bestimmungen &ndash; insbesondere Aufbewahrungsfristen &ndash; bleiben
-        unberührt.
-      </p>
-      <h3 className={classes.h3}>Anfrage per E-Mail, Telefon oder Telefax</h3>
-      <p>
-        Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage inklusive
-        aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der
-        Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet. Diese Daten geben wir nicht
-        ohne Ihre Einwilligung weiter.
-      </p>
-      <p>
-        Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern
-        Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung
-        vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung
-        auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten
-        Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a
-        DSGVO) sofern diese abgefragt wurde.
-      </p>
-      <p>
-        Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns
-        zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die
-        Datenspeicherung entfällt (z.B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende
-        gesetzliche Bestimmungen &ndash; insbesondere gesetzliche Aufbewahrungsfristen &ndash;
-        bleiben unberührt.
-      </p>
-      <h2 className={classes.h2}>5. Plugins und Tools</h2>
-      <h3 className={classes.h3}>YouTube mit erweitertem Datenschutz</h3>
-      <p>
-        Diese Website bindet Videos der YouTube ein. Betreiber der Seiten ist die Google Ireland
-        Limited ("Google"), Gordon House, Barrow Street, Dublin 4, Irland.
-      </p>
-      <p>
-        Wir nutzen YouTube im erweiterten Datenschutzmodus. Dieser Modus bewirkt laut YouTube, dass
-        YouTube keine Informationen über die Besucher auf dieser Website speichert, bevor diese sich
-        das Video ansehen. Die Weitergabe von Daten an YouTube-Partner wird durch den erweiterten
-        Datenschutzmodus hingegen nicht zwingend ausgeschlossen. So stellt YouTube &ndash;
-        unabhängig davon, ob Sie sich ein Video ansehen &ndash; eine Verbindung zum Google
-        DoubleClick-Netzwerk her.
-      </p>
-      <p>
-        Sobald Sie ein YouTube-Video auf dieser Website starten, wird eine Verbindung zu den Servern
-        von YouTube hergestellt. Dabei wird dem YouTube-Server mitgeteilt, welche unserer Seiten Sie
-        besucht haben. Wenn Sie in Ihrem YouTube-Account eingeloggt sind, ermöglichen Sie YouTube,
-        Ihr Surfverhalten direkt Ihrem persönlichen Profil zuzuordnen. Dies können Sie verhindern,
-        indem Sie sich aus Ihrem YouTube-Account ausloggen.
-      </p>
-      <p>
-        Des Weiteren kann YouTube nach Starten eines Videos verschiedene Cookies auf Ihrem Endgerät
-        speichern oder vergleichbare Wiedererkennungstechnologien (z.B. Device-Fingerprinting)
-        einsetzen. Auf diese Weise kann YouTube Informationen über Besucher dieser Website erhalten.
-        Diese Informationen werden u.a. verwendet, um Videostatistiken zu erfassen, die
-        Anwenderfreundlichkeit zu verbessern und Betrugsversuchen vorzubeugen.
-      </p>
-      <p>
-        Gegebenenfalls können nach dem Start eines YouTube-Videos weitere Datenverarbeitungsvorgänge
-        ausgelöst werden, auf die wir keinen Einfluss haben.
-      </p>
-      <p>
-        Die Nutzung von YouTube erfolgt im Interesse einer ansprechenden Darstellung unserer
-        Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f
-        DSGVO dar. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung
-        ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und &sect; 25 Abs. 1 TTDSG,
-        soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im
-        Endgerät des Nutzers (z.B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die
-        Einwilligung ist jederzeit widerrufbar.
-      </p>
-      <p>
-        Weitere Informationen über Datenschutz bei YouTube finden Sie in deren Datenschutzerklärung
-        unter:{' '}
-        <a
-          href='https://policies.google.com/privacy?hl=de'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          https://policies.google.com/privacy?hl=de
-        </a>
-        .
-      </p>
-      <h3 className={classes.h3}>Google Web Fonts</h3>
-      <p>
-        Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die
-        von Google bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten
-        Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen.
-      </p>
-      <p>
-        Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Google
-        aufnehmen. Hierdurch erlangt Google Kenntnis darüber, dass über Ihre IP-Adresse diese
-        Website aufgerufen wurde. Die Nutzung von Google WebFonts erfolgt auf Grundlage von Art. 6
-        Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der
-        einheitlichen Darstellung des Schriftbildes auf seiner Website. Sofern eine entsprechende
-        Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art.
-        6 Abs. 1 lit. a DSGVO und &sect; 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung
-        von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z.B.
-        Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit
-        widerrufbar.
-      </p>
-      <p>
-        Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer
-        genutzt.
-      </p>
-      <p>
-        Weitere Informationen zu Google Web Fonts finden Sie unter{' '}
-        <a href='https://developers.google.com/fonts/faq' target='_blank' rel='noopener noreferrer'>
-          https://developers.google.com/fonts/faq
-        </a>{' '}
-        und in der Datenschutzerklärung von Google:{' '}
-        <a
-          href='https://policies.google.com/privacy?hl=de'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          https://policies.google.com/privacy?hl=de
-        </a>
-        .
-      </p>
-      <h3 className={classes.h3}>Font Awesome</h3>
-      <p>
-        Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten und Symbolen Font Awesome.
-        Anbieter ist die Fonticons, Inc., 6 Porter Road Apartment 3R, Cambridge, Massachusetts, USA.
-      </p>
-      <p>
-        Beim Aufruf einer Seite lädt Ihr Browser die benötigten Fonts in ihren Browsercache, um
-        Texte, Schriftarten und Symbole korrekt anzuzeigen. Zu diesem Zweck muss der von Ihnen
-        verwendete Browser Verbindung zu den Servern von Font Awesome aufnehmen. Hierdurch erlangt
-        Font Awesome Kenntnis darüber, dass über Ihre IP-Adresse diese Website aufgerufen wurde. Die
-        Nutzung von Font Awesome erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir haben ein
-        berechtigtes Interesse an der einheitlichen Darstellung des Schriftbildes auf unserer
-        Website. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung
-        ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und &sect; 25 Abs. 1 TTDSG,
-        soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im
-        Endgerät des Nutzers (z.B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die
-        Einwilligung ist jederzeit widerrufbar.
-      </p>
-      <p>
-        Wenn Ihr Browser Font Awesome nicht unterstützt, wird eine Standardschrift von Ihrem
-        Computer genutzt.
-      </p>
-      <p>
-        Weitere Informationen zu Font Awesome finden Sieund in der Datenschutzerklärung von Font
-        Awesome unter:{' '}
-        <a href='https://fontawesome.com/privacy' target='_blank' rel='noopener noreferrer'>
-          https://fontawesome.com/privacy
-        </a>
-        .
-      </p>
+      </section>
+      <section>
+        <h2 className={classes.h2}>4. Datenerfassung auf dieser Website</h2>
+        <h3 className={classes.h3}>Kontaktformular</h3>
+        <p>
+          Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem
+          Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung
+          der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben
+          wir nicht ohne Ihre Einwilligung weiter.
+        </p>
+        <p>
+          Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern
+          Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung
+          vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die
+          Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns
+          gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs.
+          1 lit. a DSGVO) sofern diese abgefragt wurde.
+        </p>
+        <p>
+          Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis Sie uns zur
+          Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die
+          Datenspeicherung entfällt (z.B. nach abgeschlossener Bearbeitung Ihrer Anfrage). Zwingende
+          gesetzliche Bestimmungen &ndash; insbesondere Aufbewahrungsfristen &ndash; bleiben
+          unberührt.
+        </p>
+        <h3 className={classes.h3}>Anfrage per E-Mail, Telefon oder Telefax</h3>
+        <p>
+          Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage inklusive
+          aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der
+          Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet. Diese Daten geben wir
+          nicht ohne Ihre Einwilligung weiter.
+        </p>
+        <p>
+          Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern
+          Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung
+          vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die
+          Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns
+          gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs.
+          1 lit. a DSGVO) sofern diese abgefragt wurde.
+        </p>
+        <p>
+          Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns
+          zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für
+          die Datenspeicherung entfällt (z.B. nach abgeschlossener Bearbeitung Ihres Anliegens).
+          Zwingende gesetzliche Bestimmungen &ndash; insbesondere gesetzliche Aufbewahrungsfristen
+          &ndash; bleiben unberührt.
+        </p>
+      </section>
+      <section>
+        <h2 className={classes.h2}>5. Plugins und Tools</h2>
+        <h3 className={classes.h3}>YouTube mit erweitertem Datenschutz</h3>
+        <p>
+          Diese Website bindet Videos der YouTube ein. Betreiber der Seiten ist die Google Ireland
+          Limited ("Google"), Gordon House, Barrow Street, Dublin 4, Irland.
+        </p>
+        <p>
+          Wir nutzen YouTube im erweiterten Datenschutzmodus. Dieser Modus bewirkt laut YouTube,
+          dass YouTube keine Informationen über die Besucher auf dieser Website speichert, bevor
+          diese sich das Video ansehen. Die Weitergabe von Daten an YouTube-Partner wird durch den
+          erweiterten Datenschutzmodus hingegen nicht zwingend ausgeschlossen. So stellt YouTube
+          &ndash; unabhängig davon, ob Sie sich ein Video ansehen &ndash; eine Verbindung zum Google
+          DoubleClick-Netzwerk her.
+        </p>
+        <p>
+          Sobald Sie ein YouTube-Video auf dieser Website starten, wird eine Verbindung zu den
+          Servern von YouTube hergestellt. Dabei wird dem YouTube-Server mitgeteilt, welche unserer
+          Seiten Sie besucht haben. Wenn Sie in Ihrem YouTube-Account eingeloggt sind, ermöglichen
+          Sie YouTube, Ihr Surfverhalten direkt Ihrem persönlichen Profil zuzuordnen. Dies können
+          Sie verhindern, indem Sie sich aus Ihrem YouTube-Account ausloggen.
+        </p>
+        <p>
+          Des Weiteren kann YouTube nach Starten eines Videos verschiedene Cookies auf Ihrem
+          Endgerät speichern oder vergleichbare Wiedererkennungstechnologien (z.B.
+          Device-Fingerprinting) einsetzen. Auf diese Weise kann YouTube Informationen über Besucher
+          dieser Website erhalten. Diese Informationen werden u.a. verwendet, um Videostatistiken zu
+          erfassen, die Anwenderfreundlichkeit zu verbessern und Betrugsversuchen vorzubeugen.
+        </p>
+        <p>
+          Gegebenenfalls können nach dem Start eines YouTube-Videos weitere
+          Datenverarbeitungsvorgänge ausgelöst werden, auf die wir keinen Einfluss haben.
+        </p>
+        <p>
+          Die Nutzung von YouTube erfolgt im Interesse einer ansprechenden Darstellung unserer
+          Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f
+          DSGVO dar. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die
+          Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und &sect; 25
+          Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf
+          Informationen im Endgerät des Nutzers (z.B. Device-Fingerprinting) im Sinne des TTDSG
+          umfasst. Die Einwilligung ist jederzeit widerrufbar.
+        </p>
+        <p>
+          Weitere Informationen über Datenschutz bei YouTube finden Sie in deren
+          Datenschutzerklärung unter:{' '}
+          <a
+            href='https://policies.google.com/privacy?hl=de'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            https://policies.google.com/privacy?hl=de
+          </a>
+          .
+        </p>
+        <h3 className={classes.h3}>Google Web Fonts</h3>
+        <p>
+          Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts,
+          die von Google bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die
+          benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen.
+        </p>
+        <p>
+          Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Google
+          aufnehmen. Hierdurch erlangt Google Kenntnis darüber, dass über Ihre IP-Adresse diese
+          Website aufgerufen wurde. Die Nutzung von Google WebFonts erfolgt auf Grundlage von Art. 6
+          Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der
+          einheitlichen Darstellung des Schriftbildes auf seiner Website. Sofern eine entsprechende
+          Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von
+          Art. 6 Abs. 1 lit. a DSGVO und &sect; 25 Abs. 1 TTDSG, soweit die Einwilligung die
+          Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z.B.
+          Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit
+          widerrufbar.
+        </p>
+        <p>
+          Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer
+          genutzt.
+        </p>
+        <p>
+          Weitere Informationen zu Google Web Fonts finden Sie unter{' '}
+          <a
+            href='https://developers.google.com/fonts/faq'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            https://developers.google.com/fonts/faq
+          </a>{' '}
+          und in der Datenschutzerklärung von Google:{' '}
+          <a
+            href='https://policies.google.com/privacy?hl=de'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            https://policies.google.com/privacy?hl=de
+          </a>
+          .
+        </p>
+        <h3 className={classes.h3}>Font Awesome</h3>
+        <p>
+          Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten und Symbolen Font
+          Awesome. Anbieter ist die Fonticons, Inc., 6 Porter Road Apartment 3R, Cambridge,
+          Massachusetts, USA.
+        </p>
+        <p>
+          Beim Aufruf einer Seite lädt Ihr Browser die benötigten Fonts in ihren Browsercache, um
+          Texte, Schriftarten und Symbole korrekt anzuzeigen. Zu diesem Zweck muss der von Ihnen
+          verwendete Browser Verbindung zu den Servern von Font Awesome aufnehmen. Hierdurch erlangt
+          Font Awesome Kenntnis darüber, dass über Ihre IP-Adresse diese Website aufgerufen wurde.
+          Die Nutzung von Font Awesome erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir
+          haben ein berechtigtes Interesse an der einheitlichen Darstellung des Schriftbildes auf
+          unserer Website. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die
+          Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und &sect; 25
+          Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf
+          Informationen im Endgerät des Nutzers (z.B. Device-Fingerprinting) im Sinne des TTDSG
+          umfasst. Die Einwilligung ist jederzeit widerrufbar.
+        </p>
+        <p>
+          Wenn Ihr Browser Font Awesome nicht unterstützt, wird eine Standardschrift von Ihrem
+          Computer genutzt.
+        </p>
+        <p>
+          Weitere Informationen zu Font Awesome finden Sieund in der Datenschutzerklärung von Font
+          Awesome unter:{' '}
+          <a href='https://fontawesome.com/privacy' target='_blank' rel='noopener noreferrer'>
+            https://fontawesome.com/privacy
+          </a>
+          .
+        </p>
+      </section>
       <p>
         Quelle: <a href='https://www.e-recht24.de'>https://www.e-recht24.de</a>
       </p>

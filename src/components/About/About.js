@@ -7,6 +7,7 @@ import Education from './Education';
 import Awards from './Awards';
 import Involvement from './Involvement';
 import classes from './About.module.css';
+import H2Title from '../UI/Titles/H2Title';
 
 const About = () => {
   const [isOpen, setIsOpen] = useState({
@@ -70,7 +71,14 @@ const About = () => {
     // id for scroll btn
     <section className={classes.section} id='tabs'>
       <Container className={classes.container}>
-        <span className={classes.anchor} />
+        <div>
+          <H2Title className={classes['h2-customized']}>Profil</H2Title>
+          <p className={classes.p}>
+            Die untere Übersicht gibt einen Einblick in meinen Werdegang. Sie fasst die fachlichen
+            Bereiche zusammen, in denen ich mich wohlfühle und die ich mit meinen haupt- und
+            freiberuflichen Tätigkeiten mitgestalten möchte.
+          </p>
+        </div>
         <Card>
           <ul className={classes.tabs}>
             <li className={isOpen.skills ? classes.active : ''} onClick={onClickHandler}>
@@ -92,7 +100,7 @@ const About = () => {
               className={isOpen.awards ? classes.active : ''}
               onClick={() => onClickHandler('awards')}
             >
-              Stipendien & Auszeichnungen
+              Auszeichnungen
             </li>
             <li
               className={isOpen.involvement ? classes.active : ''}

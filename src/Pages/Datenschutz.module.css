@@ -1,8 +1,7 @@
 .container-customized {
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  gap: 0.5rem;
+  gap: 2rem;
   color: var(--color-text-shade);
 }
 
@@ -11,11 +10,18 @@
 .h3,
 .h4 {
   color: var(--color-text);
+  font-weight: 600;
   -moz-hyphens: auto;
   -o-hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+}
+
+.h2,
+.h3,
+.h4 {
+  font-size: 1rem;
 }
 
 .bold {
