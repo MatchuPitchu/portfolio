@@ -30,6 +30,8 @@ import KulturpolitikDetails from './components/Publications/Kulturpolitik/Kultur
 import BNEDetails from './components/Publications/BNEDetails';
 import Angebote from './Pages/Angebote';
 import Kontakt from './Pages/Kontakt';
+import Datenschutz from './Pages/Datenschutz';
+import Impressum from './Pages/Impressum';
 import Footer from './components/Layout/Footer';
 import ScrollToTopButton from './components/ScrollToTopButton';
 
@@ -76,6 +78,8 @@ const App = () => {
             <Route path='/veroeffentlichungen/bne' element={<BNEDetails />} />
             <Route path='/angebote' element={<Angebote />} />
             <Route path='/kontakt' element={<Kontakt />} />
+            <Route path='/datenschutz/' element={<Datenschutz />} />
+            <Route path='/impressum/' element={<Impressum />} />
           </Routes>
         </main>
         <Footer />

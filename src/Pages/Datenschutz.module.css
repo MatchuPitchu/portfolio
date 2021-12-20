@@ -1,0 +1,30 @@
+.container-customized {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  color: var(--color-text-shade);
+}
+
+.h1-title,
+.h2,
+.h3,
+.h4 {
+  color: var(--color-text);
+  -moz-hyphens: auto;
+  -o-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+@media all and (max-width: 576px) {
+  .container-customized {
+    border: 0;
+    padding: var(--padding-even-sm);
+  }
+}

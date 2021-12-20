@@ -1,4 +1,5 @@
 import { useContext } from 'react';
+import { NavLink } from 'react-router-dom';
 import { ThemeContext } from '../../store/ThemeContext';
 import classes from './Footer.module.css';
 
@@ -26,6 +27,14 @@ const Footer = () => {
         <a href='https://github.com/MatchuPitchu' rel='noreferrer' target='_blank'>
           <img className={classes.logo} src={isLight ? github : githubDark} alt='Logo GitHub' />
         </a>
+      </div>
+      <div className={classes['navlinks-box']}>
+        <NavLink className={classes.navlink} to='/datenschutz'>
+          Datenschutz
+        </NavLink>
+        <NavLink className={classes.navlink} to='/impressum'>
+          Impressum
+        </NavLink>
       </div>
       <p className={classes.copyright}>
         Built with passion and React
