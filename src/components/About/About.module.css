@@ -7,6 +7,7 @@
   background: var(--bg-linear-gradient);
   background-size: 400% 400%;
   animation: background-gradient 20s ease infinite;
+  scroll-margin-top: 30px; /* to avoid cut off with sticky navbar on top */
 }
 
 @keyframes background-gradient {
