@@ -32,6 +32,7 @@ import Angebote from './Pages/Angebote';
 import Kontakt from './Pages/Kontakt';
 import Datenschutz from './Pages/Datenschutz';
 import Impressum from './Pages/Impressum';
+import NotFound from './Pages/NotFound';
 import Footer from './components/Layout/Footer';
 import ScrollToTopButton from './components/ScrollToTopButton';
 
@@ -80,6 +81,7 @@ const App = () => {
             <Route path='/kontakt' element={<Kontakt />} />
             <Route path='/datenschutz/' element={<Datenschutz />} />
             <Route path='/impressum/' element={<Impressum />} />
+            <Route path='*' element={<NotFound />} />
           </Routes>
         </main>
         <Footer />
