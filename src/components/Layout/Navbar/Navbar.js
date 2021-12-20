@@ -24,7 +24,13 @@ const Navigation = () => {
   return (
     <nav className={classes.navbar}>
       <div className={classes.container}>
-        <Link to='/' onClick={scrollToTop}>
+        <Link
+          to='/'
+          onClick={() => {
+            scrollToTop();
+            closeMenuHandler();
+          }}
+        >
           <Icon className={classes.icon} icon={isLight ? ['fa', 'sun'] : ['fa', 'moon']} />
         </Link>
         <SwitchBtn />
