@@ -5,7 +5,9 @@ const Pointer = ({ to }) => {
   return (
     <HashLink smooth to={to} className={classes.scroll}>
       <div className={classes.pointer}>
-        <span></span>
+        <span className={classes.inner} />
+        {/* only for accessibility for screenreaders */}
+        <span className='sr-only'>Home</span>
       </div>
     </HashLink>
   );

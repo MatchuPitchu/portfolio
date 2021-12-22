@@ -32,6 +32,8 @@ const Navigation = () => {
           }}
         >
           <Icon className={classes.icon} icon={isLight ? ['fa', 'sun'] : ['fa', 'moon']} />
+          {/* only for accessibility for screenreaders */}
+          <span className='sr-only'>Home</span>
         </Link>
         <SwitchBtn />
         <NavbarMenuBtn onToggleMenu={toggleMenuHandler} isMenuOpen={isMenuOpen} />

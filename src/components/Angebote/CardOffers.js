@@ -32,7 +32,11 @@ const CardOffers = ({ offer }) => {
       </div>
       <div className={classes.references}>
         <H3Title>Referenzen</H3Title>
-        <button onClick={handleExpandClick} aria-expanded={isExpanded}>
+        <button
+          onClick={handleExpandClick}
+          aria-expanded={isExpanded}
+          aria-label='expand references'
+        >
           <svg
             className={isExpanded ? classes['rotate-open'] : classes['rotate-closed']}
             focusable='false'

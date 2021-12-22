@@ -8,12 +8,12 @@ const ButtonsPublication = ({ url, path }) => {
     <div className={classes.buttons}>
       <div>
         <Link to={path}>
-          <Button>Mehr Infos</Button>
+          <Button ariaLabel='more information'>Mehr Infos</Button>
         </Link>
       </div>
       <div>
         <a href={url} target='_blank' rel='noreferrer'>
-          <Button>Link</Button>
+          <Button ariaLabel='link'>Link</Button>
         </a>
       </div>
     </div>

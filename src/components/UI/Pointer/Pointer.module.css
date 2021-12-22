@@ -14,7 +14,7 @@
   background-color: var(--color-bg-items-primary);
 }
 
-.pointer span {
+.inner {
   height: 1rem;
   width: 1rem;
   border-right: 3px solid var(--color-primary);

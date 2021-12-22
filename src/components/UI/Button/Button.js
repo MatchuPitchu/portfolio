@@ -13,6 +13,7 @@ const Button = (props) => {
         className={`${classes.btn} ${props.className}`}
         onClick={props.onClick}
         disabled={props.disabled}
+        aria-label={props.ariaLabel}
       >
         <svg width={`${width}px`} height={`${height}px`} viewBox={`0 0 ${width} ${height}`}>
           <polyline

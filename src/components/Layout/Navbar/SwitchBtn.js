@@ -9,6 +9,7 @@ const SwitchBtn = () => {
     <button
       onClick={handleStyleMode}
       className={`${classes.switch} ${isLight ? '' : classes.night}`}
+      aria-label='toggle dark light mode'
     >
       <div className={classes.moon}>
         <div className={classes.crater} />

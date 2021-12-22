@@ -44,13 +44,15 @@ const NetzwerkeDetails = () => {
   return (
     <Container className={classes['container-customized']}>
       <div className={classes['buttons-box']}>
-        <Button onClick={pageBackHandler}>Zurück</Button>
+        <Button onClick={pageBackHandler} ariaLabel='back'>
+          Zurück
+        </Button>
         <a
           href='https://www.researchgate.net/publication/331894285_Nachhaltigkeitsnetzwerke_an_Hochschulen_Die_transformative_Kraft_von_Verbindungen'
           target='_blank'
           rel='noreferrer'
         >
-          <Button>Download</Button>
+          <Button ariaLabel='download'>Download</Button>
         </a>
       </div>
       <Section>

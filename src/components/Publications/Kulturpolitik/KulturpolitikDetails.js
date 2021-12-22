@@ -87,13 +87,15 @@ const KulturpolitikDetails = () => {
   return (
     <Container className={classes['container-customized']}>
       <div className={classes['buttons-box']}>
-        <Button onClick={pageBackHandler}>Zurück</Button>
+        <Button onClick={pageBackHandler} ariaLabel='back'>
+          Zurück
+        </Button>
         <a
           href='https://www.transcript-verlag.de/shopMedia/openaccess/pdf/oa9783839442555.pdf'
           target='_blank'
           rel='noreferrer'
         >
-          <Button>Download</Button>
+          <Button ariaLabel='download'>Download</Button>
         </a>
       </div>
       <Section>

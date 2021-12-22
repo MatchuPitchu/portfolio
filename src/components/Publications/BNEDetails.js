@@ -12,13 +12,15 @@ const BNEDetails = () => {
   return (
     <Container className={classes['container-customized']}>
       <div className={classes['buttons-box']}>
-        <Button onClick={pageBackHandler}>Zurück</Button>
+        <Button onClick={pageBackHandler} ariaLabel='back'>
+          Zurück
+        </Button>
         <a
           href='https://www.researchgate.net/publication/321193032_Un-bezahlbar_un-zahlbar_Die_staatliche_Forderung_der_ausserschulischen_Bildung_fur_nachhaltige_Entwicklung_in_Deutschland_im_Zeitraum_2011_bis_2016'
           target='_blank'
           rel='noreferrer'
         >
-          <Button>Download</Button>
+          <Button ariaLabel='download'>Download</Button>
         </a>
       </div>
       <Section>

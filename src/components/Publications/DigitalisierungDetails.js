@@ -12,13 +12,15 @@ const DigitalisierungsDetails = () => {
   return (
     <Container className={classes['container-customized']}>
       <div className={classes['buttons-box']}>
-        <Button onClick={pageBackHandler}>Zurück</Button>
+        <Button onClick={pageBackHandler} ariaLabel='back'>
+          Zurück
+        </Button>
         <a
           href='https://www.researchgate.net/publication/346082640_Transformation_durch_Digitalisierung_gestalten_Die_plattform_n_als_Vernetzungs-_und_Kollaborationsplattform_fur_nachhaltige_Hochschulen'
           target='_blank'
           rel='noreferrer'
         >
-          <Button>Link</Button>
+          <Button ariaLabel='link'>Link</Button>
         </a>
       </div>
       <Section>

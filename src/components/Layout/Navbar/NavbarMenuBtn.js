@@ -5,6 +5,7 @@ const NavbarMenuBtn = ({ onToggleMenu, isMenuOpen }) => {
     <button
       className={`${classes['menu-btn']} ${isMenuOpen ? classes.open : ''}`}
       onClick={onToggleMenu}
+      aria-label='toggle navigation menu'
     >
       <div className={classes['bar-one']} />
       <div className={classes['bar-two']} />

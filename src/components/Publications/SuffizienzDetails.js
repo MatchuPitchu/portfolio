@@ -57,13 +57,15 @@ const SuffizienzDetails = () => {
   return (
     <Container className={classes['container-customized']}>
       <div className={classes['buttons-box']}>
-        <Button onClick={pageBackHandler}>Zurück</Button>
+        <Button onClick={pageBackHandler} ariaLabel='back'>
+          Zurück
+        </Button>
         <a
           href='https://www.researchgate.net/publication/342991904_Suffizienz_an_Hochschulen_im_landlichen_Raum'
           target='_blank'
           rel='noreferrer'
         >
-          <Button>Download</Button>
+          <Button ariaLabel='download'>Download</Button>
         </a>
       </div>
       <Section className={classes.row}>
