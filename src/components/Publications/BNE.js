@@ -1,9 +1,11 @@
 import Card from '../UI/Card/Card';
 import ButtonsPublication from './ButtonsPublication';
 import Tags from '../UI/Tags/Tags';
+import ImgWithFallback from '../ImgWithFallback';
 import classes from './Publications.module.css';
 
-import coverBNE from '../../assets/Cover Flohr 2017 Studie Staatliche Förderung außerschulischer BNE in Deutschland.jpg';
+import coverBNEJPG from '../../assets/Cover Flohr 2017 Studie Staatliche Förderung außerschulischer BNE in Deutschland.jpg';
+import coverBNEWEBP from '../../assets/webp/Cover Flohr 2017 Studie Staatliche Förderung außerschulischer BNE in Deutschland.webp';
 
 const tags = [
   'Bildung für nachhaltige Entwicklung',
@@ -18,8 +20,9 @@ const BNE = () => {
   return (
     <Card className={classes['card-customize']}>
       <div className={classes.cover}>
-        <img
-          src={coverBNE}
+        <ImgWithFallback
+          src={coverBNEWEBP}
+          fallback={coverBNEJPG}
           alt='Die staatliche Förderung der außerschulischen BNE in Deutschland'
         />
       </div>

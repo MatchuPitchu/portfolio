@@ -1,9 +1,11 @@
 import Card from '../UI/Card/Card';
 import ButtonsPublication from './ButtonsPublication';
 import Tags from '../UI/Tags/Tags';
+import ImgWithFallback from '../ImgWithFallback';
 import classes from './Publications.module.css';
 
-import coverSuffizienz from '../../assets/Cover Flohr & Markus 2020 Suffizienz an Hochschulen im ländlichen Raum.png';
+import coverSuffizienzJPG from '../../assets/Cover Flohr & Markus 2020 Suffizienz an Hochschulen im ländlichen Raum.png';
+import coverSuffizienzWEBP from '../../assets/webp/Cover Flohr & Markus 2020 Suffizienz an Hochschulen im ländlichen Raum.webp';
 
 const tags = [
   'Suffizienz',
@@ -19,7 +21,11 @@ const Suffizienz = () => {
   return (
     <Card className={classes['card-customize']}>
       <div className={classes.cover}>
-        <img src={coverSuffizienz} alt='Suffizienz an Hochschulen im ländlichen Raum' />
+        <ImgWithFallback
+          src={coverSuffizienzWEBP}
+          fallback={coverSuffizienzJPG}
+          alt='Suffizienz an Hochschulen im ländlichen Raum'
+        />
       </div>
       <div className={classes.content}>
         <h2>Suffizienz an Hochschulen im ländlichen Raum</h2>

@@ -1,9 +1,11 @@
 import Card from '../UI/Card/Card';
 import ButtonsPublication from './ButtonsPublication';
 import Tags from '../UI/Tags/Tags';
+import ImgWithFallback from '../ImgWithFallback';
 import classes from './Publications.module.css';
 
-import coverNachhaltigkeitsnetzwerke from '../../assets/Cover Flohr 2019 Nachhaltigkeitsnetzwerke von Hochschulinitiativen.jpg';
+import coverNachhaltigkeitsnetzwerkeJPG from '../../assets/Cover Flohr 2019 Nachhaltigkeitsnetzwerke von Hochschulinitiativen.jpg';
+import coverNachhaltigkeitsnetzwerkeWEBP from '../../assets/webp/Cover Flohr 2019 Nachhaltigkeitsnetzwerke von Hochschulinitiativen.webp';
 
 const tags = ['Netzwerke', 'Vernetzung', 'Nachhaltigkeit', 'Hochschule', 'Explorativ'];
 
@@ -11,7 +13,11 @@ const Netzwerke = () => {
   return (
     <Card className={classes['card-customize']}>
       <div className={classes.cover} id='test'>
-        <img src={coverNachhaltigkeitsnetzwerke} alt='Nachhaltigkeitsnetzwerke an Hochschulen' />
+        <ImgWithFallback
+          src={coverNachhaltigkeitsnetzwerkeWEBP}
+          fallback={coverNachhaltigkeitsnetzwerkeJPG}
+          alt='Nachhaltigkeitsnetzwerke an Hochschulen'
+        />
       </div>
       <div className={classes.content}>
         <h2>Netzwerke für die nachhaltige Entwicklung an Hochschulen</h2>

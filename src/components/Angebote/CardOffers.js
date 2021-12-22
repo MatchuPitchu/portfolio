@@ -5,6 +5,7 @@ import List from '../UI/List/List';
 import H2Title from '../UI/Titles/H2Title';
 import H3Title from '../UI/Titles/H3Title';
 import ActivityPoint from '../UI/ActivityPoint/ActivityPoint';
+import ImgWithFallback from '../ImgWithFallback';
 import classes from './CardOffers.module.css';
 
 const CardOffers = ({ offer }) => {
@@ -15,7 +16,7 @@ const CardOffers = ({ offer }) => {
   return (
     <Card className={classes['card-customize']}>
       <div className={classes.image}>
-        <img src={offer.image} alt={offer.title} />
+        <ImgWithFallback src={offer.imageSrc} fallback={offer.imageFallback} alt={offer.title} />
       </div>
       <div className={classes['card-header']}>
         <H2Title>{offer.title}</H2Title>

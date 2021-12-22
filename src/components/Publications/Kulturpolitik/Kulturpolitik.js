@@ -1,9 +1,11 @@
 import ButtonsPublication from '../ButtonsPublication';
 import Card from '../../UI/Card/Card';
 import Tags from '../../UI/Tags/Tags';
+import ImgWithFallback from '../../ImgWithFallback';
 import classes from '../Publications.module.css';
 
-import coverKulturpolitik from '../../../assets/Cover Flohr 2018 Kulturpolitik in Thüringen.jpg';
+import coverKulturpolitikJPG from '../../../assets/Cover Flohr 2018 Kulturpolitik in Thüringen.jpg';
+import coverKulturpolitikWEBP from '../../../assets/webp/Cover Flohr 2018 Kulturpolitik in Thüringen.webp';
 
 const tags = [
   'Kulturpolitik',
@@ -24,7 +26,11 @@ const Kulturpolitik = () => {
   return (
     <Card className={classes['card-customize']}>
       <div className={classes.cover}>
-        <img src={coverKulturpolitik} alt='Kulturpolitik in Thüringen' />
+        <ImgWithFallback
+          src={coverKulturpolitikWEBP}
+          fallback={coverKulturpolitikJPG}
+          alt='Kulturpolitik in Thüringen'
+        />
       </div>
       <div className={classes.content}>
         <h2>Kulturpolitik in Thüringen</h2>

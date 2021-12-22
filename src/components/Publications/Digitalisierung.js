@@ -1,9 +1,11 @@
 import ButtonsPublication from './ButtonsPublication';
 import Card from '../UI/Card/Card';
 import Tags from '../UI/Tags/Tags';
+import ImgWithFallback from '../ImgWithFallback';
 import classes from './Publications.module.css';
 
-import coverTransformation from '../../assets/Cover Flohr 2021 Digitalisierung und Nachhaltigkeit 2021 978-3-662-61534-8.jpg';
+import coverTransformationJPG from '../../assets/Cover Flohr 2021 Digitalisierung und Nachhaltigkeit 2021 978-3-662-61534-8.jpg';
+import coverTransformationWEBP from '../../assets/webp/Cover Flohr 2021 Digitalisierung und Nachhaltigkeit 2021 978-3-662-61534-8.webp';
 
 const tags = [
   'Nachhaltigkeit',
@@ -19,7 +21,11 @@ const Digitalisierung = () => {
   return (
     <Card className={classes['card-customize']}>
       <div className={classes.cover}>
-        <img src={coverTransformation} alt='Transformation durch Digitalisierung gestalten' />
+        <ImgWithFallback
+          src={coverTransformationWEBP}
+          fallback={coverTransformationJPG}
+          alt='Transformation durch Digitalisierung gestalten'
+        />
       </div>
       <div className={classes.content}>
         <h2>Digitalisierung und Nachhaltigkeit</h2>
