@@ -1,0 +1,29 @@
+.container-customized {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+@media all and (max-width: 576px) {
+  .container-customized {
+    border: 0;
+    padding: var(--padding-even-sm);
+  }
+}
+
+.a {
+  user-select: none;
+  text-decoration: none;
+  color: var(--color-text-shade);
+  font-weight: 500;
+  padding: 0.3rem 1rem;
+  box-shadow: inset 0 -1.1rem 0 0 var(--color-menu-items);
+  transition: all 0.3s ease-out;
+}
+
+.a:hover,
+.a:active {
+  box-shadow: inset 0 -2.2rem 0 0 var(--color-menu-items);
+  transition: all 0.3s ease-out;
+}
