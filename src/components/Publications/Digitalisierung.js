@@ -22,6 +22,7 @@ const Digitalisierung = () => {
     <Card className={classes['card-customize']}>
       <div className={classes.cover}>
         <ImgWithFallback
+          className={classes['cover__img']}
           src={coverTransformationWEBP}
           fallback={coverTransformationJPG}
           alt='Transformation durch Digitalisierung gestalten'

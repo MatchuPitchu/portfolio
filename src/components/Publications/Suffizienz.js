@@ -22,6 +22,7 @@ const Suffizienz = () => {
     <Card className={classes['card-customize']}>
       <div className={classes.cover}>
         <ImgWithFallback
+          className={classes['cover__img']}
           src={coverSuffizienzWEBP}
           fallback={coverSuffizienzJPG}
           alt='Suffizienz an Hochschulen im ländlichen Raum'

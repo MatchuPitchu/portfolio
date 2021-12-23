@@ -27,6 +27,7 @@ const Kulturpolitik = () => {
     <Card className={classes['card-customize']}>
       <div className={classes.cover}>
         <ImgWithFallback
+          className={classes['cover__img']}
           src={coverKulturpolitikWEBP}
           fallback={coverKulturpolitikJPG}
           alt='Kulturpolitik in Thüringen'

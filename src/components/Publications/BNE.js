@@ -21,6 +21,7 @@ const BNE = () => {
     <Card className={classes['card-customize']}>
       <div className={classes.cover}>
         <ImgWithFallback
+          className={classes['cover__img']}
           src={coverBNEWEBP}
           fallback={coverBNEJPG}
           alt='Die staatliche Förderung der außerschulischen BNE in Deutschland'

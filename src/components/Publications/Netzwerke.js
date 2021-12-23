@@ -12,8 +12,9 @@ const tags = ['Netzwerke', 'Vernetzung', 'Nachhaltigkeit', 'Hochschule', 'Explor
 const Netzwerke = () => {
   return (
     <Card className={classes['card-customize']}>
-      <div className={classes.cover} id='test'>
+      <div className={classes.cover}>
         <ImgWithFallback
+          className={classes['cover__img']}
           src={coverNachhaltigkeitsnetzwerkeWEBP}
           fallback={coverNachhaltigkeitsnetzwerkeJPG}
           alt='Nachhaltigkeitsnetzwerke an Hochschulen'
