@@ -107,7 +107,7 @@ const offers = [
 
 const Angebote = () => {
   return (
-    <Container>
+    <Container className={classes['container-customized']}>
       <div className={classes.description}>
         <H1Title classTitle={classes.title}>Angebote</H1Title>
         <p>

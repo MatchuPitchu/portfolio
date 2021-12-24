@@ -36,13 +36,10 @@ const NavbarMenuItems = ({ isMenuOpen, onClose }) => {
   // navbar is only shown if toggle is clicked or screen greater than 576px
   if (isMenuOpen || screenWidth > 576)
     return (
-      <ul className={classes.menu}>
+      <ul className={classes['menu-items']}>
         {paths.map((nav) => (
           <li key={nav.name} className={classes.dropdown} onClick={onClose}>
-            <NavLink
-              className={(navData) => (navData.isActive ? classes.active : '')}
-              to={nav.path}
-            >
+            <NavLink className={({ isActive }) => (isActive ? classes.active : '')} to={nav.path}>
               {nav.name}
             </NavLink>
             {nav.subpath && (
@@ -51,7 +48,7 @@ const NavbarMenuItems = ({ isMenuOpen, onClose }) => {
                   <NavLink
                     onClick={onClose}
                     key={subNav.name}
-                    className={(navData) => (navData.isActive ? classes.active : '')}
+                    className={({ isActive }) => (isActive ? classes.active : '')}
                     to={subNav.path}
                   >
                     {subNav.name}

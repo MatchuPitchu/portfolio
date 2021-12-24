@@ -53,7 +53,6 @@
 }
 
 .navlink {
-  text-decoration: none;
   color: var(--color-text-shade);
   font-weight: 500;
   padding: 0.3rem 1rem;

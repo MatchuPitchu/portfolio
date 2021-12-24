@@ -15,6 +15,9 @@
 }
 
 @media all and (max-width: 576px) {
+  .container-customized {
+    border: 0;
+  }
   .container-offers {
     gap: 6rem;
   }

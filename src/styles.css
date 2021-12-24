@@ -139,8 +139,12 @@ p {
   margin: 0.5rem 0;
 }
 
-p a {
+a {
   text-decoration: none;
+  color: inherit;
+}
+
+p a {
   color: var(--color-text);
   box-shadow: inset 0 -0.5rem 0 0 var(--color-tertiary);
   transition: all 0.3s ease-out;

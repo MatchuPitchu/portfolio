@@ -23,20 +23,25 @@ const Navigation = () => {
 
   return (
     <nav className={classes.navbar}>
-      <div className={classes.container}>
-        <Link
-          to='/'
-          onClick={() => {
-            scrollToTop();
-            closeMenuHandler();
-          }}
-        >
-          <Icon className={classes.icon} icon={isLight ? ['fa', 'sun'] : ['fa', 'moon']} />
-          {/* only for accessibility for screenreaders */}
-          <span className='sr-only'>Home</span>
-        </Link>
-        <SwitchBtn />
-        <NavbarMenuBtn onToggleMenu={toggleMenuHandler} isMenuOpen={isMenuOpen} />
+      <div className={classes['navbar__container']}>
+        <div className={classes['navbar__btns-box']}>
+          <Link
+            to='/'
+            onClick={() => {
+              scrollToTop();
+              closeMenuHandler();
+            }}
+          >
+            <Icon
+              className={classes['navbar__icon']}
+              icon={isLight ? ['fa', 'sun'] : ['fa', 'moon']}
+            />
+            {/* only for accessibility for screenreaders */}
+            <span className='sr-only'>Home</span>
+          </Link>
+          <SwitchBtn />
+          <NavbarMenuBtn onToggleMenu={toggleMenuHandler} isMenuOpen={isMenuOpen} />
+        </div>
         <NavbarMenuItems onClose={closeMenuHandler} isMenuOpen={isMenuOpen} />
       </div>
     </nav>

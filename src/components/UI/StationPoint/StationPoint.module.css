@@ -51,9 +51,7 @@
 }
 
 .link {
-  text-decoration: none;
   margin-left: 0.5rem;
-  color: inherit;
 }
 
 .link:hover {
