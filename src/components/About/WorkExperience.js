@@ -23,7 +23,7 @@ const workExperience = [
     content: `Politikberatung, Begabtenförderung, ÖA, Veranstaltungsorganisation`,
   },
   {
-    date: 'November 2021 - Dezember 2014',
+    date: 'November 2012 - Dezember 2014',
     title: 'Geschäftsführung',
     organization: 'Pro Gallica und Russica e.V., Weimar',
     content: `Buchrestaurierung Klassik Stiftung Weimar/Herzogin Anna Amalia Bibliothek, Fundraising, Öffentlichkeitsarbeit für Bücher französischer Provenienz`,
