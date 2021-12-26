@@ -17,7 +17,6 @@
 
 .cover__img {
   object-fit: contain;
-  height: 100%;
   width: auto;
   max-width: 280px;
   transition: all 0.2s ease-out;
