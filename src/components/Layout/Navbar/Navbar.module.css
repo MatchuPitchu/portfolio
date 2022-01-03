@@ -3,7 +3,6 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
   background-color: var(--color-bg-navbar);
   box-shadow: var(--box-shadow);
   z-index: 10;
@@ -47,6 +46,13 @@
 }
 
 @media all and (max-width: 576px) {
+  .navbar {
+    position: relative;
+    top: auto;
+    left: auto;
+    height: auto;
+  }
+
   .navbar__container {
     flex-flow: row wrap;
   }

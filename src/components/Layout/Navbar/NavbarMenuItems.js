@@ -26,8 +26,7 @@ const NavbarMenuItems = ({ isMenuOpen, onClose }) => {
 
   useEffect(() => {
     // create fn that's called every time window is shrunk or widened
-    // thanks to event listener that is added -> now, whenever window size changes,
-    // state of component is updated
+    // event listener makes that whenever window size changes, state is updated
     const changeWidth = () => setScreenWidth(window.innerWidth);
     window.addEventListener('resize', changeWidth);
     return () => window.removeEventListener('resize', changeWidth);

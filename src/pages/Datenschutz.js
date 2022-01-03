@@ -396,21 +396,10 @@ const Datenschutz = () => {
         </p>
         <h3 className={classes.h3}>Google Web Fonts</h3>
         <p>
-          Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts,
-          die von Google bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die
-          benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen.
-        </p>
-        <p>
-          Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Google
-          aufnehmen. Hierdurch erlangt Google Kenntnis darüber, dass über Ihre IP-Adresse diese
-          Website aufgerufen wurde. Die Nutzung von Google WebFonts erfolgt auf Grundlage von Art. 6
-          Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der
-          einheitlichen Darstellung des Schriftbildes auf seiner Website. Sofern eine entsprechende
-          Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von
-          Art. 6 Abs. 1 lit. a DSGVO und &sect; 25 Abs. 1 TTDSG, soweit die Einwilligung die
-          Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z.B.
-          Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit
-          widerrufbar.
+          Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten sogenannte Web Fonts, die
+          von Google bereitgestellt werden. Die Google Fonts werden lokal gehostet, also auf einem
+          von Google unabhängigen Webserver. Dadurch besteht keine Verbindung zu einem Google Server
+          und somit findet auch keine Datenübertragung an Google statt.
         </p>
         <p>
           Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer
