@@ -93,11 +93,11 @@
   .dropdown-content > a:before {
     content: '';
     display: inline-block;
-    height: 0.5rem;
-    width: 0.5rem;
+    height: 0.4rem;
+    width: 0.4rem;
     margin-right: 0.5rem;
     border: solid var(--color-primary-shade);
-    border-width: 0 3px 3px 0;
+    border-width: 0 2px 2px 0;
     transform: rotate(-45deg);
   }
 

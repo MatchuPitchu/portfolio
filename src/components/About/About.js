@@ -79,7 +79,7 @@ const About = () => {
             freiberuflichen Tätigkeiten mitgestalten möchte.
           </p>
         </div>
-        <Card>
+        <Card className={classes['card-customized']}>
           <ul className={classes.tabs}>
             <li className={isOpen.skills ? classes.active : ''} onClick={onClickHandler}>
               Kompetenzen

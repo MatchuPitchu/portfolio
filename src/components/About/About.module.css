@@ -68,6 +68,7 @@
   .section {
     margin: 0;
     padding: 0;
+    scroll-margin-top: 0; /* not needed since no sticky navbar in mobile mode */
   }
 
   .h2-customized,
@@ -77,6 +78,10 @@
 
   .h2-customized {
     margin-top: 2rem;
+  }
+
+  .card-customized {
+    border-radius: 0;
   }
 
   .tabs > li {
