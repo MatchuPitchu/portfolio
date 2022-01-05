@@ -33,7 +33,7 @@ const CustomGraph: FC<Props> = ({ dataPath }) => {
     });
   }, [sigma, registerEvents]);
 
-  // When graph url changes, compute graph and load it in sigma
+  // compute graph and load it in sigma
   useEffect(() => {
     setHoveredNode(null);
     const fetchGraph = async () => {
@@ -54,7 +54,7 @@ const CustomGraph: FC<Props> = ({ dataPath }) => {
     fetchGraph();
   }, [dataPath, loadGraph]);
 
-  // When hoverer node change, update the reducers
+  // When hovered node changes, update reducers
   useEffect(() => {
     setSettings({
       nodeReducer: (node: string, data: { [key: string]: unknown }) => {
