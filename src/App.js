@@ -46,6 +46,7 @@ library.add(
   faArrowAltCircleUp
 );
 
+const NetzwerkeKulturpolitik = lazy(() => import('./pages/NetzwerkeKulturpolitik'));
 const Datenschutz = lazy(() => import('./pages/Datenschutz'));
 const Impressum = lazy(() => import('./pages/Impressum'));
 const NotFound = lazy(() => import('./pages/NotFound'));
@@ -84,6 +85,7 @@ const App = () => {
               />
               <Route path='/veroeffentlichungen/kulturpolitik' element={<KulturpolitikDetails />} />
               <Route path='/veroeffentlichungen/bne' element={<BNEDetails />} />
+              <Route path='/netzwerke-kulturpolitik/' element={<NetzwerkeKulturpolitik />} />
               <Route path='/angebote' element={<Angebote />} />
               <Route path='/kontakt' element={<Kontakt />} />
               <Route path='/datenschutz/' element={<Datenschutz />} />

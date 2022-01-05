@@ -14,6 +14,7 @@
   position: relative;
   max-width: calc(100% - 100px);
   margin: 3rem 0 0 0;
+  text-align: center;
 }
 
 .title:before,

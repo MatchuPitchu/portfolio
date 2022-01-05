@@ -19,7 +19,7 @@
   background: var(--color-bg-transparent20);
 }
 
-@media all and (max-width: 576px) {
+@media all and (max-width: 730px) {
   .menu-btn {
     flex-basis: 1rem;
     display: flex;
