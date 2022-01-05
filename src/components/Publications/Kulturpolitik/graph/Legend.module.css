@@ -6,12 +6,7 @@
 }
 
 .title-customized {
-  font-size: 1rem;
-  margin: 0.5rem 0.2rem;
-}
-
-.title-customized::first-letter {
-  font-size: 1.4rem;
+  margin: 1rem 0;
 }
 
 .legend-items {

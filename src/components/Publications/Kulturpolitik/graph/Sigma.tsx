@@ -31,7 +31,7 @@ const Graph: FC<Props> = ({ dataPath }) => {
         style={{ pointerEvents: 'all' }}
         onClick={activateClickInGraph}
       />
-      <SigmaContainer className={classes.sigma} style={{ height: '60vh', width: '100%' }}>
+      <SigmaContainer className={classes.sigma} style={{ height: '94vh', width: '100%' }}>
         <CustomGraph dataPath={dataPath} />
         <ControlsContainer className={classes.controls} position={'top-right'}>
           <SearchControl className={classes.searchbar} />

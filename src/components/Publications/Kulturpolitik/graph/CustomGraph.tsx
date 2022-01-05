@@ -82,8 +82,9 @@ const CustomGraph: FC<Props> = ({ dataPath }) => {
         return newData;
       },
       labelFont: 'Jost',
-      labelSize: 10,
+      labelSize: 11,
       labelColor: { color: isLight ? '#3a3a3a' : '#878787' },
+      labelWeight: '500',
       hideEdgesOnMove: true,
       hideLabelsOnMove: true,
     });
