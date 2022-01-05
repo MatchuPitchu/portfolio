@@ -103,7 +103,8 @@ const Network = () => {
         <p>
           <i>
             Hinweis: Die Netzwerkgrafiken können auf Smartphones nur beschränkt entdeckt werden.
-            Erst auf einem größeren Display sind mehr Funktionen freigeschaltet und Details sichtbar.
+            Erst auf einem größeren Display sind mehr Funktionen freigeschaltet und Details
+            sichtbar.
           </i>
         </p>
       </div>
