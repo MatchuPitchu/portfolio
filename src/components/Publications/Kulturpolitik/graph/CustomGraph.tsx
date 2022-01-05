@@ -3,7 +3,7 @@ import { ThemeContext } from '../../../../store/ThemeContext';
 import Graph from 'graphology';
 import { Attributes } from 'graphology-types';
 import circlepack from 'graphology-layout/circlepack';
-import { useDebounce } from '../../../../hooks/useDebounce';
+// import { useDebounce } from '../../../../hooks/useDebounce';
 import { useSigma, useRegisterEvents, useLoadGraph, useSetSettings } from 'react-sigma-v2';
 
 interface Props {
@@ -18,11 +18,10 @@ const CustomGraph: FC<Props> = ({ dataPath }) => {
   const loadGraph = useLoadGraph();
   const setSettings = useSetSettings();
 
-  // State for the graph hovered node
   const [hoveredNode, setHoveredNode] = useState<string | null>(null);
   // Here we debounce the value to avoid having too much highlights refresh when
   // moving the mouse over the graph:
-  const debouncedHoveredNode = useDebounce(hoveredNode, 50);
+  // const debouncedHoveredNode = useDebounce(hoveredNode, 50);
 
   // When component mount, set sigma settings + register events
   useEffect(() => {
