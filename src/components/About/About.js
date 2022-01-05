@@ -74,9 +74,9 @@ const About = () => {
         <div>
           <H2Title className={classes['h2-customized']}>Profil</H2Title>
           <p className={classes.p}>
-            Die untere Übersicht gibt einen Einblick in meinen Werdegang. Sie fasst die fachlichen
-            Bereiche zusammen, in denen ich mich wohlfühle und die ich mit meinen haupt- und
-            freiberuflichen Tätigkeiten mitgestalten möchte.
+            In meinem Leben habe ich mich bereits mit allerlei Themen beschäftigt. Diese Übersicht
+            fasst die fachlichen Bereiche zusammen, in denen ich mich wohlfühle und die ich mit
+            meinen haupt- und freiberuflichen Tätigkeiten auch weiterhin mitgestalten möchte.
           </p>
         </div>
         <Card className={classes['card-customized']}>

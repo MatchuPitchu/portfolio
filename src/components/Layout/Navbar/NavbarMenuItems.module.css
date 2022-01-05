@@ -54,7 +54,7 @@
   flex-flow: column;
 }
 
-@media all and (max-width: 576px) {
+@media all and (max-width: 730px) {
   .menu-items {
     gap: 0;
     text-align: left;

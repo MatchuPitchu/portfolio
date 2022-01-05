@@ -45,7 +45,7 @@
   }
 }
 
-@media all and (max-width: 576px) {
+@media all and (max-width: 730px) {
   .navbar {
     position: relative;
     top: auto;

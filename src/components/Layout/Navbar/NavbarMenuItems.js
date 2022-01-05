@@ -11,12 +11,13 @@ const paths = [
       { path: '/veroeffentlichungen/suffizienz-an-hochschulen', name: 'suffizienz' },
       {
         path: '/veroeffentlichungen/nachhaltigkeitsnetzwerke-an-hochschulen',
-        name: 'netzwerke',
+        name: 'netzwerke hochschule',
       },
       { path: '/veroeffentlichungen/kulturpolitik', name: 'kulturpolitik' },
       { path: '/veroeffentlichungen/bne', name: 'bildung' },
     ],
   },
+  { path: '/netzwerke-kulturpolitik', name: 'netzwerke kulturpolitik' },
   { path: '/angebote', name: 'angebote' },
   { path: '/kontakt', name: 'kontakt' },
 ];
@@ -33,7 +34,7 @@ const NavbarMenuItems = ({ isMenuOpen, onClose }) => {
   }, []);
 
   // navbar is only shown if toggle is clicked or screen greater than 576px
-  if (isMenuOpen || screenWidth > 576)
+  if (isMenuOpen || screenWidth > 730)
     return (
       <ul className={classes['menu-items']}>
         {paths.map((nav) => (
