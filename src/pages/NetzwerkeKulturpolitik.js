@@ -100,6 +100,13 @@ const Network = () => {
           zu können. Demgegenüber hängen die Akteure, die im Netzwerk und auch geografisch peripher
           liegen, von wenigen Informationssträngen ab.
         </p>
+        <p>
+          <i>
+            Hinweis: Die Netzwerkgrafiken können auf Smartphones nur beschränkt entdeckt werden.
+            Erst auf einem größeren Display sind mehr Funktionen freigeschaltet und Details zu
+            entdecken.
+          </i>
+        </p>
       </div>
       <Sigma dataPath='/data/01_networkInfoExchange.json' />
       <Legend links={links} />

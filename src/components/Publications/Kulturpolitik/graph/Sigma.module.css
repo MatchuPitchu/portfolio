@@ -7,6 +7,13 @@
   z-index: 5 !important;
 }
 
+@media all and (max-width: 576px) {
+  /* searchbar cannot be used easily on mobile devices */
+  .searchbar {
+    display: none !important;
+  }
+}
+
 .searchbar input {
   border: none !important;
   box-shadow: var(--box-shadow);
