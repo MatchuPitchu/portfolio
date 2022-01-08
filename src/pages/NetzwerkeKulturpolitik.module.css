@@ -20,40 +20,65 @@
   ); /* only rendered in dark mode otherwise in light mode card bg of --bg-linear-gradient */
 }
 
-.link1,
-.link2,
-.link3,
-.link4,
-.link5,
-.link6,
-.link7 {
+.infoAndCoop1,
+.infoAndCoop2,
+.infoAndCoop3,
+.infoAndCoop4,
+.infoAndCoop5,
+.infoAndCoop6,
+.infoAndCoop7,
+.goals0,
+.goals1,
+.goals2,
+.goals3,
+.goals4 {
   color: transparent;
   animation: none;
   border-radius: 0;
   height: 2px;
 }
 
-.link1 {
+.infoAndCoop1 {
   background-color: rgba(252, 152, 152, 1);
 }
 
-.link2 {
+.infoAndCoop2 {
   background-color: rgba(216, 243, 220, 1);
 }
 
-.link3 {
+.infoAndCoop3 {
   background-color: rgba(149, 213, 178, 1);
 }
 
-.link4 {
+.infoAndCoop4 {
   background-color: rgba(82, 183, 136, 1);
 }
 
-.link5 {
+.infoAndCoop5 {
   background-color: rgba(45, 106, 79, 1);
 }
 
-.link6 {
+.infoAndCoop6 {
+  background-color: rgba(8, 28, 21, 1);
+}
+
+.goals0 {
+  background-color: #cccccc;
+}
+
+.goals1 {
+  background-color: #b13535;
+}
+
+.goals2 {
+  background-color: #ffc2c2;
+}
+
+.goals3 {
+  background-color: rgba(82, 183, 136, 1);
+}
+
+.goals4 {
   background-color: rgba(8, 28, 21, 1);
 }
 

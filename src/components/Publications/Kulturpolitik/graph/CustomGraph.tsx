@@ -87,6 +87,7 @@ const CustomGraph: FC<Props> = ({ dataPath }) => {
       labelWeight: '500',
       hideEdgesOnMove: true,
       hideLabelsOnMove: true,
+      labelRenderedSizeThreshold: 10,
     });
   }, [sigma, setSettings, hoveredNode, isLight]);
 
