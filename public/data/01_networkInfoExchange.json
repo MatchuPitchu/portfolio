@@ -3007,7 +3007,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "81.0",
         "weightedOutDegree": "81.0",
-        "group": ""
+        "group": "anonym"
       }
     },
     {
@@ -14326,5 +14326,43 @@
       "target": "491",
       "attributes": { "color": "rgba(149, 213, 178, 1.0)", "size": 0.35, "force": "selten" }
     }
+  ],
+  "groups": [
+    { "key": "Medien Presse", "value": true },
+    { "key": "Medien Rundfunk", "value": true },
+    { "key": "Medien Zeitschriften", "value": true },
+    { "key": "staatlich-kommunal anonymisierter Akteur", "value": true },
+    { "key": "staatlich-kommunal Beratungseinrichtungen", "value": true },
+    { "key": "staatlich-kommunale geförderte Kultureinrichtung Festivals", "value": true },
+    { "key": "staatlich-kommunale geförderte Kultureinrichtung Museen", "value": true },
+    { "key": "staatlich-kommunale geförderte Kultureinrichtung Sonstiges", "value": true },
+    {
+      "key": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester",
+      "value": true
+    },
+    { "key": "staatlich-kommunal kommunale Regierung und Verwaltung", "value": true },
+    { "key": "staatlich-kommunal kommunale Spitzenverbände", "value": true },
+    { "key": "staatlich-kommunal Regierung und Verwaltung", "value": true },
+    { "key": "staatlich-kommunal Sonstiges", "value": true },
+    { "key": "staatlich-kommunal Staatsarchive", "value": true },
+    { "key": "staatlich-kommunal Stiftungen des bürgerlichen Rechts", "value": true },
+    { "key": "staatlich-kommunal Stiftungen des öffentlichen Rechts", "value": true },
+    { "key": "staatlich-kommunal überregionale Einrichtungen", "value": true },
+    { "key": "touristisch Tourismus", "value": true },
+    { "key": "wirtschaftlich Unternehmen", "value": true },
+    { "key": "wirtschaftlich Wirtschaftsverband", "value": true },
+    { "key": "wissenschaftlich, ausbildend Forschungs-/Ausbildungsinstitut", "value": true },
+    { "key": "wissenschaftlich, ausbildend Hochschule", "value": true },
+    { "key": "wissenschaftlich, ausbildend Schule", "value": true },
+    { "key": "zivilgesellschaftlich anonymisierter Akteur", "value": true },
+    { "key": "zivilgesellschaftlich Gewerkschaften", "value": true },
+    { "key": "zivilgesellschaftlich Kirche", "value": true },
+    { "key": "zivilgesellschaftlich Parteien und Fraktionen", "value": true },
+    { "key": "zivilgesellschaftlich parteinahe Stiftungen und Vereine", "value": true },
+    { "key": "zivilgesellschaftlich regionale Verbände und Vereine", "value": true },
+    { "key": "zivilgesellschaftlich Sonstiges", "value": true },
+    { "key": "zivilgesellschaftlich Stiftungen bürgerlichen Rechts", "value": true },
+    { "key": "zivilgesellschaftlich überregionale Verbände und Vereine", "value": true },
+    { "key": "anonym", "value": true }
   ]
 }

@@ -1,0 +1,83 @@
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background: white;
+  color: black;
+  border: 1px solid black;
+  outline: none;
+  border-radius: var(--border-radius);
+  padding: 0.3em 0.5em;
+  font-size: 1em;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: var(--hover-opacity);
+}
+
+.btn > * {
+  vertical-align: baseline;
+}
+
+.caption-row input[type='checkbox'] {
+  display: none;
+}
+
+.caption-row input[type='checkbox']:not(:checked) + label {
+  color: var(--dark-grey);
+}
+
+.caption-row input[type='checkbox']:not(:checked) + label .circle {
+  background-color: white !important;
+}
+
+.caption-row label {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.caption-row label:hover {
+  opacity: var(--hover-opacity);
+}
+
+.caption-row label .circle {
+  flex-shrink: 0;
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 1.2em;
+  vertical-align: middle;
+  box-sizing: border-box;
+  background-color: var(--dark-grey);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 0.2em;
+  transition: var(--transition);
+  border: 3px solid var(--dark-grey);
+}
+
+.caption-row label .node-label {
+  flex-grow: 1;
+}
+
+.caption-row label .bar {
+  position: relative;
+  background: var(--light-grey);
+  height: 3px;
+  margin-bottom: 0.2em;
+}
+
+.caption-row label .bar .inside-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: var(--dark-grey);
+  transition: var(--transition);
+}
