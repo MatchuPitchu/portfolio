@@ -40,12 +40,12 @@ const GraphDescription: FC<Props> = ({ filters, description }) => {
       <div>
         {graph.order} node{graph.order > 1 ? 's' : ''}
         {visibleItems.nodes !== graph.order
-          ? ` (only ${prettyPercentage(visibleItems.nodes / graph.order)} visible)`
+          ? ` (${prettyPercentage(visibleItems.nodes / graph.order)} angezeigt)`
           : ''}
         , {graph.size} edge
         {graph.size > 1 ? 's' : ''}
         {visibleItems.edges !== graph.size
-          ? ` (only ${prettyPercentage(visibleItems.edges / graph.size)} visible)`
+          ? ` (${prettyPercentage(visibleItems.edges / graph.size)} angezeigt)`
           : ''}
       </div>
     </>

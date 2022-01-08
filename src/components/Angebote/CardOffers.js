@@ -7,6 +7,7 @@ import H3Title from '../UI/Titles/H3Title';
 import ActivityPoint from '../UI/ActivityPoint/ActivityPoint';
 import ImgWithFallback from '../ImgWithFallback';
 import classes from './CardOffers.module.css';
+import ButtonExpand from '../UI/Button/ButtonExpand';
 
 const CardOffers = ({ offer }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -32,21 +33,12 @@ const CardOffers = ({ offer }) => {
       </div>
       <div className={classes.references}>
         <H3Title>Referenzen</H3Title>
-        <button
+        <ButtonExpand
           onClick={handleExpandClick}
-          aria-expanded={isExpanded}
-          aria-label='expand references'
-        >
-          <svg
-            className={isExpanded ? classes['rotate-open'] : classes['rotate-closed']}
-            focusable='false'
-            viewBox='0 0 24 24'
-            aria-hidden='true'
-            data-testid='ExpandMoreIcon'
-          >
-            <path d='M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z'></path>
-          </svg>
-        </button>
+          isExpanded={isExpanded}
+          ariaExpanded={isExpanded}
+          ariaLabel='expand references'
+        />
       </div>
       <div className={`${classes.panel} ${isExpanded ? classes.active : ''}`}>
         {isExpanded && (

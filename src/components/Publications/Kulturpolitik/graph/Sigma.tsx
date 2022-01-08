@@ -10,7 +10,6 @@ import 'react-sigma-v2/lib/react-sigma-v2.css';
 import GraphSettingsController from './GraphSettingsController';
 import classes from './Sigma.module.css';
 
-import { omit, mapValues, keyBy, constant } from 'lodash';
 import { Dataset, FiltersState, Group } from './types';
 import drawLabel from './canvas-utils';
 import GraphEventsController from './GraphEventsController';
@@ -18,8 +17,6 @@ import GraphDescription from './GraphDescription';
 import Search from './Search';
 import GraphDataController from './GraphDataController';
 import GroupsPanel from './GroupsPanel';
-
-import './styles.css';
 
 interface Props {
   dataPath: string;
@@ -90,8 +87,8 @@ const Graph: FC<Props> = ({ dataPath, description }) => {
           {dataset && <GraphDescription description={description} filters={filtersState} />}
         </ControlsContainer>
         <ControlsContainer className={classes.controls} position={'top-right'}>
-          <Search filters={filtersState} />
-          {/* <SearchControl className={classes.searchbar} /> */}
+          {/* <Search filters={filtersState} /> */}
+          <SearchControl className={classes.searchbar} />
         </ControlsContainer>
         <ControlsContainer className={classes.controls} position={'bottom-right'}>
           <FullScreenControl className={classes.btn} />

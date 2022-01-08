@@ -58,47 +58,6 @@
   font-weight: bold;
 }
 
-.references button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: transparent;
-  cursor: pointer;
-  border-style: none;
-  user-select: none;
-  margin-left: auto;
-}
-
-.rotate-open {
-  border-radius: 10%;
-  background-color: var(--color-primary);
-  transform: rotate(180deg);
-  transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-}
-
-.rotate-closed {
-  border-radius: 50%;
-  background-color: var(--color-secondary);
-  transform: rotate(0deg);
-  transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-}
-
-.rotate-open:hover {
-  background-color: var(--color-tertiary);
-  border-radius: 50%;
-}
-
-.rotate-closed:hover {
-  background-color: var(--color-primary);
-  border-radius: 10%;
-}
-
-.references > button > svg {
-  width: 1.5rem;
-  height: 1.5rem;
-  font-size: 1.5rem;
-}
-
 .panel {
   max-height: 0;
   overflow: hidden;

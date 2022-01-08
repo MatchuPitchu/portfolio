@@ -1,6 +1,6 @@
 import { FC, useEffect, useMemo, useState } from 'react';
 import { useSigma } from 'react-sigma-v2';
-import { keyBy, mapValues, sortBy, values } from 'lodash';
+import { sortBy, values } from 'lodash';
 
 import { FiltersState, Group } from './types';
 import Panel from './Panel';
@@ -20,11 +20,15 @@ const GroupsPanel: FC<Props> = ({ groups, filters, toggleGroup, setGroups }) => 
   const nodesPerGroup = useMemo(() => {
     const index: Record<string, number> = {};
     graph.forEachNode((_, { group }) => (index[group] = (index[group] || 0) + 1));
+    console.log(index);
     return index;
   }, [graph]);
 
   const maxNodesPerGroup = useMemo(() => Math.max(...values(nodesPerGroup)), [nodesPerGroup]);
-  const visibleGroupsCount = useMemo(() => Object.keys(filters.groups).length, [filters]);
+  const visibleGroupsCount = useMemo(
+    () => filters.groups.filter((item) => item.value).length,
+    [filters]
+  );
 
   const [visibleNodesPerGroup, setVisibleNodesPerGroup] =
     useState<Record<string, number>>(nodesPerGroup);
@@ -52,7 +56,7 @@ const GroupsPanel: FC<Props> = ({ groups, filters, toggleGroup, setGroups }) => 
     <Panel
       title={
         <>
-          Categories
+          Filter
           {visibleGroupsCount < groups.length ? (
             <span className='text-muted text-small'>
               {' '}
@@ -64,16 +68,15 @@ const GroupsPanel: FC<Props> = ({ groups, filters, toggleGroup, setGroups }) => 
         </>
       }
     >
-      <p>Click a category to show/hide related pages from the network.</p>
       <p className={classes.buttons}>
         <button className={classes.btn} onClick={() => setGroups(true)}>
-          Check all
-        </button>{' '}
+          alle
+        </button>
         <button className={classes.btn} onClick={() => setGroups()}>
-          Uncheck all
+          keine
         </button>
       </p>
-      <ul>
+      <ul className={classes.ul}>
         {sortedGroups.map((group) => {
           const nodesCount = nodesPerGroup[group.key];
           const visibleNodesCount = visibleNodesPerGroup[group.key] || 0;
@@ -81,29 +84,26 @@ const GroupsPanel: FC<Props> = ({ groups, filters, toggleGroup, setGroups }) => 
             <li
               className={classes['caption-row']}
               key={group.key}
-              title={`${nodesCount} page${nodesCount > 1 ? 's' : ''}${
-                visibleNodesCount !== nodesCount ? ` (nur ${visibleNodesCount} sichtbar)` : ''
+              title={`${nodesCount} Akteur${nodesCount > 1 ? 'e' : ''}${
+                visibleNodesCount !== nodesCount ? ` (${visibleNodesCount} sichtbar)` : ''
               }`}
             >
               <input
+                className={classes.input}
                 type='checkbox'
                 checked={filters.groups.find((item) => item.key === group.key)?.value || false}
-                onChange={() => {
-                  // console.log(filters.groups.find((item) => item.key === group.key)?.value);
-                  toggleGroup(group);
-                }}
+                onChange={() => toggleGroup(group)}
                 id={`group-${group.key}`}
               />
-              <label htmlFor={`group-${group.key}`}>
-                <span className={classes.circle} />{' '}
+              <label className={classes.label} htmlFor={`group-${group.key}`}>
                 <div className={classes['node-label']}>
-                  <span>{group.key}</span>
+                  <div>{group.key}</div>
                   <div
                     className={classes.bar}
                     style={{ width: (100 * nodesCount) / maxNodesPerGroup + '%' }}
                   >
                     <div
-                      className={classes['inside-bar']}
+                      className={classes['bar__inside']}
                       style={{
                         width: (100 * visibleNodesCount) / nodesCount + '%',
                       }}

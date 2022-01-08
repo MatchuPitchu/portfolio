@@ -4,80 +4,71 @@
 }
 
 .btn {
-  background: white;
-  color: black;
-  border: 1px solid black;
-  outline: none;
+  border: none;
   border-radius: var(--border-radius);
-  padding: 0.3em 0.5em;
-  font-size: 1em;
-  font-family: Lato, sans-serif;
+  background: var(--color-primary);
+  padding: var(--padding-less-y);
+  font-size: 0.8rem;
   cursor: pointer;
 }
 
 .btn:hover {
-  opacity: var(--hover-opacity);
+  background: var(--color-secondary);
 }
 
-.btn > * {
-  vertical-align: baseline;
+.ul {
+  padding: 0;
+  font-size: 0.8rem;
 }
 
-.caption-row input[type='checkbox'] {
+.input[type='checkbox'] {
   display: none;
 }
 
-.caption-row input[type='checkbox']:not(:checked) + label {
-  color: var(--dark-grey);
+.input[type='checkbox']:not(:checked) + .label {
+  color: var(--color-medium);
 }
 
-.caption-row input[type='checkbox']:not(:checked) + label .circle {
-  background-color: white !important;
+.input[type='checkbox'] + label::before {
+  margin-right: 0.5em;
+  width: 1em;
+  height: 1em;
+  border-radius: 5px;
+  border: 2px solid var(--color-primary);
+  background-color: #fff;
+  content: '';
+  position: relative;
 }
 
-.caption-row label {
+.input[type='checkbox']:checked + label::before {
+  box-shadow: inset 0px 0px 0px 3px #fff;
+  background-color: var(--color-primary);
+}
+
+.input[type='checkbox']:not(:checked) + .label .circle {
+  background-color: #fff;
+}
+
+.label {
   display: flex;
-  flex-direction: row;
   cursor: pointer;
 }
 
-.caption-row label:hover {
-  opacity: var(--hover-opacity);
+.label:hover {
+  opacity: 0.8;
 }
 
-.caption-row label .circle {
-  flex-shrink: 0;
-  display: inline-block;
-  width: 1.2em;
-  height: 1.2em;
-  border-radius: 1.2em;
-  vertical-align: middle;
-  box-sizing: border-box;
-  background-color: var(--dark-grey);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-right: 0.2em;
-  transition: var(--transition);
-  border: 3px solid var(--dark-grey);
+.node-label {
+  display: flex;
+  flex-flow: column;
 }
 
-.caption-row label .node-label {
-  flex-grow: 1;
+.bar {
+  margin-bottom: 0.4rem;
 }
 
-.caption-row label .bar {
-  position: relative;
-  background: var(--light-grey);
-  height: 3px;
-  margin-bottom: 0.2em;
-}
-
-.caption-row label .bar .inside-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background: var(--dark-grey);
-  transition: var(--transition);
+.bar__inside {
+  height: 0.2rem;
+  background: var(--color-primary);
+  transition: all ease-out 300ms;
 }

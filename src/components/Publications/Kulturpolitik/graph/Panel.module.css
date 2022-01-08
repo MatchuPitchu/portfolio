@@ -1,30 +1,16 @@
 .panel {
-  background: white;
-  padding: 1em;
+  padding: var(--padding-less-y);
+  background-color: var(--color-bg-navbar);
   border-radius: var(--border-radius);
-  box-shadow: var(--shadow);
+  box-shadow: var(--box-shadow);
 }
 
 .panel:not(:last-child) {
   margin-bottom: 0.5em;
 }
 
-.panel h2 button {
-  float: right;
-  background: white;
-  border: 1px solid black;
-  border-radius: var(--border-radius);
-  font-size: 1.2em;
-  height: 1em;
-  width: 1em;
-  text-align: center;
-  padding: 0;
-  cursor: pointer;
+.filter-header {
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.panel h2 button:hover {
-  opacity: var(--hover-opacity);
+  justify-content: space-between;
+  gap: 1rem;
 }
