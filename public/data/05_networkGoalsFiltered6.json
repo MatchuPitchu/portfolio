@@ -1,0 +1,4066 @@
+{
+  "nodes": [
+    {
+      "key": "517",
+      "attributes": {
+        "label": "EKM",
+        "x": 1295.2406005859375,
+        "y": -2195.28515625,
+        "size": 6.785714721679688,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "1.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "490",
+      "attributes": {
+        "label": "Academia Musicalis Thuringiae",
+        "x": -364.0374450683594,
+        "y": 75.89192199707031,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "474",
+      "attributes": {
+        "label": "VBildenderK TH",
+        "x": -2369.911865234375,
+        "y": 556.693359375,
+        "size": 13.928570556640626,
+        "color": "rgb(252,180,117)",
+        "weightedInDegree": "5.0",
+        "weightedDegree": "9.0",
+        "weightedOutDegree": "4.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "2397",
+      "attributes": {
+        "label": "Gedenkstaette Amthordurchgang",
+        "x": -1334.5587158203125,
+        "y": -1947.8914794921875,
+        "size": 5,
+        "color": "rgb(250,159,102)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "6.0",
+        "weightedOutDegree": "6.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "648",
+      "attributes": {
+        "label": "Clueso, Zughafen",
+        "x": -587.5130615234375,
+        "y": 3139.14892578125,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "wirtschaftlich"
+      }
+    },
+    {
+      "key": "775",
+      "attributes": {
+        "label": "Stiftung Ettersberg",
+        "x": 411.130859375,
+        "y": -1044.0909423828125,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "468",
+      "attributes": {
+        "label": "TH Theaterverband",
+        "x": -2824.436767578125,
+        "y": -1249.409912109375,
+        "size": 24.642857360839844,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "11.0",
+        "weightedDegree": "11.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "642",
+      "attributes": {
+        "label": "Stiftung Gedenkstätten Buchenwald und Mittelbau-Dora",
+        "x": -589.82568359375,
+        "y": 2231.796630859375,
+        "size": 13.928570556640626,
+        "color": "rgb(238,133,85)",
+        "weightedInDegree": "5.0",
+        "weightedDegree": "17.0",
+        "weightedOutDegree": "12.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "519",
+      "attributes": {
+        "label": "VEKirchenmusiker TH",
+        "x": -62.01701354980469,
+        "y": -161.18724060058594,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "2560",
+      "attributes": {
+        "label": "Theater Nordhausen",
+        "x": -2347.408203125,
+        "y": 1869.6650390625,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "513",
+      "attributes": {
+        "label": "Mitteldeutsche Barockmusik",
+        "x": 673.8310546875,
+        "y": 476.4825439453125,
+        "size": 6.785714721679688,
+        "color": "rgb(246,150,96)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "9.0",
+        "weightedOutDegree": "8.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "928",
+      "attributes": {
+        "label": "Thüringer Orgelsommer",
+        "x": -1638.741455078125,
+        "y": 831.1112670898438,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "454",
+      "attributes": {
+        "label": "SPD, Landtagsfraktion",
+        "x": 1951.73193359375,
+        "y": 31.615171432495117,
+        "size": 10.357142639160157,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "3.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "461",
+      "attributes": {
+        "label": "TMWWDG",
+        "x": -444.39288330078125,
+        "y": -3111.933349609375,
+        "size": 17.5,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "7.0",
+        "weightedDegree": "7.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "670",
+      "attributes": {
+        "label": "KM Network",
+        "x": 458.598388671875,
+        "y": 14.083383560180664,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "wirtschaftlich"
+      }
+    },
+    {
+      "key": "496",
+      "attributes": {
+        "label": "TH Saengerbund",
+        "x": -1644.7374267578125,
+        "y": 2583.43115234375,
+        "size": 10.357142639160157,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "3.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "522",
+      "attributes": {
+        "label": "DCV Bistum EF",
+        "x": -128.37652587890625,
+        "y": 3100.492431640625,
+        "size": 5,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "1.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "828",
+      "attributes": {
+        "label": "Theater Altenburg-Gera",
+        "x": -1285.9271240234375,
+        "y": 1343.151611328125,
+        "size": 10.357142639160157,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "3.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "687",
+      "attributes": {
+        "label": "Thüringer Bachwochen",
+        "x": 2750.99658203125,
+        "y": 800.7274169921875,
+        "size": 6.785714721679688,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "1.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "1850",
+      "attributes": {
+        "label": "Schlossmuseum Sondershausen",
+        "x": -2089.71240234375,
+        "y": 1448.7034912109375,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "484",
+      "attributes": {
+        "label": "Deutscher Harmonika Verband Thüringen",
+        "x": -1036.7550048828125,
+        "y": -1584.1529541015625,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1880",
+      "attributes": {
+        "label": "Bildungspolitische Sprecher",
+        "x": 2166.201416015625,
+        "y": 2448.1591796875,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "486",
+      "attributes": {
+        "label": "LTLaienorchester",
+        "x": -830.4213256835938,
+        "y": 625.2286376953125,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "723",
+      "attributes": {
+        "label": "Kulturland Hainleite",
+        "x": -434.5575866699219,
+        "y": 617.521240234375,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1200",
+      "attributes": {
+        "label": "Goethe-Gesellschaft",
+        "x": 2428.978759765625,
+        "y": -1030.6898193359375,
+        "size": 6.785714721679688,
+        "color": "rgb(252,164,105)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "6.0",
+        "weightedOutDegree": "5.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "768",
+      "attributes": {
+        "label": "Kulturpolitische Gesellschaft Thüringen",
+        "x": 2697.1181640625,
+        "y": 497.88427734375,
+        "size": 8.571428680419922,
+        "color": "rgb(253,212,140)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "2.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "719",
+      "attributes": {
+        "label": "LAG Puppenspiel",
+        "x": -1240.134521484375,
+        "y": -2891.509765625,
+        "size": 6.785714721679688,
+        "color": "rgb(253,212,140)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "2.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "2436",
+      "attributes": {
+        "label": "Angermuseum",
+        "x": -838.8763427734375,
+        "y": -295.1041564941406,
+        "size": 5,
+        "color": "rgb(250,159,102)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "6.0",
+        "weightedOutDegree": "6.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "1351",
+      "attributes": {
+        "label": "Rudolstadt-Festival",
+        "x": 1106.6475830078125,
+        "y": -1574.1778564453125,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "508",
+      "attributes": {
+        "label": "Dt Kulturrat",
+        "x": 1136.517333984375,
+        "y": 1367.1146240234375,
+        "size": 12.142857360839844,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "704",
+      "attributes": {
+        "label": "MP Bodo Ramelow",
+        "x": -3044.177978515625,
+        "y": 906.260498046875,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "467",
+      "attributes": {
+        "label": "Landesmusikrat Thüringen",
+        "x": 364.71240234375,
+        "y": 2759.630859375,
+        "size": 22.85714263916016,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "10.0",
+        "weightedDegree": "11.0",
+        "weightedOutDegree": "1.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "480",
+      "attributes": {
+        "label": "VdM TH",
+        "x": -2592.42138671875,
+        "y": 1010.851318359375,
+        "size": 13.928570556640626,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "5.0",
+        "weightedDegree": "5.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "457",
+      "attributes": {
+        "label": "AfD, LF",
+        "x": 1474.063720703125,
+        "y": 2006.8363037109375,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1051",
+      "attributes": {
+        "label": "Lesezeichen",
+        "x": 874.5253295898438,
+        "y": -899.900146484375,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "692",
+      "attributes": {
+        "label": "Verein Städtetourismus in Thüringen",
+        "x": -1466.3428955078125,
+        "y": -682.66943359375,
+        "size": 5,
+        "color": "rgb(248,154,99)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "7.0",
+        "weightedOutDegree": "7.0",
+        "group": "touristisch"
+      }
+    },
+    {
+      "key": "491",
+      "attributes": {
+        "label": "Landesmusikakademie Sondershausen",
+        "x": -2003.64599609375,
+        "y": 2319.427490234375,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "506",
+      "attributes": {
+        "label": "TH LV Filmautoren",
+        "x": 1235.300537109375,
+        "y": 2698.1484375,
+        "size": 6.785714721679688,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "1.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "2017",
+      "attributes": {
+        "label": "Luther 2017",
+        "x": 1145.3709716796875,
+        "y": 2010.17041015625,
+        "size": 6.785714721679688,
+        "color": "rgb(252,180,117)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "5.0",
+        "weightedOutDegree": "4.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "2028",
+      "attributes": {
+        "label": "IHK",
+        "x": -1828.0858154296875,
+        "y": -528.7348022460938,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "wirtschaftlich"
+      }
+    },
+    {
+      "key": "466",
+      "attributes": {
+        "label": "Kulturrat TH",
+        "x": 2394.77880859375,
+        "y": 1356.264892578125,
+        "size": 22.85714263916016,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "10.0",
+        "weightedDegree": "10.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "489",
+      "attributes": {
+        "label": "DZithermusikB TH",
+        "x": -67.29002380371094,
+        "y": -836.5632934570312,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "739",
+      "attributes": {
+        "label": "JenaKultur MKS Jena",
+        "x": 1745.4132080078125,
+        "y": -1199.14453125,
+        "size": 5,
+        "color": "rgb(253,212,140)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "2.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "765",
+      "attributes": {
+        "label": "Staatsministerin BKM",
+        "x": -308.9116516113281,
+        "y": -1466.064697265625,
+        "size": 10.357142639160157,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "3.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "732",
+      "attributes": {
+        "label": "Kulturdirektion Erfurt",
+        "x": -616.8671875,
+        "y": -2541.07958984375,
+        "size": 6.785714721679688,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "1.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "470",
+      "attributes": {
+        "label": "Museumsverband TH",
+        "x": -2235.011962890625,
+        "y": -1861.9417724609375,
+        "size": 15.714285278320313,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "6.0",
+        "weightedDegree": "7.0",
+        "weightedOutDegree": "1.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "697",
+      "attributes": {
+        "label": "Freies Wort",
+        "x": 771.1773071289062,
+        "y": 1901.8743896484375,
+        "size": 10.357142639160157,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "3.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "0.0",
+        "group": "Medien"
+      }
+    },
+    {
+      "key": "667",
+      "attributes": {
+        "label": "Thüringer Ministerium für Bildung, Jugend und Sport",
+        "x": 1770.744140625,
+        "y": -1657.375732421875,
+        "size": 15.714285278320313,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "6.0",
+        "weightedDegree": "6.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "724",
+      "attributes": {
+        "label": "KJZirkus Tasifan",
+        "x": -106.52503967285156,
+        "y": 807.93505859375,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1747",
+      "attributes": {
+        "label": "TH Landesmedienanstalt",
+        "x": -1100.93798828125,
+        "y": -569.8106689453125,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "471",
+      "attributes": {
+        "label": "LAG Soziokultur Thüringen",
+        "x": -1482.4765625,
+        "y": -293.5777893066406,
+        "size": 8.571428680419922,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "1.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "516",
+      "attributes": {
+        "label": "Sparkassen-Kulturstiftung H-TH",
+        "x": -2759.9560546875,
+        "y": 211.41439819335938,
+        "size": 19.28571472167969,
+        "color": "rgb(253,212,140)",
+        "weightedInDegree": "8.0",
+        "weightedDegree": "10.0",
+        "weightedOutDegree": "2.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "487",
+      "attributes": {
+        "label": "JeunessesMD TH",
+        "x": -630.0516357421875,
+        "y": -648.49560546875,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "472",
+      "attributes": {
+        "label": "LAG Spiel Theater TH",
+        "x": 2030.7015380859375,
+        "y": 636.6258544921875,
+        "size": 15.714285278320313,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "6.0",
+        "weightedDegree": "6.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "505",
+      "attributes": {
+        "label": "Landesfilmdienst Thüringen",
+        "x": 420.4690856933594,
+        "y": 828.9583740234375,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1848",
+      "attributes": {
+        "label": "TH Orchester",
+        "x": -1739.880126953125,
+        "y": 2148.27783203125,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "2173",
+      "attributes": {
+        "label": "Thüringisches Landesmusikarchiv",
+        "x": 1036.22998046875,
+        "y": 486.5445861816406,
+        "size": 5,
+        "color": "rgb(253,196,129)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "3.0",
+        "group": "wissenschaftlich, ausbildend"
+      }
+    },
+    {
+      "key": "1060",
+      "attributes": {
+        "label": "VdSchriftsteller TH",
+        "x": 1406.29345703125,
+        "y": -1330.64013671875,
+        "size": 6.785714721679688,
+        "color": "rgb(253,212,140)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "2.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1898",
+      "attributes": {
+        "label": "Deutsche Shakespeare-G",
+        "x": 1049.5245361328125,
+        "y": -1137.327880859375,
+        "size": 5,
+        "color": "rgb(234,124,80)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "14.0",
+        "weightedOutDegree": "14.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "465",
+      "attributes": {
+        "label": "KompetenzZ KKW S, SH, TH",
+        "x": -2447.64208984375,
+        "y": -166.2351837158203,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "1292",
+      "attributes": {
+        "label": "DKinderJugendS TH",
+        "x": -2814.5517578125,
+        "y": -414.7577819824219,
+        "size": 6.785714721679688,
+        "color": "rgb(253,196,129)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "3.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "685",
+      "attributes": {
+        "label": "Wartburg-Stiftung",
+        "x": -1197.681884765625,
+        "y": 2331.48291015625,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "2039",
+      "attributes": {
+        "label": "Weimarer Rendez-vous",
+        "x": -675.1057739257812,
+        "y": 425.2323913574219,
+        "size": 5,
+        "color": "rgb(253,212,140)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "2.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "2571",
+      "attributes": {
+        "label": "Stiftung Dt Gartenbaumuseum",
+        "x": 1704.88037109375,
+        "y": 1207.3414306640625,
+        "size": 5,
+        "color": "rgb(242,141,91)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "10.0",
+        "weightedOutDegree": "10.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "1878",
+      "attributes": {
+        "label": "Radio F.R.E.I.",
+        "x": -3118.312744140625,
+        "y": -75.25277709960938,
+        "size": 5,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "1.0",
+        "group": "Medien"
+      }
+    },
+    {
+      "key": "646",
+      "attributes": {
+        "label": "Theater Weimar",
+        "x": 69.29595947265625,
+        "y": 2118.501220703125,
+        "size": 12.142857360839844,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "1291",
+      "attributes": {
+        "label": "Radio LOTTE",
+        "x": 880.5884399414062,
+        "y": -1950.2069091796875,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "Medien"
+      }
+    },
+    {
+      "key": "2516",
+      "attributes": {
+        "label": "Akteur x",
+        "x": -1971.9400634765625,
+        "y": 889.5921020507812,
+        "size": 5,
+        "color": "rgb(252,164,105)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "5.0",
+        "weightedOutDegree": "5.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "773",
+      "attributes": {
+        "label": "Stiftung Thüringer Schlösser und Gärten",
+        "x": -267.5245666503906,
+        "y": 1683.5775146484375,
+        "size": 10.357142639160157,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "3.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "1.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "512",
+      "attributes": {
+        "label": "VDKChoere S, SA, TH",
+        "x": -137.64552307128906,
+        "y": 381.3421325683594,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "769",
+      "attributes": {
+        "label": "Literarische Gesellschaft Thüringen",
+        "x": 2370.912353515625,
+        "y": 249.5843048095703,
+        "size": 6.785714721679688,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "1.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "521",
+      "attributes": {
+        "label": "Bistum EF",
+        "x": 197.51194763183594,
+        "y": -588.1748657226562,
+        "size": 5,
+        "color": "rgb(246,150,96)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "8.0",
+        "weightedOutDegree": "8.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "778",
+      "attributes": {
+        "label": "Ausschuss Europa, Kultur, Medien im Thüringer Landtag",
+        "x": 626.2047729492188,
+        "y": 1170.2271728515625,
+        "size": 10.357142639160157,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "3.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "507",
+      "attributes": {
+        "label": "KNKultureinrichtungen",
+        "x": -1015.4898681640625,
+        "y": 285.8470458984375,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "827",
+      "attributes": {
+        "label": "TLDA, Museum UFGeschichte TH",
+        "x": 965.8643188476562,
+        "y": 2504.49609375,
+        "size": 6.785714721679688,
+        "color": "rgb(253,212,140)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "2.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "488",
+      "attributes": {
+        "label": "Bund Deutscher Zupfmusiker Thüringen",
+        "x": -1653.0638427734375,
+        "y": -1437.02099609375,
+        "size": 6.785714721679688,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "1.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1318",
+      "attributes": {
+        "label": "FSU Jena",
+        "x": 1907.96484375,
+        "y": -950.1389770507812,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "wissenschaftlich, ausbildend"
+      }
+    },
+    {
+      "key": "503",
+      "attributes": {
+        "label": "TH Volkshochschulverband",
+        "x": -1423.2921142578125,
+        "y": -1702.4210205078125,
+        "size": 8.571428680419922,
+        "color": "rgb(253,212,140)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "2.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "456",
+      "attributes": {
+        "label": "Grüne, Landtagsfraktion",
+        "x": 1885.6756591796875,
+        "y": 1591.711181640625,
+        "size": 10.357142639160157,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "3.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "497",
+      "attributes": {
+        "label": "KinderKultur Thüringen",
+        "x": 1356.9141845703125,
+        "y": 764.208984375,
+        "size": 8.571428680419922,
+        "color": "rgb(250,159,102)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "8.0",
+        "weightedOutDegree": "6.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "722",
+      "attributes": {
+        "label": "Spiel- Theaterwerkstatt bka",
+        "x": -618.1764526367188,
+        "y": 952.7539672851562,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1768",
+      "attributes": {
+        "label": "Kunsthalle EF",
+        "x": 2341.474853515625,
+        "y": 2105.60546875,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "1453",
+      "attributes": {
+        "label": "Theater Eisenach",
+        "x": -2482.334228515625,
+        "y": 1660.5460205078125,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "645",
+      "attributes": {
+        "label": "Klassik Stiftung Weimar",
+        "x": -1961.4127197265625,
+        "y": -2458.455810546875,
+        "size": 15.714285278320313,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "6.0",
+        "weightedDegree": "6.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "493",
+      "attributes": {
+        "label": "Deutscher Komponistenverband Thüringen, via nova",
+        "x": 995.325439453125,
+        "y": -371.9638977050781,
+        "size": 8.571428680419922,
+        "color": "rgb(242,141,91)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "12.0",
+        "weightedOutDegree": "10.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "511",
+      "attributes": {
+        "label": "Börsenverein des Deutschen Buchhandels Sachsen, Sachsen-Anhalt, Thüringen",
+        "x": -209.77383422851562,
+        "y": -2364.62060546875,
+        "size": 5,
+        "color": "rgb(253,196,129)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "3.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "814",
+      "attributes": {
+        "label": "ART-regio Kunstförderung",
+        "x": -1410.1893310546875,
+        "y": 142.7280731201172,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "wirtschaftlich"
+      }
+    },
+    {
+      "key": "1765",
+      "attributes": {
+        "label": "Landratsamt Weimarer Land",
+        "x": 2022.4144287109375,
+        "y": 1997.02197265625,
+        "size": 5,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "1.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "514",
+      "attributes": {
+        "label": "ver.di FB M Kunst I S, SA, TH",
+        "x": 482.5110778808594,
+        "y": 1607.4271240234375,
+        "size": 6.785714721679688,
+        "color": "rgb(244,146,94)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "10.0",
+        "weightedOutDegree": "9.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1163",
+      "attributes": {
+        "label": "JenaKultur",
+        "x": -1199.24169921875,
+        "y": -2473.718017578125,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "766",
+      "attributes": {
+        "label": "LpB TH",
+        "x": -186.2270050048828,
+        "y": -568.390380859375,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "462",
+      "attributes": {
+        "label": "Gemeinde- und Städtebunde Thüringen",
+        "x": 1664.559326171875,
+        "y": 2315.351806640625,
+        "size": 13.928570556640626,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "5.0",
+        "weightedDegree": "5.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "509",
+      "attributes": {
+        "label": "AK Museumspaedagogik OstD",
+        "x": -328.8424377441406,
+        "y": -1053.3192138671875,
+        "size": 8.571428680419922,
+        "color": "rgb(252,164,105)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "7.0",
+        "weightedOutDegree": "5.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1053",
+      "attributes": {
+        "label": "SuedTH Literaturverein",
+        "x": 52.038002014160156,
+        "y": 1355.643798828125,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "520",
+      "attributes": {
+        "label": "Posaunenwerk EKM",
+        "x": 579.2714233398438,
+        "y": -591.686279296875,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "485",
+      "attributes": {
+        "label": "DOrchesterV",
+        "x": -2795.5703125,
+        "y": 1342.703125,
+        "size": 6.785714721679688,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "1.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "515",
+      "attributes": {
+        "label": "Kulturstiftung dFT",
+        "x": -1089.816162109375,
+        "y": 1716.822265625,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "742",
+      "attributes": {
+        "label": "TFinanzM",
+        "x": 1323.304443359375,
+        "y": -679.5982666015625,
+        "size": 10.357142639160157,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "3.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "483",
+      "attributes": {
+        "label": "DAkkordeonLV TH",
+        "x": -1104.36865234375,
+        "y": -86.2080078125,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "499",
+      "attributes": {
+        "label": "DRockMV TH",
+        "x": 917.4982299804688,
+        "y": 125.7998046875,
+        "size": 8.571428680419922,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "1.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "453",
+      "attributes": {
+        "label": "CDU, Landtagsfraktion",
+        "x": 1527.0714111328125,
+        "y": 327.2418518066406,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1019",
+      "attributes": {
+        "label": "FOTOINIT",
+        "x": 243.56924438476562,
+        "y": -300.98211669921875,
+        "size": 5,
+        "color": "rgb(230,116,74)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "16.0",
+        "weightedOutDegree": "16.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1426",
+      "attributes": {
+        "label": "VdOpernchoereBuehnentaenzer",
+        "x": 1930.6710205078125,
+        "y": -399.5354309082031,
+        "size": 5,
+        "color": "rgb(248,154,99)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "7.0",
+        "weightedOutDegree": "7.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1687",
+      "attributes": {
+        "label": "LOFT Erwachsenenbildung TH",
+        "x": 1812.0174560546875,
+        "y": 2804.71484375,
+        "size": 5,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "1.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "976",
+      "attributes": {
+        "label": "Eckart Lange",
+        "x": -940.9293212890625,
+        "y": -2719.950927734375,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "495",
+      "attributes": {
+        "label": "DTonkuenstlerV TH",
+        "x": -1269.093017578125,
+        "y": 957.937744140625,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1452",
+      "attributes": {
+        "label": "Theater Rudolstadt",
+        "x": -1803.1614990234375,
+        "y": 1231.8671875,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "1749",
+      "attributes": {
+        "label": "Bauhaus Film-Institut Weimar",
+        "x": -1800.77978515625,
+        "y": -9.107306480407715,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "wissenschaftlich, ausbildend"
+      }
+    },
+    {
+      "key": "2068",
+      "attributes": {
+        "label": "HBoellS TH",
+        "x": 135.77301025390625,
+        "y": 575.5828857421875,
+        "size": 5,
+        "color": "rgb(207,64,41)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "28.0",
+        "weightedOutDegree": "28.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "716",
+      "attributes": {
+        "label": "Architektenkammer TH",
+        "x": 348.13104248046875,
+        "y": 377.4627380371094,
+        "size": 5,
+        "color": "rgb(179,0,0)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "43.0",
+        "weightedOutDegree": "43.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "463",
+      "attributes": {
+        "label": "Thüringischer Landkreistag",
+        "x": 891.3707275390625,
+        "y": 840.680419921875,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "1955",
+      "attributes": {
+        "label": "FNaumannS MittelD",
+        "x": 128.95404052734375,
+        "y": 179.62680053710938,
+        "size": 5,
+        "color": "rgb(253,212,140)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "2.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1464",
+      "attributes": {
+        "label": "Mediengruppe Thüringen, TA, OTZ, TLZ",
+        "x": 363.1748046875,
+        "y": -2252.218017578125,
+        "size": 13.928570556640626,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "5.0",
+        "weightedDegree": "5.0",
+        "weightedOutDegree": "0.0",
+        "group": "Medien"
+      }
+    },
+    {
+      "key": "718",
+      "attributes": {
+        "label": "Thüringer Ministerium für Arbeit, Soziales, Gesundheit, Frauen und Familie",
+        "x": -1644.7728271484375,
+        "y": 448.7852783203125,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "469",
+      "attributes": {
+        "label": "DBuehnenV TH",
+        "x": 1824.85498046875,
+        "y": -2574.655517578125,
+        "size": 21.07142791748047,
+        "color": "rgb(248,154,99)",
+        "weightedInDegree": "9.0",
+        "weightedDegree": "16.0",
+        "weightedOutDegree": "7.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1578",
+      "attributes": {
+        "label": "GDBA",
+        "x": 1286.43408203125,
+        "y": 33.44948196411133,
+        "size": 5,
+        "color": "rgb(232,120,77)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "15.0",
+        "weightedOutDegree": "15.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "477",
+      "attributes": {
+        "label": "BDKunsterzieher TH",
+        "x": -1765.6170654296875,
+        "y": -890.0533447265625,
+        "size": 6.785714721679688,
+        "color": "rgb(250,159,102)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "7.0",
+        "weightedOutDegree": "6.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "464",
+      "attributes": {
+        "label": "Kultusministerkonferenz",
+        "x": 1014.2691040039062,
+        "y": -2759.903564453125,
+        "size": 21.07142791748047,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "9.0",
+        "weightedDegree": "9.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "498",
+      "attributes": {
+        "label": "Deutsche Liszt-G",
+        "x": -1897.2476806640625,
+        "y": 1713.0205078125,
+        "size": 8.571428680419922,
+        "color": "rgb(236,128,83)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "15.0",
+        "weightedOutDegree": "13.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1341",
+      "attributes": {
+        "label": "Stadt Eisfeld",
+        "x": -1565.6458740234375,
+        "y": 2889.2802734375,
+        "size": 5,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "1.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "473",
+      "attributes": {
+        "label": "LKJ TH",
+        "x": -1257.7554931640625,
+        "y": 640.056640625,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "523",
+      "attributes": {
+        "label": "Hochschule für Musik Weimar",
+        "x": 2316.4365234375,
+        "y": -1414.8011474609375,
+        "size": 17.5,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "7.0",
+        "weightedDegree": "7.0",
+        "weightedOutDegree": "0.0",
+        "group": "wissenschaftlich, ausbildend"
+      }
+    },
+    {
+      "key": "649",
+      "attributes": {
+        "label": "Bauhaus-Uni Weimar",
+        "x": -798.5982055664062,
+        "y": -2138.1376953125,
+        "size": 15.714285278320313,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "6.0",
+        "weightedDegree": "6.0",
+        "weightedOutDegree": "0.0",
+        "group": "wissenschaftlich, ausbildend"
+      }
+    },
+    {
+      "key": "518",
+      "attributes": {
+        "label": "Kirchenchorwerk EKM",
+        "x": 148.29432678222656,
+        "y": -1297.365966796875,
+        "size": 6.785714721679688,
+        "color": "rgb(250,159,102)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "7.0",
+        "weightedOutDegree": "6.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "524",
+      "attributes": {
+        "label": "Uni EF",
+        "x": 2450.83935546875,
+        "y": -511.6941223144531,
+        "size": 15.714285278320313,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "6.0",
+        "weightedDegree": "6.0",
+        "weightedOutDegree": "0.0",
+        "group": "wissenschaftlich, ausbildend"
+      }
+    },
+    {
+      "key": "501",
+      "attributes": {
+        "label": "Friedrich-Bödecker-Kreis Thüringen",
+        "x": -2045.693115234375,
+        "y": -302.0745544433594,
+        "size": 6.785714721679688,
+        "color": "rgb(254,228,152)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "1.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "647",
+      "attributes": {
+        "label": "Theater Erfurt",
+        "x": -1038.681640625,
+        "y": 2741.68798828125,
+        "size": 15.714285278320313,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "6.0",
+        "weightedDegree": "6.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "479",
+      "attributes": {
+        "label": "Heimatbund TH",
+        "x": -212.02243041992188,
+        "y": 2731.11572265625,
+        "size": 10.357142639160157,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "3.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1852",
+      "attributes": {
+        "label": "Musikgymnasium Belvedere",
+        "x": 1164.6378173828125,
+        "y": 1676.0435791015625,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "wissenschaftlich, ausbildend"
+      }
+    },
+    {
+      "key": "478",
+      "attributes": {
+        "label": "Verband deutscher Archivarinnen und Archivare Thüringen",
+        "x": 1321.9398193359375,
+        "y": -1942.462890625,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1802",
+      "attributes": {
+        "label": "EuropaeischeJBW",
+        "x": 592.6174926757812,
+        "y": -1695.4630126953125,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "500",
+      "attributes": {
+        "label": "LAG Jazz TH",
+        "x": -724.6079711914062,
+        "y": 1367.9051513671875,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "2726",
+      "attributes": {
+        "label": "IfMP Hochschule für Musik Weimar",
+        "x": -450.4197692871094,
+        "y": 2925.11328125,
+        "size": 5,
+        "color": "rgb(253,212,140)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "2.0",
+        "group": "wissenschaftlich, ausbildend"
+      }
+    },
+    {
+      "key": "476",
+      "attributes": {
+        "label": "TH Literaturrat",
+        "x": -149.0989532470703,
+        "y": -2016.4112548828125,
+        "size": 15.714285278320313,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "6.0",
+        "weightedDegree": "6.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "481",
+      "attributes": {
+        "label": "Bundesverband der Freien Musikschulen Thüringen",
+        "x": 1800.3828125,
+        "y": -640.5709838867188,
+        "size": 6.785714721679688,
+        "color": "rgb(252,164,105)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "6.0",
+        "weightedOutDegree": "5.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "2683",
+      "attributes": {
+        "label": "Museum Schloss Burgk",
+        "x": -2400.02685546875,
+        "y": -2202.252685546875,
+        "size": 5,
+        "color": "rgb(253,196,129)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "3.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "525",
+      "attributes": {
+        "label": "Akademie Musiktherapie Crossen",
+        "x": -823.5845947265625,
+        "y": -949.58642578125,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "wissenschaftlich, ausbildend"
+      }
+    },
+    {
+      "key": "1745",
+      "attributes": {
+        "label": "Stadtwerke Energie Jena-Poessneck",
+        "x": 1496.873779296875,
+        "y": 2923.9541015625,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "wirtschaftlich"
+      }
+    },
+    {
+      "key": "1899",
+      "attributes": {
+        "label": "Kulturamt Weimar",
+        "x": 785.9974365234375,
+        "y": -1368.9609375,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "475",
+      "attributes": {
+        "label": "dbv TH",
+        "x": -1256.5577392578125,
+        "y": -1110.9727783203125,
+        "size": 12.142857360839844,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1950",
+      "attributes": {
+        "label": "Weimarer Dreieck",
+        "x": 289.0799255371094,
+        "y": -2874.726318359375,
+        "size": 5,
+        "color": "rgb(253,196,129)",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "3.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "502",
+      "attributes": {
+        "label": "LAG Jugendkunstschulen Thüringen",
+        "x": -30.071125030517578,
+        "y": -2696.572509765625,
+        "size": 8.571428680419922,
+        "color": "rgb(252,180,117)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "6.0",
+        "weightedOutDegree": "4.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "683",
+      "attributes": {
+        "label": "Stiftung Friedenstein",
+        "x": -1442.439453125,
+        "y": 1837.862548828125,
+        "size": 8.571428680419922,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "2.0",
+        "weightedDegree": "2.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "492",
+      "attributes": {
+        "label": "Blasmusikverband TH",
+        "x": -739.9595947265625,
+        "y": 25.175134658813477,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "2561",
+      "attributes": {
+        "label": "Theater Meiningen",
+        "x": -2147.18017578125,
+        "y": 2081.1259765625,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "494",
+      "attributes": {
+        "label": "Komponistenverband TH",
+        "x": -503.05364990234375,
+        "y": -282.3885192871094,
+        "size": 6.785714721679688,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "1.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "526",
+      "attributes": {
+        "label": "Thüringer Tourismus GmbH",
+        "x": -300.40191650390625,
+        "y": 1177.7452392578125,
+        "size": 6.785714721679688,
+        "color": "rgb(253,196,129)",
+        "weightedInDegree": "1.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "3.0",
+        "group": "touristisch"
+      }
+    },
+    {
+      "key": "458",
+      "attributes": {
+        "label": "Staatskanzlei, Kultur",
+        "x": 3081.56298828125,
+        "y": -124.29452514648438,
+        "size": 30,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "14.0",
+        "weightedDegree": "14.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "455",
+      "attributes": {
+        "label": "Linke, Landtagsfraktion",
+        "x": 1551.664306640625,
+        "y": -194.74142456054688,
+        "size": 10.357142639160157,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "3.0",
+        "weightedDegree": "3.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "527",
+      "attributes": {
+        "label": "MDR",
+        "x": -2267.8203125,
+        "y": -745.9895629882812,
+        "size": 15.714285278320313,
+        "color": "rgb(255,244,164)",
+        "weightedInDegree": "6.0",
+        "weightedDegree": "6.0",
+        "weightedOutDegree": "0.0",
+        "group": "Medien"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "626",
+      "source": "1019",
+      "target": "515",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "772",
+      "source": "2726",
+      "target": "648",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "267",
+      "source": "521",
+      "target": "1464",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "53",
+      "source": "2516",
+      "target": "468",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "343",
+      "source": "2068",
+      "target": "828",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "605",
+      "source": "1955",
+      "target": "467",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1149",
+      "source": "2017",
+      "target": "697",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "306",
+      "source": "2068",
+      "target": "517",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "823",
+      "source": "518",
+      "target": "476",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1699",
+      "source": "514",
+      "target": "1053",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "639",
+      "source": "1019",
+      "target": "766",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1575",
+      "source": "503",
+      "target": "475",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "302",
+      "source": "2068",
+      "target": "1292",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "139",
+      "source": "716",
+      "target": "489",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1398",
+      "source": "642",
+      "target": "467",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1684",
+      "source": "514",
+      "target": "645",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1681",
+      "source": "514",
+      "target": "697",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "315",
+      "source": "2068",
+      "target": "670",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1755",
+      "source": "1950",
+      "target": "461",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "138",
+      "source": "716",
+      "target": "495",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "190",
+      "source": "716",
+      "target": "478",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1665",
+      "source": "1426",
+      "target": "742",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "450",
+      "source": "493",
+      "target": "476",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "634",
+      "source": "1019",
+      "target": "472",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "918",
+      "source": "719",
+      "target": "461",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "96",
+      "source": "2436",
+      "target": "471",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "348",
+      "source": "511",
+      "target": "1464",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "803",
+      "source": "497",
+      "target": "524",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "705",
+      "source": "2397",
+      "target": "503",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1550",
+      "source": "506",
+      "target": "1745",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "655",
+      "source": "1019",
+      "target": "474",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1701",
+      "source": "514",
+      "target": "778",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "303",
+      "source": "2068",
+      "target": "646",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "442",
+      "source": "493",
+      "target": "472",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "682",
+      "source": "1578",
+      "target": "463",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "130",
+      "source": "716",
+      "target": "475",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1185",
+      "source": "481",
+      "target": "469",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1213",
+      "source": "513",
+      "target": "778",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "119",
+      "source": "509",
+      "target": "458",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "180",
+      "source": "716",
+      "target": "496",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1061",
+      "source": "769",
+      "target": "768",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "796",
+      "source": "497",
+      "target": "464",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1390",
+      "source": "642",
+      "target": "479",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "374",
+      "source": "469",
+      "target": "478",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "28",
+      "source": "2516",
+      "target": "498",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1214",
+      "source": "513",
+      "target": "526",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1748",
+      "source": "692",
+      "target": "718",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1722",
+      "source": "692",
+      "target": "649",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "380",
+      "source": "498",
+      "target": "1318",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "646",
+      "source": "1019",
+      "target": "775",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "712",
+      "source": "1200",
+      "target": "523",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1313",
+      "source": "516",
+      "target": "458",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "910",
+      "source": "719",
+      "target": "645",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "403",
+      "source": "1898",
+      "target": "1899",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "338",
+      "source": "2068",
+      "target": "468",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "326",
+      "source": "2068",
+      "target": "470",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1208",
+      "source": "513",
+      "target": "458",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "122",
+      "source": "716",
+      "target": "490",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "393",
+      "source": "498",
+      "target": "2560",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "398",
+      "source": "1898",
+      "target": "649",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "797",
+      "source": "497",
+      "target": "466",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "399",
+      "source": "1898",
+      "target": "469",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "314",
+      "source": "2068",
+      "target": "723",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "301",
+      "source": "2068",
+      "target": "475",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "411",
+      "source": "1898",
+      "target": "1351",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1207",
+      "source": "513",
+      "target": "516",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "714",
+      "source": "1200",
+      "target": "458",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "704",
+      "source": "2397",
+      "target": "468",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "717",
+      "source": "1200",
+      "target": "524",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1389",
+      "source": "642",
+      "target": "462",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "359",
+      "source": "469",
+      "target": "464",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "149",
+      "source": "716",
+      "target": "518",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "902",
+      "source": "502",
+      "target": "1464",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1026",
+      "source": "1765",
+      "target": "1768",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "661",
+      "source": "1578",
+      "target": "456",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "789",
+      "source": "739",
+      "target": "667",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "711",
+      "source": "1200",
+      "target": "1318",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1209",
+      "source": "513",
+      "target": "765",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "671",
+      "source": "1578",
+      "target": "470",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "319",
+      "source": "2068",
+      "target": "719",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1625",
+      "source": "474",
+      "target": "465",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1613",
+      "source": "526",
+      "target": "466",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1145",
+      "source": "2017",
+      "target": "457",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1204",
+      "source": "513",
+      "target": "2017",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "898",
+      "source": "502",
+      "target": "732",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "335",
+      "source": "2068",
+      "target": "1053",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "791",
+      "source": "497",
+      "target": "508",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1420",
+      "source": "642",
+      "target": "685",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "166",
+      "source": "716",
+      "target": "481",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "410",
+      "source": "1898",
+      "target": "775",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "664",
+      "source": "1578",
+      "target": "466",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1193",
+      "source": "481",
+      "target": "454",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1428",
+      "source": "2571",
+      "target": "523",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1151",
+      "source": "2017",
+      "target": "456",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "384",
+      "source": "498",
+      "target": "1850",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1441",
+      "source": "2571",
+      "target": "827",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "408",
+      "source": "1898",
+      "target": "516",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1749",
+      "source": "692",
+      "target": "667",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "426",
+      "source": "1292",
+      "target": "516",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "304",
+      "source": "2068",
+      "target": "499",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "897",
+      "source": "502",
+      "target": "464",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "452",
+      "source": "493",
+      "target": "468",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1721",
+      "source": "692",
+      "target": "1749",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "144",
+      "source": "716",
+      "target": "479",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "238",
+      "source": "477",
+      "target": "468",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1413",
+      "source": "642",
+      "target": "496",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "272",
+      "source": "521",
+      "target": "773",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1408",
+      "source": "642",
+      "target": "683",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "131",
+      "source": "716",
+      "target": "498",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "242",
+      "source": "477",
+      "target": "480",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "117",
+      "source": "509",
+      "target": "527",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1443",
+      "source": "2571",
+      "target": "474",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1190",
+      "source": "481",
+      "target": "455",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1629",
+      "source": "474",
+      "target": "527",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "310",
+      "source": "2068",
+      "target": "497",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1729",
+      "source": "692",
+      "target": "2028",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "389",
+      "source": "498",
+      "target": "647",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "274",
+      "source": "521",
+      "target": "468",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "392",
+      "source": "498",
+      "target": "1453",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1411",
+      "source": "642",
+      "target": "687",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1414",
+      "source": "642",
+      "target": "468",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1437",
+      "source": "2571",
+      "target": "458",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "188",
+      "source": "716",
+      "target": "524",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "52",
+      "source": "2516",
+      "target": "928",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "276",
+      "source": "521",
+      "target": "524",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "174",
+      "source": "716",
+      "target": "642",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "644",
+      "source": "1019",
+      "target": "458",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "400",
+      "source": "1898",
+      "target": "1802",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "552",
+      "source": "501",
+      "target": "527",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "125",
+      "source": "716",
+      "target": "477",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "321",
+      "source": "2068",
+      "target": "472",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "337",
+      "source": "2068",
+      "target": "476",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "371",
+      "source": "469",
+      "target": "461",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "908",
+      "source": "502",
+      "target": "461",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "660",
+      "source": "1578",
+      "target": "462",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "318",
+      "source": "2068",
+      "target": "502",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "132",
+      "source": "716",
+      "target": "508",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "120",
+      "source": "509",
+      "target": "765",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "162",
+      "source": "716",
+      "target": "473",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1298",
+      "source": "1878",
+      "target": "516",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "439",
+      "source": "493",
+      "target": "670",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "396",
+      "source": "498",
+      "target": "480",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "640",
+      "source": "1019",
+      "target": "527",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "277",
+      "source": "521",
+      "target": "1060",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "341",
+      "source": "2068",
+      "target": "1452",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "251",
+      "source": "488",
+      "target": "470",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1484",
+      "source": "773",
+      "target": "642",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1206",
+      "source": "513",
+      "target": "1464",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1698",
+      "source": "514",
+      "target": "642",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "673",
+      "source": "1578",
+      "target": "458",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1662",
+      "source": "1426",
+      "target": "454",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "127",
+      "source": "716",
+      "target": "492",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1219",
+      "source": "2683",
+      "target": "469",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1392",
+      "source": "642",
+      "target": "515",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1419",
+      "source": "642",
+      "target": "480",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1754",
+      "source": "1950",
+      "target": "466",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "160",
+      "source": "716",
+      "target": "472",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "57",
+      "source": "2516",
+      "target": "474",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "672",
+      "source": "1578",
+      "target": "454",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "858",
+      "source": "732",
+      "target": "976",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "344",
+      "source": "2068",
+      "target": "474",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "412",
+      "source": "1898",
+      "target": "476",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "332",
+      "source": "2068",
+      "target": "722",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "163",
+      "source": "716",
+      "target": "467",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1250",
+      "source": "470",
+      "target": "464",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "340",
+      "source": "2068",
+      "target": "647",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "662",
+      "source": "1578",
+      "target": "523",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "397",
+      "source": "498",
+      "target": "685",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1744",
+      "source": "692",
+      "target": "1747",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "651",
+      "source": "1019",
+      "target": "468",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "386",
+      "source": "498",
+      "target": "491",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "765",
+      "source": "2173",
+      "target": "467",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "686",
+      "source": "2397",
+      "target": "649",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1430",
+      "source": "2571",
+      "target": "466",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1435",
+      "source": "2571",
+      "target": "1852",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "919",
+      "source": "471",
+      "target": "814",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "236",
+      "source": "477",
+      "target": "470",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "169",
+      "source": "716",
+      "target": "513",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "665",
+      "source": "1578",
+      "target": "471",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "821",
+      "source": "518",
+      "target": "773",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "365",
+      "source": "469",
+      "target": "527",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "142",
+      "source": "716",
+      "target": "697",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1577",
+      "source": "503",
+      "target": "470",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "358",
+      "source": "469",
+      "target": "523",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1649",
+      "source": "1426",
+      "target": "469",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "270",
+      "source": "521",
+      "target": "516",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "628",
+      "source": "1019",
+      "target": "464",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1422",
+      "source": "2571",
+      "target": "508",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1599",
+      "source": "827",
+      "target": "646",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "834",
+      "source": "518",
+      "target": "667",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "148",
+      "source": "716",
+      "target": "497",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "123",
+      "source": "716",
+      "target": "525",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "806",
+      "source": "518",
+      "target": "509",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "99",
+      "source": "2436",
+      "target": "467",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1679",
+      "source": "514",
+      "target": "646",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "112",
+      "source": "509",
+      "target": "649",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "409",
+      "source": "1898",
+      "target": "458",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "157",
+      "source": "716",
+      "target": "500",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1775",
+      "source": "2039",
+      "target": "647",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1628",
+      "source": "474",
+      "target": "473",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1648",
+      "source": "1426",
+      "target": "453",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "402",
+      "source": "1898",
+      "target": "523",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "94",
+      "source": "2436",
+      "target": "768",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1128",
+      "source": "1687",
+      "target": "1880",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "133",
+      "source": "716",
+      "target": "484",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "152",
+      "source": "716",
+      "target": "507",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "667",
+      "source": "1578",
+      "target": "455",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "425",
+      "source": "1292",
+      "target": "470",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "766",
+      "source": "2173",
+      "target": "1464",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1711",
+      "source": "1060",
+      "target": "466",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1237",
+      "source": "2683",
+      "target": "468",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1182",
+      "source": "481",
+      "target": "649",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "506",
+      "source": "499",
+      "target": "493",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "716",
+      "source": "1200",
+      "target": "667",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "193",
+      "source": "716",
+      "target": "519",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1617",
+      "source": "526",
+      "target": "642",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1421",
+      "source": "2571",
+      "target": "475",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "171",
+      "source": "716",
+      "target": "520",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1427",
+      "source": "2571",
+      "target": "462",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1703",
+      "source": "514",
+      "target": "828",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "92",
+      "source": "2436",
+      "target": "464",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1660",
+      "source": "1426",
+      "target": "455",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "697",
+      "source": "2397",
+      "target": "645",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "351",
+      "source": "511",
+      "target": "461",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1416",
+      "source": "642",
+      "target": "647",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "683",
+      "source": "1578",
+      "target": "667",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "108",
+      "source": "2436",
+      "target": "468",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1433",
+      "source": "2571",
+      "target": "467",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "804",
+      "source": "497",
+      "target": "514",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1630",
+      "source": "474",
+      "target": "516",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "264",
+      "source": "521",
+      "target": "466",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1753",
+      "source": "1950",
+      "target": "464",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "656",
+      "source": "1578",
+      "target": "453",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "394",
+      "source": "498",
+      "target": "2561",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "388",
+      "source": "498",
+      "target": "646",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "627",
+      "source": "1019",
+      "target": "645",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "191",
+      "source": "716",
+      "target": "512",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "269",
+      "source": "521",
+      "target": "520",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "407",
+      "source": "1898",
+      "target": "1291",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1221",
+      "source": "2683",
+      "target": "645",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "669",
+      "source": "1578",
+      "target": "527",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "137",
+      "source": "716",
+      "target": "499",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "146",
+      "source": "716",
+      "target": "487",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1674",
+      "source": "514",
+      "target": "649",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "887",
+      "source": "768",
+      "target": "458",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "449",
+      "source": "493",
+      "target": "458",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "179",
+      "source": "716",
+      "target": "506",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "433",
+      "source": "493",
+      "target": "469",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "297",
+      "source": "2068",
+      "target": "509",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1663",
+      "source": "1426",
+      "target": "458",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "161",
+      "source": "716",
+      "target": "505",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "638",
+      "source": "1019",
+      "target": "467",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "185",
+      "source": "716",
+      "target": "463",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1215",
+      "source": "513",
+      "target": "524",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "240",
+      "source": "477",
+      "target": "461",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "368",
+      "source": "469",
+      "target": "458",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "182",
+      "source": "716",
+      "target": "503",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "128",
+      "source": "716",
+      "target": "483",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "300",
+      "source": "2068",
+      "target": "469",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "317",
+      "source": "2068",
+      "target": "500",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "788",
+      "source": "739",
+      "target": "742",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "141",
+      "source": "716",
+      "target": "501",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "229",
+      "source": "477",
+      "target": "465",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "316",
+      "source": "2068",
+      "target": "466",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1195",
+      "source": "481",
+      "target": "524",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1312",
+      "source": "516",
+      "target": "704",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "454",
+      "source": "493",
+      "target": "474",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "434",
+      "source": "493",
+      "target": "462",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "663",
+      "source": "1578",
+      "target": "464",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "129",
+      "source": "716",
+      "target": "469",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1409",
+      "source": "642",
+      "target": "773",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "453",
+      "source": "493",
+      "target": "667",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1616",
+      "source": "526",
+      "target": "516",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "164",
+      "source": "716",
+      "target": "486",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "322",
+      "source": "2068",
+      "target": "505",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "349",
+      "source": "511",
+      "target": "476",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "404",
+      "source": "1898",
+      "target": "1051",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "769",
+      "source": "2173",
+      "target": "458",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "820",
+      "source": "518",
+      "target": "765",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "309",
+      "source": "2068",
+      "target": "724",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "391",
+      "source": "498",
+      "target": "1452",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1113",
+      "source": "467",
+      "target": "479",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "126",
+      "source": "716",
+      "target": "488",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "526",
+      "source": "517",
+      "target": "469",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "625",
+      "source": "1019",
+      "target": "523",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "116",
+      "source": "509",
+      "target": "766",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1709",
+      "source": "1060",
+      "target": "464",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1702",
+      "source": "514",
+      "target": "647",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "345",
+      "source": "2068",
+      "target": "480",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1150",
+      "source": "2017",
+      "target": "462",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "784",
+      "source": "2726",
+      "target": "647",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "387",
+      "source": "498",
+      "target": "1848",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1655",
+      "source": "1426",
+      "target": "456",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "37",
+      "source": "2516",
+      "target": "467",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "650",
+      "source": "1019",
+      "target": "778",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "695",
+      "source": "2397",
+      "target": "1163",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "437",
+      "source": "493",
+      "target": "645",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "360",
+      "source": "469",
+      "target": "466",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1605",
+      "source": "827",
+      "target": "467",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "107",
+      "source": "2436",
+      "target": "1747",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "405",
+      "source": "1898",
+      "target": "769",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "504",
+      "source": "485",
+      "target": "704",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "645",
+      "source": "1019",
+      "target": "642",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "334",
+      "source": "2068",
+      "target": "683",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1738",
+      "source": "692",
+      "target": "516",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "134",
+      "source": "716",
+      "target": "493",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "883",
+      "source": "768",
+      "target": "472",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "612",
+      "source": "1955",
+      "target": "476",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "377",
+      "source": "522",
+      "target": "467",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "192",
+      "source": "716",
+      "target": "480",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "666",
+      "source": "1578",
+      "target": "472",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "428",
+      "source": "1292",
+      "target": "468",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "136",
+      "source": "716",
+      "target": "485",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "632",
+      "source": "1019",
+      "target": "466",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "154",
+      "source": "716",
+      "target": "494",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "790",
+      "source": "497",
+      "target": "469",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1513",
+      "source": "687",
+      "target": "458",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "401",
+      "source": "1898",
+      "target": "1200",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "812",
+      "source": "518",
+      "target": "502",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "622",
+      "source": "1019",
+      "target": "508",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "237",
+      "source": "477",
+      "target": "742",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1777",
+      "source": "2039",
+      "target": "461",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "1381",
+      "source": "1341",
+      "target": "496",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "390",
+      "source": "498",
+      "target": "828",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    },
+    {
+      "key": "694",
+      "source": "2397",
+      "target": "523",
+      "attributes": { "color": "#cccccc", "size": 0.3, "force": "kann ich nicht einschätzen" }
+    }
+  ],
+  "groups": [
+    { "key": "staatlich-kommunale geförderte Einrichtung", "value": true },
+    { "key": "staatlich-kommunal", "value": true },
+    { "key": "gemeinnützig orientiert", "value": true },
+    { "key": "wissenschaftlich, ausbildend", "value": true },
+    { "key": "Medien", "value": true },
+    { "key": "touristisch", "value": true },
+    { "key": "wirtschaftlich", "value": true },
+    { "key": "anonym", "value": true }
+  ]
+}

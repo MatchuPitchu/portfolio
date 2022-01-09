@@ -3,7 +3,7 @@
     {
       "key": "2173",
       "attributes": {
-        "label": "HSarchiv TH LMarchiv",
+        "label": "Thüringisches Landesmusikarchiv",
         "x": 971.4653930664062,
         "y": 2895.55078125,
         "size": 5,
@@ -11,13 +11,13 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "55.0",
         "weightedOutDegree": "55.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
       "key": "2583",
       "attributes": {
-        "label": "EF Tourismus & Marketing",
+        "label": "Erfurt Tourismus",
         "x": 888.8956298828125,
         "y": 512.6648559570312,
         "size": 5.354107666015626,
@@ -25,7 +25,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -39,13 +39,13 @@
         "weightedInDegree": "17.0",
         "weightedDegree": "17.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Schule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
       "key": "667",
       "attributes": {
-        "label": "TMBJS",
+        "label": "Thüringer Ministerium für Bildung, Jugend und Sport",
         "x": 75.51126098632812,
         "y": -3004.06689453125,
         "size": 11.79886703491211,
@@ -53,13 +53,13 @@
         "weightedInDegree": "96.0",
         "weightedDegree": "96.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
       "key": "1806",
       "attributes": {
-        "label": "VdOpfer Stalinismus",
+        "label": "Vereinigung der Opfer des Stalinismus",
         "x": 4261.3125,
         "y": -1591.1265869140625,
         "size": 5.354107666015626,
@@ -67,13 +67,13 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "464",
       "attributes": {
-        "label": "KMK",
+        "label": "Kultusministerkonferenz",
         "x": -4583.76416015625,
         "y": -803.5306396484375,
         "size": 7.974504089355469,
@@ -81,13 +81,13 @@
         "weightedInDegree": "42.0",
         "weightedDegree": "42.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal �berregionale Einrichtungen"
+        "group": "staatlich-kommunal"
       }
     },
     {
       "key": "642",
       "attributes": {
-        "label": "Stiftung Buchenwald Dora",
+        "label": "Stiftung Gedenkstätten Buchenwald und Mittelbau-Dora",
         "x": 3762.131591796875,
         "y": 846.8403930664062,
         "size": 10.382435607910157,
@@ -95,13 +95,13 @@
         "weightedInDegree": "76.0",
         "weightedDegree": "204.0",
         "weightedOutDegree": "128.0",
-        "group": "staatlich-kommunal Stiftungen des �ffentlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
       "key": "463",
       "attributes": {
-        "label": "TH Landkreistag",
+        "label": "Thüringischer Landkreistag",
         "x": -1198.448974609375,
         "y": -285.3589782714844,
         "size": 6.84135971069336,
@@ -109,13 +109,13 @@
         "weightedInDegree": "26.0",
         "weightedDegree": "26.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Spitzenverb�nde"
+        "group": "staatlich-kommunal"
       }
     },
     {
       "key": "2519",
       "attributes": {
-        "label": "ThULB",
+        "label": "Thüringer Universitäts- und Landesbibliothek",
         "x": 4746.35009765625,
         "y": 250.6556396484375,
         "size": 5.141643142700196,
@@ -123,13 +123,13 @@
         "weightedInDegree": "2.0",
         "weightedDegree": "2.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
       "key": "501",
       "attributes": {
-        "label": "FBoedeckerK TH",
+        "label": "Friedrich-Bödecker-Kreis Thüringen",
         "x": -422.2974548339844,
         "y": -1596.125732421875,
         "size": 6.983003234863282,
@@ -137,13 +137,13 @@
         "weightedInDegree": "28.0",
         "weightedDegree": "72.0",
         "weightedOutDegree": "44.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "778",
       "attributes": {
-        "label": "Ausschuss Europa Kultur Medien TH LT",
+        "label": "Ausschuss Europa, Kultur, Medien im Thüringer Landtag",
         "x": 3720.90576171875,
         "y": 2389.86474609375,
         "size": 6.20396614074707,
@@ -151,13 +151,13 @@
         "weightedInDegree": "17.0",
         "weightedDegree": "17.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
       "key": "1809",
       "attributes": {
-        "label": "Dt-Dt Museum Moedlareuth",
+        "label": "Deutsch-Deutsches Museum Mödlareuth",
         "x": 4620.88037109375,
         "y": -1480.734375,
         "size": 5.283286285400391,
@@ -165,7 +165,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -179,13 +179,13 @@
         "weightedInDegree": "17.0",
         "weightedDegree": "17.0",
         "weightedOutDegree": "0.0",
-        "group": "wirtschaftlich Unternehmen"
+        "group": "wirtschaftlich"
       }
     },
     {
       "key": "471",
       "attributes": {
-        "label": "LAG Soziokultur TH",
+        "label": "LAG Soziokultur Thüringen",
         "x": 185.53709411621094,
         "y": -1179.2095947265625,
         "size": 13.215298461914063,
@@ -193,13 +193,13 @@
         "weightedInDegree": "116.0",
         "weightedDegree": "427.0",
         "weightedOutDegree": "311.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "511",
       "attributes": {
-        "label": "Boersenverein S, SA, TH",
+        "label": "Börsenverein des Deutschen Buchhandels Sachsen, Sachsen-Anhalt, Thüringen",
         "x": 1069.8914794921875,
         "y": -591.912841796875,
         "size": 5.8498584747314455,
@@ -207,7 +207,7 @@
         "weightedInDegree": "12.0",
         "weightedDegree": "36.0",
         "weightedOutDegree": "24.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -221,7 +221,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "77.0",
         "weightedOutDegree": "68.0",
-        "group": "staatlich-kommunal Stiftungen des b�rgerlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -235,13 +235,13 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "101.0",
         "weightedOutDegree": "101.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
       "key": "773",
       "attributes": {
-        "label": "Stiftung TH Schloesser Gaerten",
+        "label": "Stiftung Thüringer Schlösser und Gärten",
         "x": 1815.7056884765625,
         "y": 3613.03173828125,
         "size": 10.099150085449219,
@@ -249,7 +249,7 @@
         "weightedInDegree": "72.0",
         "weightedDegree": "121.0",
         "weightedOutDegree": "49.0",
-        "group": "staatlich-kommunal Stiftungen des �ffentlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -263,13 +263,13 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "57.0",
         "weightedOutDegree": "57.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
       "key": "484",
       "attributes": {
-        "label": "DHarmonikaV TH",
+        "label": "Deutscher Harmonika Verband Thüringen",
         "x": -1144.874267578125,
         "y": 4677.69384765625,
         "size": 5,
@@ -277,7 +277,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -291,13 +291,13 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "768",
       "attributes": {
-        "label": "KuPoGe TH",
+        "label": "Kulturpolitische Gesellschaft Thüringen",
         "x": -520.2787475585938,
         "y": -2087.25927734375,
         "size": 6.699716949462891,
@@ -305,13 +305,13 @@
         "weightedInDegree": "24.0",
         "weightedDegree": "89.0",
         "weightedOutDegree": "65.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "2442",
       "attributes": {
-        "label": "Fachhochschule EF",
+        "label": "FH Erfurt",
         "x": -2176.84521484375,
         "y": 2043.0118408203125,
         "size": 5.92067985534668,
@@ -319,13 +319,13 @@
         "weightedInDegree": "13.0",
         "weightedDegree": "13.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
       "key": "462",
       "attributes": {
-        "label": "Gemeinde- Staedtebund TH",
+        "label": "Gemeinde- und Städtebunde Thüringen",
         "x": -840.6349487304688,
         "y": -20.410018920898438,
         "size": 7.974504089355469,
@@ -333,13 +333,13 @@
         "weightedInDegree": "42.0",
         "weightedDegree": "42.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Spitzenverb�nde"
+        "group": "staatlich-kommunal"
       }
     },
     {
       "key": "523",
       "attributes": {
-        "label": "HfM Weimar",
+        "label": "Hochschule für Musik Weimar",
         "x": -143.1233367919922,
         "y": 2727.849609375,
         "size": 13.498583984375001,
@@ -347,13 +347,13 @@
         "weightedInDegree": "120.0",
         "weightedDegree": "120.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
       "key": "488",
       "attributes": {
-        "label": "BDZupfmusiker TH",
+        "label": "Bund Deutscher Zupfmusiker Thüringen",
         "x": -884.5239868164062,
         "y": -1728.34716796875,
         "size": 5.283286285400391,
@@ -361,13 +361,13 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "67.0",
         "weightedOutDegree": "63.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "467",
       "attributes": {
-        "label": "LMR TH",
+        "label": "Landesmusikrat Thüringen",
         "x": -3187.0546875,
         "y": -561.1207885742188,
         "size": 16.260623168945312,
@@ -375,13 +375,13 @@
         "weightedInDegree": "159.0",
         "weightedDegree": "236.0",
         "weightedOutDegree": "77.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "769",
       "attributes": {
-        "label": "Literarische G TH",
+        "label": "Literarische Gesellschaft Thüringen",
         "x": 1396.175048828125,
         "y": -1758.7740478515625,
         "size": 9.107649230957032,
@@ -389,7 +389,7 @@
         "weightedInDegree": "58.0",
         "weightedDegree": "117.0",
         "weightedOutDegree": "59.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -403,7 +403,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -417,13 +417,13 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "21.0",
         "weightedOutDegree": "12.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "767",
       "attributes": {
-        "label": "ThILLM",
+        "label": "Thüringer Institut für Lehrerfortbildung, Lehrplanentwicklung u. Medien",
         "x": 2351.850341796875,
         "y": -2422.08447265625,
         "size": 8.54107666015625,
@@ -431,13 +431,13 @@
         "weightedInDegree": "50.0",
         "weightedDegree": "50.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
       "key": "493",
       "attributes": {
-        "label": "DKV TH, via nova",
+        "label": "Deutscher Komponistenverband Thüringen, via nova",
         "x": -2926.942626953125,
         "y": -1848.1812744140625,
         "size": 5.92067985534668,
@@ -445,7 +445,7 @@
         "weightedInDegree": "13.0",
         "weightedDegree": "67.0",
         "weightedOutDegree": "54.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -459,13 +459,13 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Forschungs-/Ausbildungsinstitut"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
       "key": "814",
       "attributes": {
-        "label": "ART-regio Kunstfoerderung SV",
+        "label": "ART-regio Kunstförderung",
         "x": 191.52297973632812,
         "y": -441.08648681640625,
         "size": 6.274787521362305,
@@ -473,13 +473,13 @@
         "weightedInDegree": "18.0",
         "weightedDegree": "131.0",
         "weightedOutDegree": "113.0",
-        "group": "wirtschaftlich Unternehmen"
+        "group": "wirtschaftlich"
       }
     },
     {
       "key": "1464",
       "attributes": {
-        "label": "MedienGr TH, ZeitungsGr TA, OTZ, TLZ",
+        "label": "Mediengruppe Thüringen, TA, OTZ, TLZ",
         "x": 724.6224365234375,
         "y": 2331.407958984375,
         "size": 13.498583984375001,
@@ -487,13 +487,13 @@
         "weightedInDegree": "120.0",
         "weightedDegree": "120.0",
         "weightedOutDegree": "0.0",
-        "group": "Medien Presse"
+        "group": "Medien"
       }
     },
     {
       "key": "2488",
       "attributes": {
-        "label": "Offener Hoerfunkkanal Jena",
+        "label": "Offener Hörfunkkanal Jena",
         "x": 4263.2373046875,
         "y": -2692.24560546875,
         "size": 5.21246452331543,
@@ -501,13 +501,13 @@
         "weightedInDegree": "3.0",
         "weightedDegree": "3.0",
         "weightedOutDegree": "0.0",
-        "group": "Medien Rundfunk"
+        "group": "Medien"
       }
     },
     {
       "key": "1351",
       "attributes": {
-        "label": "TFF Rudolstadt",
+        "label": "Rudolstadt-Festival",
         "x": 4702.3974609375,
         "y": -1141.7001953125,
         "size": 6.345608901977539,
@@ -515,7 +515,7 @@
         "weightedInDegree": "19.0",
         "weightedDegree": "19.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Festivals"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -529,13 +529,13 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "67.0",
         "weightedOutDegree": "63.0",
-        "group": "staatlich-kommunal Staatsarchive"
+        "group": "staatlich-kommunal"
       }
     },
     {
       "key": "2200",
       "attributes": {
-        "label": "Luxemburg-Stiftung TH",
+        "label": "Rosa-Luxemburg-Stiftung Thüringen",
         "x": 2809.03076171875,
         "y": -3415.40234375,
         "size": 5.354107666015626,
@@ -543,7 +543,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich parteinahe Stiftungen und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -557,7 +557,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "13.0",
         "weightedOutDegree": "9.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -571,7 +571,7 @@
         "weightedInDegree": "30.0",
         "weightedDegree": "30.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -585,13 +585,13 @@
         "weightedInDegree": "44.0",
         "weightedDegree": "155.0",
         "weightedOutDegree": "111.0",
-        "group": "staatlich-kommunal Stiftungen des b�rgerlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
       "key": "497",
       "attributes": {
-        "label": "KinderKultur TH",
+        "label": "KinderKultur Thüringen",
         "x": 576.9254760742188,
         "y": 1339.9656982421875,
         "size": 5.42492904663086,
@@ -599,13 +599,13 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "34.0",
         "weightedOutDegree": "28.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "526",
       "attributes": {
-        "label": "TTourismusG",
+        "label": "Thüringer Tourismus GmbH",
         "x": 2392.7802734375,
         "y": 3029.123779296875,
         "size": 13.286119079589845,
@@ -613,13 +613,13 @@
         "weightedInDegree": "117.0",
         "weightedDegree": "173.0",
         "weightedOutDegree": "56.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
       "key": "531",
       "attributes": {
-        "label": "ThAK",
+        "label": "Thüringer Agentur für die Kreativwirtschaft",
         "x": 1112.765869140625,
         "y": 51.88880157470703,
         "size": 7.266288757324219,
@@ -627,7 +627,7 @@
         "weightedInDegree": "32.0",
         "weightedDegree": "45.0",
         "weightedOutDegree": "13.0",
-        "group": "staatlich-kommunal Beratungseinrichtungen"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -641,13 +641,13 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
       "key": "2487",
       "attributes": {
-        "label": "Filmkommunikation TH",
+        "label": "Filmkommunikation Thüringen",
         "x": 981.1926879882812,
         "y": -4241.43994140625,
         "size": 5.283286285400391,
@@ -655,13 +655,13 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "35.0",
         "weightedOutDegree": "31.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "718",
       "attributes": {
-        "label": "TMASGFF",
+        "label": "Thüringer Ministerium für Arbeit, Soziales, Gesundheit, Frauen und Familie",
         "x": -148.1995849609375,
         "y": -4049.869873046875,
         "size": 5.8498584747314455,
@@ -669,13 +669,13 @@
         "weightedInDegree": "12.0",
         "weightedDegree": "12.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
       "key": "928",
       "attributes": {
-        "label": "TH Orgelsommer",
+        "label": "Thüringer Orgelsommer",
         "x": 3897.535888671875,
         "y": 1197.5445556640625,
         "size": 5.566572189331055,
@@ -683,13 +683,13 @@
         "weightedInDegree": "8.0",
         "weightedDegree": "8.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Festivals"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
       "key": "2194",
       "attributes": {
-        "label": "LAG Buergermedien TH",
+        "label": "LAG Bürgermedien Thüringen",
         "x": 3312.265869140625,
         "y": -2911.610595703125,
         "size": 5.354107666015626,
@@ -697,7 +697,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -711,13 +711,13 @@
         "weightedInDegree": "26.0",
         "weightedDegree": "45.0",
         "weightedOutDegree": "19.0",
-        "group": "Medien Rundfunk"
+        "group": "Medien"
       }
     },
     {
       "key": "687",
       "attributes": {
-        "label": "TH Bachwochen",
+        "label": "Thüringer Bachwochen",
         "x": 1174.65625,
         "y": 3398.837158203125,
         "size": 8.25779037475586,
@@ -725,13 +725,13 @@
         "weightedInDegree": "46.0",
         "weightedDegree": "69.0",
         "weightedOutDegree": "23.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Festivals"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
       "key": "2412",
       "attributes": {
-        "label": "Brehm-Gedenkstaette Renthendorf",
+        "label": "Brehm-Gedenkstätte Renthendorf",
         "x": -2953.99267578125,
         "y": 1531.6962890625,
         "size": 5,
@@ -739,7 +739,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "5.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -753,13 +753,13 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "wirtschaftlich Unternehmen"
+        "group": "wirtschaftlich"
       }
     },
     {
       "key": "502",
       "attributes": {
-        "label": "LAG JKS TH",
+        "label": "LAG Jugendkunstschulen Thüringen",
         "x": -1201.2891845703125,
         "y": -2863.855712890625,
         "size": 7.832861328125,
@@ -767,13 +767,13 @@
         "weightedInDegree": "40.0",
         "weightedDegree": "75.0",
         "weightedOutDegree": "35.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "481",
       "attributes": {
-        "label": "LV TH im bdpm",
+        "label": "Bundesverband der Freien Musikschulen Thüringen",
         "x": -3852.5341796875,
         "y": -389.390869140625,
         "size": 5.283286285400391,
@@ -781,13 +781,13 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "51.0",
         "weightedOutDegree": "47.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "1804",
       "attributes": {
-        "label": "Freiheit e.V. GS Andreasstrasse",
+        "label": "Freiheit e.V. - Gedenkstätte Andreasstraße",
         "x": 3378.326416015625,
         "y": -2693.28515625,
         "size": 5.7790367126464846,
@@ -795,13 +795,13 @@
         "weightedInDegree": "11.0",
         "weightedDegree": "11.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "505",
       "attributes": {
-        "label": "Landesfilmdienst TH",
+        "label": "Landesfilmdienst Thüringen",
         "x": 994.870849609375,
         "y": -3848.7626953125,
         "size": 6.628895568847657,
@@ -809,13 +809,13 @@
         "weightedInDegree": "23.0",
         "weightedDegree": "49.0",
         "weightedOutDegree": "26.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "478",
       "attributes": {
-        "label": "VdArchivare TH",
+        "label": "Verband deutscher Archivarinnen und Archivare Thüringen",
         "x": 3215.847900390625,
         "y": -1427.9111328125,
         "size": 6.628895568847657,
@@ -823,13 +823,13 @@
         "weightedInDegree": "23.0",
         "weightedDegree": "28.0",
         "weightedOutDegree": "5.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "2272",
       "attributes": {
-        "label": "Uni-/Forschungsbib EF/Gotha",
+        "label": "Universitäts- und Forschungsbibliothek Erfurt Gotha",
         "x": 539.5686645507812,
         "y": 4237.9794921875,
         "size": 5.354107666015626,
@@ -837,7 +837,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -851,13 +851,13 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "18.0",
         "weightedOutDegree": "18.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
       "key": "692",
       "attributes": {
-        "label": "Verein Staedtetourismus in TH",
+        "label": "Verein Städtetourismus in Thüringen",
         "x": 2788.625,
         "y": 3480.40625,
         "size": 5.283286285400391,
@@ -865,13 +865,13 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "94.0",
         "weightedOutDegree": "90.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
       "key": "491",
       "attributes": {
-        "label": "LMA Sondershausen",
+        "label": "Landesmusikakademie Sondershausen",
         "x": -2058.95556640625,
         "y": -449.086181640625,
         "size": 8.25779037475586,
@@ -879,13 +879,13 @@
         "weightedInDegree": "46.0",
         "weightedDegree": "108.0",
         "weightedOutDegree": "62.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "2541",
       "attributes": {
-        "label": "Dom zu EF",
+        "label": "Dom Erfurt",
         "x": -732.0736083984375,
         "y": 2965.54296875,
         "size": 5,
@@ -893,7 +893,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "63.0",
         "weightedOutDegree": "63.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -907,13 +907,13 @@
         "weightedInDegree": "2.0",
         "weightedDegree": "2.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "1811",
       "attributes": {
-        "label": "TH Archiv Zeitgeschichte",
+        "label": "Thüringer Archiv für Zeitgeschichte",
         "x": 3846.899658203125,
         "y": -2583.61865234375,
         "size": 5.354107666015626,
@@ -921,7 +921,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "55.0",
         "weightedOutDegree": "50.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -935,13 +935,13 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "74.0",
         "weightedOutDegree": "74.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
       "key": "732",
       "attributes": {
-        "label": "Kulturdirektion EF",
+        "label": "Kulturdirektion Erfurt",
         "x": -385.6772766113281,
         "y": -608.5685424804688,
         "size": 7.053824615478516,
@@ -949,13 +949,13 @@
         "weightedInDegree": "29.0",
         "weightedDegree": "65.0",
         "weightedOutDegree": "36.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
       "key": "815",
       "attributes": {
-        "label": "Kulturaemter der Staedte",
+        "label": "Kulturämter der Städte",
         "x": 2680.067138671875,
         "y": 450.4351806640625,
         "size": 5.991501617431641,
@@ -963,7 +963,7 @@
         "weightedInDegree": "14.0",
         "weightedDegree": "14.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -977,13 +977,13 @@
         "weightedInDegree": "15.0",
         "weightedDegree": "29.0",
         "weightedOutDegree": "14.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "453",
       "attributes": {
-        "label": "CDU, LF",
+        "label": "CDU, Landtagsfraktion",
         "x": -80.96568298339844,
         "y": 1366.958251953125,
         "size": 8.753541564941406,
@@ -991,7 +991,7 @@
         "weightedInDegree": "53.0",
         "weightedDegree": "53.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Parteien und Fraktionen"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1005,13 +1005,13 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "23.0",
         "weightedOutDegree": "23.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
       "key": "1948",
       "attributes": {
-        "label": "KAS TH",
+        "label": "Konrad-Adenauer-Stiftung Thüringen",
         "x": 3499.452880859375,
         "y": 59.42189407348633,
         "size": 5.7082153320312505,
@@ -1019,13 +1019,13 @@
         "weightedInDegree": "10.0",
         "weightedDegree": "10.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich parteinahe Stiftungen und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "2700",
       "attributes": {
-        "label": "Mitteldeutsche Medienfoerderung",
+        "label": "Mitteldeutsche Medienförderung",
         "x": 1582.6947021484375,
         "y": -4362.5908203125,
         "size": 5.283286285400391,
@@ -1033,7 +1033,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Beratungseinrichtungen"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1047,7 +1047,7 @@
         "weightedInDegree": "15.0",
         "weightedDegree": "39.0",
         "weightedOutDegree": "24.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1061,7 +1061,7 @@
         "weightedInDegree": "68.0",
         "weightedDegree": "68.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Stiftungen des �ffentlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1075,7 +1075,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1089,7 +1089,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1103,7 +1103,7 @@
         "weightedInDegree": "50.0",
         "weightedDegree": "50.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Stiftungen des b�rgerlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1117,7 +1117,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1131,7 +1131,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -1145,7 +1145,7 @@
         "weightedInDegree": "10.0",
         "weightedDegree": "10.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -1159,7 +1159,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Sonstiges"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1173,7 +1173,7 @@
         "weightedInDegree": "29.0",
         "weightedDegree": "189.0",
         "weightedOutDegree": "160.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1187,7 +1187,7 @@
         "weightedInDegree": "21.0",
         "weightedDegree": "21.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1201,7 +1201,7 @@
         "weightedInDegree": "14.0",
         "weightedDegree": "57.0",
         "weightedOutDegree": "43.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1215,7 +1215,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1229,7 +1229,7 @@
         "weightedInDegree": "73.0",
         "weightedDegree": "90.0",
         "weightedOutDegree": "17.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -1243,7 +1243,7 @@
         "weightedInDegree": "12.0",
         "weightedDegree": "12.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1257,7 +1257,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "Medien Zeitschriften"
+        "group": "Medien"
       }
     },
     {
@@ -1271,7 +1271,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Stiftungen des �ffentlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1285,7 +1285,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "34.0",
         "weightedOutDegree": "34.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1299,7 +1299,7 @@
         "weightedInDegree": "49.0",
         "weightedDegree": "124.0",
         "weightedOutDegree": "75.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1313,7 +1313,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "Medien Rundfunk"
+        "group": "Medien"
       }
     },
     {
@@ -1327,7 +1327,7 @@
         "weightedInDegree": "184.0",
         "weightedDegree": "184.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Stiftungen des �ffentlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1341,7 +1341,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1355,7 +1355,7 @@
         "weightedInDegree": "30.0",
         "weightedDegree": "30.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -1369,7 +1369,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1383,7 +1383,7 @@
         "weightedInDegree": "38.0",
         "weightedDegree": "38.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Sonstiges"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1397,7 +1397,7 @@
         "weightedInDegree": "2.0",
         "weightedDegree": "2.0",
         "weightedOutDegree": "0.0",
-        "group": "wirtschaftlich Unternehmen"
+        "group": "wirtschaftlich"
       }
     },
     {
@@ -1411,7 +1411,7 @@
         "weightedInDegree": "26.0",
         "weightedDegree": "26.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Sonstiges"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1425,7 +1425,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "58.0",
         "weightedOutDegree": "58.0",
-        "group": "wissenschaftlich, ausbildend Schule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -1439,7 +1439,7 @@
         "weightedInDegree": "18.0",
         "weightedDegree": "18.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1453,7 +1453,7 @@
         "weightedInDegree": "28.0",
         "weightedDegree": "28.0",
         "weightedOutDegree": "0.0",
-        "group": "Medien Presse"
+        "group": "Medien"
       }
     },
     {
@@ -1467,7 +1467,7 @@
         "weightedInDegree": "23.0",
         "weightedDegree": "23.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1481,7 +1481,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "11.0",
         "weightedOutDegree": "11.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -1495,7 +1495,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "91.0",
         "weightedOutDegree": "91.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -1509,7 +1509,7 @@
         "weightedInDegree": "8.0",
         "weightedDegree": "74.0",
         "weightedOutDegree": "66.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1523,7 +1523,7 @@
         "weightedInDegree": "21.0",
         "weightedDegree": "74.0",
         "weightedOutDegree": "53.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1537,7 +1537,7 @@
         "weightedInDegree": "165.0",
         "weightedDegree": "253.0",
         "weightedOutDegree": "88.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1551,7 +1551,7 @@
         "weightedInDegree": "39.0",
         "weightedDegree": "39.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1565,7 +1565,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Sonstiges"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -1579,7 +1579,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1593,7 +1593,7 @@
         "weightedInDegree": "81.0",
         "weightedDegree": "81.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1607,7 +1607,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1621,7 +1621,7 @@
         "weightedInDegree": "19.0",
         "weightedDegree": "97.0",
         "weightedOutDegree": "78.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1635,7 +1635,7 @@
         "weightedInDegree": "21.0",
         "weightedDegree": "21.0",
         "weightedOutDegree": "0.0",
-        "group": "wirtschaftlich Unternehmen"
+        "group": "wirtschaftlich"
       }
     },
     {
@@ -1649,7 +1649,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Sonstiges"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -1663,7 +1663,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "95.0",
         "weightedOutDegree": "95.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1677,7 +1677,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1691,7 +1691,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "30.0",
         "weightedOutDegree": "30.0",
-        "group": "zivilgesellschaftlich anonymisierter Akteur"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1705,7 +1705,7 @@
         "weightedInDegree": "151.0",
         "weightedDegree": "151.0",
         "weightedOutDegree": "0.0",
-        "group": "Medien Rundfunk"
+        "group": "Medien"
       }
     },
     {
@@ -1719,7 +1719,7 @@
         "weightedInDegree": "17.0",
         "weightedDegree": "65.0",
         "weightedOutDegree": "48.0",
-        "group": "staatlich-kommunal Beratungseinrichtungen"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1733,7 +1733,7 @@
         "weightedInDegree": "22.0",
         "weightedDegree": "22.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1747,7 +1747,7 @@
         "weightedInDegree": "11.0",
         "weightedDegree": "130.0",
         "weightedOutDegree": "119.0",
-        "group": "zivilgesellschaftlich Gewerkschaften"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1761,7 +1761,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1775,7 +1775,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -1789,7 +1789,7 @@
         "weightedInDegree": "22.0",
         "weightedDegree": "22.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -1803,7 +1803,7 @@
         "weightedInDegree": "103.0",
         "weightedDegree": "103.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1817,7 +1817,7 @@
         "weightedInDegree": "14.0",
         "weightedDegree": "14.0",
         "weightedOutDegree": "0.0",
-        "group": "Medien Presse"
+        "group": "Medien"
       }
     },
     {
@@ -1831,7 +1831,7 @@
         "weightedInDegree": "27.0",
         "weightedDegree": "27.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal �berregionale Einrichtungen"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1845,7 +1845,7 @@
         "weightedInDegree": "60.0",
         "weightedDegree": "89.0",
         "weightedOutDegree": "29.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1859,7 +1859,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1873,7 +1873,7 @@
         "weightedInDegree": "11.0",
         "weightedDegree": "11.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1887,7 +1887,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1901,13 +1901,13 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "18.0",
         "weightedOutDegree": "14.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "2726",
       "attributes": {
-        "label": "IfMP HfM Weimar",
+        "label": "IfMP Hochschule für Musik Weimar",
         "x": -1633.5677490234375,
         "y": -176.7311248779297,
         "size": 5,
@@ -1915,7 +1915,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "45.0",
         "weightedOutDegree": "45.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -1929,7 +1929,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -1943,7 +1943,7 @@
         "weightedInDegree": "12.0",
         "weightedDegree": "92.0",
         "weightedOutDegree": "80.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1957,7 +1957,7 @@
         "weightedInDegree": "17.0",
         "weightedDegree": "112.0",
         "weightedOutDegree": "95.0",
-        "group": "zivilgesellschaftlich Gewerkschaften"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1971,7 +1971,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1985,7 +1985,7 @@
         "weightedInDegree": "69.0",
         "weightedDegree": "140.0",
         "weightedOutDegree": "71.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1999,7 +1999,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2013,7 +2013,7 @@
         "weightedInDegree": "31.0",
         "weightedDegree": "31.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2027,7 +2027,7 @@
         "weightedInDegree": "10.0",
         "weightedDegree": "10.0",
         "weightedOutDegree": "0.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -2041,7 +2041,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "25.0",
         "weightedOutDegree": "25.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2055,7 +2055,7 @@
         "weightedInDegree": "44.0",
         "weightedDegree": "44.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -2069,7 +2069,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2083,7 +2083,7 @@
         "weightedInDegree": "10.0",
         "weightedDegree": "10.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -2097,7 +2097,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2111,7 +2111,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "58.0",
         "weightedOutDegree": "58.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2125,7 +2125,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "112.0",
         "weightedOutDegree": "106.0",
-        "group": "zivilgesellschaftlich Gewerkschaften"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2139,7 +2139,7 @@
         "weightedInDegree": "14.0",
         "weightedDegree": "18.0",
         "weightedOutDegree": "4.0",
-        "group": "staatlich-kommunal Staatsarchive"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2153,7 +2153,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2167,7 +2167,7 @@
         "weightedInDegree": "3.0",
         "weightedDegree": "3.0",
         "weightedOutDegree": "0.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -2181,7 +2181,7 @@
         "weightedInDegree": "93.0",
         "weightedDegree": "151.0",
         "weightedOutDegree": "58.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2195,7 +2195,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "17.0",
         "weightedOutDegree": "17.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Sonstiges"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -2209,7 +2209,7 @@
         "weightedInDegree": "24.0",
         "weightedDegree": "24.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -2223,7 +2223,7 @@
         "weightedInDegree": "7.0",
         "weightedDegree": "7.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2237,7 +2237,7 @@
         "weightedInDegree": "25.0",
         "weightedDegree": "100.0",
         "weightedOutDegree": "75.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2251,7 +2251,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "22.0",
         "weightedOutDegree": "22.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2265,7 +2265,7 @@
         "weightedInDegree": "10.0",
         "weightedDegree": "10.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Staatsarchive"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2279,7 +2279,7 @@
         "weightedInDegree": "10.0",
         "weightedDegree": "72.0",
         "weightedOutDegree": "62.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2293,7 +2293,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Parteien und Fraktionen"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2307,7 +2307,7 @@
         "weightedInDegree": "19.0",
         "weightedDegree": "102.0",
         "weightedOutDegree": "83.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2321,7 +2321,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Gewerkschaften"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2335,7 +2335,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -2349,7 +2349,7 @@
         "weightedInDegree": "66.0",
         "weightedDegree": "116.0",
         "weightedOutDegree": "50.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2363,7 +2363,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2377,13 +2377,13 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
       "key": "455",
       "attributes": {
-        "label": "Linke, LF",
+        "label": "Linke, Landtagsfraktion",
         "x": -2792.748291015625,
         "y": -2602.931640625,
         "size": 10.028328704833985,
@@ -2391,7 +2391,7 @@
         "weightedInDegree": "71.0",
         "weightedDegree": "133.0",
         "weightedOutDegree": "62.0",
-        "group": "zivilgesellschaftlich Parteien und Fraktionen"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2405,7 +2405,7 @@
         "weightedInDegree": "192.0",
         "weightedDegree": "214.0",
         "weightedOutDegree": "22.0",
-        "group": "zivilgesellschaftlich Stiftungen b�rgerlichen Rechts"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2419,7 +2419,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2433,7 +2433,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -2447,7 +2447,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "wirtschaftlich Wirtschaftsverband"
+        "group": "wirtschaftlich"
       }
     },
     {
@@ -2461,7 +2461,7 @@
         "weightedInDegree": "2.0",
         "weightedDegree": "32.0",
         "weightedOutDegree": "30.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2475,7 +2475,7 @@
         "weightedInDegree": "229.0",
         "weightedDegree": "229.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2489,7 +2489,7 @@
         "weightedInDegree": "51.0",
         "weightedDegree": "106.0",
         "weightedOutDegree": "55.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -2503,7 +2503,7 @@
         "weightedInDegree": "35.0",
         "weightedDegree": "35.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2517,7 +2517,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "55.0",
         "weightedOutDegree": "49.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2531,7 +2531,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -2545,7 +2545,7 @@
         "weightedInDegree": "42.0",
         "weightedDegree": "101.0",
         "weightedOutDegree": "59.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2559,7 +2559,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2573,7 +2573,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2587,7 +2587,7 @@
         "weightedInDegree": "34.0",
         "weightedDegree": "81.0",
         "weightedOutDegree": "47.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2601,7 +2601,7 @@
         "weightedInDegree": "54.0",
         "weightedDegree": "54.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -2615,7 +2615,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Parteien und Fraktionen"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2629,7 +2629,7 @@
         "weightedInDegree": "7.0",
         "weightedDegree": "139.0",
         "weightedOutDegree": "132.0",
-        "group": "zivilgesellschaftlich parteinahe Stiftungen und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2643,7 +2643,7 @@
         "weightedInDegree": "7.0",
         "weightedDegree": "38.0",
         "weightedOutDegree": "31.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2657,7 +2657,7 @@
         "weightedInDegree": "14.0",
         "weightedDegree": "14.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2671,7 +2671,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2685,7 +2685,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Staatsarchive"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2699,7 +2699,7 @@
         "weightedInDegree": "44.0",
         "weightedDegree": "44.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Stiftungen des �ffentlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2713,7 +2713,7 @@
         "weightedInDegree": "21.0",
         "weightedDegree": "71.0",
         "weightedOutDegree": "50.0",
-        "group": "zivilgesellschaftlich parteinahe Stiftungen und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2727,7 +2727,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2741,7 +2741,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "92.0",
         "weightedOutDegree": "92.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -2755,7 +2755,7 @@
         "weightedInDegree": "83.0",
         "weightedDegree": "166.0",
         "weightedOutDegree": "83.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2769,7 +2769,7 @@
         "weightedInDegree": "353.0",
         "weightedDegree": "505.0",
         "weightedOutDegree": "152.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2783,7 +2783,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "86.0",
         "weightedOutDegree": "81.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2797,7 +2797,7 @@
         "weightedInDegree": "40.0",
         "weightedDegree": "40.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -2811,7 +2811,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Staatsarchive"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2825,7 +2825,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "84.0",
         "weightedOutDegree": "84.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2839,7 +2839,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "37.0",
         "weightedOutDegree": "37.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2853,7 +2853,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Stiftungen b�rgerlichen Rechts"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2867,7 +2867,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "72.0",
         "weightedOutDegree": "72.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2881,7 +2881,7 @@
         "weightedInDegree": "7.0",
         "weightedDegree": "18.0",
         "weightedOutDegree": "11.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2895,7 +2895,7 @@
         "weightedInDegree": "10.0",
         "weightedDegree": "10.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2909,7 +2909,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2923,7 +2923,7 @@
         "weightedInDegree": "12.0",
         "weightedDegree": "12.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -2937,7 +2937,7 @@
         "weightedInDegree": "68.0",
         "weightedDegree": "111.0",
         "weightedOutDegree": "43.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2951,7 +2951,7 @@
         "weightedInDegree": "8.0",
         "weightedDegree": "8.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Beratungseinrichtungen"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2965,7 +2965,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Staatsarchive"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2979,7 +2979,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Stiftungen b�rgerlichen Rechts"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2993,7 +2993,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3007,7 +3007,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "81.0",
         "weightedOutDegree": "81.0",
-        "group": ""
+        "group": "anonym"
       }
     },
     {
@@ -3021,7 +3021,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3035,7 +3035,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3049,7 +3049,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3063,7 +3063,7 @@
         "weightedInDegree": "45.0",
         "weightedDegree": "86.0",
         "weightedOutDegree": "41.0",
-        "group": "zivilgesellschaftlich Gewerkschaften"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3077,7 +3077,7 @@
         "weightedInDegree": "89.0",
         "weightedDegree": "198.0",
         "weightedOutDegree": "109.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -3091,7 +3091,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "wirtschaftlich Unternehmen"
+        "group": "wirtschaftlich"
       }
     },
     {
@@ -3105,7 +3105,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "62.0",
         "weightedOutDegree": "58.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3119,7 +3119,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3133,7 +3133,7 @@
         "weightedInDegree": "11.0",
         "weightedDegree": "11.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3147,7 +3147,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Sonstiges"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -3161,7 +3161,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Stiftungen b�rgerlichen Rechts"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3175,7 +3175,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "67.0",
         "weightedOutDegree": "67.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3189,7 +3189,7 @@
         "weightedInDegree": "15.0",
         "weightedDegree": "70.0",
         "weightedOutDegree": "55.0",
-        "group": "Medien Rundfunk"
+        "group": "Medien"
       }
     },
     {
@@ -3203,7 +3203,7 @@
         "weightedInDegree": "7.0",
         "weightedDegree": "61.0",
         "weightedOutDegree": "54.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3217,7 +3217,7 @@
         "weightedInDegree": "16.0",
         "weightedDegree": "16.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3231,7 +3231,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3245,7 +3245,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "72.0",
         "weightedOutDegree": "72.0",
-        "group": "staatlich-kommunal anonymisierter Akteur"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -3259,7 +3259,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Stiftungen des b�rgerlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -3273,7 +3273,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3287,7 +3287,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -3301,7 +3301,7 @@
         "weightedInDegree": "3.0",
         "weightedDegree": "3.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3315,13 +3315,13 @@
         "weightedInDegree": "78.0",
         "weightedDegree": "78.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
       "key": "454",
       "attributes": {
-        "label": "SPD, LF",
+        "label": "SPD, Landtagsfraktion",
         "x": -3839.574951171875,
         "y": 158.18240356445312,
         "size": 9.320113372802735,
@@ -3329,7 +3329,7 @@
         "weightedInDegree": "61.0",
         "weightedDegree": "61.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Parteien und Fraktionen"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3343,7 +3343,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Parteien und Fraktionen"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3357,7 +3357,7 @@
         "weightedInDegree": "33.0",
         "weightedDegree": "33.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich �berregionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3371,13 +3371,13 @@
         "weightedInDegree": "14.0",
         "weightedDegree": "14.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
       "key": "456",
       "attributes": {
-        "label": "Gruene, LF",
+        "label": "Grüne, Landtagsfraktion",
         "x": -3602.414794921875,
         "y": -2800.173828125,
         "size": 8.470254516601562,
@@ -3385,7 +3385,7 @@
         "weightedInDegree": "49.0",
         "weightedDegree": "49.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Parteien und Fraktionen"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3399,7 +3399,7 @@
         "weightedInDegree": "7.0",
         "weightedDegree": "56.0",
         "weightedOutDegree": "49.0",
-        "group": "zivilgesellschaftlich parteinahe Stiftungen und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3413,7 +3413,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -3427,7 +3427,7 @@
         "weightedInDegree": "8.0",
         "weightedDegree": "21.0",
         "weightedOutDegree": "13.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3441,7 +3441,7 @@
         "weightedInDegree": "8.0",
         "weightedDegree": "8.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3455,7 +3455,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "50.0",
         "weightedOutDegree": "50.0",
-        "group": "staatlich-kommunal Stiftungen des b�rgerlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -3469,7 +3469,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Sonstiges"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -3483,7 +3483,7 @@
         "weightedInDegree": "76.0",
         "weightedDegree": "76.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3497,7 +3497,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "Medien Rundfunk"
+        "group": "Medien"
       }
     },
     {
@@ -3511,7 +3511,7 @@
         "weightedInDegree": "28.0",
         "weightedDegree": "53.0",
         "weightedOutDegree": "25.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3525,7 +3525,7 @@
         "weightedInDegree": "11.0",
         "weightedDegree": "11.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -3539,7 +3539,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -3553,7 +3553,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale gef�rderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -3567,7 +3567,7 @@
         "weightedInDegree": "119.0",
         "weightedDegree": "268.0",
         "weightedOutDegree": "149.0",
-        "group": "zivilgesellschaftlich regionale Verb�nde und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3581,7 +3581,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -3595,7 +3595,7 @@
         "weightedInDegree": "7.0",
         "weightedDegree": "18.0",
         "weightedOutDegree": "11.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3609,7 +3609,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3623,7 +3623,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "7.0",
         "weightedOutDegree": "7.0",
-        "group": "wirtschaftlich Unternehmen"
+        "group": "wirtschaftlich"
       }
     }
   ],
@@ -14326,5 +14326,15 @@
       "target": "491",
       "attributes": { "color": "rgba(149, 213, 178, 1.0)", "size": 0.35, "force": "selten" }
     }
+  ],
+  "groups": [
+    { "key": "staatlich-kommunale geförderte Einrichtung", "value": true },
+    { "key": "staatlich-kommunal", "value": true },
+    { "key": "gemeinnützig orientiert", "value": true },
+    { "key": "wissenschaftlich, ausbildend", "value": true },
+    { "key": "Medien", "value": true },
+    { "key": "touristisch", "value": true },
+    { "key": "wirtschaftlich", "value": true },
+    { "key": "anonym", "value": true }
   ]
 }

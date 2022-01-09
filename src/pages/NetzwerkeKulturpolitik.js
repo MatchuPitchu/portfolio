@@ -6,61 +6,80 @@ import Legend from '../components/Publications/Kulturpolitik/graph/Legend';
 import classes from './NetzwerkeKulturpolitik.module.css';
 import H2Title from '../components/UI/Titles/H2Title';
 
-// import data from '../components/Publications/Kulturpolitik/data/network.json';
+// import data from '../components/Publications/Kulturpolitik/data/v7th_Ziele_Liste_gephi (edges csv) Directed V5_Variable Akteursgruppe (Filter 6 k.n.einschätzen).json';
 
 // const regex = /\d+/;
-// const transformedNodes = data.nodes.map((item) => {
-//   return {
-//     key: item.id.match(regex)[0],
-//     attributes: {
-//       label: item.label.trim(),
-//       x: item.x,
-//       y: item.y,
-//       size: item.size * 0.1,
-//       color: item.color,
-//       weightedInDegree: item.attributes['Weighted In-Degree'],
-//       weightedDegree: item.attributes['Weighted Degree'],
-//       weightedOutDegree: item.attributes['Weighted Out-Degree'],
-//       group: item.attributes['Akteursgruppe'],
-//       city: item.attributes.Ort,
-//     },
-//   };
-// });
+// const transformedNodes = data.nodes
+//   .map((item) => {
+//     if (item.attributes['Weighted Degree'] === '0.0') return undefined;
+//     return {
+//       key: item.id.match(regex)[0],
+//       attributes: {
+//         label: item.label.trim(),
+//         x: item.x,
+//         y: item.y,
+//         size: item.size * 0.1,
+//         color: item.color,
+//         weightedInDegree: item.attributes['Weighted In-Degree'],
+//         weightedDegree: item.attributes['Weighted Degree'],
+//         weightedOutDegree: item.attributes['Weighted Out-Degree'],
+//         group: item.attributes['Akteursgruppe'],
+//         // city: item.attributes.Ort,
+//       },
+//     };
+//   })
+//   .filter((item) => item !== undefined);
 
-// const transformedEdges = data.edges.map((item) => {
-//   return {
-//     key: item.id,
-//     source: item.source.match(regex)[0],
-//     target: item.target.match(regex)[0],
-//     attributes: {
-//       color: item.color,
-//       size: item.size * 0.3,
-//       force: item.attributes['Attribut Farbe nach Weight eingefügt'],
-//     },
-//   };
-// });
+// const transformedEdges = data.edges
+//   .map((item) => {
+//     if (item.size === 1.0) {
+//       return {
+//         key: item.id,
+//         source: item.source.match(regex)[0],
+//         target: item.target.match(regex)[0],
+//         attributes: {
+//           color: item.color,
+//           size: item.size * 0.3,
+//           force: item.attributes['Attribut Farbe nach Weight eingefügt'],
+//         },
+//       };
+//     }
+//   })
+//   .filter((item) => item !== undefined);
 
 // const transformedData = {
 //   nodes: [...transformedNodes],
 //   edges: [...transformedEdges],
 // };
 
-const links = [
-  { title: 'nie', class: classes.link1 },
-  { title: 'sehr selten', class: classes.link2 },
-  { title: 'selten', class: classes.link3 },
-  { title: 'gelegentlich', class: classes.link4 },
-  { title: 'oft', class: classes.link5 },
-  { title: 'sehr oft', class: classes.link6 },
+const infoAndCoopNetworkLinks = [
+  { title: 'nie', class: classes.infoAndCoop1 },
+  { title: 'sehr selten', class: classes.infoAndCoop2 },
+  { title: 'selten', class: classes.infoAndCoop3 },
+  { title: 'gelegentlich', class: classes.infoAndCoop4 },
+  { title: 'oft', class: classes.infoAndCoop5 },
+  { title: 'sehr oft', class: classes.infoAndCoop6 },
 ];
 
+// const goalsLinksFilteredWeak = [
+//   { title: 'gar nicht', class: classes.goals1 },
+//   { title: 'schwach', class: classes.goals2 },
+// ];
+
+// const goalsLinksFilteredStrong = [
+//   { title: 'hoch', class: classes.goals3 },
+//   { title: 'sehr hoch', class: classes.goals4 },
+// ];
+
+// const goalsLinksFilteredNoIdea = [{ title: 'kann nicht einschätzen', class: classes.goals0 }];
+
 const Network = () => {
-  // console.log(data);
+  // console.log(transformedData);
   // console.log(JSON.stringify(transformedData));
 
   return (
     <Container className={classes['container-customized']}>
-      <div className={classes.description}>
+      <section className={classes.description}>
         <H1Title classTitle={classes.title}>Netzwerke in der Thüringer Kulturpolitik</H1Title>
         <p>
           Im Rahmen meiner{' '}
@@ -74,6 +93,15 @@ const Network = () => {
           Access-Veröffentlichung nachgelesen werden. Hier möchte ich nur ein paar Auszüge
           vorstellen.
         </p>
+        <p>
+          <i>
+            Hinweis: Die Netzwerkgrafiken können auf Smartphones nur beschränkt entdeckt werden.
+            Erst auf einem größeren Display sind mehr Funktionen freigeschaltet und Details
+            sichtbar.
+          </i>
+        </p>
+      </section>
+      <section className={classes.description}>
         <H2Title className={classes.title}>Informationsaustausch</H2Title>
         <p>
           Ein <i>policy</i>-Netzwerk formiert sich grundlegend über den Austausch von Informationen.
@@ -100,18 +128,39 @@ const Network = () => {
           zu können. Demgegenüber hängen die Akteure, die im Netzwerk und auch geografisch peripher
           liegen, von wenigen Informationssträngen ab.
         </p>
-        <p>
-          <i>
-            Hinweis: Die Netzwerkgrafiken können auf Smartphones nur beschränkt entdeckt werden.
-            Erst auf einem größeren Display sind mehr Funktionen freigeschaltet und Details
-            sichtbar.
-          </i>
-        </p>
-      </div>
+      </section>
       <Sigma dataPath='/data/01_networkInfoExchange.json' />
-      <Legend links={links} />
+      <Legend links={infoAndCoopNetworkLinks} />
 
-      {/* <Sigma dataPath='/data/02_networkInfoExchangeGeo.json' /> */}
+      {/* <section className={classes.description}>
+        <H2Title className={classes.title}>Kooperationsbeziehungen</H2Title>
+      </section> */}
+      {/* <Sigma dataPath='/data/02_networkCooperation.json' /> */}
+      {/* <Legend links={infoAndCoopNetworkLinks} /> */}
+
+      {/* <section className={classes.description}>
+        <H2Title className={classes.title}>Netzwerke der kulturpolitischen Ziele</H2Title>
+      </section> */}
+      {/* <Sigma
+        dataPath='/data/03_networkGoalsFiltered1-2.json'
+        description={'gefiltert »schwach« und »gar nicht«'}
+      /> */}
+      {/* <Legend links={goalsLinksFilteredWeak} /> */}
+
+      {/* <section className={classes.description}></section> */}
+      {/* <Sigma
+        dataPath='/data/04_networkGoalsFiltered4-5.json'
+        description={'gefiltert »hoch« und »sehr hoch«'}
+      /> */}
+      {/* <Legend links={goalsLinksFilteredStrong} /> */}
+
+      {/* <section className={classes.description}></section>
+      <Sigma
+        dataPath='/data/05_networkGoalsFiltered6.json'
+        description={'gefiltert »kann ich nicht einschätzen«'}
+      /> */}
+
+      {/* <Legend links={goalsLinksFilteredNoIdea} /> */}
     </Container>
   );
 };

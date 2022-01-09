@@ -17,7 +17,8 @@
   background-color: var(--color-bg-body) !important;
 }
 
-.controls {
+.controls,
+.description {
   border: 0 !important;
   z-index: 5 !important;
 }

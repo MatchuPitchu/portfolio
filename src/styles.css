@@ -172,3 +172,7 @@ main {
   height: 1px;
   overflow: hidden;
 }
+
+ul {
+  list-style: none;
+}

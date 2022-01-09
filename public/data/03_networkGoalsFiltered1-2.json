@@ -1,0 +1,1412 @@
+{
+  "nodes": [
+    {
+      "key": "647",
+      "attributes": {
+        "label": "Theater Erfurt",
+        "x": -59.14591979980469,
+        "y": -1307.649169921875,
+        "size": 12.62711868286133,
+        "color": "#f48c06",
+        "weightedInDegree": "18.0",
+        "weightedDegree": "18.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "767",
+      "attributes": {
+        "label": "Thüringer Institut für Lehrerfortbildung, Lehrplanentwicklung u. Medien",
+        "x": 1003.4500732421875,
+        "y": 1787.43359375,
+        "size": 6.694915008544922,
+        "color": "#ffba08",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "769",
+      "attributes": {
+        "label": "Literarische Gesellschaft Thüringen",
+        "x": -733.7000732421875,
+        "y": -195.9527587890625,
+        "size": 6.694915008544922,
+        "color": "#dc2f02",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "9.0",
+        "weightedOutDegree": "5.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1955",
+      "attributes": {
+        "label": "FNaumannS MittelD",
+        "x": 117.68388366699219,
+        "y": -878.9267578125,
+        "size": 6.694915008544922,
+        "color": "#dc2f02",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "13.0",
+        "weightedOutDegree": "9.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "2270",
+      "attributes": {
+        "label": "Staatsarchiv Greiz",
+        "x": -1767.0841064453125,
+        "y": -751.0463256835938,
+        "size": 5,
+        "color": "#ffba08",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "5.0",
+        "weightedOutDegree": "5.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "1021",
+      "attributes": {
+        "label": "Plattform",
+        "x": 1243.2857666015625,
+        "y": 812.8291015625,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "21.0",
+        "weightedOutDegree": "21.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "497",
+      "attributes": {
+        "label": "KinderKultur Thüringen",
+        "x": -958.5806274414062,
+        "y": -1524.7095947265625,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "4.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "2487",
+      "attributes": {
+        "label": "Filmkommunikation Thüringen",
+        "x": 1119.0892333984375,
+        "y": -530.966796875,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "12.0",
+        "weightedOutDegree": "12.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "466",
+      "attributes": {
+        "label": "Kulturrat TH",
+        "x": 1272.6767578125,
+        "y": 179.29592895507812,
+        "size": 10.084745788574219,
+        "color": "#dc2f02",
+        "weightedInDegree": "12.0",
+        "weightedDegree": "12.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "467",
+      "attributes": {
+        "label": "Landesmusikrat Thüringen",
+        "x": 173.55601501464844,
+        "y": -632.8358764648438,
+        "size": 6.694915008544922,
+        "color": "#dc2f02",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "13.0",
+        "weightedOutDegree": "9.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "516",
+      "attributes": {
+        "label": "Sparkassen-Kulturstiftung H-TH",
+        "x": 1561.967041015625,
+        "y": 1057.690673828125,
+        "size": 6.694915008544922,
+        "color": "#dc2f02",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1351",
+      "attributes": {
+        "label": "Rudolstadt-Festival",
+        "x": 75.49790954589844,
+        "y": -336.50909423828125,
+        "size": 7.118643951416016,
+        "color": "#f48c06",
+        "weightedInDegree": "5.0",
+        "weightedDegree": "5.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "515",
+      "attributes": {
+        "label": "Kulturstiftung dFT",
+        "x": 503.0863342285156,
+        "y": -498.14300537109375,
+        "size": 6.694915008544922,
+        "color": "#ffba08",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "488",
+      "attributes": {
+        "label": "Bund Deutscher Zupfmusiker Thüringen",
+        "x": -1432.9742431640625,
+        "y": -1610.195068359375,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "5.0",
+        "weightedOutDegree": "5.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "828",
+      "attributes": {
+        "label": "Theater Altenburg-Gera",
+        "x": 422.688232421875,
+        "y": 706.4879760742188,
+        "size": 6.694915008544922,
+        "color": "#f48c06",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "464",
+      "attributes": {
+        "label": "Kultusministerkonferenz",
+        "x": 938.7625732421875,
+        "y": 231.83990478515625,
+        "size": 6.694915008544922,
+        "color": "#ffba08",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "473",
+      "attributes": {
+        "label": "LKJ TH",
+        "x": 1018.69970703125,
+        "y": 1472.5721435546875,
+        "size": 6.694915008544922,
+        "color": "#dc2f02",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "12.0",
+        "weightedOutDegree": "8.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "2416",
+      "attributes": {
+        "label": "Stiftung Leuchtenburg",
+        "x": -1237.3814697265625,
+        "y": -375.8045654296875,
+        "size": 5,
+        "color": "#f48c06",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "4.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "462",
+      "attributes": {
+        "label": "Gemeinde- und Städtebunde Thüringen",
+        "x": 804.6603393554688,
+        "y": -741.195068359375,
+        "size": 8.389830017089844,
+        "color": "#ffba08",
+        "weightedInDegree": "8.0",
+        "weightedDegree": "8.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "645",
+      "attributes": {
+        "label": "Klassik Stiftung Weimar",
+        "x": -969.0466918945312,
+        "y": 1477.375244140625,
+        "size": 10.084745788574219,
+        "color": "#ffba08",
+        "weightedInDegree": "12.0",
+        "weightedDegree": "12.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "478",
+      "attributes": {
+        "label": "Verband deutscher Archivarinnen und Archivare Thüringen",
+        "x": -495.7525939941406,
+        "y": -519.87841796875,
+        "size": 6.694915008544922,
+        "color": "#dc2f02",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "768",
+      "attributes": {
+        "label": "Kulturpolitische Gesellschaft Thüringen",
+        "x": 352.4456787109375,
+        "y": -1478.9345703125,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "4.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "2287",
+      "attributes": {
+        "label": "Kulturinitiative TH",
+        "x": -608.3919067382812,
+        "y": -1405.165771484375,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "12.0",
+        "weightedOutDegree": "12.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1948",
+      "attributes": {
+        "label": "Konrad-Adenauer-Stiftung Thüringen",
+        "x": 727.48095703125,
+        "y": -1556.2274169921875,
+        "size": 6.694915008544922,
+        "color": "#dc2f02",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "463",
+      "attributes": {
+        "label": "Thüringischer Landkreistag",
+        "x": 1854.433349609375,
+        "y": 279.8764953613281,
+        "size": 6.694915008544922,
+        "color": "#ffba08",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "469",
+      "attributes": {
+        "label": "DBuehnenV TH",
+        "x": 1650.091064453125,
+        "y": 1628.5830078125,
+        "size": 6.694915008544922,
+        "color": "#dc2f02",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "2683",
+      "attributes": {
+        "label": "Museum Schloss Burgk",
+        "x": -1561.85595703125,
+        "y": -133.62533569335938,
+        "size": 5,
+        "color": "#f48c06",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "9.0",
+        "weightedOutDegree": "9.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "490",
+      "attributes": {
+        "label": "Academia Musicalis Thuringiae",
+        "x": 433.6485900878906,
+        "y": -10.044732093811035,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "53.0",
+        "weightedOutDegree": "53.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "646",
+      "attributes": {
+        "label": "Theater Weimar",
+        "x": 106.32551574707031,
+        "y": 958.2628173828125,
+        "size": 9.237287902832032,
+        "color": "#f48c06",
+        "weightedInDegree": "10.0",
+        "weightedDegree": "22.0",
+        "weightedOutDegree": "12.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "723",
+      "attributes": {
+        "label": "Kulturland Hainleite",
+        "x": -687.66943359375,
+        "y": 1953.923583984375,
+        "size": 6.694915008544922,
+        "color": "#dc2f02",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1950",
+      "attributes": {
+        "label": "Weimarer Dreieck",
+        "x": 1640.09619140625,
+        "y": -351.49005126953125,
+        "size": 6.694915008544922,
+        "color": "#dc2f02",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1293",
+      "attributes": {
+        "label": "TH Ehrenamtsstiftung",
+        "x": 983.189208984375,
+        "y": 481.3172912597656,
+        "size": 6.694915008544922,
+        "color": "#ffba08",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "517",
+      "attributes": {
+        "label": "EKM",
+        "x": -1057.592041015625,
+        "y": 443.52679443359375,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "12.0",
+        "weightedOutDegree": "12.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "496",
+      "attributes": {
+        "label": "TH Saengerbund",
+        "x": 532.4420166015625,
+        "y": 338.52911376953125,
+        "size": 7.118643951416016,
+        "color": "#dc2f02",
+        "weightedInDegree": "5.0",
+        "weightedDegree": "5.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "493",
+      "attributes": {
+        "label": "Deutscher Komponistenverband Thüringen, via nova",
+        "x": -31.17340087890625,
+        "y": 2026.3321533203125,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "4.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1246",
+      "attributes": {
+        "label": "Jenoptik AG",
+        "x": 2231.43017578125,
+        "y": 93.92019653320312,
+        "size": 6.694915008544922,
+        "color": "#dfbfff",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "wirtschaftlich"
+      }
+    },
+    {
+      "key": "1452",
+      "attributes": {
+        "label": "Theater Rudolstadt",
+        "x": -1804.7723388671875,
+        "y": -1355.6990966796875,
+        "size": 5,
+        "color": "#f48c06",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "5.0",
+        "weightedOutDegree": "5.0",
+        "group": "staatlich-kommunale geförderte Einrichtung"
+      }
+    },
+    {
+      "key": "2260",
+      "attributes": {
+        "label": "Staatsarchiv Gotha",
+        "x": -775.5758056640625,
+        "y": -695.8280029296875,
+        "size": 5,
+        "color": "#ffba08",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "9.0",
+        "weightedOutDegree": "9.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "775",
+      "attributes": {
+        "label": "Stiftung Ettersberg",
+        "x": -89.56643676757812,
+        "y": 244.97470092773438,
+        "size": 6.694915008544922,
+        "color": "#ffba08",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "470",
+      "attributes": {
+        "label": "Museumsverband TH",
+        "x": -917.86279296875,
+        "y": 139.93423461914062,
+        "size": 8.813558959960938,
+        "color": "#dc2f02",
+        "weightedInDegree": "9.0",
+        "weightedDegree": "13.0",
+        "weightedOutDegree": "4.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "500",
+      "attributes": {
+        "label": "LAG Jazz TH",
+        "x": 1958.7900390625,
+        "y": -165.31277465820312,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "4.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "474",
+      "attributes": {
+        "label": "VBildenderK TH",
+        "x": 1707.1151123046875,
+        "y": -738.8544311523438,
+        "size": 6.694915008544922,
+        "color": "#dc2f02",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1060",
+      "attributes": {
+        "label": "VdSchriftsteller TH",
+        "x": 1579.7259521484375,
+        "y": 8.033157348632812,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "4.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "480",
+      "attributes": {
+        "label": "VdM TH",
+        "x": -1440.0474853515625,
+        "y": 564.7562255859375,
+        "size": 6.694915008544922,
+        "color": "#dc2f02",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "8.0",
+        "weightedOutDegree": "4.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "468",
+      "attributes": {
+        "label": "TH Theaterverband",
+        "x": -123.60223388671875,
+        "y": 1613.356201171875,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "12.0",
+        "weightedOutDegree": "12.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "642",
+      "attributes": {
+        "label": "Stiftung Gedenkstätten Buchenwald und Mittelbau-Dora",
+        "x": 723.6887817382812,
+        "y": -264.55999755859375,
+        "size": 7.118643951416016,
+        "color": "#ffba08",
+        "weightedInDegree": "5.0",
+        "weightedDegree": "5.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "1200",
+      "attributes": {
+        "label": "Goethe-Gesellschaft",
+        "x": -62.611572265625,
+        "y": -143.31134033203125,
+        "size": 6.694915008544922,
+        "color": "#dc2f02",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "2017",
+      "attributes": {
+        "label": "Luther 2017",
+        "x": 1125.640380859375,
+        "y": -1144.3446044921875,
+        "size": 6.694915008544922,
+        "color": "#ffba08",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "8.0",
+        "weightedOutDegree": "4.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "458",
+      "attributes": {
+        "label": "Staatskanzlei, Kultur",
+        "x": 1928.0272216796875,
+        "y": 537.4602661132812,
+        "size": 6.694915008544922,
+        "color": "#ffba08",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "732",
+      "attributes": {
+        "label": "Kulturdirektion Erfurt",
+        "x": 1753.1383056640625,
+        "y": 1303.1759033203125,
+        "size": 5,
+        "color": "#ffba08",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "4.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "514",
+      "attributes": {
+        "label": "ver.di FB M Kunst I S, SA, TH",
+        "x": 727.3414916992188,
+        "y": 1952.96533203125,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "4.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "1292",
+      "attributes": {
+        "label": "DKinderJugendS TH",
+        "x": -1017.534423828125,
+        "y": 1765.2532958984375,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "12.0",
+        "weightedOutDegree": "12.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "526",
+      "attributes": {
+        "label": "Thüringer Tourismus GmbH",
+        "x": -1727.9627685546875,
+        "y": 263.80267333984375,
+        "size": 8.389830017089844,
+        "color": "#9d0208",
+        "weightedInDegree": "8.0",
+        "weightedDegree": "8.0",
+        "weightedOutDegree": "0.0",
+        "group": "touristisch"
+      }
+    },
+    {
+      "key": "2516",
+      "attributes": {
+        "label": "Akteur x",
+        "x": -1138.266357421875,
+        "y": 1128.9447021484375,
+        "size": 5,
+        "color": "#ffba08",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "8.0",
+        "weightedOutDegree": "8.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "1464",
+      "attributes": {
+        "label": "Mediengruppe Thüringen, TA, OTZ, TLZ",
+        "x": -1259.8104248046875,
+        "y": -1046.903564453125,
+        "size": 30,
+        "color": "#892b64",
+        "weightedInDegree": "59.0",
+        "weightedDegree": "59.0",
+        "weightedOutDegree": "0.0",
+        "group": "Medien"
+      }
+    },
+    {
+      "key": "455",
+      "attributes": {
+        "label": "Linke, Landtagsfraktion",
+        "x": -47.18608856201172,
+        "y": -1622.144775390625,
+        "size": 8.389830017089844,
+        "color": "#dc2f02",
+        "weightedInDegree": "8.0",
+        "weightedDegree": "8.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "742",
+      "attributes": {
+        "label": "TFinanzM",
+        "x": 407.9585266113281,
+        "y": 1400.7347412109375,
+        "size": 6.694915008544922,
+        "color": "#ffba08",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "465",
+      "attributes": {
+        "label": "KompetenzZ KKW S, SH, TH",
+        "x": 1342.0997314453125,
+        "y": -901.0198974609375,
+        "size": 6.694915008544922,
+        "color": "#ffba08",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "527",
+      "attributes": {
+        "label": "MDR",
+        "x": -938.2981567382812,
+        "y": 764.3988647460938,
+        "size": 8.389830017089844,
+        "color": "#892b64",
+        "weightedInDegree": "8.0",
+        "weightedDegree": "8.0",
+        "weightedOutDegree": "0.0",
+        "group": "Medien"
+      }
+    },
+    {
+      "key": "773",
+      "attributes": {
+        "label": "Stiftung Thüringer Schlösser und Gärten",
+        "x": -290.7067565917969,
+        "y": 1226.1661376953125,
+        "size": 10.508474731445313,
+        "color": "#ffba08",
+        "weightedInDegree": "13.0",
+        "weightedDegree": "13.0",
+        "weightedOutDegree": "0.0",
+        "group": "staatlich-kommunal"
+      }
+    },
+    {
+      "key": "1019",
+      "attributes": {
+        "label": "FOTOINIT",
+        "x": -391.6507873535156,
+        "y": 680.3964233398438,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "24.0",
+        "weightedOutDegree": "24.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "475",
+      "attributes": {
+        "label": "dbv TH",
+        "x": -466.8578796386719,
+        "y": 1773.701904296875,
+        "size": 6.694915008544922,
+        "color": "#dc2f02",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "453",
+      "attributes": {
+        "label": "CDU, Landtagsfraktion",
+        "x": 348.12408447265625,
+        "y": 1700.747802734375,
+        "size": 11.779660797119142,
+        "color": "#dc2f02",
+        "weightedInDegree": "16.0",
+        "weightedDegree": "16.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "501",
+      "attributes": {
+        "label": "Friedrich-Bödecker-Kreis Thüringen",
+        "x": -1792.69677734375,
+        "y": -389.7496032714844,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "4.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "476",
+      "attributes": {
+        "label": "TH Literaturrat",
+        "x": 83.591552734375,
+        "y": 487.9107360839844,
+        "size": 9.237287902832032,
+        "color": "#dc2f02",
+        "weightedInDegree": "10.0",
+        "weightedDegree": "10.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "477",
+      "attributes": {
+        "label": "BDKunsterzieher TH",
+        "x": 1992.0345458984375,
+        "y": -531.4697875976562,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "4.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "471",
+      "attributes": {
+        "label": "LAG Soziokultur Thüringen",
+        "x": 853.104736328125,
+        "y": -1301.9747314453125,
+        "size": 5,
+        "color": "#dc2f02",
+        "weightedInDegree": "0.0",
+        "weightedDegree": "20.0",
+        "weightedOutDegree": "20.0",
+        "group": "gemeinnützig orientiert"
+      }
+    },
+    {
+      "key": "479",
+      "attributes": {
+        "label": "Heimatbund TH",
+        "x": 1031.264892578125,
+        "y": -110.47501373291016,
+        "size": 6.694915008544922,
+        "color": "#dc2f02",
+        "weightedInDegree": "4.0",
+        "weightedDegree": "4.0",
+        "weightedOutDegree": "0.0",
+        "group": "gemeinnützig orientiert"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "25",
+      "source": "490",
+      "target": "476",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "867",
+      "source": "2287",
+      "target": "455",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1719",
+      "source": "1060",
+      "target": "463",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "477",
+      "source": "646",
+      "target": "828",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "8",
+      "source": "490",
+      "target": "466",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1590",
+      "source": "1452",
+      "target": "1464",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "890",
+      "source": "500",
+      "target": "1246",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1331",
+      "source": "2270",
+      "target": "1464",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "26",
+      "source": "490",
+      "target": "496",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "1155",
+      "source": "2017",
+      "target": "465",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1103",
+      "source": "473",
+      "target": "767",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "250",
+      "source": "488",
+      "target": "1464",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "884",
+      "source": "768",
+      "target": "455",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "992",
+      "source": "471",
+      "target": "647",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1269",
+      "source": "1021",
+      "target": "516",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "432",
+      "source": "493",
+      "target": "453",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "241",
+      "source": "477",
+      "target": "474",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "538",
+      "source": "517",
+      "target": "527",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "595",
+      "source": "2487",
+      "target": "1950",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "38",
+      "source": "2516",
+      "target": "527",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1329",
+      "source": "2260",
+      "target": "478",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "853",
+      "source": "732",
+      "target": "469",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "540",
+      "source": "517",
+      "target": "470",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "6",
+      "source": "490",
+      "target": "464",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "418",
+      "source": "1292",
+      "target": "645",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "2",
+      "source": "490",
+      "target": "479",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "419",
+      "source": "1292",
+      "target": "723",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "653",
+      "source": "1019",
+      "target": "647",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "1470",
+      "source": "2416",
+      "target": "1464",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "607",
+      "source": "1955",
+      "target": "1464",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1647",
+      "source": "480",
+      "target": "526",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "614",
+      "source": "1955",
+      "target": "647",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "636",
+      "source": "1019",
+      "target": "769",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1676",
+      "source": "514",
+      "target": "453",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1120",
+      "source": "467",
+      "target": "1464",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "24",
+      "source": "490",
+      "target": "1293",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1265",
+      "source": "1021",
+      "target": "646",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "1073",
+      "source": "473",
+      "target": "453",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "873",
+      "source": "2287",
+      "target": "647",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1112",
+      "source": "467",
+      "target": "462",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1227",
+      "source": "2683",
+      "target": "1464",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "34",
+      "source": "2516",
+      "target": "645",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "22",
+      "source": "490",
+      "target": "1351",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "14",
+      "source": "490",
+      "target": "470",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "1270",
+      "source": "1021",
+      "target": "458",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "647",
+      "source": "1019",
+      "target": "773",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "581",
+      "source": "2487",
+      "target": "466",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "18",
+      "source": "490",
+      "target": "775",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "4",
+      "source": "490",
+      "target": "515",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "648",
+      "source": "1019",
+      "target": "476",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "1572",
+      "source": "468",
+      "target": "773",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "553",
+      "source": "501",
+      "target": "1464",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1255",
+      "source": "470",
+      "target": "1464",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "943",
+      "source": "471",
+      "target": "1948",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "869",
+      "source": "2287",
+      "target": "1464",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "800",
+      "source": "497",
+      "target": "1464",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1",
+      "source": "490",
+      "target": "1200",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "472",
+      "source": "646",
+      "target": "742",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "471",
+      "source": "646",
+      "target": "773",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "623",
+      "source": "1019",
+      "target": "646",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "1268",
+      "source": "1021",
+      "target": "473",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1561",
+      "source": "468",
+      "target": "645",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "934",
+      "source": "471",
+      "target": "1955",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1318",
+      "source": "2260",
+      "target": "1464",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "966",
+      "source": "471",
+      "target": "2017",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1065",
+      "source": "769",
+      "target": "1464",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "586",
+      "source": "2487",
+      "target": "467",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "17",
+      "source": "490",
+      "target": "642",
+      "attributes": { "color": "#b13535", "size": 1.5, "force": "gar nicht" }
+    },
+    {
+      "key": "937",
+      "source": "471",
+      "target": "462",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1557",
+      "source": "468",
+      "target": "453",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1266",
+      "source": "1021",
+      "target": "466",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "1240",
+      "source": "2683",
+      "target": "526",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "547",
+      "source": "517",
+      "target": "480",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    },
+    {
+      "key": "415",
+      "source": "1292",
+      "target": "475",
+      "attributes": { "color": "#ffc2c2", "size": 1.2, "force": "schwach" }
+    }
+  ],
+  "groups": [
+    { "key": "staatlich-kommunale geförderte Einrichtung", "value": true },
+    { "key": "staatlich-kommunal", "value": true },
+    { "key": "gemeinnützig orientiert", "value": true },
+    { "key": "wissenschaftlich, ausbildend", "value": true },
+    { "key": "Medien", "value": true },
+    { "key": "touristisch", "value": true },
+    { "key": "wirtschaftlich", "value": true },
+    { "key": "anonym", "value": true }
+  ]
+}
