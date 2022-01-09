@@ -1,4 +1,7 @@
 .description {
-  font-family: inherit;
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  color: var(--color-text-shade);
+  font-size: 0.8rem;
+  padding: var(--padding-even-sm);
 }

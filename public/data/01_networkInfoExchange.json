@@ -11,7 +11,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "55.0",
         "weightedOutDegree": "55.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -25,7 +25,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -39,7 +39,7 @@
         "weightedInDegree": "17.0",
         "weightedDegree": "17.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Schule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -53,7 +53,7 @@
         "weightedInDegree": "96.0",
         "weightedDegree": "96.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -67,7 +67,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -81,7 +81,7 @@
         "weightedInDegree": "42.0",
         "weightedDegree": "42.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal überregionale Einrichtungen"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -95,7 +95,7 @@
         "weightedInDegree": "76.0",
         "weightedDegree": "204.0",
         "weightedOutDegree": "128.0",
-        "group": "staatlich-kommunal Stiftungen des öffentlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -109,7 +109,7 @@
         "weightedInDegree": "26.0",
         "weightedDegree": "26.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Spitzenverbände"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -123,7 +123,7 @@
         "weightedInDegree": "2.0",
         "weightedDegree": "2.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -137,7 +137,7 @@
         "weightedInDegree": "28.0",
         "weightedDegree": "72.0",
         "weightedOutDegree": "44.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -151,7 +151,7 @@
         "weightedInDegree": "17.0",
         "weightedDegree": "17.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -165,7 +165,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -179,7 +179,7 @@
         "weightedInDegree": "17.0",
         "weightedDegree": "17.0",
         "weightedOutDegree": "0.0",
-        "group": "wirtschaftlich Unternehmen"
+        "group": "wirtschaftlich"
       }
     },
     {
@@ -193,7 +193,7 @@
         "weightedInDegree": "116.0",
         "weightedDegree": "427.0",
         "weightedOutDegree": "311.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -207,7 +207,7 @@
         "weightedInDegree": "12.0",
         "weightedDegree": "36.0",
         "weightedOutDegree": "24.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -221,7 +221,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "77.0",
         "weightedOutDegree": "68.0",
-        "group": "staatlich-kommunal Stiftungen des bürgerlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -235,7 +235,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "101.0",
         "weightedOutDegree": "101.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -249,7 +249,7 @@
         "weightedInDegree": "72.0",
         "weightedDegree": "121.0",
         "weightedOutDegree": "49.0",
-        "group": "staatlich-kommunal Stiftungen des öffentlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -263,7 +263,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "57.0",
         "weightedOutDegree": "57.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -277,7 +277,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -291,7 +291,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -305,7 +305,7 @@
         "weightedInDegree": "24.0",
         "weightedDegree": "89.0",
         "weightedOutDegree": "65.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -319,7 +319,7 @@
         "weightedInDegree": "13.0",
         "weightedDegree": "13.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -333,7 +333,7 @@
         "weightedInDegree": "42.0",
         "weightedDegree": "42.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Spitzenverbände"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -347,7 +347,7 @@
         "weightedInDegree": "120.0",
         "weightedDegree": "120.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -361,7 +361,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "67.0",
         "weightedOutDegree": "63.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -375,7 +375,7 @@
         "weightedInDegree": "159.0",
         "weightedDegree": "236.0",
         "weightedOutDegree": "77.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -389,7 +389,7 @@
         "weightedInDegree": "58.0",
         "weightedDegree": "117.0",
         "weightedOutDegree": "59.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -403,7 +403,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -417,7 +417,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "21.0",
         "weightedOutDegree": "12.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -431,7 +431,7 @@
         "weightedInDegree": "50.0",
         "weightedDegree": "50.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -445,7 +445,7 @@
         "weightedInDegree": "13.0",
         "weightedDegree": "67.0",
         "weightedOutDegree": "54.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -459,7 +459,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Forschungs-/Ausbildungsinstitut"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -473,7 +473,7 @@
         "weightedInDegree": "18.0",
         "weightedDegree": "131.0",
         "weightedOutDegree": "113.0",
-        "group": "wirtschaftlich Unternehmen"
+        "group": "wirtschaftlich"
       }
     },
     {
@@ -487,7 +487,7 @@
         "weightedInDegree": "120.0",
         "weightedDegree": "120.0",
         "weightedOutDegree": "0.0",
-        "group": "Medien Presse"
+        "group": "Medien"
       }
     },
     {
@@ -501,7 +501,7 @@
         "weightedInDegree": "3.0",
         "weightedDegree": "3.0",
         "weightedOutDegree": "0.0",
-        "group": "Medien Rundfunk"
+        "group": "Medien"
       }
     },
     {
@@ -515,7 +515,7 @@
         "weightedInDegree": "19.0",
         "weightedDegree": "19.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Festivals"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -529,7 +529,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "67.0",
         "weightedOutDegree": "63.0",
-        "group": "staatlich-kommunal Staatsarchive"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -543,7 +543,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich parteinahe Stiftungen und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -557,7 +557,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "13.0",
         "weightedOutDegree": "9.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -571,7 +571,7 @@
         "weightedInDegree": "30.0",
         "weightedDegree": "30.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -585,7 +585,7 @@
         "weightedInDegree": "44.0",
         "weightedDegree": "155.0",
         "weightedOutDegree": "111.0",
-        "group": "staatlich-kommunal Stiftungen des bürgerlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -599,7 +599,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "34.0",
         "weightedOutDegree": "28.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -613,7 +613,7 @@
         "weightedInDegree": "117.0",
         "weightedDegree": "173.0",
         "weightedOutDegree": "56.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -627,7 +627,7 @@
         "weightedInDegree": "32.0",
         "weightedDegree": "45.0",
         "weightedOutDegree": "13.0",
-        "group": "staatlich-kommunal Beratungseinrichtungen"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -641,7 +641,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -655,7 +655,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "35.0",
         "weightedOutDegree": "31.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -669,7 +669,7 @@
         "weightedInDegree": "12.0",
         "weightedDegree": "12.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -683,7 +683,7 @@
         "weightedInDegree": "8.0",
         "weightedDegree": "8.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Festivals"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -697,7 +697,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -711,7 +711,7 @@
         "weightedInDegree": "26.0",
         "weightedDegree": "45.0",
         "weightedOutDegree": "19.0",
-        "group": "Medien Rundfunk"
+        "group": "Medien"
       }
     },
     {
@@ -725,7 +725,7 @@
         "weightedInDegree": "46.0",
         "weightedDegree": "69.0",
         "weightedOutDegree": "23.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Festivals"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -739,7 +739,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "5.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -753,7 +753,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "wirtschaftlich Unternehmen"
+        "group": "wirtschaftlich"
       }
     },
     {
@@ -767,7 +767,7 @@
         "weightedInDegree": "40.0",
         "weightedDegree": "75.0",
         "weightedOutDegree": "35.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -781,7 +781,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "51.0",
         "weightedOutDegree": "47.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -795,7 +795,7 @@
         "weightedInDegree": "11.0",
         "weightedDegree": "11.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -809,7 +809,7 @@
         "weightedInDegree": "23.0",
         "weightedDegree": "49.0",
         "weightedOutDegree": "26.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -823,7 +823,7 @@
         "weightedInDegree": "23.0",
         "weightedDegree": "28.0",
         "weightedOutDegree": "5.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -837,7 +837,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -851,7 +851,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "18.0",
         "weightedOutDegree": "18.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -865,7 +865,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "94.0",
         "weightedOutDegree": "90.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -879,7 +879,7 @@
         "weightedInDegree": "46.0",
         "weightedDegree": "108.0",
         "weightedOutDegree": "62.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -893,7 +893,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "63.0",
         "weightedOutDegree": "63.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -907,7 +907,7 @@
         "weightedInDegree": "2.0",
         "weightedDegree": "2.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -921,7 +921,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "55.0",
         "weightedOutDegree": "50.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -935,7 +935,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "74.0",
         "weightedOutDegree": "74.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -949,7 +949,7 @@
         "weightedInDegree": "29.0",
         "weightedDegree": "65.0",
         "weightedOutDegree": "36.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -963,7 +963,7 @@
         "weightedInDegree": "14.0",
         "weightedDegree": "14.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -977,7 +977,7 @@
         "weightedInDegree": "15.0",
         "weightedDegree": "29.0",
         "weightedOutDegree": "14.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -991,7 +991,7 @@
         "weightedInDegree": "53.0",
         "weightedDegree": "53.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Parteien und Fraktionen"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1005,7 +1005,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "23.0",
         "weightedOutDegree": "23.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1019,7 +1019,7 @@
         "weightedInDegree": "10.0",
         "weightedDegree": "10.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich parteinahe Stiftungen und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1033,7 +1033,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Beratungseinrichtungen"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1047,7 +1047,7 @@
         "weightedInDegree": "15.0",
         "weightedDegree": "39.0",
         "weightedOutDegree": "24.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1061,7 +1061,7 @@
         "weightedInDegree": "68.0",
         "weightedDegree": "68.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Stiftungen des öffentlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1075,7 +1075,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1089,7 +1089,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1103,7 +1103,7 @@
         "weightedInDegree": "50.0",
         "weightedDegree": "50.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Stiftungen des bürgerlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1117,7 +1117,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1131,7 +1131,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -1145,7 +1145,7 @@
         "weightedInDegree": "10.0",
         "weightedDegree": "10.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -1159,7 +1159,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Sonstiges"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1173,7 +1173,7 @@
         "weightedInDegree": "29.0",
         "weightedDegree": "189.0",
         "weightedOutDegree": "160.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1187,7 +1187,7 @@
         "weightedInDegree": "21.0",
         "weightedDegree": "21.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1201,7 +1201,7 @@
         "weightedInDegree": "14.0",
         "weightedDegree": "57.0",
         "weightedOutDegree": "43.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1215,7 +1215,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1229,7 +1229,7 @@
         "weightedInDegree": "73.0",
         "weightedDegree": "90.0",
         "weightedOutDegree": "17.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -1243,7 +1243,7 @@
         "weightedInDegree": "12.0",
         "weightedDegree": "12.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1257,7 +1257,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "Medien Zeitschriften"
+        "group": "Medien"
       }
     },
     {
@@ -1271,7 +1271,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Stiftungen des öffentlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1285,7 +1285,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "34.0",
         "weightedOutDegree": "34.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1299,7 +1299,7 @@
         "weightedInDegree": "49.0",
         "weightedDegree": "124.0",
         "weightedOutDegree": "75.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1313,7 +1313,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "Medien Rundfunk"
+        "group": "Medien"
       }
     },
     {
@@ -1327,7 +1327,7 @@
         "weightedInDegree": "184.0",
         "weightedDegree": "184.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Stiftungen des öffentlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1341,7 +1341,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1355,7 +1355,7 @@
         "weightedInDegree": "30.0",
         "weightedDegree": "30.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -1369,7 +1369,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1383,7 +1383,7 @@
         "weightedInDegree": "38.0",
         "weightedDegree": "38.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Sonstiges"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1397,7 +1397,7 @@
         "weightedInDegree": "2.0",
         "weightedDegree": "2.0",
         "weightedOutDegree": "0.0",
-        "group": "wirtschaftlich Unternehmen"
+        "group": "wirtschaftlich"
       }
     },
     {
@@ -1411,7 +1411,7 @@
         "weightedInDegree": "26.0",
         "weightedDegree": "26.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Sonstiges"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1425,7 +1425,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "58.0",
         "weightedOutDegree": "58.0",
-        "group": "wissenschaftlich, ausbildend Schule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -1439,7 +1439,7 @@
         "weightedInDegree": "18.0",
         "weightedDegree": "18.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1453,7 +1453,7 @@
         "weightedInDegree": "28.0",
         "weightedDegree": "28.0",
         "weightedOutDegree": "0.0",
-        "group": "Medien Presse"
+        "group": "Medien"
       }
     },
     {
@@ -1467,7 +1467,7 @@
         "weightedInDegree": "23.0",
         "weightedDegree": "23.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1481,7 +1481,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "11.0",
         "weightedOutDegree": "11.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -1495,7 +1495,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "91.0",
         "weightedOutDegree": "91.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -1509,7 +1509,7 @@
         "weightedInDegree": "8.0",
         "weightedDegree": "74.0",
         "weightedOutDegree": "66.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1523,7 +1523,7 @@
         "weightedInDegree": "21.0",
         "weightedDegree": "74.0",
         "weightedOutDegree": "53.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1537,7 +1537,7 @@
         "weightedInDegree": "165.0",
         "weightedDegree": "253.0",
         "weightedOutDegree": "88.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1551,7 +1551,7 @@
         "weightedInDegree": "39.0",
         "weightedDegree": "39.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1565,7 +1565,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Sonstiges"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -1579,7 +1579,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1593,7 +1593,7 @@
         "weightedInDegree": "81.0",
         "weightedDegree": "81.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1607,7 +1607,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1621,7 +1621,7 @@
         "weightedInDegree": "19.0",
         "weightedDegree": "97.0",
         "weightedOutDegree": "78.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1635,7 +1635,7 @@
         "weightedInDegree": "21.0",
         "weightedDegree": "21.0",
         "weightedOutDegree": "0.0",
-        "group": "wirtschaftlich Unternehmen"
+        "group": "wirtschaftlich"
       }
     },
     {
@@ -1649,7 +1649,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Sonstiges"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -1663,7 +1663,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "95.0",
         "weightedOutDegree": "95.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1677,7 +1677,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1691,7 +1691,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "30.0",
         "weightedOutDegree": "30.0",
-        "group": "zivilgesellschaftlich anonymisierter Akteur"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1705,7 +1705,7 @@
         "weightedInDegree": "151.0",
         "weightedDegree": "151.0",
         "weightedOutDegree": "0.0",
-        "group": "Medien Rundfunk"
+        "group": "Medien"
       }
     },
     {
@@ -1719,7 +1719,7 @@
         "weightedInDegree": "17.0",
         "weightedDegree": "65.0",
         "weightedOutDegree": "48.0",
-        "group": "staatlich-kommunal Beratungseinrichtungen"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1733,7 +1733,7 @@
         "weightedInDegree": "22.0",
         "weightedDegree": "22.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1747,7 +1747,7 @@
         "weightedInDegree": "11.0",
         "weightedDegree": "130.0",
         "weightedOutDegree": "119.0",
-        "group": "zivilgesellschaftlich Gewerkschaften"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1761,7 +1761,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1775,7 +1775,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -1789,7 +1789,7 @@
         "weightedInDegree": "22.0",
         "weightedDegree": "22.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -1803,7 +1803,7 @@
         "weightedInDegree": "103.0",
         "weightedDegree": "103.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1817,7 +1817,7 @@
         "weightedInDegree": "14.0",
         "weightedDegree": "14.0",
         "weightedOutDegree": "0.0",
-        "group": "Medien Presse"
+        "group": "Medien"
       }
     },
     {
@@ -1831,7 +1831,7 @@
         "weightedInDegree": "27.0",
         "weightedDegree": "27.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal überregionale Einrichtungen"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1845,7 +1845,7 @@
         "weightedInDegree": "60.0",
         "weightedDegree": "89.0",
         "weightedOutDegree": "29.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1859,7 +1859,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1873,7 +1873,7 @@
         "weightedInDegree": "11.0",
         "weightedDegree": "11.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -1887,7 +1887,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1901,7 +1901,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "18.0",
         "weightedOutDegree": "14.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1915,7 +1915,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "45.0",
         "weightedOutDegree": "45.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -1929,7 +1929,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -1943,7 +1943,7 @@
         "weightedInDegree": "12.0",
         "weightedDegree": "92.0",
         "weightedOutDegree": "80.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1957,7 +1957,7 @@
         "weightedInDegree": "17.0",
         "weightedDegree": "112.0",
         "weightedOutDegree": "95.0",
-        "group": "zivilgesellschaftlich Gewerkschaften"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1971,7 +1971,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1985,7 +1985,7 @@
         "weightedInDegree": "69.0",
         "weightedDegree": "140.0",
         "weightedOutDegree": "71.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -1999,7 +1999,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2013,7 +2013,7 @@
         "weightedInDegree": "31.0",
         "weightedDegree": "31.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2027,7 +2027,7 @@
         "weightedInDegree": "10.0",
         "weightedDegree": "10.0",
         "weightedOutDegree": "0.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -2041,7 +2041,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "25.0",
         "weightedOutDegree": "25.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2055,7 +2055,7 @@
         "weightedInDegree": "44.0",
         "weightedDegree": "44.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -2069,7 +2069,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2083,7 +2083,7 @@
         "weightedInDegree": "10.0",
         "weightedDegree": "10.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -2097,7 +2097,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2111,7 +2111,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "58.0",
         "weightedOutDegree": "58.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2125,7 +2125,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "112.0",
         "weightedOutDegree": "106.0",
-        "group": "zivilgesellschaftlich Gewerkschaften"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2139,7 +2139,7 @@
         "weightedInDegree": "14.0",
         "weightedDegree": "18.0",
         "weightedOutDegree": "4.0",
-        "group": "staatlich-kommunal Staatsarchive"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2153,7 +2153,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2167,7 +2167,7 @@
         "weightedInDegree": "3.0",
         "weightedDegree": "3.0",
         "weightedOutDegree": "0.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -2181,7 +2181,7 @@
         "weightedInDegree": "93.0",
         "weightedDegree": "151.0",
         "weightedOutDegree": "58.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2195,7 +2195,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "17.0",
         "weightedOutDegree": "17.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Sonstiges"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -2209,7 +2209,7 @@
         "weightedInDegree": "24.0",
         "weightedDegree": "24.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -2223,7 +2223,7 @@
         "weightedInDegree": "7.0",
         "weightedDegree": "7.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2237,7 +2237,7 @@
         "weightedInDegree": "25.0",
         "weightedDegree": "100.0",
         "weightedOutDegree": "75.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2251,7 +2251,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "22.0",
         "weightedOutDegree": "22.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2265,7 +2265,7 @@
         "weightedInDegree": "10.0",
         "weightedDegree": "10.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Staatsarchive"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2279,7 +2279,7 @@
         "weightedInDegree": "10.0",
         "weightedDegree": "72.0",
         "weightedOutDegree": "62.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2293,7 +2293,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Parteien und Fraktionen"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2307,7 +2307,7 @@
         "weightedInDegree": "19.0",
         "weightedDegree": "102.0",
         "weightedOutDegree": "83.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2321,7 +2321,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Gewerkschaften"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2335,7 +2335,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -2349,7 +2349,7 @@
         "weightedInDegree": "66.0",
         "weightedDegree": "116.0",
         "weightedOutDegree": "50.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2363,7 +2363,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2377,7 +2377,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2391,7 +2391,7 @@
         "weightedInDegree": "71.0",
         "weightedDegree": "133.0",
         "weightedOutDegree": "62.0",
-        "group": "zivilgesellschaftlich Parteien und Fraktionen"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2405,7 +2405,7 @@
         "weightedInDegree": "192.0",
         "weightedDegree": "214.0",
         "weightedOutDegree": "22.0",
-        "group": "zivilgesellschaftlich Stiftungen bürgerlichen Rechts"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2419,7 +2419,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2433,7 +2433,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -2447,7 +2447,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "wirtschaftlich Wirtschaftsverband"
+        "group": "wirtschaftlich"
       }
     },
     {
@@ -2461,7 +2461,7 @@
         "weightedInDegree": "2.0",
         "weightedDegree": "32.0",
         "weightedOutDegree": "30.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2475,7 +2475,7 @@
         "weightedInDegree": "229.0",
         "weightedDegree": "229.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2489,7 +2489,7 @@
         "weightedInDegree": "51.0",
         "weightedDegree": "106.0",
         "weightedOutDegree": "55.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -2503,7 +2503,7 @@
         "weightedInDegree": "35.0",
         "weightedDegree": "35.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2517,7 +2517,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "55.0",
         "weightedOutDegree": "49.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2531,7 +2531,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "touristisch Tourismus"
+        "group": "touristisch"
       }
     },
     {
@@ -2545,7 +2545,7 @@
         "weightedInDegree": "42.0",
         "weightedDegree": "101.0",
         "weightedOutDegree": "59.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2559,7 +2559,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2573,7 +2573,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2587,7 +2587,7 @@
         "weightedInDegree": "34.0",
         "weightedDegree": "81.0",
         "weightedOutDegree": "47.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2601,7 +2601,7 @@
         "weightedInDegree": "54.0",
         "weightedDegree": "54.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -2615,7 +2615,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Parteien und Fraktionen"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2629,7 +2629,7 @@
         "weightedInDegree": "7.0",
         "weightedDegree": "139.0",
         "weightedOutDegree": "132.0",
-        "group": "zivilgesellschaftlich parteinahe Stiftungen und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2643,7 +2643,7 @@
         "weightedInDegree": "7.0",
         "weightedDegree": "38.0",
         "weightedOutDegree": "31.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2657,7 +2657,7 @@
         "weightedInDegree": "14.0",
         "weightedDegree": "14.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2671,7 +2671,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2685,7 +2685,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Staatsarchive"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2699,7 +2699,7 @@
         "weightedInDegree": "44.0",
         "weightedDegree": "44.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Stiftungen des öffentlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2713,7 +2713,7 @@
         "weightedInDegree": "21.0",
         "weightedDegree": "71.0",
         "weightedOutDegree": "50.0",
-        "group": "zivilgesellschaftlich parteinahe Stiftungen und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2727,7 +2727,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2741,7 +2741,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "92.0",
         "weightedOutDegree": "92.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -2755,7 +2755,7 @@
         "weightedInDegree": "83.0",
         "weightedDegree": "166.0",
         "weightedOutDegree": "83.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2769,7 +2769,7 @@
         "weightedInDegree": "353.0",
         "weightedDegree": "505.0",
         "weightedOutDegree": "152.0",
-        "group": "staatlich-kommunal Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2783,7 +2783,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "86.0",
         "weightedOutDegree": "81.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2797,7 +2797,7 @@
         "weightedInDegree": "40.0",
         "weightedDegree": "40.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -2811,7 +2811,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Staatsarchive"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2825,7 +2825,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "84.0",
         "weightedOutDegree": "84.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2839,7 +2839,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "37.0",
         "weightedOutDegree": "37.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2853,7 +2853,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Stiftungen bürgerlichen Rechts"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2867,7 +2867,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "72.0",
         "weightedOutDegree": "72.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2881,7 +2881,7 @@
         "weightedInDegree": "7.0",
         "weightedDegree": "18.0",
         "weightedOutDegree": "11.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2895,7 +2895,7 @@
         "weightedInDegree": "10.0",
         "weightedDegree": "10.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2909,7 +2909,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2923,7 +2923,7 @@
         "weightedInDegree": "12.0",
         "weightedDegree": "12.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -2937,7 +2937,7 @@
         "weightedInDegree": "68.0",
         "weightedDegree": "111.0",
         "weightedOutDegree": "43.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2951,7 +2951,7 @@
         "weightedInDegree": "8.0",
         "weightedDegree": "8.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Beratungseinrichtungen"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2965,7 +2965,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Staatsarchive"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -2979,7 +2979,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Stiftungen bürgerlichen Rechts"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -2993,7 +2993,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3021,7 +3021,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3035,7 +3035,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3049,7 +3049,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3063,7 +3063,7 @@
         "weightedInDegree": "45.0",
         "weightedDegree": "86.0",
         "weightedOutDegree": "41.0",
-        "group": "zivilgesellschaftlich Gewerkschaften"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3077,7 +3077,7 @@
         "weightedInDegree": "89.0",
         "weightedDegree": "198.0",
         "weightedOutDegree": "109.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -3091,7 +3091,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "wirtschaftlich Unternehmen"
+        "group": "wirtschaftlich"
       }
     },
     {
@@ -3105,7 +3105,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "62.0",
         "weightedOutDegree": "58.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3119,7 +3119,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3133,7 +3133,7 @@
         "weightedInDegree": "11.0",
         "weightedDegree": "11.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3147,7 +3147,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Sonstiges"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -3161,7 +3161,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "0.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Stiftungen bürgerlichen Rechts"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3175,7 +3175,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "67.0",
         "weightedOutDegree": "67.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3189,7 +3189,7 @@
         "weightedInDegree": "15.0",
         "weightedDegree": "70.0",
         "weightedOutDegree": "55.0",
-        "group": "Medien Rundfunk"
+        "group": "Medien"
       }
     },
     {
@@ -3203,7 +3203,7 @@
         "weightedInDegree": "7.0",
         "weightedDegree": "61.0",
         "weightedOutDegree": "54.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3217,7 +3217,7 @@
         "weightedInDegree": "16.0",
         "weightedDegree": "16.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3231,7 +3231,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3245,7 +3245,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "72.0",
         "weightedOutDegree": "72.0",
-        "group": "staatlich-kommunal anonymisierter Akteur"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -3259,7 +3259,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal Stiftungen des bürgerlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -3273,7 +3273,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3287,7 +3287,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -3301,7 +3301,7 @@
         "weightedInDegree": "3.0",
         "weightedDegree": "3.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3315,7 +3315,7 @@
         "weightedInDegree": "78.0",
         "weightedDegree": "78.0",
         "weightedOutDegree": "0.0",
-        "group": "wissenschaftlich, ausbildend Hochschule"
+        "group": "wissenschaftlich, ausbildend"
       }
     },
     {
@@ -3329,7 +3329,7 @@
         "weightedInDegree": "61.0",
         "weightedDegree": "61.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Parteien und Fraktionen"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3343,7 +3343,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Parteien und Fraktionen"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3357,7 +3357,7 @@
         "weightedInDegree": "33.0",
         "weightedDegree": "33.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3371,7 +3371,7 @@
         "weightedInDegree": "14.0",
         "weightedDegree": "14.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3385,7 +3385,7 @@
         "weightedInDegree": "49.0",
         "weightedDegree": "49.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Parteien und Fraktionen"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3399,7 +3399,7 @@
         "weightedInDegree": "7.0",
         "weightedDegree": "56.0",
         "weightedOutDegree": "49.0",
-        "group": "zivilgesellschaftlich parteinahe Stiftungen und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3413,7 +3413,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -3427,7 +3427,7 @@
         "weightedInDegree": "8.0",
         "weightedDegree": "21.0",
         "weightedOutDegree": "13.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3441,7 +3441,7 @@
         "weightedInDegree": "8.0",
         "weightedDegree": "8.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3455,7 +3455,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "50.0",
         "weightedOutDegree": "50.0",
-        "group": "staatlich-kommunal Stiftungen des bürgerlichen Rechts"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -3469,7 +3469,7 @@
         "weightedInDegree": "6.0",
         "weightedDegree": "6.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Sonstiges"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -3483,7 +3483,7 @@
         "weightedInDegree": "76.0",
         "weightedDegree": "76.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3497,7 +3497,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "Medien Rundfunk"
+        "group": "Medien"
       }
     },
     {
@@ -3511,7 +3511,7 @@
         "weightedInDegree": "28.0",
         "weightedDegree": "53.0",
         "weightedOutDegree": "25.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3525,7 +3525,7 @@
         "weightedInDegree": "11.0",
         "weightedDegree": "11.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -3539,7 +3539,7 @@
         "weightedInDegree": "9.0",
         "weightedDegree": "9.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -3553,7 +3553,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "group": "staatlich-kommunale geförderte Einrichtung"
       }
     },
     {
@@ -3567,7 +3567,7 @@
         "weightedInDegree": "119.0",
         "weightedDegree": "268.0",
         "weightedOutDegree": "149.0",
-        "group": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3581,7 +3581,7 @@
         "weightedInDegree": "5.0",
         "weightedDegree": "5.0",
         "weightedOutDegree": "0.0",
-        "group": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "group": "staatlich-kommunal"
       }
     },
     {
@@ -3595,7 +3595,7 @@
         "weightedInDegree": "7.0",
         "weightedDegree": "18.0",
         "weightedOutDegree": "11.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3609,7 +3609,7 @@
         "weightedInDegree": "4.0",
         "weightedDegree": "4.0",
         "weightedOutDegree": "0.0",
-        "group": "zivilgesellschaftlich Kirche"
+        "group": "gemeinnützig orientiert"
       }
     },
     {
@@ -3623,7 +3623,7 @@
         "weightedInDegree": "0.0",
         "weightedDegree": "7.0",
         "weightedOutDegree": "7.0",
-        "group": "wirtschaftlich Unternehmen"
+        "group": "wirtschaftlich"
       }
     }
   ],
@@ -14328,41 +14328,13 @@
     }
   ],
   "groups": [
-    { "key": "Medien Presse", "value": true },
-    { "key": "Medien Rundfunk", "value": true },
-    { "key": "Medien Zeitschriften", "value": true },
-    { "key": "staatlich-kommunal anonymisierter Akteur", "value": true },
-    { "key": "staatlich-kommunal Beratungseinrichtungen", "value": true },
-    { "key": "staatlich-kommunale geförderte Kultureinrichtung Festivals", "value": true },
-    { "key": "staatlich-kommunale geförderte Kultureinrichtung Museen", "value": true },
-    { "key": "staatlich-kommunale geförderte Kultureinrichtung Sonstiges", "value": true },
-    {
-      "key": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester",
-      "value": true
-    },
-    { "key": "staatlich-kommunal kommunale Regierung und Verwaltung", "value": true },
-    { "key": "staatlich-kommunal kommunale Spitzenverbände", "value": true },
-    { "key": "staatlich-kommunal Regierung und Verwaltung", "value": true },
-    { "key": "staatlich-kommunal Sonstiges", "value": true },
-    { "key": "staatlich-kommunal Staatsarchive", "value": true },
-    { "key": "staatlich-kommunal Stiftungen des bürgerlichen Rechts", "value": true },
-    { "key": "staatlich-kommunal Stiftungen des öffentlichen Rechts", "value": true },
-    { "key": "staatlich-kommunal überregionale Einrichtungen", "value": true },
-    { "key": "touristisch Tourismus", "value": true },
-    { "key": "wirtschaftlich Unternehmen", "value": true },
-    { "key": "wirtschaftlich Wirtschaftsverband", "value": true },
-    { "key": "wissenschaftlich, ausbildend Forschungs-/Ausbildungsinstitut", "value": true },
-    { "key": "wissenschaftlich, ausbildend Hochschule", "value": true },
-    { "key": "wissenschaftlich, ausbildend Schule", "value": true },
-    { "key": "zivilgesellschaftlich anonymisierter Akteur", "value": true },
-    { "key": "zivilgesellschaftlich Gewerkschaften", "value": true },
-    { "key": "zivilgesellschaftlich Kirche", "value": true },
-    { "key": "zivilgesellschaftlich Parteien und Fraktionen", "value": true },
-    { "key": "zivilgesellschaftlich parteinahe Stiftungen und Vereine", "value": true },
-    { "key": "zivilgesellschaftlich regionale Verbände und Vereine", "value": true },
-    { "key": "zivilgesellschaftlich Sonstiges", "value": true },
-    { "key": "zivilgesellschaftlich Stiftungen bürgerlichen Rechts", "value": true },
-    { "key": "zivilgesellschaftlich überregionale Verbände und Vereine", "value": true },
+    { "key": "staatlich-kommunale geförderte Einrichtung", "value": true },
+    { "key": "staatlich-kommunal", "value": true },
+    { "key": "gemeinnützig orientiert", "value": true },
+    { "key": "wissenschaftlich, ausbildend", "value": true },
+    { "key": "Medien", "value": true },
+    { "key": "touristisch", "value": true },
+    { "key": "wirtschaftlich", "value": true },
     { "key": "anonym", "value": true }
   ]
 }

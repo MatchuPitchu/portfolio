@@ -45,10 +45,6 @@
   background-color: var(--color-primary);
 }
 
-.input[type='checkbox']:not(:checked) + .label .circle {
-  background-color: #fff;
-}
-
 .label {
   display: flex;
   cursor: pointer;

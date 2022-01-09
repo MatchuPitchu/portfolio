@@ -9,7 +9,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "touristisch Tourismus"
+        "Akteursgruppe": "touristisch"
       },
       "color": "#9d0208",
       "size": 53.71287155151367
@@ -23,7 +23,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "zivilgesellschaftlich Kirche"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(254,228,152)",
       "size": 67.85714721679688
@@ -37,7 +37,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Staatsarchive"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 58.663368225097656
@@ -51,7 +51,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -65,7 +65,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Parteien und Fraktionen"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 57.425743103027344
@@ -79,7 +79,7 @@
         "Weighted In-Degree": "5.0",
         "Weighted Degree": "9.0",
         "Weighted Out-Degree": "4.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(252,180,117)",
       "size": 139.28570556640625
@@ -93,7 +93,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "6.0",
         "Weighted Out-Degree": "6.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "rgb(250,159,102)",
       "size": 50.0
@@ -107,7 +107,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wirtschaftlich Unternehmen"
+        "Akteursgruppe": "wirtschaftlich"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -121,7 +121,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Stiftungen des bürgerlichen Rechts"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -135,7 +135,7 @@
         "Weighted In-Degree": "11.0",
         "Weighted Degree": "11.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 246.42857360839844
@@ -149,7 +149,7 @@
         "Weighted In-Degree": "5.0",
         "Weighted Degree": "17.0",
         "Weighted Out-Degree": "12.0",
-        "Akteursgruppe": "staatlich-kommunal Stiftungen des öffentlichen Rechts"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(238,133,85)",
       "size": 139.28570556640625
@@ -163,7 +163,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Kirche"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -177,7 +177,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Sonstiges"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "#f48c06",
       "size": 54.95049285888672
@@ -191,7 +191,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 52.47524642944336
@@ -205,7 +205,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -219,7 +219,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich parteinahe Stiftungen und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 66.089111328125
@@ -233,7 +233,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 53.71287155151367
@@ -247,7 +247,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "9.0",
         "Weighted Out-Degree": "8.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(246,150,96)",
       "size": 67.85714721679688
@@ -261,7 +261,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 53.71287155151367
@@ -275,7 +275,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Festivals"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -289,7 +289,7 @@
         "Weighted In-Degree": "3.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Parteien und Fraktionen"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 103.57142639160156
@@ -303,7 +303,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 59.9009895324707
@@ -317,7 +317,7 @@
         "Weighted In-Degree": "7.0",
         "Weighted Degree": "7.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 175.0
@@ -331,7 +331,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wissenschaftlich, ausbildend Hochschule"
+        "Akteursgruppe": "wissenschaftlich, ausbildend"
       },
       "color": "#eaac8b",
       "size": 52.47524642944336
@@ -345,7 +345,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wirtschaftlich Unternehmen"
+        "Akteursgruppe": "wirtschaftlich"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -359,7 +359,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 54.95049285888672
@@ -373,7 +373,7 @@
         "Weighted In-Degree": "3.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 103.57142639160156
@@ -387,7 +387,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "Medien Presse"
+        "Akteursgruppe": "Medien"
       },
       "color": "#892b64",
       "size": 57.425743103027344
@@ -401,7 +401,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Staatsarchive"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 58.663368225097656
@@ -415,7 +415,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "Medien Rundfunk"
+        "Akteursgruppe": "Medien"
       },
       "color": "#892b64",
       "size": 52.47524642944336
@@ -429,7 +429,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 53.71287155151367
@@ -443,7 +443,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "zivilgesellschaftlich Kirche"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(254,228,152)",
       "size": 50.0
@@ -457,7 +457,7 @@
         "Weighted In-Degree": "3.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "rgb(255,244,164)",
       "size": 103.57142639160156
@@ -471,7 +471,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Festivals"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "rgb(254,228,152)",
       "size": 67.85714721679688
@@ -485,7 +485,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -499,7 +499,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -513,7 +513,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Parteien und Fraktionen"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -527,7 +527,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -541,7 +541,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Beratungseinrichtungen"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 56.18811798095703
@@ -555,7 +555,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 53.71287155151367
@@ -569,7 +569,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "#f48c06",
       "size": 50.0
@@ -583,7 +583,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -597,7 +597,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 54.95049285888672
@@ -611,7 +611,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Kirche"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 50.0
@@ -625,7 +625,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "6.0",
         "Weighted Out-Degree": "5.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(252,164,105)",
       "size": 67.85714721679688
@@ -639,7 +639,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "4.0",
         "Weighted Out-Degree": "2.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(253,212,140)",
       "size": 85.71428680419922
@@ -653,7 +653,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "2.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(253,212,140)",
       "size": 67.85714721679688
@@ -667,7 +667,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 52.47524642944336
@@ -681,7 +681,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "6.0",
         "Weighted Out-Degree": "6.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "rgb(250,159,102)",
       "size": 50.0
@@ -695,7 +695,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 57.425743103027344
@@ -709,7 +709,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Festivals"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -723,7 +723,7 @@
         "Weighted In-Degree": "4.0",
         "Weighted Degree": "4.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 121.42857360839844
@@ -737,7 +737,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Sonstiges"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -751,7 +751,7 @@
         "Weighted In-Degree": "10.0",
         "Weighted Degree": "11.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(254,228,152)",
       "size": 228.57142639160156
@@ -765,7 +765,7 @@
         "Weighted In-Degree": "5.0",
         "Weighted Degree": "5.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 139.28570556640625
@@ -779,7 +779,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 63.613861083984375
@@ -793,7 +793,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "#f48c06",
       "size": 59.9009895324707
@@ -807,7 +807,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Parteien und Fraktionen"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -821,7 +821,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -835,7 +835,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "7.0",
         "Weighted Out-Degree": "7.0",
-        "Akteursgruppe": "touristisch Tourismus"
+        "Akteursgruppe": "touristisch"
       },
       "color": "rgb(248,154,99)",
       "size": 50.0
@@ -849,7 +849,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -863,7 +863,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "#f48c06",
       "size": 50.0
@@ -877,7 +877,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(254,228,152)",
       "size": 67.85714721679688
@@ -891,7 +891,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "#f48c06",
       "size": 50.0
@@ -905,7 +905,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "5.0",
         "Weighted Out-Degree": "4.0",
-        "Akteursgruppe": "staatlich-kommunal Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(252,180,117)",
       "size": 67.85714721679688
@@ -919,7 +919,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wirtschaftlich Wirtschaftsverband"
+        "Akteursgruppe": "wirtschaftlich"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -933,7 +933,7 @@
         "Weighted In-Degree": "10.0",
         "Weighted Degree": "10.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 228.57142639160156
@@ -947,7 +947,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -961,7 +961,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "2.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Sonstiges"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "rgb(253,212,140)",
       "size": 50.0
@@ -975,7 +975,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Beratungseinrichtungen"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 53.71287155151367
@@ -989,7 +989,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 54.95049285888672
@@ -1003,7 +1003,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 52.47524642944336
@@ -1017,7 +1017,7 @@
         "Weighted In-Degree": "3.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 103.57142639160156
@@ -1031,7 +1031,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(254,228,152)",
       "size": 67.85714721679688
@@ -1045,7 +1045,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "#f48c06",
       "size": 53.71287155151367
@@ -1059,7 +1059,7 @@
         "Weighted In-Degree": "6.0",
         "Weighted Degree": "7.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(254,228,152)",
       "size": 157.14285278320312
@@ -1073,7 +1073,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Staatsarchive"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 58.663368225097656
@@ -1087,7 +1087,7 @@
         "Weighted In-Degree": "3.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "Medien Presse"
+        "Akteursgruppe": "Medien"
       },
       "color": "rgb(255,244,164)",
       "size": 103.57142639160156
@@ -1101,7 +1101,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Kirche"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 53.71287155151367
@@ -1115,7 +1115,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 50.0
@@ -1129,7 +1129,7 @@
         "Weighted In-Degree": "6.0",
         "Weighted Degree": "6.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 157.14285278320312
@@ -1143,7 +1143,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -1157,7 +1157,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "#f48c06",
       "size": 53.71287155151367
@@ -1171,7 +1171,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -1185,7 +1185,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Stiftungen des öffentlichen Rechts"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 54.95049285888672
@@ -1199,7 +1199,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 52.47524642944336
@@ -1213,7 +1213,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(254,228,152)",
       "size": 85.71428680419922
@@ -1227,7 +1227,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Staatsarchive"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 53.71287155151367
@@ -1241,7 +1241,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wissenschaftlich, ausbildend Hochschule"
+        "Akteursgruppe": "wissenschaftlich, ausbildend"
       },
       "color": "#eaac8b",
       "size": 61.138614654541016
@@ -1255,7 +1255,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 61.138614654541016
@@ -1269,7 +1269,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 57.425743103027344
@@ -1283,7 +1283,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Gewerkschaften"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 53.71287155151367
@@ -1297,7 +1297,7 @@
         "Weighted In-Degree": "8.0",
         "Weighted Degree": "10.0",
         "Weighted Out-Degree": "2.0",
-        "Akteursgruppe": "zivilgesellschaftlich Stiftungen bürgerlichen Rechts"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(253,212,140)",
       "size": 192.85714721679688
@@ -1311,7 +1311,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -1325,7 +1325,7 @@
         "Weighted In-Degree": "6.0",
         "Weighted Degree": "6.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 157.14285278320312
@@ -1339,7 +1339,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -1353,7 +1353,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 52.47524642944336
@@ -1367,7 +1367,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "touristisch Tourismus"
+        "Akteursgruppe": "touristisch"
       },
       "color": "#9d0208",
       "size": 56.18811798095703
@@ -1381,7 +1381,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -1395,7 +1395,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "3.0",
-        "Akteursgruppe": "wissenschaftlich, ausbildend Hochschule"
+        "Akteursgruppe": "wissenschaftlich, ausbildend"
       },
       "color": "rgb(253,196,129)",
       "size": 50.0
@@ -1409,7 +1409,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "2.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(253,212,140)",
       "size": 67.85714721679688
@@ -1423,7 +1423,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Stiftungen bürgerlichen Rechts"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 54.95049285888672
@@ -1437,7 +1437,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "Medien Rundfunk"
+        "Akteursgruppe": "Medien"
       },
       "color": "#892b64",
       "size": 53.71287155151367
@@ -1451,7 +1451,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "touristisch Tourismus"
+        "Akteursgruppe": "touristisch"
       },
       "color": "#9d0208",
       "size": 53.71287155151367
@@ -1465,7 +1465,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 53.71287155151367
@@ -1479,7 +1479,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Sonstiges"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 52.47524642944336
@@ -1493,7 +1493,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wissenschaftlich, ausbildend Schule"
+        "Akteursgruppe": "wissenschaftlich, ausbildend"
       },
       "color": "#eaac8b",
       "size": 50.0
@@ -1507,7 +1507,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 53.71287155151367
@@ -1521,7 +1521,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "14.0",
         "Weighted Out-Degree": "14.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(234,124,80)",
       "size": 50.0
@@ -1549,7 +1549,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Sonstiges"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "#f48c06",
       "size": 54.95049285888672
@@ -1563,7 +1563,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal überregionale Einrichtungen"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -1577,7 +1577,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "4.0",
         "Weighted Out-Degree": "3.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(253,196,129)",
       "size": 67.85714721679688
@@ -1591,7 +1591,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Sonstiges"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "#f48c06",
       "size": 52.47524642944336
@@ -1605,7 +1605,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "touristisch Tourismus"
+        "Akteursgruppe": "touristisch"
       },
       "color": "#9d0208",
       "size": 53.71287155151367
@@ -1619,7 +1619,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Stiftungen des öffentlichen Rechts"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -1633,7 +1633,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "2.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(253,212,140)",
       "size": 50.0
@@ -1647,7 +1647,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "10.0",
         "Weighted Out-Degree": "10.0",
-        "Akteursgruppe": "staatlich-kommunal Stiftungen des bürgerlichen Rechts"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(242,141,91)",
       "size": 50.0
@@ -1661,7 +1661,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich anonymisierter Akteur"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 50.0
@@ -1675,7 +1675,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "Medien Rundfunk"
+        "Akteursgruppe": "Medien"
       },
       "color": "rgb(254,228,152)",
       "size": 50.0
@@ -1689,7 +1689,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 52.47524642944336
@@ -1703,7 +1703,7 @@
         "Weighted In-Degree": "4.0",
         "Weighted Degree": "4.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "rgb(255,244,164)",
       "size": 121.42857360839844
@@ -1717,7 +1717,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "Medien Rundfunk"
+        "Akteursgruppe": "Medien"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -1731,7 +1731,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Stiftungen bürgerlichen Rechts"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 53.71287155151367
@@ -1745,7 +1745,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 54.95049285888672
@@ -1759,7 +1759,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "5.0",
         "Weighted Out-Degree": "5.0",
-        "Akteursgruppe": "staatlich-kommunal anonymisierter Akteur"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(252,164,105)",
       "size": 50.0
@@ -1773,7 +1773,7 @@
         "Weighted In-Degree": "3.0",
         "Weighted Degree": "4.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "staatlich-kommunal Stiftungen des öffentlichen Rechts"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(254,228,152)",
       "size": 103.57142639160156
@@ -1787,7 +1787,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -1801,7 +1801,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 92.07920837402344
@@ -1815,7 +1815,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Kirche"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 54.95049285888672
@@ -1829,7 +1829,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 63.613861083984375
@@ -1843,7 +1843,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(254,228,152)",
       "size": 67.85714721679688
@@ -1857,7 +1857,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 53.71287155151367
@@ -1871,7 +1871,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "8.0",
         "Weighted Out-Degree": "8.0",
-        "Akteursgruppe": "zivilgesellschaftlich Kirche"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(246,150,96)",
       "size": 50.0
@@ -1885,7 +1885,7 @@
         "Weighted In-Degree": "3.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 103.57142639160156
@@ -1899,7 +1899,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -1913,7 +1913,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "2.0",
-        "Akteursgruppe": "staatlich-kommunal Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(253,212,140)",
       "size": 67.85714721679688
@@ -1927,7 +1927,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Beratungseinrichtungen"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 66.089111328125
@@ -1941,7 +1941,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(254,228,152)",
       "size": 67.85714721679688
@@ -1955,7 +1955,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 54.95049285888672
@@ -1969,7 +1969,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wissenschaftlich, ausbildend Hochschule"
+        "Akteursgruppe": "wissenschaftlich, ausbildend"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -1983,7 +1983,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 53.71287155151367
@@ -1997,7 +1997,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "#f48c06",
       "size": 61.138614654541016
@@ -2011,7 +2011,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "4.0",
         "Weighted Out-Degree": "2.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(253,212,140)",
       "size": 85.71428680419922
@@ -2025,7 +2025,7 @@
         "Weighted In-Degree": "3.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Parteien und Fraktionen"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 103.57142639160156
@@ -2039,7 +2039,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 59.9009895324707
@@ -2053,7 +2053,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "8.0",
         "Weighted Out-Degree": "6.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(250,159,102)",
       "size": 85.71428680419922
@@ -2067,7 +2067,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -2081,7 +2081,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Sonstiges"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -2095,7 +2095,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -2109,7 +2109,7 @@
         "Weighted In-Degree": "6.0",
         "Weighted Degree": "6.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Stiftungen des öffentlichen Rechts"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 157.14285278320312
@@ -2123,7 +2123,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "12.0",
         "Weighted Out-Degree": "10.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(242,141,91)",
       "size": 85.71428680419922
@@ -2137,7 +2137,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "3.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(253,196,129)",
       "size": 50.0
@@ -2151,7 +2151,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Kirche"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 53.71287155151367
@@ -2165,7 +2165,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wirtschaftlich Unternehmen"
+        "Akteursgruppe": "wirtschaftlich"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -2179,7 +2179,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 54.95049285888672
@@ -2193,7 +2193,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(254,228,152)",
       "size": 50.0
@@ -2207,7 +2207,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "10.0",
         "Weighted Out-Degree": "9.0",
-        "Akteursgruppe": "zivilgesellschaftlich Gewerkschaften"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(244,146,94)",
       "size": 67.85714721679688
@@ -2221,7 +2221,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich parteinahe Stiftungen und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 59.9009895324707
@@ -2235,7 +2235,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -2249,7 +2249,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -2263,7 +2263,7 @@
         "Weighted In-Degree": "5.0",
         "Weighted Degree": "5.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal kommunale Spitzenverbände"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 139.28570556640625
@@ -2277,7 +2277,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "7.0",
         "Weighted Out-Degree": "5.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(252,164,105)",
       "size": 85.71428680419922
@@ -2291,7 +2291,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -2305,7 +2305,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Kirche"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -2319,7 +2319,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 53.71287155151367
@@ -2333,7 +2333,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 52.47524642944336
@@ -2347,7 +2347,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "#f48c06",
       "size": 50.0
@@ -2361,7 +2361,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 59.9009895324707
@@ -2375,7 +2375,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "#f48c06",
       "size": 59.9009895324707
@@ -2389,7 +2389,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "zivilgesellschaftlich Gewerkschaften"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(254,228,152)",
       "size": 67.85714721679688
@@ -2403,7 +2403,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Stiftungen des öffentlichen Rechts"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -2417,7 +2417,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 56.18811798095703
@@ -2431,7 +2431,7 @@
         "Weighted In-Degree": "3.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 103.57142639160156
@@ -2445,7 +2445,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 53.71287155151367
@@ -2459,7 +2459,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -2473,7 +2473,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(254,228,152)",
       "size": 85.71428680419922
@@ -2487,7 +2487,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Parteien und Fraktionen"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -2501,7 +2501,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "16.0",
         "Weighted Out-Degree": "16.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(230,116,74)",
       "size": 50.0
@@ -2515,7 +2515,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "7.0",
         "Weighted Out-Degree": "7.0",
-        "Akteursgruppe": "zivilgesellschaftlich Gewerkschaften"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(248,154,99)",
       "size": 50.0
@@ -2529,7 +2529,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Stiftungen des bürgerlichen Rechts"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 54.95049285888672
@@ -2543,7 +2543,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(254,228,152)",
       "size": 50.0
@@ -2557,7 +2557,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 53.71287155151367
@@ -2571,7 +2571,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wirtschaftlich Unternehmen"
+        "Akteursgruppe": "wirtschaftlich"
       },
       "color": "#dfbfff",
       "size": 50.0
@@ -2585,7 +2585,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Sonstiges"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -2599,7 +2599,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -2613,7 +2613,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Beratungseinrichtungen"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 78.46534729003906
@@ -2627,7 +2627,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -2641,7 +2641,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 53.71287155151367
@@ -2655,7 +2655,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wissenschaftlich, ausbildend Hochschule"
+        "Akteursgruppe": "wissenschaftlich, ausbildend"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -2669,7 +2669,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "28.0",
         "Weighted Out-Degree": "28.0",
-        "Akteursgruppe": "zivilgesellschaftlich parteinahe Stiftungen und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(207,64,41)",
       "size": 50.0
@@ -2683,7 +2683,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "touristisch Tourismus"
+        "Akteursgruppe": "touristisch"
       },
       "color": "#9d0208",
       "size": 53.71287155151367
@@ -2697,7 +2697,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "43.0",
         "Weighted Out-Degree": "43.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(179,0,0)",
       "size": 50.0
@@ -2711,7 +2711,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal kommunale Spitzenverbände"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -2725,7 +2725,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 58.663368225097656
@@ -2739,7 +2739,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "2.0",
-        "Akteursgruppe": "zivilgesellschaftlich parteinahe Stiftungen und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(253,212,140)",
       "size": 50.0
@@ -2753,7 +2753,7 @@
         "Weighted In-Degree": "5.0",
         "Weighted Degree": "5.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "Medien Presse"
+        "Akteursgruppe": "Medien"
       },
       "color": "rgb(255,244,164)",
       "size": 139.28570556640625
@@ -2767,7 +2767,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "touristisch Tourismus"
+        "Akteursgruppe": "touristisch"
       },
       "color": "#9d0208",
       "size": 52.47524642944336
@@ -2781,7 +2781,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "Medien Zeitschriften"
+        "Akteursgruppe": "Medien"
       },
       "color": "#892b64",
       "size": 54.95049285888672
@@ -2795,7 +2795,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "touristisch Tourismus"
+        "Akteursgruppe": "touristisch"
       },
       "color": "#9d0208",
       "size": 52.47524642944336
@@ -2809,7 +2809,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 61.138614654541016
@@ -2823,7 +2823,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 58.663368225097656
@@ -2837,7 +2837,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wissenschaftlich, ausbildend Hochschule"
+        "Akteursgruppe": "wissenschaftlich, ausbildend"
       },
       "color": "#eaac8b",
       "size": 54.95049285888672
@@ -2851,7 +2851,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -2865,7 +2865,7 @@
         "Weighted In-Degree": "9.0",
         "Weighted Degree": "16.0",
         "Weighted Out-Degree": "7.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(248,154,99)",
       "size": 210.7142791748047
@@ -2879,7 +2879,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "15.0",
         "Weighted Out-Degree": "15.0",
-        "Akteursgruppe": "zivilgesellschaftlich Gewerkschaften"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(232,120,77)",
       "size": 50.0
@@ -2893,7 +2893,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "7.0",
         "Weighted Out-Degree": "6.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(250,159,102)",
       "size": 67.85714721679688
@@ -2907,7 +2907,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 57.425743103027344
@@ -2921,7 +2921,7 @@
         "Weighted In-Degree": "9.0",
         "Weighted Degree": "9.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal überregionale Einrichtungen"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 210.7142791748047
@@ -2935,7 +2935,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "15.0",
         "Weighted Out-Degree": "13.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(236,128,83)",
       "size": 85.71428680419922
@@ -2949,7 +2949,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Stiftungen bürgerlichen Rechts"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 54.95049285888672
@@ -2963,7 +2963,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(254,228,152)",
       "size": 50.0
@@ -2977,7 +2977,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "#f48c06",
       "size": 74.75247192382812
@@ -2991,7 +2991,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -3005,7 +3005,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "touristisch Tourismus"
+        "Akteursgruppe": "touristisch"
       },
       "color": "#9d0208",
       "size": 53.71287155151367
@@ -3019,7 +3019,7 @@
         "Weighted In-Degree": "7.0",
         "Weighted Degree": "7.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wissenschaftlich, ausbildend Hochschule"
+        "Akteursgruppe": "wissenschaftlich, ausbildend"
       },
       "color": "rgb(255,244,164)",
       "size": 175.0
@@ -3033,7 +3033,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 53.71287155151367
@@ -3047,7 +3047,7 @@
         "Weighted In-Degree": "6.0",
         "Weighted Degree": "6.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wissenschaftlich, ausbildend Hochschule"
+        "Akteursgruppe": "wissenschaftlich, ausbildend"
       },
       "color": "rgb(255,244,164)",
       "size": 157.14285278320312
@@ -3061,7 +3061,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "7.0",
         "Weighted Out-Degree": "6.0",
-        "Akteursgruppe": "zivilgesellschaftlich Kirche"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(250,159,102)",
       "size": 67.85714721679688
@@ -3075,7 +3075,7 @@
         "Weighted In-Degree": "6.0",
         "Weighted Degree": "6.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wissenschaftlich, ausbildend Hochschule"
+        "Akteursgruppe": "wissenschaftlich, ausbildend"
       },
       "color": "rgb(255,244,164)",
       "size": 157.14285278320312
@@ -3089,7 +3089,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Kirche"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 54.95049285888672
@@ -3103,7 +3103,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "1.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(254,228,152)",
       "size": 67.85714721679688
@@ -3117,7 +3117,7 @@
         "Weighted In-Degree": "6.0",
         "Weighted Degree": "6.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "rgb(255,244,164)",
       "size": 157.14285278320312
@@ -3131,7 +3131,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Staatsarchive"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 58.663368225097656
@@ -3145,7 +3145,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich parteinahe Stiftungen und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 53.71287155151367
@@ -3159,7 +3159,7 @@
         "Weighted In-Degree": "3.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 103.57142639160156
@@ -3173,7 +3173,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wissenschaftlich, ausbildend Schule"
+        "Akteursgruppe": "wissenschaftlich, ausbildend"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -3187,7 +3187,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Stiftungen des bürgerlichen Rechts"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 58.663368225097656
@@ -3201,7 +3201,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -3215,7 +3215,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 57.425743103027344
@@ -3229,7 +3229,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -3243,7 +3243,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -3257,7 +3257,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "2.0",
-        "Akteursgruppe": "wissenschaftlich, ausbildend Hochschule"
+        "Akteursgruppe": "wissenschaftlich, ausbildend"
       },
       "color": "rgb(253,212,140)",
       "size": 50.0
@@ -3271,7 +3271,7 @@
         "Weighted In-Degree": "6.0",
         "Weighted Degree": "6.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 157.14285278320312
@@ -3285,7 +3285,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "#f48c06",
       "size": 54.95049285888672
@@ -3299,7 +3299,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "6.0",
         "Weighted Out-Degree": "5.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(252,164,105)",
       "size": 67.85714721679688
@@ -3313,7 +3313,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "3.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "rgb(253,196,129)",
       "size": 50.0
@@ -3327,7 +3327,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wissenschaftlich, ausbildend Forschungs-/Ausbildungsinstitut"
+        "Akteursgruppe": "wissenschaftlich, ausbildend"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -3341,7 +3341,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wirtschaftlich Unternehmen"
+        "Akteursgruppe": "wirtschaftlich"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -3355,7 +3355,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -3369,7 +3369,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal kommunale Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 54.95049285888672
@@ -3383,7 +3383,7 @@
         "Weighted In-Degree": "4.0",
         "Weighted Degree": "4.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 121.42857360839844
@@ -3397,7 +3397,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 53.71287155151367
@@ -3411,7 +3411,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "3.0",
-        "Akteursgruppe": "zivilgesellschaftlich überregionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(253,196,129)",
       "size": 50.0
@@ -3425,7 +3425,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wirtschaftlich Unternehmen"
+        "Akteursgruppe": "wirtschaftlich"
       },
       "color": "#dfbfff",
       "size": 54.95049285888672
@@ -3439,7 +3439,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "6.0",
         "Weighted Out-Degree": "4.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(252,180,117)",
       "size": 85.71428680419922
@@ -3453,7 +3453,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "wirtschaftlich Unternehmen"
+        "Akteursgruppe": "wirtschaftlich"
       },
       "color": "#dfbfff",
       "size": 51.23762512207031
@@ -3467,7 +3467,7 @@
         "Weighted In-Degree": "2.0",
         "Weighted Degree": "2.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Stiftungen des bürgerlichen Rechts"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 85.71428680419922
@@ -3481,7 +3481,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -3495,7 +3495,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Theater und Orchester"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -3509,7 +3509,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunale geförderte Kultureinrichtung Museen"
+        "Akteursgruppe": "staatlich-kommunale geförderte Einrichtung"
       },
       "color": "#f48c06",
       "size": 50.0
@@ -3523,7 +3523,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "1.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 67.85714721679688
@@ -3537,7 +3537,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich regionale Verbände und Vereine"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "#dc2f02",
       "size": 54.95049285888672
@@ -3551,7 +3551,7 @@
         "Weighted In-Degree": "1.0",
         "Weighted Degree": "4.0",
         "Weighted Out-Degree": "3.0",
-        "Akteursgruppe": "touristisch Tourismus"
+        "Akteursgruppe": "touristisch"
       },
       "color": "rgb(253,196,129)",
       "size": 67.85714721679688
@@ -3565,7 +3565,7 @@
         "Weighted In-Degree": "14.0",
         "Weighted Degree": "14.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Regierung und Verwaltung"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "rgb(255,244,164)",
       "size": 300.0
@@ -3579,7 +3579,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "Medien Rundfunk"
+        "Akteursgruppe": "Medien"
       },
       "color": "#892b64",
       "size": 54.95049285888672
@@ -3593,7 +3593,7 @@
         "Weighted In-Degree": "3.0",
         "Weighted Degree": "3.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "zivilgesellschaftlich Parteien und Fraktionen"
+        "Akteursgruppe": "gemeinnützig orientiert"
       },
       "color": "rgb(255,244,164)",
       "size": 103.57142639160156
@@ -3607,7 +3607,7 @@
         "Weighted In-Degree": "6.0",
         "Weighted Degree": "6.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "Medien Rundfunk"
+        "Akteursgruppe": "Medien"
       },
       "color": "rgb(255,244,164)",
       "size": 157.14285278320312
@@ -3621,7 +3621,7 @@
         "Weighted In-Degree": "0.0",
         "Weighted Degree": "0.0",
         "Weighted Out-Degree": "0.0",
-        "Akteursgruppe": "staatlich-kommunal Staatsarchive"
+        "Akteursgruppe": "staatlich-kommunal"
       },
       "color": "#ffba08",
       "size": 63.613861083984375

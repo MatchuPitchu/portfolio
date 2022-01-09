@@ -1,6 +1,7 @@
 import { FC, useEffect, useState } from 'react';
 import { useSigma } from 'react-sigma-v2';
 import { FiltersState } from './types';
+import classes from './GraphDescription.module.css';
 
 interface Props {
   filters: FiltersState;
@@ -35,20 +36,22 @@ const GraphDescription: FC<Props> = ({ filters, description }) => {
   }, [filters, graph]);
 
   return (
-    <>
-      <div>{description && description}</div>
+    <div className={classes.description}>
+      {description && <div>{description}</div>}
       <div>
         {graph.order} node{graph.order > 1 ? 's' : ''}
         {visibleItems.nodes !== graph.order
           ? ` (${prettyPercentage(visibleItems.nodes / graph.order)} angezeigt)`
           : ''}
-        , {graph.size} edge
+      </div>
+      <div>
+        {graph.size} edge
         {graph.size > 1 ? 's' : ''}
         {visibleItems.edges !== graph.size
           ? ` (${prettyPercentage(visibleItems.edges / graph.size)} angezeigt)`
           : ''}
       </div>
-    </>
+    </div>
   );
 };
 

@@ -61,17 +61,17 @@ const infoAndCoopNetworkLinks = [
   { title: 'sehr oft', class: classes.infoAndCoop6 },
 ];
 
-const goalsLinksFilteredWeak = [
-  { title: 'gar nicht', class: classes.goals1 },
-  { title: 'schwach', class: classes.goals2 },
-];
+// const goalsLinksFilteredWeak = [
+//   { title: 'gar nicht', class: classes.goals1 },
+//   { title: 'schwach', class: classes.goals2 },
+// ];
 
-const goalsLinksFilteredStrong = [
-  { title: 'hoch', class: classes.goals3 },
-  { title: 'sehr hoch', class: classes.goals4 },
-];
+// const goalsLinksFilteredStrong = [
+//   { title: 'hoch', class: classes.goals3 },
+//   { title: 'sehr hoch', class: classes.goals4 },
+// ];
 
-const goalsLinksFilteredNoIdea = [{ title: 'kann nicht einschätzen', class: classes.goals0 }];
+// const goalsLinksFilteredNoIdea = [{ title: 'kann nicht einschätzen', class: classes.goals0 }];
 
 const Network = () => {
   // console.log(transformedData);
@@ -132,35 +132,35 @@ const Network = () => {
       <Sigma dataPath='/data/01_networkInfoExchange.json' />
       <Legend links={infoAndCoopNetworkLinks} />
 
-      <section className={classes.description}>
+      {/* <section className={classes.description}>
         <H2Title className={classes.title}>Kooperationsbeziehungen</H2Title>
-      </section>
+      </section> */}
       {/* <Sigma dataPath='/data/02_networkCooperation.json' /> */}
-      <Legend links={infoAndCoopNetworkLinks} />
+      {/* <Legend links={infoAndCoopNetworkLinks} /> */}
 
-      <section className={classes.description}>
+      {/* <section className={classes.description}>
         <H2Title className={classes.title}>Netzwerke der kulturpolitischen Ziele</H2Title>
-      </section>
+      </section> */}
       {/* <Sigma
         dataPath='/data/03_networkGoalsFiltered1-2.json'
         description={'gefiltert »schwach« und »gar nicht«'}
       /> */}
-      <Legend links={goalsLinksFilteredWeak} />
+      {/* <Legend links={goalsLinksFilteredWeak} /> */}
 
-      <section className={classes.description}></section>
+      {/* <section className={classes.description}></section> */}
       {/* <Sigma
         dataPath='/data/04_networkGoalsFiltered4-5.json'
         description={'gefiltert »hoch« und »sehr hoch«'}
       /> */}
-      <Legend links={goalsLinksFilteredStrong} />
+      {/* <Legend links={goalsLinksFilteredStrong} /> */}
 
-      <section className={classes.description}></section>
-      {/* <Sigma
+      {/* <section className={classes.description}></section>
+      <Sigma
         dataPath='/data/05_networkGoalsFiltered6.json'
         description={'gefiltert »kann ich nicht einschätzen«'}
       /> */}
 
-      <Legend links={goalsLinksFilteredNoIdea} />
+      {/* <Legend links={goalsLinksFilteredNoIdea} /> */}
     </Container>
   );
 };

@@ -41,8 +41,6 @@ export function drawHover(
   const weight = settings.labelWeight;
   // const subLabelSize = size - 2;
 
-  console.log(data);
-
   const label = data.label;
   // const groupLabel = data.group;
 

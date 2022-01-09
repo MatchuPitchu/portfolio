@@ -1,5 +1,5 @@
 .panel {
-  padding: var(--padding-less-y);
+  padding: 0.3rem 0.5rem;
   background-color: var(--color-bg-navbar);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
@@ -13,4 +13,6 @@
   display: flex;
   justify-content: space-between;
   gap: 1rem;
+  font-size: 0.9rem;
+  color: var(--color-text-shade);
 }

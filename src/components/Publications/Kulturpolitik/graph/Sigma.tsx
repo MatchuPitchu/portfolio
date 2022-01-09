@@ -1,4 +1,4 @@
-import { FC, useRef, useState, useEffect, useCallback } from 'react';
+import { FC, useRef, useState, useCallback } from 'react';
 import {
   ControlsContainer,
   SearchControl,
@@ -14,7 +14,7 @@ import { Dataset, FiltersState, Group } from './types';
 import drawLabel from './canvas-utils';
 import GraphEventsController from './GraphEventsController';
 import GraphDescription from './GraphDescription';
-import Search from './Search';
+// import Search from './Search';
 import GraphDataController from './GraphDataController';
 import GroupsPanel from './GroupsPanel';
 
@@ -23,9 +23,9 @@ interface Props {
   description?: string;
 }
 
-const Graph: FC<Props> = ({ dataPath, description }) => {
-  const [showContents, setShowContents] = useState(false);
-  const [dataReady, setDataReady] = useState(false);
+const Sigma: FC<Props> = ({ dataPath, description }) => {
+  // const [showContents, setShowContents] = useState(false);
+  // const [dataReady, setDataReady] = useState(false);
   const [dataset, setDataset] = useState<Dataset | null>(null);
   const [filtersState, setFiltersState] = useState<FiltersState>({ groups: [] });
   const [hoveredNode, setHoveredNode] = useState<string | null>(null);
@@ -111,4 +111,4 @@ const Graph: FC<Props> = ({ dataPath, description }) => {
   );
 };
 
-export default Graph;
+export default Sigma;
