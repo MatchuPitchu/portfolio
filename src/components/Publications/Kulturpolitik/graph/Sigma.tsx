@@ -28,9 +28,7 @@ const Sigma: FC<Props> = ({ dataPath, description }) => {
 
   // first mouse scroll does not lead to zooming in graph
   // when user clicks on graph, mouse events are possible with graph
-  const activateClickInGraph = () => {
-    overlayRef.current!.style.pointerEvents = 'none';
-  };
+  const activateClickInGraph = () => (overlayRef.current!.style.pointerEvents = 'none');
 
   const dataHandler = useCallback((data: Dataset) => {
     setDataset(data);

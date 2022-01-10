@@ -5,13 +5,17 @@ import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
 import { FiltersState } from './types';
 import classes from './Search.module.css';
 
+interface Props {
+  filters: FiltersState;
+}
+
 /**
  * This component is basically a fork from React-sigma-v2's SearchControl
  * component, to get some minor adjustments:
  * 1. We need to hide hidden nodes from results
  * 2. We need custom markup
  */
-const Search: FC<{ filters: FiltersState }> = ({ filters }) => {
+const Search: FC<Props> = ({ filters }) => {
   const sigma = useSigma();
 
   const [search, setSearch] = useState<string>('');
