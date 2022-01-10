@@ -1,28 +1,16 @@
-import { useNavigate } from 'react-router-dom';
+import ButtonsPublicationDetails from './ButtonsPublicationDetails';
 import Container from '../Layout/Container';
 import Button from '../UI/Button/Button';
 import Section from '../UI/Section/Section';
-
 import classes from './PublicationsDetails.module.css';
 
 const BNEDetails = () => {
-  const navigate = useNavigate();
-  const pageBackHandler = () => navigate('/veroeffentlichungen');
-
   return (
     <Container className={classes['container-customized']}>
-      <div className={classes['buttons-box']}>
-        <Button onClick={pageBackHandler} ariaLabel='back'>
-          Zurück
-        </Button>
-        <a
-          href='https://www.researchgate.net/publication/321193032_Un-bezahlbar_un-zahlbar_Die_staatliche_Forderung_der_ausserschulischen_Bildung_fur_nachhaltige_Entwicklung_in_Deutschland_im_Zeitraum_2011_bis_2016'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <Button ariaLabel='download'>Download</Button>
-        </a>
-      </div>
+      <ButtonsPublicationDetails
+        text='Download'
+        href='https://www.researchgate.net/publication/321193032_Un-bezahlbar_un-zahlbar_Die_staatliche_Forderung_der_ausserschulischen_Bildung_fur_nachhaltige_Entwicklung_in_Deutschland_im_Zeitraum_2011_bis_2016'
+      />
       <Section>
         <div className={classes['col-left']}>
           <h1>

@@ -23,35 +23,6 @@
   z-index: 5 !important;
 }
 
-@media all and (max-width: 576px) {
-  /* searchbar cannot be used easily on mobile devices */
-  .searchbar {
-    display: none !important;
-  }
-}
-
-.searchbar input {
-  border: none !important;
-  box-shadow: var(--box-shadow);
-  font-size: 0.8rem;
-  padding: var(--padding-even-sm);
-  background-color: var(--color-bg-items-primary);
-  color: var(--color-text);
-}
-
-.searchbar input::placeholder {
-  color: var(--color-text);
-}
-
-.searchbar {
-  width: 300px !important;
-}
-
-.searchbar input:focus {
-  outline: 0 !important;
-  border: 1px solid var(--color-bg-transparent60) !important;
-}
-
 .btn {
   display: flex !important;
   justify-content: center !important;

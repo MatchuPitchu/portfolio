@@ -31,6 +31,7 @@ import {
   faCaretLeft,
   faCaretRight,
   faArrowAltCircleUp,
+  faSearch,
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -43,7 +44,8 @@ library.add(
   faQuoteRight,
   faCaretLeft,
   faCaretRight,
-  faArrowAltCircleUp
+  faArrowAltCircleUp,
+  faSearch
 );
 
 const NetzwerkeKulturpolitik = lazy(() => import('./pages/NetzwerkeKulturpolitik'));

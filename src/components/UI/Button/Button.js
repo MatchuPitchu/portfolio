@@ -1,6 +1,6 @@
 import classes from './Button.module.css';
 
-const width = '105';
+const width = '120';
 const height = '50';
 
 const Button = ({ type, className, onClick, disabled, ariaLabel, children }) => {

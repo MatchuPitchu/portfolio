@@ -1,28 +1,15 @@
-import { useNavigate } from 'react-router-dom';
 import Container from '../Layout/Container';
-import Button from '../UI/Button/Button';
+import ButtonsPublicationDetails from './ButtonsPublicationDetails';
 import Section from '../UI/Section/Section';
-
 import classes from './PublicationsDetails.module.css';
 
 const DigitalisierungsDetails = () => {
-  const navigate = useNavigate();
-  const pageBackHandler = () => navigate('/veroeffentlichungen');
-
   return (
     <Container className={classes['container-customized']}>
-      <div className={classes['buttons-box']}>
-        <Button onClick={pageBackHandler} ariaLabel='back'>
-          Zurück
-        </Button>
-        <a
-          href='https://www.researchgate.net/publication/346082640_Transformation_durch_Digitalisierung_gestalten_Die_plattform_n_als_Vernetzungs-_und_Kollaborationsplattform_fur_nachhaltige_Hochschulen'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <Button ariaLabel='link'>Link</Button>
-        </a>
-      </div>
+      <ButtonsPublicationDetails
+        text='Ansicht'
+        href='https://www.researchgate.net/publication/346082640_Transformation_durch_Digitalisierung_gestalten_Die_plattform_n_als_Vernetzungs-_und_Kollaborationsplattform_fur_nachhaltige_Hochschulen'
+      />
       <Section>
         <div className={classes['col-left']}>
           <h1>Transformation durch Digitalisierung gestalten</h1>

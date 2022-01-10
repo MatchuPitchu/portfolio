@@ -1,10 +1,8 @@
-import { useNavigate } from 'react-router-dom';
-import KeyPoint from '../SVG/KeyPoint';
 import Container from '../Layout/Container';
+import ButtonsPublicationDetails from './ButtonsPublicationDetails';
+import KeyPoint from '../SVG/KeyPoint';
 import List from '../UI/List/List';
-import Button from '../UI/Button/Button';
 import Section from '../UI/Section/Section';
-
 import classes from './PublicationsDetails.module.css';
 
 const data = [
@@ -26,9 +24,6 @@ const data = [
 ];
 
 const NetzwerkeDetails = () => {
-  const navigate = useNavigate();
-  const pageBackHandler = () => navigate('/veroeffentlichungen');
-
   const specificData = data?.map((item) => {
     return (
       <li key={item.id}>
@@ -43,18 +38,10 @@ const NetzwerkeDetails = () => {
 
   return (
     <Container className={classes['container-customized']}>
-      <div className={classes['buttons-box']}>
-        <Button onClick={pageBackHandler} ariaLabel='back'>
-          Zurück
-        </Button>
-        <a
-          href='https://www.researchgate.net/publication/331894285_Nachhaltigkeitsnetzwerke_an_Hochschulen_Die_transformative_Kraft_von_Verbindungen'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <Button ariaLabel='download'>Download</Button>
-        </a>
-      </div>
+      <ButtonsPublicationDetails
+        text='Download'
+        href='https://www.researchgate.net/publication/331894285_Nachhaltigkeitsnetzwerke_an_Hochschulen_Die_transformative_Kraft_von_Verbindungen'
+      />
       <Section>
         <div className={classes['col-left']}>
           <h1>Netzwerke für die nachhaltige Entwicklung an Hochschulen</h1>

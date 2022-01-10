@@ -1,11 +1,5 @@
 import { FC, useRef, useState, useCallback } from 'react';
-import {
-  ControlsContainer,
-  SearchControl,
-  SigmaContainer,
-  FullScreenControl,
-  ZoomControl,
-} from 'react-sigma-v2';
+import { ControlsContainer, SigmaContainer, FullScreenControl, ZoomControl } from 'react-sigma-v2';
 import 'react-sigma-v2/lib/react-sigma-v2.css';
 import GraphSettingsController from './GraphSettingsController';
 import classes from './Sigma.module.css';
@@ -14,9 +8,9 @@ import { Dataset, FiltersState, Group } from './types';
 import drawLabel from './canvas-utils';
 import GraphEventsController from './GraphEventsController';
 import GraphDescription from './GraphDescription';
-// import Search from './Search';
 import GraphDataController from './GraphDataController';
 import GroupsPanel from './GroupsPanel';
+import Search from './Search';
 
 interface Props {
   dataPath: string;
@@ -87,8 +81,7 @@ const Sigma: FC<Props> = ({ dataPath, description }) => {
           {dataset && <GraphDescription description={description} filters={filtersState} />}
         </ControlsContainer>
         <ControlsContainer className={classes.controls} position={'top-right'}>
-          {/* <Search filters={filtersState} /> */}
-          <SearchControl className={classes.searchbar} />
+          <Search filters={filtersState} />
         </ControlsContainer>
         <ControlsContainer className={classes.controls} position={'bottom-right'}>
           <FullScreenControl className={classes.btn} />
@@ -96,7 +89,6 @@ const Sigma: FC<Props> = ({ dataPath, description }) => {
         </ControlsContainer>
         {dataset && (
           <ControlsContainer className={classes.controls} position={'bottom-left'}>
-            {/* <Search filters={filtersState} /> */}
             {/* <DescriptionPanel /> */}
             <GroupsPanel
               groups={dataset.groups}

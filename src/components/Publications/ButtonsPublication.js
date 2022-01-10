@@ -13,7 +13,7 @@ const ButtonsPublication = ({ url, path }) => {
       </div>
       <div>
         <a href={url} target='_blank' rel='noreferrer'>
-          <Button ariaLabel='link'>Link</Button>
+          <Button ariaLabel='link'>Ansicht</Button>
         </a>
       </div>
     </div>

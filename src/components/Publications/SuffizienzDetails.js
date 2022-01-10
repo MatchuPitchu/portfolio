@@ -1,8 +1,7 @@
-import { useNavigate } from 'react-router-dom';
-import KeyPoint from '../SVG/KeyPoint';
+import ButtonsPublicationDetails from './ButtonsPublicationDetails';
 import Container from '../Layout/Container';
+import KeyPoint from '../SVG/KeyPoint';
 import List from '../UI/List/List';
-import Button from '../UI/Button/Button';
 import Section from '../UI/Section/Section';
 
 import classes from './PublicationsDetails.module.css';
@@ -51,23 +50,12 @@ const data = [
 ];
 
 const SuffizienzDetails = () => {
-  const navigate = useNavigate();
-  const pageBackHandler = () => navigate('/veroeffentlichungen');
-
   return (
     <Container className={classes['container-customized']}>
-      <div className={classes['buttons-box']}>
-        <Button onClick={pageBackHandler} ariaLabel='back'>
-          Zurück
-        </Button>
-        <a
-          href='https://www.researchgate.net/publication/342991904_Suffizienz_an_Hochschulen_im_landlichen_Raum'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <Button ariaLabel='download'>Download</Button>
-        </a>
-      </div>
+      <ButtonsPublicationDetails
+        text='Download'
+        href='https://www.researchgate.net/publication/342991904_Suffizienz_an_Hochschulen_im_landlichen_Raum'
+      />
       <Section className={classes.row}>
         <div className={classes['col-left']}>
           <h1>Suffizienz an Hochschulen im ländlichen Raum</h1>

@@ -1,0 +1,56 @@
+@media all and (max-width: 576px) {
+  /* searchbar cannot be used easily on mobile devices */
+  .searchbar {
+    display: none !important;
+  }
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  padding: 0.4em;
+  width: 300px;
+  background-color: var(--color-bg-items-primary);
+  border: 1px solid var(--color-bg-transparent20);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  transition: all 0.5s ease-out;
+}
+
+.searchbar:focus-within {
+  border: 1px solid var(--color-primary);
+}
+
+.searchbar:focus-within > .searchbar__icon {
+  width: 0;
+}
+
+.searchbar__icon {
+  margin-right: 0.3em;
+  color: var(--color-text-shade);
+  opacity: 0.7;
+  transition: all 0.5s ease-out;
+}
+
+.searchbar__input {
+  flex: 1 0 auto;
+  border: none;
+  font-size: 0.8rem;
+  color: var(--color-text);
+  background-color: inherit;
+}
+
+.searchbar__input::placeholder {
+  color: inherit;
+}
+
+.searchbar__input:focus {
+  outline: 0 !important;
+}
+
+.searchbar__list {
+  background-color: var(--color-bg-items-primary);
+  border: 1px solid var(--color-bg-transparent60);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}

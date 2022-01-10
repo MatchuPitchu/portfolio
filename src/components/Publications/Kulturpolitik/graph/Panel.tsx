@@ -3,31 +3,25 @@ import AnimateHeight from 'react-animate-height';
 import ButtonExpand from '../../../UI/Button/ButtonExpand';
 import classes from './Panel.module.css';
 
-const DURATION = 300;
+interface Props {
+  title: string;
+}
 
-const Panel: FC<{ title: JSX.Element | string; initiallyDeployed?: boolean }> = ({
-  title,
-  initiallyDeployed,
-  children,
-}) => {
+const Panel: FC<Props> = ({ title, children }) => {
   const [isExpanded, setIsExpanded] = useState<boolean>(false);
-  const dom = useRef<HTMLDivElement>(null);
+  const boxRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (isExpanded)
-      setTimeout(() => {
-        if (dom.current)
-          dom.current.parentElement!.scrollTo({
-            top: dom.current.offsetTop - 5,
-            behavior: 'smooth',
-          });
-      }, DURATION);
+    if (isExpanded) {
+      const id = setTimeout(() => boxRef?.current?.parentElement!.scrollIntoView(), 300);
+      return () => clearTimeout(id);
+    }
   }, [isExpanded]);
 
   const handleExpandClick = () => setIsExpanded((prev) => !prev);
 
   return (
-    <div className={classes.panel} ref={dom}>
+    <div className={classes.panel} ref={boxRef}>
       <div className={classes['filter-header']}>
         <div>{title}</div>
         <ButtonExpand
@@ -38,7 +32,7 @@ const Panel: FC<{ title: JSX.Element | string; initiallyDeployed?: boolean }> = 
         />
       </div>
 
-      <AnimateHeight duration={DURATION} height={isExpanded ? 'auto' : 0}>
+      <AnimateHeight duration={300} height={isExpanded ? 'auto' : 0}>
         {children}
       </AnimateHeight>
     </div>

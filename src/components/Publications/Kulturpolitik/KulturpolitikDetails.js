@@ -1,10 +1,8 @@
-import { useNavigate } from 'react-router-dom';
 import Container from '../../Layout/Container';
-import Button from '../../UI/Button/Button';
+import ButtonsPublicationDetails from '../ButtonsPublicationDetails';
 import Card from '../../UI/Card/Card';
 import Section from '../../UI/Section/Section';
 import QuotesCarousel from './QuotesCarousel';
-
 import classes from '../PublicationsDetails.module.css';
 
 const theses = [
@@ -81,23 +79,12 @@ const theses = [
 ];
 
 const KulturpolitikDetails = () => {
-  const navigate = useNavigate();
-  const pageBackHandler = () => navigate('/veroeffentlichungen');
-
   return (
     <Container className={classes['container-customized']}>
-      <div className={classes['buttons-box']}>
-        <Button onClick={pageBackHandler} ariaLabel='back'>
-          Zurück
-        </Button>
-        <a
-          href='https://www.transcript-verlag.de/shopMedia/openaccess/pdf/oa9783839442555.pdf'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <Button ariaLabel='download'>Download</Button>
-        </a>
-      </div>
+      <ButtonsPublicationDetails
+        text='Download'
+        href='https://www.transcript-verlag.de/shopMedia/openaccess/pdf/oa9783839442555.pdf'
+      />
       <Section>
         <div className={classes['col-left']}>
           <h1>Kulturpolitik in Thüringen</h1>

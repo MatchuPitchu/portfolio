@@ -58,25 +58,6 @@
   font-weight: bold;
 }
 
-.panel {
-  max-height: 0;
-  overflow: hidden;
-}
-
-.panel.active {
-  max-height: 500px;
-  animation: open 1s ease-out;
-}
-
-@keyframes open {
-  0% {
-    max-height: 0;
-  }
-  100% {
-    max-height: 500px;
-  }
-}
-
 .keypoint-customize {
   margin-top: -0.2rem;
 }

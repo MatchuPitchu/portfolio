@@ -158,13 +158,13 @@ const QuotesCarousel = () => {
           </a>
         )}
         <div className={classes['slider-btn']}>
-          <button className={classes.btn} onClick={prevSlide} ariaLabel='previous quote'>
+          <button className={classes.btn} onClick={prevSlide} aria-label='previous quote'>
             <Icon icon={['fa', 'caret-left']} />
           </button>
           <div className={classes['slider-btn__text']}>
             Zitat {index + 1} von {quotes.length}
           </div>
-          <button className={classes.btn} onClick={nextSlide} ariaLabel='next quote'>
+          <button className={classes.btn} onClick={nextSlide} aria-label='next quote'>
             <Icon icon={['fa', 'caret-right']} />
           </button>
         </div>

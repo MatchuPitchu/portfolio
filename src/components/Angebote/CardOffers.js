@@ -8,6 +8,7 @@ import ActivityPoint from '../UI/ActivityPoint/ActivityPoint';
 import ImgWithFallback from '../ImgWithFallback';
 import classes from './CardOffers.module.css';
 import ButtonExpand from '../UI/Button/ButtonExpand';
+import AnimateHeight from 'react-animate-height';
 
 const CardOffers = ({ offer }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -40,18 +41,16 @@ const CardOffers = ({ offer }) => {
           ariaLabel='expand references'
         />
       </div>
-      <div className={`${classes.panel} ${isExpanded ? classes.active : ''}`}>
-        {isExpanded && (
-          <List>
-            {offer.references.map((reference, index) => (
-              <li key={index}>
-                <KeyPoint className={classes['keypoint-customize']} />
-                {reference}
-              </li>
-            ))}
-          </List>
-        )}
-      </div>
+      <AnimateHeight duration={500} height={isExpanded ? 'auto' : 0}>
+        <List>
+          {offer.references.map((reference, index) => (
+            <li key={index}>
+              <KeyPoint className={classes['keypoint-customize']} />
+              {reference}
+            </li>
+          ))}
+        </List>
+      </AnimateHeight>
     </Card>
   );
 };
