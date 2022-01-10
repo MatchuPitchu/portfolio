@@ -30,23 +30,23 @@
 }
 
 .input[type='checkbox'] + label::before {
-  margin-right: 0.5em;
+  margin-right: 0.7em;
   width: 1em;
   height: 1em;
-  border-radius: 5px;
-  border: 2px solid var(--color-primary);
-  background-color: #fff;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-bg-items-primary);
   content: '';
-  position: relative;
 }
 
 .input[type='checkbox']:checked + label::before {
-  box-shadow: inset 0px 0px 0px 3px #fff;
+  box-shadow: inset 0px 0px 0px 3px var(--color-bg-items-primary);
   background-color: var(--color-primary);
 }
 
 .label {
   display: flex;
+  align-items: center;
   cursor: pointer;
 }
 
@@ -57,10 +57,11 @@
 .node-label {
   display: flex;
   flex-flow: column;
+  gap: 0.1em;
 }
 
 .bar {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.2rem;
 }
 
 .bar__inside {

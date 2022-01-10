@@ -3,7 +3,7 @@
     {
       "key": "483",
       "attributes": {
-        "label": "DAkkordeonLV TH",
+        "label": "Deutscher Akkordeonlehrer-Verband Thüringen",
         "x": -4544.06005859375,
         "y": -115.9691162109375,
         "size": 5,
@@ -45,7 +45,7 @@
     {
       "key": "720",
       "attributes": {
-        "label": "GfFotografie TH",
+        "label": "Gesellschaft für Fotografie Thüringen",
         "x": -4102.98974609375,
         "y": -424.9072265625,
         "size": 5.284090805053712,
@@ -59,7 +59,7 @@
     {
       "key": "2553",
       "attributes": {
-        "label": "Deutscher Buehnenverein",
+        "label": "Deutscher Bühnenverein",
         "x": -886.1649169921875,
         "y": 4706.37060546875,
         "size": 5.42613639831543,
@@ -171,7 +171,7 @@
     {
       "key": "493",
       "attributes": {
-        "label": "Deutscher Komponistenverband Thüringen, via nova",
+        "label": "Deutscher Komponistenverband Thüringenüringen, via nova",
         "x": -4060.2783203125,
         "y": 1887.515625,
         "size": 5.497159194946289,
@@ -297,7 +297,7 @@
     {
       "key": "1343",
       "attributes": {
-        "label": "Landkreise Hildb Sonneb",
+        "label": "Landkreise Hildburghausen Sonneberg",
         "x": 914.977294921875,
         "y": -4.268531799316406,
         "size": 5.42613639831543,
@@ -353,7 +353,7 @@
     {
       "key": "495",
       "attributes": {
-        "label": "DTonkuenstlerV TH",
+        "label": "Deutscher Tonkünstlerverband Thüringen",
         "x": -4419.69677734375,
         "y": 2521.876953125,
         "size": 5.2130683898925785,
@@ -367,7 +367,7 @@
     {
       "key": "1061",
       "attributes": {
-        "label": "FEbertS TH",
+        "label": "Friedrich-Ebert-Stiftung Thüringen",
         "x": -701.9508056640625,
         "y": -1932.26513671875,
         "size": 6.136363601684571,
@@ -381,7 +381,7 @@
     {
       "key": "506",
       "attributes": {
-        "label": "TH LV Filmautoren",
+        "label": "Thüringer Landesverband Filmautoren",
         "x": -794.5173950195312,
         "y": -4307.4267578125,
         "size": 5,
@@ -423,7 +423,7 @@
     {
       "key": "734",
       "attributes": {
-        "label": "BMusikunterricht TH",
+        "label": "Bundesverband Musikunterricht Thüringen",
         "x": -2538.942626953125,
         "y": 3250.236328125,
         "size": 5.42613639831543,
@@ -437,7 +437,7 @@
     {
       "key": "524",
       "attributes": {
-        "label": "Uni EF",
+        "label": "Universität Erfurt",
         "x": 2008.19970703125,
         "y": -906.2894287109375,
         "size": 7.5568183898925785,
@@ -465,7 +465,7 @@
     {
       "key": "2068",
       "attributes": {
-        "label": "HBoellS TH",
+        "label": "Heinrich-Böll-Stiftung Thüringen",
         "x": -3125.8720703125,
         "y": -3096.26904296875,
         "size": 5.42613639831543,
@@ -493,7 +493,7 @@
     {
       "key": "1958",
       "attributes": {
-        "label": "BS Aufarbeitung SED-Diktatur",
+        "label": "Bundesstiftung Aufarbeitung SED-Diktatur",
         "x": 1681.2396240234375,
         "y": -4979.76513671875,
         "size": 5.284090805053712,
@@ -507,7 +507,7 @@
     {
       "key": "516",
       "attributes": {
-        "label": "Sparkassen-Kulturstiftung H-TH",
+        "label": "Sparkassen-Kulturstiftung Hessen-Thüringen",
         "x": 1250.8035888671875,
         "y": -2828.9716796875,
         "size": 18.42329559326172,
@@ -521,7 +521,7 @@
     {
       "key": "1230",
       "attributes": {
-        "label": "ThPhil Gotha",
+        "label": "Thüringen Philharmonie Gotha-Eisenach",
         "x": -3552.870849609375,
         "y": 3436.45703125,
         "size": 5.42613639831543,
@@ -549,7 +549,7 @@
     {
       "key": "1835",
       "attributes": {
-        "label": "Alfred T. Moerstedt Stiftung",
+        "label": "Alfred T. Mörstedt-Stiftung",
         "x": 48.462242126464844,
         "y": 3313.1103515625,
         "size": 5.2130683898925785,
@@ -563,7 +563,7 @@
     {
       "key": "1205",
       "attributes": {
-        "label": "Foerderverein Denkmalpflege TH",
+        "label": "Förderverein Denkmalpflege Thüringen",
         "x": 4356.8779296875,
         "y": -1622.412841796875,
         "size": 5.639204406738282,
@@ -577,7 +577,7 @@
     {
       "key": "1632",
       "attributes": {
-        "label": "Volkskundliche BDS TH",
+        "label": "Volkskundliche Beratungsstelle Thüringen",
         "x": -1143.730224609375,
         "y": -2987.215087890625,
         "size": 5.497159194946289,
@@ -605,7 +605,7 @@
     {
       "key": "468",
       "attributes": {
-        "label": "TH Theaterverband",
+        "label": "Thüringer Theaterverband",
         "x": -3691.310791015625,
         "y": 471.49591064453125,
         "size": 9.545454406738282,
@@ -647,7 +647,7 @@
     {
       "key": "1802",
       "attributes": {
-        "label": "EuropaeischeJBW",
+        "label": "Europäische Jugendbildungsstätte Weimar",
         "x": 1282.0811767578125,
         "y": -4307.0234375,
         "size": 6.5625,
@@ -661,7 +661,7 @@
     {
       "key": "465",
       "attributes": {
-        "label": "KompetenzZ KKW S, SH, TH",
+        "label": "Kompetenzzentrum Kultur- und Kreativwirtschaft Sachsen, Sachsen-Anhalt, Thüringen",
         "x": -1884.420654296875,
         "y": -1307.98828125,
         "size": 6.7755683898925785,
@@ -703,7 +703,7 @@
     {
       "key": "721",
       "attributes": {
-        "label": "TH Tanzverband",
+        "label": "Thüringer Tanzverband",
         "x": -4624.4892578125,
         "y": -642.5838623046875,
         "size": 5.568181991577148,
@@ -731,7 +731,7 @@
     {
       "key": "477",
       "attributes": {
-        "label": "BDKunsterzieher TH",
+        "label": "Bund Deutscher Kunsterzieher Thüringen",
         "x": -2766.895263671875,
         "y": -158.05804443359375,
         "size": 6.349431610107422,
@@ -759,7 +759,7 @@
     {
       "key": "461",
       "attributes": {
-        "label": "TMWWDG",
+        "label": "Thüringer Ministerium für Wirtschaft, Wissenschaft und Digitale Gesellschaft",
         "x": -2003.9912109375,
         "y": -503.6142883300781,
         "size": 12.244317626953126,
@@ -787,7 +787,7 @@
     {
       "key": "1366",
       "attributes": {
-        "label": "Kuenstler",
+        "label": "Künstler",
         "x": 3442.51318359375,
         "y": -2363.053955078125,
         "size": 5.284090805053712,
@@ -815,7 +815,7 @@
     {
       "key": "1747",
       "attributes": {
-        "label": "TH Landesmedienanstalt",
+        "label": "Thüringer Landesmedienanstalt",
         "x": -120.02498626708984,
         "y": -4753.2744140625,
         "size": 7.201704406738282,
@@ -829,7 +829,7 @@
     {
       "key": "2490",
       "attributes": {
-        "label": "BEvangelischerJugend MittelD",
+        "label": "bund evangelischer jugend in mitteldeutschland",
         "x": -834.5173950195312,
         "y": -5476.5419921875,
         "size": 5.284090805053712,
@@ -899,7 +899,7 @@
     {
       "key": "827",
       "attributes": {
-        "label": "TLDA, Museum UFGeschichte TH",
+        "label": "TLDA, Museum Ur- und Frühgeschichte Thüringen",
         "x": 2765.964111328125,
         "y": 917.5445556640625,
         "size": 7.840908813476563,
@@ -913,7 +913,7 @@
     {
       "key": "2027",
       "attributes": {
-        "label": "Regionalverbund TH Wald",
+        "label": "Regionalverbund Thüringer Wald",
         "x": 4518.20654296875,
         "y": -2009.3131103515625,
         "size": 5.568181991577148,
@@ -941,7 +941,7 @@
     {
       "key": "521",
       "attributes": {
-        "label": "Bistum EF",
+        "label": "Bistum Erfurt",
         "x": 2843.635498046875,
         "y": 44.85186767578125,
         "size": 6.7755683898925785,
@@ -955,7 +955,7 @@
     {
       "key": "1873",
       "attributes": {
-        "label": "DGB",
+        "label": "Deutschen Gewerkschaftsbund",
         "x": 906.1217651367188,
         "y": -4991.763671875,
         "size": 5.42613639831543,
@@ -997,7 +997,7 @@
     {
       "key": "508",
       "attributes": {
-        "label": "Dt Kulturrat",
+        "label": "Deutscher Kulturrat",
         "x": -524.5966186523438,
         "y": 4090.06494140625,
         "size": 6.5625,
@@ -1011,7 +1011,7 @@
     {
       "key": "519",
       "attributes": {
-        "label": "VEKirchenmusiker TH",
+        "label": "Verband evangelischer Kirchenmusiker Thüringen",
         "x": 324.5913391113281,
         "y": -208.8653564453125,
         "size": 5.355113601684571,
@@ -1025,7 +1025,7 @@
     {
       "key": "2692",
       "attributes": {
-        "label": "TH Landesmuseum Heidecksburg",
+        "label": "Thüringer Landesmuseum Heidecksburg",
         "x": -35.288352966308594,
         "y": 2812.2138671875,
         "size": 5.497159194946289,
@@ -1053,7 +1053,7 @@
     {
       "key": "1660",
       "attributes": {
-        "label": "DKJS",
+        "label": "Deutsche Kinder- und Jugendstiftung",
         "x": -4013.24169921875,
         "y": -812.861083984375,
         "size": 5.284090805053712,
@@ -1067,7 +1067,7 @@
     {
       "key": "1002",
       "attributes": {
-        "label": "LF oeBibs TH",
+        "label": "Landesfachstelle für Öffentliche Bibliotheken Thüringen",
         "x": -667.245849609375,
         "y": -2694.71484375,
         "size": 6.20738639831543,
@@ -1081,7 +1081,7 @@
     {
       "key": "492",
       "attributes": {
-        "label": "Blasmusikverband TH",
+        "label": "Blasmusikverband Thüringen",
         "x": -3234.107421875,
         "y": -2.2197628021240234,
         "size": 5.284090805053712,
@@ -1095,7 +1095,7 @@
     {
       "key": "1318",
       "attributes": {
-        "label": "FSU Jena",
+        "label": "Universität Jena",
         "x": 3234.787353515625,
         "y": -2905.11279296875,
         "size": 7.911931610107422,
@@ -1151,7 +1151,7 @@
     {
       "key": "472",
       "attributes": {
-        "label": "LAG Spiel Theater TH",
+        "label": "LAG Spiel Theater Thüringen",
         "x": -3916.69677734375,
         "y": -1135.2022705078125,
         "size": 7.5568183898925785,
@@ -1165,7 +1165,7 @@
     {
       "key": "1687",
       "attributes": {
-        "label": "LOFT Erwachsenenbildung TH",
+        "label": "LOFT Erwachsenenbildung Thüringen",
         "x": 385.2198181152344,
         "y": -4879.00146484375,
         "size": 5.355113601684571,
@@ -1179,7 +1179,7 @@
     {
       "key": "499",
       "attributes": {
-        "label": "DRockMV TH",
+        "label": "Deutscher Rock & Pop Musikerverband Thüringen",
         "x": -4425.35009765625,
         "y": 2038.564208984375,
         "size": 5,
@@ -1263,7 +1263,7 @@
     {
       "key": "2397",
       "attributes": {
-        "label": "Gedenkstaette Amthordurchgang",
+        "label": "Gedenkstätte Amthordurchgang",
         "x": 869.9976806640625,
         "y": -4590.75,
         "size": 5,
@@ -1319,7 +1319,7 @@
     {
       "key": "514",
       "attributes": {
-        "label": "ver.di FB M Kunst I S, SA, TH",
+        "label": "ver.di Fachbereich Medien, Kunst und Industrie Sachsen, Sachsen-Anhalt, Thüringen",
         "x": -1455.2216796875,
         "y": 2391.46484375,
         "size": 6.065340805053712,
@@ -1375,7 +1375,7 @@
     {
       "key": "724",
       "attributes": {
-        "label": "KJZirkus Tasifan",
+        "label": "Kinderzirkus Tasifan",
         "x": -3646.697998046875,
         "y": -2973.02880859375,
         "size": 5.85227279663086,
@@ -1389,7 +1389,7 @@
     {
       "key": "1848",
       "attributes": {
-        "label": "TH Orchester",
+        "label": "Thüringer Orchester",
         "x": 2606.19677734375,
         "y": 4747.8037109375,
         "size": 5.284090805053712,
@@ -1403,7 +1403,7 @@
     {
       "key": "2445",
       "attributes": {
-        "label": "Landesbank H-TH Helaba",
+        "label": "Landesbank Hessen-Thüringen",
         "x": 94.36515045166016,
         "y": 164.5920867919922,
         "size": 5.284090805053712,
@@ -1431,7 +1431,7 @@
     {
       "key": "469",
       "attributes": {
-        "label": "DBuehnenV TH",
+        "label": "Deutscher Bühnenverein Thüringen",
         "x": -2318.747802734375,
         "y": 1418.06103515625,
         "size": 10.823863220214845,
@@ -1459,7 +1459,7 @@
     {
       "key": "2064",
       "attributes": {
-        "label": "Schotte EF",
+        "label": "Schotte Erfurt",
         "x": -3707.268310546875,
         "y": -3475.633056640625,
         "size": 5.284090805053712,
@@ -1473,7 +1473,7 @@
     {
       "key": "2405",
       "attributes": {
-        "label": "Geschichtsverbund TH",
+        "label": "Geschichtsverbund Thüringen",
         "x": -141.69827270507812,
         "y": -5579.34326171875,
         "size": 5.710227203369141,
@@ -1487,7 +1487,7 @@
     {
       "key": "496",
       "attributes": {
-        "label": "TH Saengerbund",
+        "label": "Thüringer Sängerbund",
         "x": 686.0197143554688,
         "y": -513.978515625,
         "size": 6.136363601684571,
@@ -1501,7 +1501,7 @@
     {
       "key": "470",
       "attributes": {
-        "label": "Museumsverband TH",
+        "label": "Museumsverband Thüringen",
         "x": 1791.685791015625,
         "y": 1156.8087158203125,
         "size": 16.363636779785157,
@@ -1571,7 +1571,7 @@
     {
       "key": "1812",
       "attributes": {
-        "label": "Erinnerungsort Topf & Soehne",
+        "label": "Erinnerungsort Topf & Söhne",
         "x": -2455.461669921875,
         "y": -3933.068359375,
         "size": 6.20738639831543,
@@ -1599,7 +1599,7 @@
     {
       "key": "2726",
       "attributes": {
-        "label": "IfMP Hochschule für Musik Weimar",
+        "label": "Institut für Musikwissenschaft Weimar-Jena",
         "x": -440.7590026855469,
         "y": 2402.69873046875,
         "size": 5,
@@ -1627,7 +1627,7 @@
     {
       "key": "475",
       "attributes": {
-        "label": "dbv TH",
+        "label": "Deutscher Bibliotheksverband Thüringen",
         "x": -1279.3135986328125,
         "y": -2330.884521484375,
         "size": 9.82954559326172,
@@ -1683,7 +1683,7 @@
     {
       "key": "706",
       "attributes": {
-        "label": "EvSiemens Kunststiftung",
+        "label": "Ernst von Siemens Kunststiftung",
         "x": 2868.602783203125,
         "y": -3717.758056640625,
         "size": 5.142045593261719,
@@ -1697,7 +1697,7 @@
     {
       "key": "2240",
       "attributes": {
-        "label": "VHS Hildburgshausen",
+        "label": "Volkshochschule Hildburgshausen",
         "x": 4818.0595703125,
         "y": -295.7945251464844,
         "size": 5.284090805053712,
@@ -1711,7 +1711,7 @@
     {
       "key": "2022",
       "attributes": {
-        "label": "DEHOGA TH",
+        "label": "DEHOGA Thüringen",
         "x": 4319.43603515625,
         "y": -2536.91943359375,
         "size": 5.284090805053712,
@@ -1725,7 +1725,7 @@
     {
       "key": "512",
       "attributes": {
-        "label": "VDKChoere S, SA, TH",
+        "label": "Verband Deutscher KonzertChöre Sachsen, Sachsen-Anhalt, Thüringen",
         "x": -471.0538635253906,
         "y": 1776.107666015625,
         "size": 5.142045593261719,
@@ -1767,7 +1767,7 @@
     {
       "key": "479",
       "attributes": {
-        "label": "Heimatbund TH",
+        "label": "Heimatbund Thüringen",
         "x": 745.5482177734375,
         "y": -1847.8255615234375,
         "size": 8.267045593261718,
@@ -1823,7 +1823,7 @@
     {
       "key": "670",
       "attributes": {
-        "label": "KM Network",
+        "label": "Kultur Management Network",
         "x": -3761.489501953125,
         "y": -1875.4993896484375,
         "size": 6.278409194946289,
@@ -1851,7 +1851,7 @@
     {
       "key": "1060",
       "attributes": {
-        "label": "VdSchriftsteller TH",
+        "label": "Verband deutscher Schriftsteller THüringen",
         "x": -1327.5135498046875,
         "y": 539.5067138671875,
         "size": 5.568181991577148,
@@ -1865,7 +1865,7 @@
     {
       "key": "2565",
       "attributes": {
-        "label": "Tanztheater EF",
+        "label": "Tanztheater Erfurt",
         "x": 3707.458251953125,
         "y": 3677.063232421875,
         "size": 5.284090805053712,
@@ -1879,7 +1879,7 @@
     {
       "key": "500",
       "attributes": {
-        "label": "LAG Jazz TH",
+        "label": "LAG Jazz Thüringen",
         "x": -1498.2318115234375,
         "y": -3384.82080078125,
         "size": 6.917613220214844,
@@ -1921,7 +1921,7 @@
     {
       "key": "2399",
       "attributes": {
-        "label": "ThLA SED-Diktatur",
+        "label": "Thüringer Landesbeauftragte zur Aufarbeitung der SED-Diktatur",
         "x": -507.1888427734375,
         "y": -5159.17626953125,
         "size": 5.710227203369141,
@@ -1949,7 +1949,7 @@
     {
       "key": "2287",
       "attributes": {
-        "label": "Kulturinitiative TH",
+        "label": "Kulturinitiative Thüringen",
         "x": -1082.861083984375,
         "y": 4090.225341796875,
         "size": 5,
@@ -1991,7 +1991,7 @@
     {
       "key": "1426",
       "attributes": {
-        "label": "VdOpernchoereBuehnentaenzer",
+        "label": "Vereinigung deutscher Opernchöre und Bühnentänzer",
         "x": -1297.6639404296875,
         "y": 4393.421875,
         "size": 5.78125,
@@ -2005,7 +2005,7 @@
     {
       "key": "704",
       "attributes": {
-        "label": "MP Bodo Ramelow",
+        "label": "Ministerpräsident Bodo Ramelow",
         "x": 2055.678955078125,
         "y": -2079.7431640625,
         "size": 6.846591186523438,
@@ -2019,7 +2019,7 @@
     {
       "key": "480",
       "attributes": {
-        "label": "VdM TH",
+        "label": "Verband deutscher Musikschulen Thüringen",
         "x": -2098.28369140625,
         "y": 2264.95458984375,
         "size": 8.97727279663086,
@@ -2089,7 +2089,7 @@
     {
       "key": "520",
       "attributes": {
-        "label": "Posaunenwerk EKM",
+        "label": "Posaunenwerk Evangelische Kirche in Mitteldeutschland",
         "x": 2457.159912109375,
         "y": 407.66558837890625,
         "size": 5.568181991577148,
@@ -2103,7 +2103,7 @@
     {
       "key": "486",
       "attributes": {
-        "label": "LTLaienorchester",
+        "label": "Landesverband Thüringer Laienorchester",
         "x": -369.39923095703125,
         "y": 312.4864196777344,
         "size": 5.355113601684571,
@@ -2131,7 +2131,7 @@
     {
       "key": "1292",
       "attributes": {
-        "label": "DKinderJugendS TH",
+        "label": "Deutsche Kinder- und Jugendstiftung Thüringen",
         "x": -3220.30712890625,
         "y": -2041.9373779296875,
         "size": 5.568181991577148,
@@ -2159,7 +2159,7 @@
     {
       "key": "1768",
       "attributes": {
-        "label": "Kunsthalle EF",
+        "label": "Kunsthalle Erfurt",
         "x": 5134.712890625,
         "y": 2946.278564453125,
         "size": 5,
@@ -2215,7 +2215,7 @@
     {
       "key": "765",
       "attributes": {
-        "label": "Staatsministerin BKM",
+        "label": "Staatsministerin für Kultur und Medien",
         "x": 908.2737426757812,
         "y": 804.0081176757812,
         "size": 6.63352279663086,
@@ -2257,7 +2257,7 @@
     {
       "key": "498",
       "attributes": {
-        "label": "Deutsche Liszt-G",
+        "label": "Deutsche Liszt-Gesellschaft",
         "x": 2512.397705078125,
         "y": 4251.27685546875,
         "size": 6.20738639831543,
@@ -2271,7 +2271,7 @@
     {
       "key": "1955",
       "attributes": {
-        "label": "FNaumannS MittelD",
+        "label": "Friedrich-Naumann-Stiftung Mitteldeutschland",
         "x": -525.6729736328125,
         "y": 3329.144287109375,
         "size": 5.497159194946289,
@@ -2285,7 +2285,7 @@
     {
       "key": "1342",
       "attributes": {
-        "label": "Beirat KulturentwicklungsK Hildb-So",
+        "label": "Beirat Kulturentwicklungskonzept Hildburghausen-Sonneberg",
         "x": 4237.53076171875,
         "y": -755.4278564453125,
         "size": 5.710227203369141,
@@ -2299,7 +2299,7 @@
     {
       "key": "1137",
       "attributes": {
-        "label": "TH Landtag, Fraktionen",
+        "label": "Thüringer Landtag, Fraktionen",
         "x": 1205.144287109375,
         "y": 383.17950439453125,
         "size": 5.639204406738282,
@@ -2313,7 +2313,7 @@
     {
       "key": "487",
       "attributes": {
-        "label": "JeunessesMD TH",
+        "label": "Jeunesses Musicales Thüringen",
         "x": -4311.22119140625,
         "y": -1846.6380615234375,
         "size": 5,
@@ -2369,7 +2369,7 @@
     {
       "key": "1053",
       "attributes": {
-        "label": "SuedTH Literaturverein",
+        "label": "Südthüringer Literaturverein",
         "x": -493.4106140136719,
         "y": -819.3458251953125,
         "size": 5.497159194946289,
@@ -2411,7 +2411,7 @@
     {
       "key": "742",
       "attributes": {
-        "label": "TFinanzM",
+        "label": "Thüringer Finanzministerium",
         "x": -1987.93701171875,
         "y": 4185.03173828125,
         "size": 5.9943183898925785,
@@ -2439,7 +2439,7 @@
     {
       "key": "1578",
       "attributes": {
-        "label": "GDBA",
+        "label": "Genossenschaft Deutscher Bühnen-Angehöriger",
         "x": -239.5953369140625,
         "y": 4357.1220703125,
         "size": 5.42613639831543,
@@ -2467,7 +2467,7 @@
     {
       "key": "739",
       "attributes": {
-        "label": "JenaKultur MKS Jena",
+        "label": "JenaKultur Musikschule Jena",
         "x": -2538.322998046875,
         "y": 3935.262451171875,
         "size": 5,
@@ -2495,7 +2495,7 @@
     {
       "key": "2234",
       "attributes": {
-        "label": "Naturpark TH Wald",
+        "label": "Naturpark Thüringer Wald",
         "x": 4302.203125,
         "y": -1053.629638671875,
         "size": 5.284090805053712,
@@ -2523,7 +2523,7 @@
     {
       "key": "1389",
       "attributes": {
-        "label": "TH Landfrauenverband",
+        "label": "Thüringer Landfrauenverband",
         "x": 825.061279296875,
         "y": -5501.00244140625,
         "size": 5.284090805053712,
@@ -2565,7 +2565,7 @@
     {
       "key": "1051",
       "attributes": {
-        "label": "Lesezeichen",
+        "label": "Lese-Zeichen e.V.",
         "x": -2299.12890625,
         "y": -3010.13330078125,
         "size": 7.911931610107422,
@@ -2579,7 +2579,7 @@
     {
       "key": "1630",
       "attributes": {
-        "label": "Landnetz TH",
+        "label": "Landnetz Thüringen",
         "x": 288.13214111328125,
         "y": -2931.9521484375,
         "size": 5.497159194946289,
@@ -2593,7 +2593,7 @@
     {
       "key": "2232",
       "attributes": {
-        "label": "RAG LEADER Hildb-So",
+        "label": "RAG LEADER-Region Hildburghausen-Sonneberg",
         "x": 4826.95703125,
         "y": -1338.6138916015625,
         "size": 5.284090805053712,
@@ -2621,7 +2621,7 @@
     {
       "key": "517",
       "attributes": {
-        "label": "EKM",
+        "label": "Evangelische Kirche in Mitteldeutschland",
         "x": 474.3653564453125,
         "y": -1138.828857421875,
         "size": 9.82954559326172,
@@ -2635,7 +2635,7 @@
     {
       "key": "1871",
       "attributes": {
-        "label": "Paritaetischer Wohlfahrtsverband",
+        "label": "Paritätischer Wohlfahrtsverband",
         "x": 48.68628692626953,
         "y": -5207.9228515625,
         "size": 5.42613639831543,
@@ -2649,7 +2649,7 @@
     {
       "key": "518",
       "attributes": {
-        "label": "Kirchenchorwerk EKM",
+        "label": "Kirchenchorwerk Evangelische Kirche in Mitteldeutschland",
         "x": 933.9451293945312,
         "y": 1357.09375,
         "size": 5.284090805053712,
@@ -2705,7 +2705,7 @@
     {
       "key": "489",
       "attributes": {
-        "label": "DZithermusikB TH",
+        "label": "Deutscher Zithermusik-Bund Thüringen",
         "x": -2241.50146484375,
         "y": 2861.794921875,
         "size": 5,
@@ -2761,7 +2761,7 @@
     {
       "key": "1361",
       "attributes": {
-        "label": "EFer Herbstlese",
+        "label": "Erfurter Herbstlese",
         "x": 2022.642578125,
         "y": -4345.7373046875,
         "size": 5.639204406738282,
@@ -2775,7 +2775,7 @@
     {
       "key": "507",
       "attributes": {
-        "label": "KNKultureinrichtungen",
+        "label": "Konferenz Nationaler Kultureinrichtungenn",
         "x": 4732.91064453125,
         "y": 154.90829467773438,
         "size": 5.355113601684571,
@@ -2817,7 +2817,7 @@
     {
       "key": "476",
       "attributes": {
-        "label": "TH Literaturrat",
+        "label": "Thüringer Literaturrat",
         "x": -16.104965209960938,
         "y": -2249.117431640625,
         "size": 11.605113220214845,
@@ -2873,7 +2873,7 @@
     {
       "key": "503",
       "attributes": {
-        "label": "TH Volkshochschulverband",
+        "label": "Thüringer Volkshochschulverband",
         "x": -323.7008056640625,
         "y": -4210.89404296875,
         "size": 6.20738639831543,
@@ -2901,7 +2901,7 @@
     {
       "key": "2571",
       "attributes": {
-        "label": "Stiftung Dt Gartenbaumuseum",
+        "label": "Stiftung Deutsches Gartenbaumuseum Erfurt",
         "x": 3862.958984375,
         "y": 1244.558349609375,
         "size": 5,
@@ -2929,7 +2929,7 @@
     {
       "key": "485",
       "attributes": {
-        "label": "DOrchesterV",
+        "label": "Deutsche Orchestervereinigung",
         "x": -1662.142578125,
         "y": 3831.988037109375,
         "size": 8.551136779785157,
@@ -2985,7 +2985,7 @@
     {
       "key": "976",
       "attributes": {
-        "label": "Eckart Lange",
+        "label": "Prof. Dr. Eckart Lange",
         "x": -1551.398193359375,
         "y": 1783.19384765625,
         "size": 7.627841186523438,
@@ -2999,7 +2999,7 @@
     {
       "key": "466",
       "attributes": {
-        "label": "Kulturrat TH",
+        "label": "Kulturrat Thüringen",
         "x": -3045.16162109375,
         "y": 2164.248046875,
         "size": 20.340908813476563,
@@ -3013,7 +3013,7 @@
     {
       "key": "457",
       "attributes": {
-        "label": "AfD, LF",
+        "label": "AfD, Landtagsfraktion",
         "x": 3915.67041015625,
         "y": -3232.1865234375,
         "size": 5,
@@ -3069,7 +3069,7 @@
     {
       "key": "1076",
       "attributes": {
-        "label": "LJugendhilfeausschuss TH",
+        "label": "Landesjugendhilfeausschuss Thüringen",
         "x": -4539.265625,
         "y": -1337.9007568359375,
         "size": 5.639204406738282,
@@ -3125,7 +3125,7 @@
     {
       "key": "2436",
       "attributes": {
-        "label": "Angermuseum",
+        "label": "Angermuseum Erfurt",
         "x": 552.4249877929688,
         "y": 283.2292785644531,
         "size": 5,
@@ -3167,7 +3167,7 @@
     {
       "key": "474",
       "attributes": {
-        "label": "VBildenderK TH",
+        "label": "Verband Bildender Künstler Thüringen",
         "x": -2240.7626953125,
         "y": 464.2475891113281,
         "size": 9.545454406738282,
@@ -3195,7 +3195,7 @@
     {
       "key": "515",
       "attributes": {
-        "label": "Kulturstiftung dFT",
+        "label": "Kulturstiftung Thüringen",
         "x": -218.11883544921875,
         "y": 1205.28759765625,
         "size": 9.82954559326172,
@@ -3223,7 +3223,7 @@
     {
       "key": "522",
       "attributes": {
-        "label": "DCV Bistum EF",
+        "label": "Deutscher Caritasverband Bistum Erfurt",
         "x": 4191.66064453125,
         "y": 770.2962646484375,
         "size": 5.42613639831543,
@@ -3265,7 +3265,7 @@
     {
       "key": "494",
       "attributes": {
-        "label": "Komponistenverband TH",
+        "label": "Komponistenverband Thüringen",
         "x": -4447.1640625,
         "y": 201.8519287109375,
         "size": 5,
@@ -3279,7 +3279,7 @@
     {
       "key": "2701",
       "attributes": {
-        "label": "KMstiftung Goldener Spatz",
+        "label": "Deutsche Kindermedienstiftung Goldener Spatz",
         "x": -1654.3355712890625,
         "y": -4594.92822265625,
         "size": 5.284090805053712,
@@ -3293,7 +3293,7 @@
     {
       "key": "1953",
       "attributes": {
-        "label": "SuedTH Zeitung",
+        "label": "Südthüringer Zeitung",
         "x": 701.8114013671875,
         "y": -3717.003662109375,
         "size": 5.923295593261719,
@@ -3307,7 +3307,7 @@
     {
       "key": "473",
       "attributes": {
-        "label": "LKJ TH",
+        "label": "Landesvereinigung Kulturelle Jugendbildung Thüringen",
         "x": -3544.079833984375,
         "y": -533.099365234375,
         "size": 12.741477203369142,
@@ -3321,7 +3321,7 @@
     {
       "key": "649",
       "attributes": {
-        "label": "Bauhaus-Uni Weimar",
+        "label": "Bauhaus-Universität Weimar",
         "x": -1128.4578857421875,
         "y": 1114.1630859375,
         "size": 10.61079559326172,
@@ -3335,7 +3335,7 @@
     {
       "key": "766",
       "attributes": {
-        "label": "LpB TH",
+        "label": "Landeszentrale für politische Bildung Thüringen",
         "x": 3.779600143432617,
         "y": -3576.734619140625,
         "size": 10.255681610107423,
@@ -3391,7 +3391,7 @@
     {
       "key": "1293",
       "attributes": {
-        "label": "TH Ehrenamtsstiftung",
+        "label": "Thüringer Ehrenamtsstiftung",
         "x": -2823.976318359375,
         "y": -2728.13916015625,
         "size": 5.42613639831543,
@@ -3405,7 +3405,7 @@
     {
       "key": "2564",
       "attributes": {
-        "label": "Kirchenmusik EFer Dom",
+        "label": "Kirchenmusik Erfurter Dom",
         "x": 2948.635498046875,
         "y": 3934.07568359375,
         "size": 5.42613639831543,
@@ -3433,7 +3433,7 @@
     {
       "key": "1390",
       "attributes": {
-        "label": "TH Landestrachtenverband",
+        "label": "Thüringer Landestrachtenverband",
         "x": -4092.61962890625,
         "y": -2792.597412109375,
         "size": 5.284090805053712,
@@ -3489,7 +3489,7 @@
     {
       "key": "509",
       "attributes": {
-        "label": "AK Museumspaedagogik OstD",
+        "label": "Länderverband Museumspädagogik Ost",
         "x": 379.1693115234375,
         "y": 742.9601440429688,
         "size": 5.142045593261719,
@@ -3517,7 +3517,7 @@
     {
       "key": "716",
       "attributes": {
-        "label": "Architektenkammer TH",
+        "label": "Architektenkammer Thüringen",
         "x": -222.13462829589844,
         "y": -132.04444885253906,
         "size": 5,
@@ -3559,7 +3559,7 @@
     {
       "key": "1898",
       "attributes": {
-        "label": "Deutsche Shakespeare-G",
+        "label": "Deutsche Shakespeare-Gesellschaft",
         "x": 1574.6988525390625,
         "y": -3512.263427734375,
         "size": 5,
@@ -3587,7 +3587,7 @@
     {
       "key": "2376",
       "attributes": {
-        "label": "Buergermeister/Landraete",
+        "label": "Bürgermeister/Landräte",
         "x": 4645.14208984375,
         "y": 3442.125,
         "size": 5.355113601684571,
