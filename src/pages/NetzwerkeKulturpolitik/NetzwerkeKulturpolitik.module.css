@@ -4,7 +4,7 @@
   }
 }
 
-.description {
+.section {
   flex: 100%;
   padding: var(--padding-less-y);
 }
@@ -18,6 +18,15 @@
   background-color: var(
     --color-bg-items-primary
   ); /* only rendered in dark mode otherwise in light mode card bg of --bg-linear-gradient */
+}
+
+.buttons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 2rem 0;
+  width: 100%;
 }
 
 .infoAndCoop1,
@@ -82,9 +91,71 @@
   background-color: rgba(8, 28, 21, 1);
 }
 
+.tabs {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: var(--color-bg-items-primary);
+}
+
+.tabs > li {
+  flex: 1 1 auto;
+  box-shadow: inset 0 0 0 0 var(--color-primary);
+  transition: all 1s ease-out;
+  padding: var(--padding-less-y);
+  font-weight: 600;
+  font-size: 1.2rem;
+  outline: 1px solid var(--color-bg-items-secondary);
+  cursor: pointer;
+}
+
+.tabs > li:hover,
+.tabs > li.active {
+  box-shadow: inset 0 -5rem 0 0 var(--color-bg-items-secondary);
+  transition: all 1s ease-out;
+}
+
+.tabs-content {
+  height: 100%;
+  background-color: var(--color-bg-items-primary);
+  width: 100%;
+  overflow: hidden;
+}
+
+.tab-box {
+  border: 1px solid var(--color-bg-items-primary);
+  border-radius: var(--border-radius);
+}
+
+.legend-img {
+  width: 100%;
+  background-color: var(--color-bg-body);
+}
+
+.legend-img > img {
+  width: 250px;
+  padding: var(--padding-even-sm);
+}
+
 @media all and (max-width: 576px) {
-  .card-customize {
+  .section {
+    margin: 0;
+    padding: 0;
+  }
+
+  .title,
+  .p {
+    padding: 0 1rem;
+  }
+
+  .card-customized {
     border-radius: 0;
-    box-shadow: none;
+  }
+
+  .tabs > li {
+    flex: 1 1 100%;
   }
 }

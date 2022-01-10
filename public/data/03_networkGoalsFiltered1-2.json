@@ -1406,7 +1406,6 @@
     { "key": "wissenschaftlich, ausbildend", "value": true },
     { "key": "Medien", "value": true },
     { "key": "touristisch", "value": true },
-    { "key": "wirtschaftlich", "value": true },
-    { "key": "anonym", "value": true }
+    { "key": "wirtschaftlich", "value": true }
   ]
 }
