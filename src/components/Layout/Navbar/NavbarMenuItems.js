@@ -17,7 +17,15 @@ const paths = [
       { path: '/veroeffentlichungen/bne', name: 'bildung' },
     ],
   },
-  { path: '/netzwerke-kulturpolitik', name: 'netzwerke kulturpolitik' },
+  {
+    path: '/netzwerke-kulturpolitik',
+    name: 'netzwerke kulturpolitik',
+    subpath: [
+      { path: '/netzwerke-kulturpolitik/informationsnetzwerk', name: 'informationsnetzwerk' },
+      { path: '/netzwerke-kulturpolitik/kooperationsnetzwerk', name: 'kooperationsnetzwerk' },
+      { path: '/netzwerke-kulturpolitik/zielnetzwerk', name: 'netzwerk der ziele' },
+    ],
+  },
   { path: '/angebote', name: 'angebote' },
   { path: '/kontakt', name: 'kontakt' },
 ];

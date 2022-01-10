@@ -48,7 +48,12 @@ library.add(
   faSearch
 );
 
-const NetzwerkeKulturpolitik = lazy(() => import('./pages/NetzwerkeKulturpolitik'));
+const NetzwerkeKulturpolitik = lazy(() =>
+  import('./pages/NetzwerkeKulturpolitik/NetzwerkeKulturpolitik')
+);
+const Informationen = lazy(() => import('./pages/NetzwerkeKulturpolitik/Informationen'));
+const Kooperationen = lazy(() => import('./pages/NetzwerkeKulturpolitik/Kooperationen'));
+const Ziele = lazy(() => import('./pages/NetzwerkeKulturpolitik/Ziele'));
 const Datenschutz = lazy(() => import('./pages/Datenschutz'));
 const Impressum = lazy(() => import('./pages/Impressum'));
 const NotFound = lazy(() => import('./pages/NotFound'));
@@ -87,7 +92,11 @@ const App = () => {
               />
               <Route path='/veroeffentlichungen/kulturpolitik' element={<KulturpolitikDetails />} />
               <Route path='/veroeffentlichungen/bne' element={<BNEDetails />} />
-              <Route path='/netzwerke-kulturpolitik/' element={<NetzwerkeKulturpolitik />} />
+              <Route path='/netzwerke-kulturpolitik/' element={<NetzwerkeKulturpolitik />}>
+                <Route path='informationsnetzwerk' element={<Informationen />} />
+                <Route path='kooperationsnetzwerk' element={<Kooperationen />} />
+                <Route path='zielnetzwerk' element={<Ziele />} />
+              </Route>
               <Route path='/angebote' element={<Angebote />} />
               <Route path='/kontakt' element={<Kontakt />} />
               <Route path='/datenschutz/' element={<Datenschutz />} />
