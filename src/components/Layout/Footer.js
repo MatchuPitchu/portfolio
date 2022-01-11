@@ -49,7 +49,7 @@ const Footer = () => {
       <a href='https://reactjs.org/' rel='noreferrer' target='_blank'>
         <img src={react} className={classes['icon-react']} alt='Logo React' />
       </a>
-      <p className={classes.copyright}>Michael Flohr © 2021</p>
+      <p className={classes.copyright}>Michael Flohr © 2022</p>
     </footer>
   );
 };
