@@ -8,6 +8,7 @@ import xing from '../../assets/logos/logo-xing.svg';
 import researchgate from '../../assets/logos/logo-ResearchGate.svg';
 import github from '../../assets/logos/logo-github.svg';
 import githubDark from '../../assets/logos/logo-github-dark.svg';
+import react from '../../assets/logos/logo-reactjs.svg';
 
 const Footer = () => {
   const { isLight } = useContext(ThemeContext);
@@ -44,11 +45,11 @@ const Footer = () => {
           Impressum
         </NavLink>
       </div>
-      <p className={classes.copyright}>
-        Built with passion and React
-        <br />
-        Michael Flohr © 2021
-      </p>
+      <p className={classes.copyright}>Built with passion and React</p>
+      <a href='https://reactjs.org/' rel='noreferrer' target='_blank'>
+        <img src={react} className={classes['icon-react']} alt='Logo React' />
+      </a>
+      <p className={classes.copyright}>Michael Flohr © 2021</p>
     </footer>
   );
 };
