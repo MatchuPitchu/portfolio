@@ -43,6 +43,7 @@
   background-color: var(--color-bg-items-primary);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
+  margin-left: auto;
 }
 
 .btn {
