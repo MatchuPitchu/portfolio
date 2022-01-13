@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
-import Button from '../UI/Button/Button';
-
+import Button from './Button';
 import classes from './ButtonsPublication.module.css';
 
 const ButtonsPublication = ({ url, path }) => {

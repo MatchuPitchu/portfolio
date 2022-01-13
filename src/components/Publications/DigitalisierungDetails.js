@@ -1,5 +1,5 @@
 import Container from '../Layout/Container';
-import ButtonsPublicationDetails from './ButtonsPublicationDetails';
+import ButtonsPublicationDetails from '../UI/Button/ButtonsPublicationDetails';
 import Section from '../UI/Section/Section';
 import classes from './PublicationsDetails.module.css';
 

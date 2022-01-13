@@ -1,6 +1,6 @@
 import AnimatingItem from '../UI/CSSTransition/AnimatingItem';
 import StationPoint from '../UI/StationPoint/StationPoint';
-import classes from './WorkExperience.module.css';
+import classes from './Work.module.css';
 
 const workExperience = [
   {

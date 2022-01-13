@@ -1,7 +1,7 @@
 import Container from '../../Layout/Container';
-import ButtonsPublicationDetails from '../ButtonsPublicationDetails';
-import Card from '../../UI/Card/Card';
+import ButtonsPublicationDetails from '../../UI/Button/ButtonsPublicationDetails';
 import Section from '../../UI/Section/Section';
+import Card from '../../UI/Card/Card';
 import QuotesCarousel from './QuotesCarousel';
 import classes from '../PublicationsDetails.module.css';
 

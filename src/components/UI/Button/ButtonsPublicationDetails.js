@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import Button from '../UI/Button/Button';
+import Button from './Button';
 import classes from './ButtonsPublicationDetails.module.css';
 
 const ButtonsPublicationDetails = ({ href, text }) => {

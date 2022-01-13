@@ -1,9 +1,8 @@
-import ButtonsPublicationDetails from './ButtonsPublicationDetails';
 import Container from '../Layout/Container';
-import KeyPoint from '../SVG/KeyPoint';
-import List from '../UI/List/List';
+import ButtonsPublicationDetails from '../UI/Button/ButtonsPublicationDetails';
 import Section from '../UI/Section/Section';
-
+import List from '../UI/List/List';
+import KeyPoint from '../SVG/KeyPoint';
 import classes from './PublicationsDetails.module.css';
 
 const data = [

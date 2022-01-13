@@ -1,7 +1,7 @@
-import ButtonsPublication from '../ButtonsPublication';
 import Card from '../../UI/Card/Card';
+import Cover from '../../UI/Cover/Cover';
 import Tags from '../../UI/Tags/Tags';
-import ImgWithFallback from '../../ImgWithFallback';
+import ButtonsPublication from '../../UI/Button/ButtonsPublication';
 import classes from '../Publications.module.css';
 
 import coverKulturpolitikJPG from '../../../assets/Cover Flohr 2018 Kulturpolitik in Thüringen.jpg';
@@ -21,18 +21,17 @@ const tags = [
   'Thüringen',
   'Open Access',
 ];
+const path = 'kulturpolitik';
 
 const Kulturpolitik = () => {
   return (
     <Card className={classes['card-customize']}>
-      <div className={classes.cover}>
-        <ImgWithFallback
-          className={classes['cover__img']}
-          src={coverKulturpolitikWEBP}
-          fallback={coverKulturpolitikJPG}
-          alt='Kulturpolitik in Thüringen'
-        />
-      </div>
+      <Cover
+        path={path}
+        coverJPG={coverKulturpolitikJPG}
+        coverWEBP={coverKulturpolitikWEBP}
+        alt='Kulturpolitik in Thüringen'
+      />
       <div className={classes.content}>
         <h2>Kulturpolitik in Thüringen</h2>
         <div className={classes.description}>

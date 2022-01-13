@@ -1,5 +1,5 @@
 import Container from '../Layout/Container';
-import ButtonsPublicationDetails from './ButtonsPublicationDetails';
+import ButtonsPublicationDetails from '../UI/Button/ButtonsPublicationDetails';
 import KeyPoint from '../SVG/KeyPoint';
 import List from '../UI/List/List';
 import Section from '../UI/Section/Section';

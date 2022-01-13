@@ -2,12 +2,20 @@ import { useState } from 'react';
 import Container from '../Layout/Container';
 import Card from '../UI/Card/Card';
 import Kompetenzen from './Kompetenzen';
-import WorkExperience from './WorkExperience';
+import Work from './Work';
 import Education from './Education';
 import Awards from './Awards';
 import Involvement from './Involvement';
 import classes from './About.module.css';
 import H2Title from '../UI/Titles/H2Title';
+
+const tabs = [
+  { area: 'skills', title: 'Kompetenzen' },
+  { area: 'work', title: 'Beruf' },
+  { area: 'education', title: 'Ausbildung' },
+  { area: 'awards', title: 'Auszeichnungen' },
+  { area: 'involvement', title: 'Engagement' },
+];
 
 const About = () => {
   const [isOpen, setIsOpen] = useState({
@@ -81,37 +89,19 @@ const About = () => {
         </div>
         <Card className={classes['card-customized']}>
           <ul className={classes.tabs}>
-            <li className={isOpen.skills ? classes.active : ''} onClick={onClickHandler}>
-              Kompetenzen
-            </li>
-            <li
-              className={isOpen.work ? classes.active : ''}
-              onClick={() => onClickHandler('work')}
-            >
-              Beruf
-            </li>
-            <li
-              className={isOpen.education ? classes.active : ''}
-              onClick={() => onClickHandler('education')}
-            >
-              Ausbildung
-            </li>
-            <li
-              className={isOpen.awards ? classes.active : ''}
-              onClick={() => onClickHandler('awards')}
-            >
-              Auszeichnungen
-            </li>
-            <li
-              className={isOpen.involvement ? classes.active : ''}
-              onClick={() => onClickHandler('involvement')}
-            >
-              Engagement
-            </li>
+            {tabs.map((tab, index) => (
+              <li
+                key={index}
+                className={isOpen[tab.area] ? classes.active : ''}
+                onClick={() => onClickHandler(tab.area)}
+              >
+                {tab.title}
+              </li>
+            ))}
           </ul>
           <div className={classes['tabs-content']}>
             <Kompetenzen isOpen={isOpen.skills} />
-            <WorkExperience isOpen={isOpen.work} />
+            <Work isOpen={isOpen.work} />
             <Education isOpen={isOpen.education} />
             <Awards isOpen={isOpen.awards} />
             <Involvement isOpen={isOpen.involvement} />

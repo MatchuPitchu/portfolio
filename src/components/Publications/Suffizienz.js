@@ -1,7 +1,7 @@
 import Card from '../UI/Card/Card';
-import ButtonsPublication from './ButtonsPublication';
+import Cover from '../UI/Cover/Cover';
 import Tags from '../UI/Tags/Tags';
-import ImgWithFallback from '../ImgWithFallback';
+import ButtonsPublication from '../UI/Button/ButtonsPublication';
 import classes from './Publications.module.css';
 
 import coverSuffizienzJPG from '../../assets/Cover Flohr & Markus 2020 Suffizienz an Hochschulen im ländlichen Raum.png';
@@ -16,18 +16,17 @@ const tags = [
   'Ländlicher Raum',
   'Good Practices',
 ];
+const path = 'suffizienz-an-hochschulen';
 
 const Suffizienz = () => {
   return (
     <Card className={classes['card-customize']}>
-      <div className={classes.cover}>
-        <ImgWithFallback
-          className={classes['cover__img']}
-          src={coverSuffizienzWEBP}
-          fallback={coverSuffizienzJPG}
-          alt='Suffizienz an Hochschulen im ländlichen Raum'
-        />
-      </div>
+      <Cover
+        path={path}
+        coverJPG={coverSuffizienzJPG}
+        coverWEBP={coverSuffizienzWEBP}
+        alt='Suffizienz an Hochschulen im ländlichen Raum'
+      />
       <div className={classes.content}>
         <h2>Suffizienz an Hochschulen im ländlichen Raum</h2>
         <p>
@@ -40,7 +39,7 @@ const Suffizienz = () => {
         <Tags tags={tags} />
         <ButtonsPublication
           url='https://www.researchgate.net/publication/342991904_Suffizienz_an_Hochschulen_im_landlichen_Raum'
-          path='suffizienz-an-hochschulen'
+          path={path}
         />
       </div>
     </Card>

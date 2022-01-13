@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import ThemeContextProvider from './store/ThemeContext';
-import ScrollToTop from './components/Layout/ScrollToTop';
+import ScrollToTop from './components/ScrollToTop';
 import App from './App';
 
 import './styles.css';
