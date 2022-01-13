@@ -78,11 +78,11 @@
 }
 
 .card.slide-from-right {
-  animation: slideFromRight 0.8s ease-out forwards;
+  animation: slideFromRight 0.8s linear forwards;
 }
 
 .card.slide-from-left {
-  animation: slideFromLeft 0.8s ease-out forwards;
+  animation: slideFromLeft 0.8s linear forwards;
 }
 
 @keyframes slideFromRight {

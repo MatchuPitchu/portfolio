@@ -49,7 +49,7 @@ const WorkExperience = ({ isOpen }) => {
     <AnimatingItem show={isOpen}>
       <div className={classes['cv-box']}>
         {workExperience.map((item, index) => (
-          <StationPoint key={index} item={item} className={classes['work-box']} />
+          <StationPoint key={index} item={item} className={`${classes['work-box']}`} />
         ))}
       </div>
     </AnimatingItem>

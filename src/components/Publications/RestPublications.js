@@ -86,11 +86,17 @@ const restPublications = [
 
 const RestPublications = () => {
   return (
-    <Card className={`${classes['card-customize']} ${classes['restPubs-customize']}`}>
+    <Card className={`${classes['card-customize']} ${classes['card-customize--restPubs']}`}>
       <H2Title className={classes['h2-customize']}>Weitere Veröffentlichungen</H2Title>
-      {restPublications.map((item, index) => (
-        <StationPoint key={index} item={item} className={classes['rest-publication-box']} />
-      ))}
+      <div className={classes['restPubs-container']}>
+        {restPublications.map((item, index) => (
+          <StationPoint
+            key={index}
+            item={item}
+            className={classes['restPubs-container--content']}
+          />
+        ))}
+      </div>
     </Card>
   );
 };

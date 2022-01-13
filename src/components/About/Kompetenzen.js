@@ -17,6 +17,7 @@ import illustrator from '../../assets/logos/logo-adobe-illustrator.svg';
 import photoshop from '../../assets/logos/logo-adobe-photoshop.svg';
 
 import react from '../../assets/logos/logo-reactjs.svg';
+import reactTestingLibrary from '../../assets/logos/logo-react-testing-library.png';
 import ionic from '../../assets/logos/logo-ionic.svg';
 import expressjs from '../../assets/logos/logo-expressjs.svg';
 import bootstrap from '../../assets/logos/logo-bootstrap-5.svg';
@@ -44,6 +45,7 @@ const webSkills = [
     title: 'Libraries und Frameworks',
     tags: [
       { name: 'React', logo: react },
+      { name: 'React Testing Library', logo: reactTestingLibrary },
       { name: 'Ionic', logo: ionic },
       { name: 'Express.js', logo: expressjs },
       { name: 'Bootstrap', logo: bootstrap },

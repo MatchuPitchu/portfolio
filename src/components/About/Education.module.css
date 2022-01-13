@@ -8,8 +8,41 @@
   flex: 1 1 calc(50% - 0.5rem);
 }
 
+.education-box:nth-child(1) {
+  order: 1;
+}
+
+.education-box:nth-child(2) {
+  order: 3;
+}
+
+.education-box:nth-child(3) {
+  order: 5;
+}
+
+.education-box:nth-child(4) {
+  order: 2;
+}
+
+.education-box:nth-child(5) {
+  order: 4;
+}
+
+.education-box:nth-child(6) {
+  order: 6;
+}
+
 @media all and (max-width: 768px) {
   .education-box {
     flex: 1 1 100%;
+  }
+
+  .education-box:nth-child(1),
+  .education-box:nth-child(2),
+  .education-box:nth-child(3),
+  .education-box:nth-child(4),
+  .education-box:nth-child(5),
+  .education-box:nth-child(6) {
+    order: 1;
   }
 }

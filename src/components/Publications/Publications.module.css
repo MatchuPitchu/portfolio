@@ -4,7 +4,7 @@
   width: 100%;
 }
 
-.restPubs-customize {
+.card-customize--restPubs {
   background: var(--color-bg-items-primary);
 }
 
@@ -65,29 +65,103 @@
   color: var(--color-primary);
 }
 
-.rest-publication-box {
-  flex: 1 1 calc(50% - 2rem);
-  margin-left: 2rem;
-}
-
 .h2-customize {
   padding: var(--padding-even-md);
   margin: 1rem 0 0 0;
 }
 
+.restPubs-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.restPubs-container--content {
+  flex: 1 1 calc(50% - 2rem);
+  margin-left: 2rem;
+}
+
+.restPubs-container--content:nth-child(1) {
+  order: 1;
+}
+
+.restPubs-container--content:nth-child(2) {
+  order: 3;
+}
+
+.restPubs-container--content:nth-child(3) {
+  order: 5;
+}
+
+.restPubs-container--content:nth-child(4) {
+  order: 7;
+}
+
+.restPubs-container--content:nth-child(5) {
+  order: 9;
+}
+
+.restPubs-container--content:nth-child(6) {
+  order: 11;
+}
+
+.restPubs-container--content:nth-child(7) {
+  order: 13;
+}
+
+.restPubs-container--content:nth-child(8) {
+  order: 2;
+}
+
+.restPubs-container--content:nth-child(9) {
+  order: 4;
+}
+
+.restPubs-container--content:nth-child(10) {
+  order: 6;
+}
+
+.restPubs-container--content:nth-child(11) {
+  order: 8;
+}
+
+.restPubs-container--content:nth-child(12) {
+  order: 10;
+}
+
+.restPubs-container--content:nth-child(13) {
+  order: 12;
+}
+
 @media all and (max-width: 576px) {
   .card-customize,
-  .restPubs-customize {
+  .card-customize--restPubs {
     border-radius: 0;
   }
 
-  .rest-publication-box {
+  .restPubs-container--content {
     margin-left: 1rem;
+  }
+
+  .restPubs-container--content:nth-child(1),
+  .restPubs-container--content:nth-child(2),
+  .restPubs-container--content:nth-child(3),
+  .restPubs-container--content:nth-child(4),
+  .restPubs-container--content:nth-child(5),
+  .restPubs-container--content:nth-child(6),
+  .restPubs-container--content:nth-child(7),
+  .restPubs-container--content:nth-child(8),
+  .restPubs-container--content:nth-child(9),
+  .restPubs-container--content:nth-child(10),
+  .restPubs-container--content:nth-child(11),
+  .restPubs-container--content:nth-child(12),
+  .restPubs-container--content:nth-child(13) {
+    order: 1;
   }
 }
 
 @media all and (max-width: 768px) {
-  .rest-publication-box {
+  .restPubs-container--content {
     flex: 1 1 100%;
   }
 }
