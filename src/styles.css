@@ -218,6 +218,6 @@ ul {
 }
 
 .consent__btn--accept {
-  background-color: var(--color-bg-items-secondary);
+  background-color: var(--color-bg-navbar-inset-shadow);
   color: var(--color-text-shade);
 }
