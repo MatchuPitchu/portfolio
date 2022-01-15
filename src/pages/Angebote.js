@@ -113,11 +113,11 @@ const Angebote = () => {
         <p>
           In der Vergangenheit war ich beruflich, freiberuflich und im ehrenamtlichen Kontext
           bereits in den verschiedensten Aufgabenbereichen tätig. Die untere Übersicht gibt einen
-          guten Einblick. Seitdem ich im Jahr 2021 meinen hauptberuflichen Fokus auf die Web- und
-          App-Entwicklung lege, möchte ich mich auch freiberuflich stärker auf dieses Tätigkeitsfeld
-          konzentrieren. Gleichwohl freue ich mich auch weiterhin über Anfragen aus den Bereichen{' '}
-          <i>Beratung</i> und <i>Moderation & Vorträge</i>. In der Forschung bin ich aktuell nicht
-          mehr aktiv.
+          guten Einblick. Seitdem ich 2021 meinen hauptberuflichen Fokus auf die Web- und
+          App-Entwicklung gelegt habe, möchte ich auch freiberuflich stärker in diesem Bereich
+          arbeiten. Gleichwohl freue ich mich auch weiterhin über Anfragen aus den anderen
+          Tätigkeitsfeldern wie <i>Beratung</i> und <i>Moderation & Vorträge</i>. In der Forschung
+          bin ich aktuell nicht mehr aktiv.
         </p>
       </div>
       <div className={classes['container-offers']}>
