@@ -36,9 +36,10 @@ const Consent = () => {
         declineButtonClasses='consent__btn--decline'
       >
         <p>
-          Diese Internetseite verwendet Cookies ausschließlich für Google Analytics für die Analyse
-          und Statistik. Cookies helfen, die Benutzerfreundlichkeit der Website zu verbessern. Sie
-          können entscheiden, ob Sie dem zustimmen oder dies ablehnen. Bitte beachten Sie auch die{' '}
+          Diese Website verwendet Cookies, um die Benutzerfreundlichkeit der Seite weiter im Sinne
+          der Nutzer:innen zu verbessern. Wir greifen ausschließlich auf Google Analytics für die
+          Analyse und Statistik zurück - dafür bitten wir Sie freundlich um Erlaubnis. Sie können
+          entscheiden, ob Sie dem zustimmen oder dies ablehnen. Bitte beachten Sie auch die{' '}
           <Link to='/datenschutz'>Datenschutzerklärung</Link>.
         </p>
       </CookieConsent>
