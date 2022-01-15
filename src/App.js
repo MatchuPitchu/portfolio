@@ -17,6 +17,7 @@ import BNEDetails from './components/Publications/BNEDetails';
 import Angebote from './pages/Angebote';
 import Kontakt from './pages/Kontakt';
 import Footer from './components/Layout/Footer';
+import Consent from './components/Consent';
 
 // create fontawesome library and import icons
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -107,6 +108,7 @@ const App = () => {
         </main>
         <Footer />
         <ScrollToTopButton />
+        <Consent />
       </Layout>
     </Theme>
   );
