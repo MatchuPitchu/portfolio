@@ -20,6 +20,7 @@
     "graphology-types": "^0.23.0",
     "react": "^17.0.2",
     "react-animate-height": "^2.0.23",
+    "react-cookie-consent": "^7.2.1",
     "react-datawrapper-chart": "^1.1.1",
     "react-dom": "^17.0.2",
     "react-ga4": "^1.4.1",
