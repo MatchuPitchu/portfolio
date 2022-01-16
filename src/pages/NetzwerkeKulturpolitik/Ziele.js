@@ -103,6 +103,12 @@ const Ziele = () => {
         die enge Verflechtung zwischen kulturpolitisch Handelnden und Exekutive die
         Konfliktbereitschaft mindert oder sogar neutralisiert.
       </p>
+      <img
+        src='https://vg02.met.vgwort.de/na/8027a7558aaa488d91d89e1405c9ba28'
+        width='1'
+        height='1'
+        alt='Zählmarke VG Wort'
+      />
       <Card className={classes['card-customized']}>
         <ul className={classes.tabs}>
           <li className={isOpen.goalsWeak ? classes.active : ''} onClick={onClickHandler}>

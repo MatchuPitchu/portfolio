@@ -55,7 +55,7 @@ const Datenschutz = () => {
           Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns
           wenden.
         </p>
-        <h3 className={classes.h3}>Analyse-Tools und Tools von Dritt&shy;anbietern</h3>
+        <h3 className={classes.h3}>Analyse-Tools und Tools von Drittanbietern</h3>
         <p>
           Beim Besuch dieser Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das
           geschieht vor allem mit sogenannten Analyseprogrammen.
@@ -278,7 +278,7 @@ const Datenschutz = () => {
         </ul>
         <p>
           Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese
-          Daten &ndash; von ihrer Speicherung abgesehen &ndash; nur mit Ihrer Einwilligung oder zur
+          Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur
           Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte
           einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen
           öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet
@@ -314,8 +314,7 @@ const Datenschutz = () => {
           Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis Sie uns zur
           Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die
           Datenspeicherung entfällt (z.B. nach abgeschlossener Bearbeitung Ihrer Anfrage). Zwingende
-          gesetzliche Bestimmungen &ndash; insbesondere Aufbewahrungsfristen &ndash; bleiben
-          unberührt.
+          gesetzliche Bestimmungen – insbesondere Aufbewahrungsfristen – bleiben unberührt.
         </p>
         <h3 className={classes.h3}>Anfrage per E-Mail, Telefon oder Telefax</h3>
         <p>
@@ -336,8 +335,75 @@ const Datenschutz = () => {
           Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns
           zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für
           die Datenspeicherung entfällt (z.B. nach abgeschlossener Bearbeitung Ihres Anliegens).
-          Zwingende gesetzliche Bestimmungen &ndash; insbesondere gesetzliche Aufbewahrungsfristen
-          &ndash; bleiben unberührt.
+          Zwingende gesetzliche Bestimmungen – insbesondere gesetzliche Aufbewahrungsfristen –
+          bleiben unberührt.
+        </p>
+        <h3 className={classes.h3}>Nutzung von VG Wort Zählpixel</h3>
+        <p>
+          In die Website ist die Funktion „Zählpixel“ der Verwertungsgesellschaft Wort integriert.
+          Damit ist es der VG Wort möglich, Daten zu Seitenaufrufen zuerfassen, damit entsprechende
+          Tantiemen ausgeschüttet werden können. Nur so kann die Autorenvergütung für Texte im
+          Internet ermittelt werden.
+        </p>
+        <h3 className={classes.h3}>Nutzung von Google Analytics</h3>
+        <p>
+          Wir verwenden Google Analytics, um die Website-Nutzung zu analysieren. Die daraus
+          gewonnenen Daten werden genutzt, um unsere Website sowie Werbemaßnahmen zu optimieren.
+        </p>
+        <p>
+          Google Analytics ist ein Webanalysedienst, der von <i>Google Inc.</i> (1600 Amphitheatre
+          Parkway, Mountain View, CA 94043, United States) betrieben und bereitgestellt wird. Google
+          verarbeitet die Daten zur Website-Nutzung in unserem Auftrag und verpflichtet sich
+          vertraglich zu Maßnahmen, um die Vertraulichkeit der verarbeiteten Daten zu gewährleisten.
+        </p>
+        <p>Während Ihres Website-Besuchs werden u.a. folgende Daten aufgezeichnet:</p>
+        <ul>
+          <li>Aufgerufene Seiten</li>
+          <li>
+            Ihr Verhalten auf den Seiten (beispielsweise Klicks, Scroll-Verhalten und Verweildauer)
+          </li>
+          <li>Ihr ungefährer Standort (Land und Stadt)</li>
+          <li>
+            Ihre IP-Adresse (in gekürzter Form, sodass keine eindeutige Zuordnung möglich ist)
+          </li>
+          <li>
+            Technische Informationen wie Browser, Internetanbieter, Endgerät und Bildschirmauflösung
+          </li>
+          <li>
+            Herkunftsquelle Ihres Besuchs (d.h. über welche Website bzw. über welches Werbemittel
+            Sie zu uns gekommen sind)
+          </li>
+        </ul>
+        <p>Diese Daten werden an einen Server von Google in den USA übertragen.</p>
+        <p>
+          Google Analytics speichert Cookies in Ihrem Webbrowser für die Dauer von zwei Jahren seit
+          Ihrem letzten Besuch. Sie können die Cookies allerdings jederzeit in Ihrem Browser
+          löschen. Diese Cookies enthalten eine zufallsgenerierte User-ID, mit der Sie bei
+          zukünftigen Website-Besuchen wiedererkannt werden können.
+        </p>
+        <p>
+          Die aufgezeichneten Daten werden zusammen mit der zufallsgenerierten User-ID gespeichert,
+          was die Auswertung pseudonymer Nutzerprofile ermöglicht. Diese nutzerbezogenen Daten
+          werden automatisch nach 14 Monaten gelöscht. Sonstige Daten bleiben in aggregierter Form
+          unbefristet gespeichert.
+        </p>
+        <p>
+          Sollten Sie mit der Erfassung nicht einverstanden sein, können Sie diese mit der
+          einmaligen Installation des{' '}
+          <a
+            href='https://tools.google.com/dlpage/gaoptout?hl=de'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Browser-Add-ons zur Deaktivierung von Google Analytics
+          </a>{' '}
+          unterbinden oder durch das Ablehnen der Cookies über unseren Cookie Einstellungsdialog.
+        </p>
+        <p>
+          Quelle für Mustertext Google Analytics:{' '}
+          <a href='traffic3.net' target='_blank' rel='noopener noreferrer'>
+            traffic3.net
+          </a>
         </p>
       </section>
       <section>
@@ -351,8 +417,8 @@ const Datenschutz = () => {
           Wir nutzen YouTube im erweiterten Datenschutzmodus. Dieser Modus bewirkt laut YouTube,
           dass YouTube keine Informationen über die Besucher auf dieser Website speichert, bevor
           diese sich das Video ansehen. Die Weitergabe von Daten an YouTube-Partner wird durch den
-          erweiterten Datenschutzmodus hingegen nicht zwingend ausgeschlossen. So stellt YouTube
-          &ndash; unabhängig davon, ob Sie sich ein Video ansehen &ndash; eine Verbindung zum Google
+          erweiterten Datenschutzmodus hingegen nicht zwingend ausgeschlossen. So stellt YouTube –
+          unabhängig davon, ob Sie sich ein Video ansehen – eine Verbindung zum Google
           DoubleClick-Netzwerk her.
         </p>
         <p>

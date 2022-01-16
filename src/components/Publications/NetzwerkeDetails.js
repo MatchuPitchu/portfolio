@@ -49,6 +49,31 @@ const NetzwerkeDetails = () => {
         <div className={classes['col-right']}>
           <h2>Die transformative Kraft von Verbindungen</h2>
           <p>
+            Diesem Artikel liegt die Annahme zugrunde, dass Hochschulen in Deutschland die
+            entscheidenden Umsetzungsorte für die Große Transformation sind. Dies begründet sich
+            darauf, dass Hochschulen erstens als Wissensspeicher und -generatoren eine hohe
+            gesellschaftliche Anerkennung genießen, zweitens die Kapazitäten besitzen, die
+            ökologischen, sozialen, technischen und ökonomischen Herausforderungen einer
+            nachhaltigen Entwicklung zu bearbeiten, und drittens eine Hebelwirkung ausüben bzw. eine
+            Vorbildfunktion für gesellschaftliche Prozesse innehaben. Sie eignen sich als
+            modellhafte Transformationsorte, da sie einerseits eine gut abgegrenzte und
+            überschaubare räumliche und organisationale Struktur vorweisen und andererseits in
+            dieser Struktur das generierte und erworbene Wissen in Synergie von Forschung, Lehre,
+            Betrieb und Hochschul-Governance unmittelbar in die Praxis der Hochschule übertragen
+            werden kann; kurzum: Transformative Ansätze können an Hochschulen erprobt, eingeübt und
+            angepasst werden und letztlich auf gesamtgesellschaftliche Entwicklungen ausstrahlen,
+            die wiederum auf den Transformationsort Hochschule zurückwirken.
+          </p>
+          <p>
+            Das <i>netzwerk n</i> hat seit der Vereinsgründung im Jahr 2012 ein umfassendes
+            Erfahrungs- und Systemwissen erworben, wo Hebelpunkte bestehen, um die nachhaltige
+            Entwicklung hochschulübergreifend und innerhalb der heterogen strukturierten und
+            gesteuerten Organisation Hochschule zu befördern und zu beschleunigen. Die
+            Beziehungsebene zwischen Akteuren, womit sowohl individuelle als auch kollektive und
+            korporative Akteure gemeint sind, trat dabei beständig als wesentliche Kategorie hervor,
+            um Veränderungen an Hochschulen erklären und gestalten zu können.
+          </p>
+          <p>
             Netzwerk, Vernetzung und Beziehung sind omnipräsente, aber häufig symbolisch verwendete
             Begriffe, wenn über die Transformation von Hochschulen in Richtung einer nachhaltigen
             Entwicklung gesprochen wird. Wissenschaftliche Betrachtungen aus einer
@@ -64,6 +89,13 @@ const NetzwerkeDetails = () => {
             Beziehungsebene stärker in den Blick zu nehmen, um Transformationsprozesse an
             Hochschulen erklären und gestalten zu können.
           </p>
+
+          <img
+            src='https://vg02.met.vgwort.de/na/9250c8276d2b44349e1c845a08194cc7'
+            width='1'
+            height='1'
+            alt='Zählmarke VG Wort'
+          />
         </div>
       </Section>
       <Section>

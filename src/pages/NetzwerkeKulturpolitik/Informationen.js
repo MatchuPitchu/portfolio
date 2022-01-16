@@ -41,6 +41,12 @@ const Informationen = () => {
         zu können. Demgegenüber hängen die Akteure, die im Netzwerk und auch geografisch peripher
         liegen, von wenigen Informationssträngen ab.
       </p>
+      <img
+        src='https://vg02.met.vgwort.de/na/792d670d5edc46f89c80cf0dfe93a608'
+        width='1'
+        height='1'
+        alt='Zählmarke VG Wort'
+      />
       <Sigma dataPath='/data/01_networkInfoExchange.json' />
       <Legend links={infoAndCoopNetworkLinks} />
     </section>

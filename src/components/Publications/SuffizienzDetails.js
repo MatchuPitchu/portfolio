@@ -107,6 +107,12 @@ const SuffizienzDetails = () => {
             ist: Wagt Neues, werft Ballast ab und setzt vielfältig Suffizienz für eine nachhaltige
             Entwicklung ein.
           </p>
+          <img
+            src='https://vg02.met.vgwort.de/na/85881e3927744f7c8655a0f3ba09b673'
+            width='1'
+            height='1'
+            alt='Zählmarke VG Wort'
+          />
         </div>
       </Section>
       <Section>

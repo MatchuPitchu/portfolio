@@ -123,6 +123,12 @@ const KulturpolitikDetails = () => {
             aufzudecken. Der theoretische Ansatz des akteurzentrierten Institutionalismus (Mayntz,
             Scharpf 1995; Scharpf 2006) rahmt die Politikfeldanalyse.
           </p>
+          <img
+            src='https://vg02.met.vgwort.de/na/260164499a15414fa3521e1de49375f2'
+            width='1'
+            height='1'
+            alt='Zählmarke VG Wort'
+          />
         </div>
       </Section>
       <Section>

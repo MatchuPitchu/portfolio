@@ -67,6 +67,12 @@ const BNEDetails = () => {
             verstehen ist und (noch) nicht dem Anspruch einer systematischen und vollständigen
             Erfassung gerecht werden kann.
           </p>
+          <img
+            src='https://vg02.met.vgwort.de/na/708f25b3b47e4661bbb57c47ee218eda'
+            width='1'
+            height='1'
+            alt='Zählmarke VG Wort'
+          />
         </div>
       </Section>
     </Container>

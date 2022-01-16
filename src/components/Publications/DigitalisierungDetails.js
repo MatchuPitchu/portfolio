@@ -42,6 +42,12 @@ const DigitalisierungsDetails = () => {
             Hochschultransformation vor und gibt letztlich einen Ausblick, in welche Richtung die
             Plattform weiterzudenken und weiterzuentwickeln ist.
           </p>
+          <img
+            src='https://vg02.met.vgwort.de/na/227af450c51f4668ac0ce43dfefe2bdd'
+            width='1'
+            height='1'
+            alt='Zählmarke VG Wort'
+          />
         </div>
       </Section>
     </Container>

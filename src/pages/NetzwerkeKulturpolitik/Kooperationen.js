@@ -49,6 +49,12 @@ const Kooperationen = () => {
         auf politische Prozesse einzuwirken, verorten die Akteure dagegen in der ausführenden
         Gewalt.
       </p>
+      <img
+        src='https://vg02.met.vgwort.de/na/eb5f7ebd8e9b4ae188587efac123893f'
+        width='1'
+        height='1'
+        alt='Zählmarke VG Wort'
+      />
       <Sigma dataPath='/data/02_networkCooperation.json' />
       <Legend links={infoAndCoopNetworkLinks} />
     </section>
