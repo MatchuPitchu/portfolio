@@ -31,18 +31,12 @@
   line-height: 1.7rem;
 }
 
-.cards-box,
-.quotes-box {
+.cards-box {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   gap: 1rem;
-}
-
-.quotes-box {
-  padding: 2rem 1rem 1rem 1rem;
   overflow: hidden;
-  position: relative;
 }
 
 .card-theses {
@@ -160,19 +154,15 @@
     padding: 0;
   }
 
-  .cards-box,
-  .quotes-box {
+  .cards-box {
     flex: 1 1 100%;
     gap: 1rem;
+    overflow: visible; /* needed that box shadow works on small displays */
   }
 
   .card-theses {
     width: calc(33% - 1rem);
     width: 100%;
     min-width: 200px;
-  }
-
-  .quotes-box {
-    padding: 0;
   }
 }

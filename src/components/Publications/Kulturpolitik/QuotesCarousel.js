@@ -162,7 +162,7 @@ const QuotesCarousel = () => {
             <Icon icon={['fa', 'caret-left']} />
           </button>
           <div className={classes['slider-btn__text']}>
-            Zitat {index + 1} von {quotes.length}
+            Zitat {index + 1}/{quotes.length}
           </div>
           <button className={classes.btn} onClick={nextSlide} aria-label='next quote'>
             <Icon icon={['fa', 'caret-right']} />

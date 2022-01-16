@@ -151,7 +151,7 @@ const KulturpolitikDetails = () => {
         <div className={classes['col-left']}>
           <h3>Zitate und Rezensionen</h3>
         </div>
-        <div className={`${classes['quotes-box']} ${classes['col-right']}`}>
+        <div className={`${classes['cards-box']} ${classes['col-right']}`}>
           <QuotesCarousel />
         </div>
       </Section>
