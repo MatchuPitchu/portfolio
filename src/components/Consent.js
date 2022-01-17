@@ -38,10 +38,11 @@ const Consent = () => {
       >
         <p>
           Diese Website verwendet Cookies, um die Benutzerfreundlichkeit der Seite weiter im Sinne
-          der Nutzer:innen zu verbessern. Wir greifen auf Google Analytics für die Analyse und
-          Statistik zurück - dafür bitten wir Sie freundlich um Erlaubnis. Sie können entscheiden,
-          ob Sie dem zustimmen oder dies ablehnen. Bitte beachten Sie auch die{' '}
-          <Link to='/datenschutz'>Datenschutzerklärung</Link>.
+          der Nutzer:innen zu verbessern. Dafür werden mithilfe des Analysetools Google Analytics
+          anonyme, nicht personenbezogene Daten gebündelt - dafür bitten wir Sie freundlich um
+          Erlaubnis. Sie können entscheiden, ob Sie dem zustimmen oder dies ablehnen. Bitte beachten
+          Sie auch die <Link to='/datenschutz'>Datenschutzerklärung</Link>. Dort können Sie
+          jederzeit Ihre getroffene Entscheidung zurücksetzen.
         </p>
       </CookieConsent>
       {isConsent && <GoogleAnalytics />}

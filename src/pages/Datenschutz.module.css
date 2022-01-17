@@ -28,6 +28,11 @@
   font-weight: 600;
 }
 
+.btn-box {
+  display: flex;
+  justify-content: center;
+}
+
 @media all and (max-width: 576px) {
   .container-customized {
     border: 0;

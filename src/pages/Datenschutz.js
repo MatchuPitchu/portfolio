@@ -1,8 +1,12 @@
+import { resetCookieConsentValue } from 'react-cookie-consent';
 import Container from '../components/Layout/Container';
 import H1Title from '../components/UI/Titles/H1Title';
 import classes from './Datenschutz.module.css';
+import Button from '../components/UI/Button/Button';
 
 const Datenschutz = () => {
+  const handleResetConsent = () => resetCookieConsentValue();
+
   return (
     <Container className={classes['container-customized']}>
       <H1Title classTitle={classes['h1-title']}>Datenschutzerklärung</H1Title>
@@ -400,11 +404,22 @@ const Datenschutz = () => {
           unterbinden oder durch das Ablehnen der Cookies über unseren Cookie Einstellungsdialog.
         </p>
         <p>
-          Quelle für Mustertext Google Analytics:{' '}
-          <a href='traffic3.net' target='_blank' rel='noopener noreferrer'>
-            traffic3.net
-          </a>
+          <i>
+            Quelle für Mustertext Google Analytics:{' '}
+            <a href='traffic3.net' target='_blank' rel='noopener noreferrer'>
+              traffic3.net
+            </a>
+          </i>
         </p>
+        <p>
+          Klicken Sie auf diesen Button, um Ihre einmal getätigte Cookie Consent-Antwort (egal ob
+          Zustimmung oder Ablehnung) zurückzusetzen. Beim nächsten Aufruf der Webseite können Sie
+          sich dann neu entscheiden, ob Sie der Nutzung von Cookies zustimmen oder dies ablehnen
+          wollen.
+        </p>
+        <div className={classes['btn-box']}>
+          <Button onClick={handleResetConsent}>Reset Cookie Consent</Button>
+        </div>
       </section>
       <section>
         <h2 className={classes.h2}>5. Plugins und Tools</h2>
