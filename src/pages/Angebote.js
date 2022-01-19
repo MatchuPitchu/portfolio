@@ -95,8 +95,24 @@ const offers = [
     title: 'Forschung',
     imageSrc: buecherregalWEBP,
     imageFallback: buecherregalJPG,
-    description:
-      'Durch meine Zeit der Promotion an der Universität Erfurt habe ich das Privileg erfahren, intrinisch motiviert einen Forschungsgegenstand über einen längeren Zeitraum ergründen, analysieren und verstehen zu dürfen. Zudem vermittelte mir dieser Lebensabschnitt, was wissenschaftliches Denken und Arbeiten wirklich bedeutet. Vieles davon ist auch außerhalb der Forschung essentiell und bereichernd – egal in welchem Tätigkeitsbereich.',
+    description: (
+      <>
+        Durch meine Zeit der Promotion an der Universität Erfurt habe ich das Privileg erfahren,
+        intrinisch motiviert einen Forschungsgegenstand über einen längeren Zeitraum ergründen,
+        analysieren und verstehen zu dürfen. Zudem vermittelte mir dieser Lebensabschnitt, was
+        wissenschaftliches Denken und Arbeiten wirklich bedeutet. Vieles davon ist auch außerhalb
+        der Forschung essentiell und bereichernd – egal in welchem Tätigkeitsbereich. Inhaltlich
+        befasste ich mich bislang in Studien und praxisnahen Artikeln mit Kulturpolitik
+        (Politikfeld-/Netzwerkanalyse), Bildung für nachhaltige Entwicklung (staatliche Förderung),
+        nachhaltige Hochschulentwicklung (Netzwerkanalyse, Engagement), Digitalisierung und
+        Suffizienz an Hochschulen im ländlichen Raum. Darüber hinaus entwickelte ich innerhalb eines
+        Projektes die Wirkungsmessung des netzwerk n basierend auf der{' '}
+        <a href='https://www.phineo.org/kursbuch-wirkung' target='_blank' rel='noreferrer'>
+          Phineo-Wirkungstreppe
+        </a>{' '}
+        .
+      </>
+    ),
     activities: [
       'Wirkungsmessung und Evaluation von Veranstaltungen, Projekten und Prozessen',
       'quantitative und qualitative Netzwerkanalyse',
