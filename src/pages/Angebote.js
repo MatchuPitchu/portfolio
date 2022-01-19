@@ -19,8 +19,32 @@ const offers = [
     title: 'Web- & App-Entwicklung',
     imageSrc: laptopWEBP,
     imageFallback: laptopJPG,
-    description:
-      'Viele Jahre habe ich für Vereine Websites - u.a. auf WordPress-Basis - betreut und Inhalte eingepflegt. Durch meine Tätigkeit beim netzwerk n e.V. have ich intensiv an der Entwicklung einer Open Source-Kollaborationsplattform mitgewirkt. Daraus ergab sich der Impuls, sich stärker mit der Programmierseite zu beschäftigen. In einer 15-wöchigen Weiterbildung zum Full-Stack Web & App Developer an der WBS Coding School in Berlin habe ich mir das Wissen über einen modernen Tech Stack angeeignet und all die Wissensbereiche vertieft, die für die Arbeit als Entwickler grundlegend sind. Hauptberuflich bin ich mittlerweile als Webentwickler bei der team neusta Unternehmensgruppe tätig.',
+    description: (
+      <>
+        Viele Jahre habe ich für Vereine Websites – u.a. auf WordPress-Basis – betreut und Inhalte
+        eingepflegt. Durch meine Tätigkeit beim{' '}
+        <a href='https://www.netzwerk-n.org/' target='_blank' rel='noreferrer'>
+          netzwerk n e.V.
+        </a>{' '}
+        have ich intensiv an der Entwicklung einer{' '}
+        <a href='https://plattform-n.org/' target='_blank' rel='noreferrer'>
+          Open Source-Kollaborationsplattform
+        </a>{' '}
+        für das Nachhaltigkeitsengagement an Hochschulen mitgewirkt. Daraus ergab sich der Impuls,
+        stärker in die Programmierung einzusteigen. In einer 15-wöchigen Weiterbildung zum
+        Full-Stack Web & App Developer an der{' '}
+        <a href='https://www.wbscodingschool.com/' target='_blank' rel='noreferrer'>
+          WBS Coding School
+        </a>{' '}
+        in Berlin habe ich mir das Wissen über einen modernen Tech Stack angeeignet und all die
+        Wissensbereiche vertieft, die für die Arbeit als Entwickler grundlegend sind. Hauptberuflich
+        bin ich seit 2021 als Webentwickler bei der{' '}
+        <a href='https://www.team-neusta.de/' target='_blank' rel='noreferrer'>
+          team neusta
+        </a>{' '}
+        Unternehmensgruppe tätig.
+      </>
+    ),
     activities: [
       'App & Web Development',
       'HTML5, CSS3 und Responsive Web Design',
@@ -49,7 +73,7 @@ const offers = [
     imageSrc: beratungWEBP,
     imageFallback: beratungJPG,
     description:
-      'Ein viel genutzter und auch teils entwerteter Begriff. Beratung setzt für mich den Wunsch nach Veränderung voraus. Mein Verständnis der Beratungstätigkeit selbst ist es, einerseits aus einer externen Perspektive heraus, Wissen und Erfahrungen zu vermitteln, um Impulse für Verhaltens- und strukturelle Veränderungen zu setzen. Andererseits geht es darum, ein Reflektionsangebot zu machen, um gemeinsam mit dem Kunden Handlungsbereiche, Ziele und Maßnahmen zu identifizieren, um einen möglichen Pfad zur gewünschten Veränderung konkret abzustecken.',
+      'Ein viel genutzter und auch teils entwerteter Begriff. Beratung setzt für mich den Wunsch nach Veränderung voraus. Mein Verständnis der Beratungstätigkeit selbst ist es, einerseits aus einer externen Perspektive heraus, Wissen und Erfahrungen zu vermitteln, um Impulse für Verhaltens- und strukturelle Veränderungen zu setzen. Andererseits geht es darum, ein Reflektionsangebot zu unterbreiten, um gemeinsam mit dem Kunden oder der Kundin Handlungsbereiche, Ziele und Maßnahmen zu identifizieren, um einen möglichen Pfad zur gewünschten Veränderung konkret abzustecken und zu beschreiten.',
     activities: [
       'nachhaltige Hochschulentwicklung',
       'Nachhaltigkeitsstrategien für Organisationen',
@@ -72,7 +96,7 @@ const offers = [
     imageSrc: buecherregalWEBP,
     imageFallback: buecherregalJPG,
     description:
-      'Durch meine Zeit der Promotion an der Universität Erfurt habe ich das Privileg erfahren, intrinisch motiviert ein Forschungsfeld über einen längeren Zeitraum zu ergründen, zu analysieren und zu verstehen. Zudem vermittelte mir diese Zeit, was wissenschaftliches Denken und Arbeiten eigentlich konkret bedeutet. Vieles davon ist auch außerhalb der Forschung essentiell und bereichernd – egal in welchem Tätigkeitsbereich.',
+      'Durch meine Zeit der Promotion an der Universität Erfurt habe ich das Privileg erfahren, intrinisch motiviert einen Forschungsgegenstand über einen längeren Zeitraum ergründen, analysieren und verstehen zu dürfen. Zudem vermittelte mir dieser Lebensabschnitt, was wissenschaftliches Denken und Arbeiten wirklich bedeutet. Vieles davon ist auch außerhalb der Forschung essentiell und bereichernd – egal in welchem Tätigkeitsbereich.',
     activities: [
       'Wirkungsmessung und Evaluation von Veranstaltungen, Projekten und Prozessen',
       'quantitative und qualitative Netzwerkanalyse',
@@ -89,8 +113,30 @@ const offers = [
     title: 'Moderation & Vorträge',
     imageSrc: moderationWEBP,
     imageFallback: moderationJPG,
-    description:
-      'Ich hatte das Glück, ausgehend aus meinem ehrenamtlichen Engagement und später beruflich beim netzwerk n e.V. mich als Moderator und Referent ausgiebig auszuprobieren. Dank der von mir 2016 initiierten, konzipierten und auch überwiegend moderierten Diskussionsreihe perspektive n hatte ich die Freude, intensive Erfahrungen als Moderator zu sammeln, der heterogene Statusgruppen und Entscheidungsträger durch partizipative und aktivierende Methoden in einen Austausch auf Augenhöhe bringt. Vieles davon kann ich nun auch auf andere Kontexte übertragen.',
+    description: (
+      <>
+        Ich hatte das Glück, ausgehend aus meinem ehrenamtlichen Engagement und später beruflich
+        beim{' '}
+        <a href='https://www.netzwerk-n.org/' target='_blank' rel='noreferrer'>
+          netzwerk n e.V.
+        </a>{' '}
+        mich als Moderator und Referent ausgiebig auszuprobieren. Dank der von mir 2016 initiierten,
+        konzipierten und auch überwiegend moderierten Diskussionsreihe{' '}
+        <a
+          href='https://www.netzwerk-n.org/angebote/formate/perspektive-n/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          perspektive n
+        </a>{' '}
+        hatte ich die Freude, intensive Erfahrungen als Moderator zu sammeln. Dabei war stets mein
+        Ziel, heterogene Statusgruppen und Entscheidungsträger durch partizipative und aktivierende
+        Methoden in einen Austausch auf Augenhöhe zu bringen. Vieles davon kann ich nun auch auf
+        andere Kontexte übertragen. Eine besondere Ehre war es mir, dass die perspektive n vom Rat
+        für Nachhaltige Entwicklung als "Projekt Nachhaltigkeit 2018" und "Transformationsprojekt
+        2018" ausgezeichnet wurde.
+      </>
+    ),
     activities: [
       'Moderation von öffentlichen Veranstaltungen wie Diskussionsformaten, Workshops, Tagungen, Konferenzen ...',
       'Moderation von internen Veranstaltungen wie Strategieentwicklungen, Entscheidungsprozessen, Multi-Stakeholder-Gesprächen',
