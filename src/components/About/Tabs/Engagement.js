@@ -1,7 +1,7 @@
-import AnimatingItem from '../UI/CSSTransition/AnimatingItem';
-import classes from './Involvement.module.css';
+import AnimatingItem from '../../UI/CSSTransition/AnimatingItem';
+import classes from './Tabs.module.css';
 
-const Involvement = ({ isOpen }) => {
+const Engagement = ({ isOpen }) => {
   return (
     <AnimatingItem show={isOpen}>
       <div>
@@ -69,4 +69,4 @@ const Involvement = ({ isOpen }) => {
   );
 };
 
-export default Involvement;
+export default Engagement;

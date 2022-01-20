@@ -1,20 +1,20 @@
 import { useState } from 'react';
 import Container from '../Layout/Container';
 import Card from '../UI/Card/Card';
-import Kompetenzen from './Kompetenzen';
-import Work from './Work';
-import Education from './Education';
-import Awards from './Awards';
-import Involvement from './Involvement';
-import classes from './About.module.css';
 import H2Title from '../UI/Titles/H2Title';
+import Kompetenzen from './Tabs/Kompetenzen';
+import Work from './Tabs/Work';
+import Education from './Tabs/Education';
+import Awards from './Tabs/Awards';
+import Engagement from './Tabs/Engagement';
+import classes from './About.module.css';
 
 const tabs = [
   { area: 'skills', title: 'Kompetenzen' },
   { area: 'work', title: 'Beruf' },
   { area: 'education', title: 'Ausbildung' },
   { area: 'awards', title: 'Auszeichnungen' },
-  { area: 'involvement', title: 'Engagement' },
+  { area: 'engagement', title: 'Engagement' },
 ];
 
 const About = () => {
@@ -23,7 +23,7 @@ const About = () => {
     work: false,
     education: false,
     awards: false,
-    involvement: false,
+    engagement: false,
   });
 
   const onClickHandler = (tab) => {
@@ -34,7 +34,7 @@ const About = () => {
           work: true,
           education: false,
           awards: false,
-          involvement: false,
+          engagement: false,
         });
         break;
       case 'education':
@@ -43,7 +43,7 @@ const About = () => {
           work: false,
           education: true,
           awards: false,
-          involvement: false,
+          engagement: false,
         });
         break;
       case 'awards':
@@ -52,16 +52,16 @@ const About = () => {
           work: false,
           education: false,
           awards: true,
-          involvement: false,
+          engagement: false,
         });
         break;
-      case 'involvement':
+      case 'engagement':
         setIsOpen({
           skills: false,
           work: false,
           education: false,
           awards: false,
-          involvement: true,
+          engagement: true,
         });
         break;
       default:
@@ -70,7 +70,7 @@ const About = () => {
           work: false,
           education: false,
           awards: false,
-          involvement: false,
+          engagement: false,
         });
     }
   };
@@ -104,7 +104,7 @@ const About = () => {
             <Work isOpen={isOpen.work} />
             <Education isOpen={isOpen.education} />
             <Awards isOpen={isOpen.awards} />
-            <Involvement isOpen={isOpen.involvement} />
+            <Engagement isOpen={isOpen.engagement} />
           </div>
         </Card>
       </Container>

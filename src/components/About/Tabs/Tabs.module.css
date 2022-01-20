@@ -1,0 +1,148 @@
+.cv-box {
+  padding: var(--padding-only-horizontal);
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.cv-box__item,
+.cv-box__awards {
+  flex: 1 1 calc(50% - 0.5rem);
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.cv-box__item:nth-child(1) {
+  order: 1;
+}
+
+.cv-box__item:nth-child(2) {
+  order: 3;
+}
+
+.cv-box__item:nth-child(3) {
+  order: 5;
+}
+
+.cv-box__item:nth-child(4) {
+  order: 2;
+}
+
+.cv-box__item:nth-child(5) {
+  order: 4;
+}
+
+.cv-box__item:nth-child(6) {
+  order: 6;
+}
+
+.text {
+  padding: var(--padding-even-md);
+  margin: 0;
+}
+
+.tab-box {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.5rem 2rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.skill-box:nth-child(1),
+.skill-box:nth-child(4) {
+  flex: 1 0 calc(60% - 2rem);
+}
+
+.skill-box:nth-child(2),
+.skill-box:nth-child(3) {
+  flex: 1 0 calc(40% - 2rem);
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.title::first-letter {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-right: -0.2rem;
+  padding: 0.3rem;
+  color: var(--color-primary);
+}
+
+.title:after {
+  position: absolute;
+  background: var(--color-primary);
+  content: '';
+  height: 0.25rem;
+  top: 0;
+  width: 1260px;
+}
+
+.title:after {
+  margin-left: 1rem;
+}
+
+.item {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 0.5rem;
+  user-select: none;
+}
+
+.item__logo,
+.item__text {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-less-y-sm);
+  border: 1px solid var(--color-bg-transparent60);
+  border-radius: var(--border-radius);
+}
+
+.item__text {
+  font-size: 0.9rem;
+  background-color: var(--color-bg-transparent20);
+}
+
+.item__logo:last-child,
+.item__text:last-child {
+  flex: 0 0 auto;
+}
+
+.logo-img {
+  height: 1.6rem;
+  width: auto;
+}
+
+.logo-label {
+  padding: var(--padding-even-sm);
+  font-weight: 400;
+}
+
+@media all and (max-width: 768px) {
+  .cv-box__item,
+  .cv-box__awards {
+    flex: 1 1 100%;
+  }
+
+  .cv-box__item:nth-child(1),
+  .cv-box__item:nth-child(2),
+  .cv-box__item:nth-child(3),
+  .cv-box__item:nth-child(4),
+  .cv-box__item:nth-child(5),
+  .cv-box__item:nth-child(6) {
+    order: 1;
+  }
+
+  .skill-box:nth-child(1),
+  .skill-box:nth-child(2),
+  .skill-box:nth-child(3),
+  .skill-box:nth-child(4) {
+    flex: 1 0 100%;
+  }
+}

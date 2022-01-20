@@ -4,7 +4,9 @@
     0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   --padding-even-sm: 0.5rem;
   --padding-even-md: 1rem;
+  --padding-only-horizontal: 0 1rem;
   --padding-less-y: 0.5rem 1rem;
+  --padding-less-y-sm: 0.3rem 0.5rem;
 }
 
 .light {
@@ -35,11 +37,11 @@
   --color-menu-items: #f8d97d;
 
   --bg-linear-gradient: linear-gradient(
-    -45deg,
-    var(--color-primary),
+    135deg,
+    var(--color-bg-items-secondary),
     var(--color-light),
     var(--color-tertiary),
-    var(--color-secondary)
+    var(--color-bg-items-secondary)
   );
 
   transition: all 1s ease;

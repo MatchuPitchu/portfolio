@@ -1,6 +1,6 @@
-import AnimatingItem from '../UI/CSSTransition/AnimatingItem';
-import StationPoint from '../UI/StationPoint/StationPoint';
-import classes from './Work.module.css';
+import AnimatingItem from '../../UI/CSSTransition/AnimatingItem';
+import StationPoint from '../../UI/StationPoint/StationPoint';
+import classes from './Tabs.module.css';
 
 const workExperience = [
   {
@@ -49,7 +49,7 @@ const WorkExperience = ({ isOpen }) => {
     <AnimatingItem show={isOpen}>
       <div className={classes['cv-box']}>
         {workExperience.map((item, index) => (
-          <StationPoint key={index} item={item} className={`${classes['work-box']}`} />
+          <StationPoint key={index} item={item} className={`${classes['cv-box__item']}`} />
         ))}
       </div>
     </AnimatingItem>

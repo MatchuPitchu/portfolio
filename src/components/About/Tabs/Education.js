@@ -1,6 +1,6 @@
-import AnimatingItem from '../UI/CSSTransition/AnimatingItem';
-import StationPoint from '../UI/StationPoint/StationPoint';
-import classes from './Education.module.css';
+import AnimatingItem from '../../UI/CSSTransition/AnimatingItem';
+import StationPoint from '../../UI/StationPoint/StationPoint';
+import classes from './Tabs.module.css';
 
 const education = [
   {
@@ -46,7 +46,7 @@ const Education = ({ isOpen }) => {
     <AnimatingItem show={isOpen}>
       <div className={classes['cv-box']}>
         {education.map((item, index) => (
-          <StationPoint key={index} item={item} className={classes['education-box']} />
+          <StationPoint key={index} item={item} className={classes['cv-box__item']} />
         ))}
       </div>
     </AnimatingItem>
