@@ -1,17 +1,21 @@
 .enterActive {
-  animation: enterItem 1s ease-out forwards;
-}
-
-.exit {
-  display: none;
-}
-
-.exitActive {
-  display: none;
+  animation: enterItem 500ms linear forwards;
+  opacity: 1;
 }
 
 @keyframes enterItem {
   0% {
-    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+.exitActive {
+  animation: exitItem 500ms linear forwards;
+  opacity: 1;
+}
+
+@keyframes exitItem {
+  100% {
+    opacity: 0;
   }
 }
