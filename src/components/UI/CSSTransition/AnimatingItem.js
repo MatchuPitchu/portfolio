@@ -1,13 +1,18 @@
 import CSSTransition from 'react-transition-group/CSSTransition';
 import classes from './Animating.module.css';
 
+const animationTiming = {
+  enter: 500,
+  exit: 0,
+};
+
 const AnimatingItem = ({ show, children }) => {
   return (
     <CSSTransition
       mountOnEnter
       unmountOnExit
       in={show}
-      timeout={500}
+      timeout={animationTiming}
       classNames={{
         enter: classes.enter,
         enterActive: classes.enterActive,
