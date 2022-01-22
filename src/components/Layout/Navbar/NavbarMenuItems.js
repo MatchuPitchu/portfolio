@@ -7,7 +7,7 @@ const paths = [
   {
     path: '/veroeffentlichungen',
     name: 'veröffentlichungen',
-    subpath: [
+    subnav: [
       { path: '/digitalisierung', name: 'digitalisierung' },
       { path: '/suffizienz-an-hochschulen', name: 'suffizienz' },
       { path: '/nachhaltigkeitsnetzwerke-an-hochschulen', name: 'netzwerke hochschule' },
@@ -18,7 +18,7 @@ const paths = [
   {
     path: '/netzwerke-kulturpolitik',
     name: 'netzwerke kulturpolitik',
-    subpath: [
+    subnav: [
       { path: '/informationsnetzwerk', name: 'informationsnetzwerk' },
       { path: '/kooperationsnetzwerk', name: 'kooperationsnetzwerk' },
       { path: '/zielnetzwerk', name: 'netzwerk der ziele' },
@@ -40,24 +40,31 @@ const NavbarMenuItems = ({ isMenuOpen, onClose }) => {
   }, []);
 
   const menu = (
-    <ul className={classes['menu-items']} onClick={onClose}>
+    <ul className={classes['menu-list']} onClick={onClose}>
       {paths.map((nav) => (
         <li key={nav.name} className={classes.dropdown}>
-          <NavLink className={({ isActive }) => (isActive ? classes.active : '')} to={nav.path}>
+          <NavLink
+            className={({ isActive }) =>
+              `${classes['link--nav']} ${isActive ? classes.active : ''}`
+            }
+            to={nav.path}
+          >
             {nav.name}
           </NavLink>
-          {nav.subpath && (
-            <div className={classes['dropdown-content']}>
-              {nav.subpath.map((subNav) => (
+          {nav.subnav && (
+            <ul className={classes['dropdown-sublist']}>
+              {nav.subnav.map((subnav) => (
                 <NavLink
-                  key={subNav.name}
-                  className={({ isActive }) => (isActive ? classes.active : '')}
-                  to={`${nav.path}${subNav.path}`}
+                  key={subnav.name}
+                  className={({ isActive }) =>
+                    `${classes['link--subnav']} ${isActive ? classes.active : ''}`
+                  }
+                  to={`${nav.path}${subnav.path}`}
                 >
-                  {subNav.name}
+                  {subnav.name}
                 </NavLink>
               ))}
-            </div>
+            </ul>
           )}
         </li>
       ))}
@@ -67,7 +74,7 @@ const NavbarMenuItems = ({ isMenuOpen, onClose }) => {
   if (screenWidth > 730) return menu;
 
   // navbar is only shown if toggle is clicked or screen greater than 576px
-  if (screenWidth < 730)
+  if (screenWidth <= 730)
     return (
       <AnimateHeight
         className={classes['menu-wrapper']}
