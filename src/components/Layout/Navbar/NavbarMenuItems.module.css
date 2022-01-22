@@ -55,21 +55,19 @@
 }
 
 @media all and (max-width: 730px) {
+  /* wrapper only needed for mobile view to have animation effect */
+  .menu-wrapper > div {
+    display: flex;
+    width: 730px;
+  }
+
   .menu-items {
     gap: 0;
     text-align: left;
     flex-flow: column;
-    max-height: 0;
     width: 100%;
     background-color: var(--color-bg-navbar);
     box-shadow: var(--box-shadow);
-    animation: open 1s ease-out forwards;
-  }
-
-  @keyframes open {
-    100% {
-      max-height: 500px;
-    }
   }
 
   .dropdown {

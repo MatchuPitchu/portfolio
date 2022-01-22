@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import AnimateHeight from 'react-animate-height';
 import { NavLink } from 'react-router-dom';
 import classes from './NavbarMenuItems.module.css';
 
@@ -7,23 +8,20 @@ const paths = [
     path: '/veroeffentlichungen',
     name: 'veröffentlichungen',
     subpath: [
-      { path: '/veroeffentlichungen/digitalisierung', name: 'digitalisierung' },
-      { path: '/veroeffentlichungen/suffizienz-an-hochschulen', name: 'suffizienz' },
-      {
-        path: '/veroeffentlichungen/nachhaltigkeitsnetzwerke-an-hochschulen',
-        name: 'netzwerke hochschule',
-      },
-      { path: '/veroeffentlichungen/kulturpolitik', name: 'kulturpolitik' },
-      { path: '/veroeffentlichungen/bne', name: 'bildung' },
+      { path: '/digitalisierung', name: 'digitalisierung' },
+      { path: '/suffizienz-an-hochschulen', name: 'suffizienz' },
+      { path: '/nachhaltigkeitsnetzwerke-an-hochschulen', name: 'netzwerke hochschule' },
+      { path: '/kulturpolitik', name: 'kulturpolitik' },
+      { path: '/bne', name: 'bildung' },
     ],
   },
   {
     path: '/netzwerke-kulturpolitik',
     name: 'netzwerke kulturpolitik',
     subpath: [
-      { path: '/netzwerke-kulturpolitik/informationsnetzwerk', name: 'informationsnetzwerk' },
-      { path: '/netzwerke-kulturpolitik/kooperationsnetzwerk', name: 'kooperationsnetzwerk' },
-      { path: '/netzwerke-kulturpolitik/zielnetzwerk', name: 'netzwerk der ziele' },
+      { path: '/informationsnetzwerk', name: 'informationsnetzwerk' },
+      { path: '/kooperationsnetzwerk', name: 'kooperationsnetzwerk' },
+      { path: '/zielnetzwerk', name: 'netzwerk der ziele' },
     ],
   },
   { path: '/angebote', name: 'angebote' },
@@ -41,32 +39,43 @@ const NavbarMenuItems = ({ isMenuOpen, onClose }) => {
     return () => window.removeEventListener('resize', changeWidth);
   }, []);
 
+  const menu = (
+    <ul className={classes['menu-items']} onClick={onClose}>
+      {paths.map((nav) => (
+        <li key={nav.name} className={classes.dropdown}>
+          <NavLink className={({ isActive }) => (isActive ? classes.active : '')} to={nav.path}>
+            {nav.name}
+          </NavLink>
+          {nav.subpath && (
+            <div className={classes['dropdown-content']}>
+              {nav.subpath.map((subNav) => (
+                <NavLink
+                  key={subNav.name}
+                  className={({ isActive }) => (isActive ? classes.active : '')}
+                  to={`${nav.path}${subNav.path}`}
+                >
+                  {subNav.name}
+                </NavLink>
+              ))}
+            </div>
+          )}
+        </li>
+      ))}
+    </ul>
+  );
+
+  if (screenWidth > 730) return menu;
+
   // navbar is only shown if toggle is clicked or screen greater than 576px
-  if (isMenuOpen || screenWidth > 730)
+  if (screenWidth < 730)
     return (
-      <ul className={classes['menu-items']}>
-        {paths.map((nav) => (
-          <li key={nav.name} className={classes.dropdown} onClick={onClose}>
-            <NavLink className={({ isActive }) => (isActive ? classes.active : '')} to={nav.path}>
-              {nav.name}
-            </NavLink>
-            {nav.subpath && (
-              <div className={classes['dropdown-content']}>
-                {nav.subpath.map((subNav) => (
-                  <NavLink
-                    onClick={onClose}
-                    key={subNav.name}
-                    className={({ isActive }) => (isActive ? classes.active : '')}
-                    to={subNav.path}
-                  >
-                    {subNav.name}
-                  </NavLink>
-                ))}
-              </div>
-            )}
-          </li>
-        ))}
-      </ul>
+      <AnimateHeight
+        className={classes['menu-wrapper']}
+        duration={500}
+        height={isMenuOpen ? 'auto' : 0}
+      >
+        {menu}
+      </AnimateHeight>
     );
 
   return null;
