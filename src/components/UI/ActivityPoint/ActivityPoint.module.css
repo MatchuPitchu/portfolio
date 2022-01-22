@@ -12,25 +12,9 @@
 .icon {
   font-size: 1.5rem;
   color: var(--color-primary-shade);
-  animation: rotate 10s ease-in-out infinite;
-  background-color: var(--color-bg-items-secondary);
   border-radius: 50%;
   padding: 0.3rem;
-}
-
-@keyframes rotate {
-  0% {
-    color: var(--color-primary-shade);
-    transform: rotate(90deg);
-  }
-  50% {
-    transform: rotate(360deg);
-    color: var(--color-text);
-  }
-  100% {
-    color: var(--color-primary-shade);
-    transform: rotate(90deg);
-  }
+  animation: var(--animation-rotate);
 }
 
 .text {

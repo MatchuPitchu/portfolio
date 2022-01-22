@@ -103,13 +103,14 @@
   }
 
   .link--nav {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1rem;
   }
 
   .link--subnav {
-    font-size: 0.7rem;
-    line-height: 0.8rem;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 0.9rem;
   }
 
   .link--nav,

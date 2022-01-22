@@ -18,25 +18,10 @@
   left: -31.5px;
   font-size: 1.7rem;
   color: var(--color-primary-shade);
-  animation: rotate 10s ease-in-out infinite;
+  animation: var(--animation-rotate);
   background-color: var(--color-bg-items-primary);
   border-radius: 50%;
   padding: 0.3rem;
-}
-
-@keyframes rotate {
-  0% {
-    color: var(--color-primary-shade);
-    transform: rotate(90deg);
-  }
-  50% {
-    transform: rotate(360deg);
-    color: var(--color-text);
-  }
-  100% {
-    color: var(--color-primary-shade);
-    transform: rotate(90deg);
-  }
 }
 
 .date__text,

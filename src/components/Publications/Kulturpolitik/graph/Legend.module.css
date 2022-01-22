@@ -33,8 +33,8 @@
 .group5,
 .group6,
 .group7 {
-  color: #ffffff99;
-  animation: rotate 10s ease-in-out infinite;
+  color: #fff;
+  animation: var(--animation-rotate);
 }
 
 .group1 {
@@ -63,18 +63,6 @@
 
 .group7 {
   background-color: #892b64;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(90deg);
-  }
-  50% {
-    transform: rotate(360deg);
-  }
-  100% {
-    transform: rotate(90deg);
-  }
 }
 
 @media all and (max-width: 576px) {

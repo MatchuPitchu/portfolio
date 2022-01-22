@@ -77,15 +77,9 @@
   width: 2rem;
   transition: padding 0.3s ease-out;
   padding: 0.1rem;
-  animation: rotate 20s linear infinite;
+  animation: var(--animation-rotate);
 }
 
 .icon-react:hover {
   padding: 0;
-}
-
-@keyframes rotate {
-  to {
-    transform: rotate(360deg);
-  }
 }

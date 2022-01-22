@@ -44,7 +44,7 @@
 .red,
 .yellow {
   color: #fff;
-  animation: rotate 10s ease-in-out infinite;
+  animation: var(--animation-rotate);
 }
 
 .blue {
@@ -57,18 +57,6 @@
 
 .yellow {
   background-color: #d3a418;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(90deg);
-  }
-  50% {
-    transform: rotate(360deg);
-  }
-  100% {
-    transform: rotate(90deg);
-  }
 }
 
 @media all and (max-width: 576px) {

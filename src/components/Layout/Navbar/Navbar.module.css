@@ -27,22 +27,7 @@
   font-size: 1.5rem;
   color: var(--color-primary-shade);
   margin: 0.5rem;
-  animation: rotate 20s ease-in-out infinite;
-}
-
-@keyframes rotate {
-  0% {
-    color: var(--color-primary-shade);
-    transform: rotate(90deg);
-  }
-  50% {
-    transform: rotate(360deg);
-    color: var(--color-text);
-  }
-  100% {
-    color: var(--color-primary-shade);
-    transform: rotate(90deg);
-  }
+  animation: var(--animation-rotate);
 }
 
 @media all and (max-width: 730px) {

@@ -7,6 +7,13 @@
   --padding-only-horizontal: 0 1rem;
   --padding-less-y: 0.5rem 1rem;
   --padding-less-y-sm: 0.3rem 0.5rem;
+  --animation-rotate: rotate 20s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotate(360deg);
+  }
 }
 
 .light {
