@@ -8,6 +8,7 @@ import Education from './Tabs/Education';
 import Awards from './Tabs/Awards';
 import Engagement from './Tabs/Engagement';
 import classes from './About.module.css';
+import Pointer from '../UI/Pointer/Pointer';
 
 const tabs = [
   { area: 'skills', title: 'Kompetenzen' },
@@ -77,7 +78,7 @@ const About = () => {
 
   return (
     // id for scroll btn
-    <section className={classes.section} id='tabs'>
+    <section className={classes.section} id='profil'>
       <Container className={classes.container}>
         <div>
           <H2Title className={classes['h2-customized']}>Profil</H2Title>
@@ -108,6 +109,7 @@ const About = () => {
           </div>
         </Card>
       </Container>
+      <Pointer to='/#webdev' />
     </section>
   );
 };
