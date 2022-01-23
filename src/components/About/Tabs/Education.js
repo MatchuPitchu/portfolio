@@ -10,7 +10,7 @@ const education = [
     content: `Planung, Umsetzung komplexer Web-Applikationen (selbständig, im Team); HTML5, CSS3, responsives Web-Design, Vanilla JavaScript, ReactJS, Ionic; Node.js (Express), Git & GitHub, Databanken (SQL, MongoDB), APIs (REST), DevOps (Hosting, Deployment, Monitoring), Software Testing (TDD), UX/UI; Agile Tools und Methoden (Scrum)`,
   },
   {
-    date: 'Januar 2021 - Mai 2021',
+    date: 'Februar 2014 - Dezember 2017',
     title: 'Promotion zum Dr. rer. pol',
     organization: 'Universität Erfurt, Lehrstuhl für Politische Bildung, Prof. Dr. Andreas Anter',
     content: `Dissertation "Kulturpolitik in Thüringen. Praktiken – Governance – Netzwerke" (transcript Verlag, Open Access)`,
