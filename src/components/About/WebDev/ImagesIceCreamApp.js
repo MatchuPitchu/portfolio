@@ -1,5 +1,7 @@
-import classes from './../Images.module.css';
+import classes from './ImagesIceCreamApp.module.css';
 import ImgWithFallback from '../../ImgWithFallback';
+
+// OPTIMIZE IMAGES
 
 import appHome from '../../../assets/portfolio/eis-mit-stil-home-light.PNG';
 // import michael1WEBP from '../../../assets/webp/michael-flohr_2021_web.webp';
@@ -9,12 +11,11 @@ import appGraphic from '../../../assets/portfolio/eis-mit-stil-vorstellungsgrafi
 // import laptopWEBP from '../../../assets/webp/laptop-javascript-clement-helardot-unsplash.webp';
 
 const photos = [
-  { src: '', fallback: appHome, class: classes.imageBox1, alt: 'Michael Flohr' },
-  { src: '', fallback: appEntdecken, class: classes.imageBox2, alt: 'Michael Flohr' },
+  { src: '', fallback: appHome, alt: 'Michael Flohr' },
+  { src: '', fallback: appEntdecken, alt: 'Michael Flohr' },
   {
     src: '',
     fallback: appGraphic,
-    class: classes.imageBox3,
     alt: 'Laptop Beispielbild Clement Helardot Unsplash',
   },
 ];
@@ -22,8 +23,9 @@ const photos = [
 const ImagesIceCreamApp = () => {
   return (
     <div className={classes.images}>
+      <div className={classes['slider-first']} />
       {photos.map((photo) => (
-        <div key={photo.src} className={photo.class}>
+        <div key={photo.src} className={classes['img-box']}>
           <ImgWithFallback
             src={photo.src}
             fallback={photo.fallback}
@@ -32,6 +34,7 @@ const ImagesIceCreamApp = () => {
           />
         </div>
       ))}
+      <div className={classes['slider-last']} />
     </div>
   );
 };
