@@ -30,7 +30,7 @@ const WebDev = () => {
             Privatsphäre. Zum anderen ist die plattform n Teil eines Verbundes von
             sozial-ökologischen Plattformen, die sich unter dem Dach der{' '}
             <a href='https://wechange.de/' target='_blank' rel='noreferrer'>
-              Wechange Genossenschaft
+              wechange Genossenschaft
             </a>{' '}
             zusammengefunden haben, um gemeinsam die technische und konzeptionelle Weiterentwicklung
             zu beschleunigen.
