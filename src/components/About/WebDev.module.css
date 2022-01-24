@@ -37,11 +37,12 @@
 @media all and (max-width: 768px) {
   .webdev {
     margin: 0;
-    padding: 2rem 1rem;
+    padding: 0;
     scroll-margin-top: 0; /* not needed since no sticky navbar in mobile mode */
   }
 
   .container--webdev {
     gap: 4rem;
+    padding: 2rem 1rem;
   }
 }

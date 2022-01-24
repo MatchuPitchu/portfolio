@@ -100,7 +100,8 @@
   .container--portfolio {
     border-width: 0;
     margin: 0;
-    padding: 0;
+    padding: 2rem 1rem;
+    background-color: var(--color-bg-items-primary);
   }
 
   .portfolio {

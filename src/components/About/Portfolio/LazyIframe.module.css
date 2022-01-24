@@ -2,8 +2,8 @@
   position: relative;
   overflow: hidden;
   width: 100%;
-  max-width: 424px;
-  height: 240px;
+  /* max-width: 424px; */
+  height: clamp(13.75rem, 10.9226rem + 14.1369vw, 19.6875rem);
 }
 
 .iframe {

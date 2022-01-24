@@ -45,8 +45,8 @@ const WebDev = () => {
             intrinsische Motivation vorhanden ist.
           </p>
         </div>
-        <Portfolio />
       </Container>
+      <Portfolio />
     </section>
   );
 };
