@@ -14,6 +14,7 @@ import eisMitStilLightWEBP from '../../../assets/portfolio/screenshot-eis-mit-st
 import eisMitStilDark from '../../../assets/portfolio/screenshot-eis-mit-stil-dark.jpg';
 import eisMitStilDarkWEBP from '../../../assets/portfolio/screenshot-eis-mit-stil-dark.webp';
 import Button from '../../UI/Button/Button';
+import LazyIframe from './LazyIframe';
 
 const tags = ['React', 'Ionic', 'NodeJS mit Express', 'MongoDB mit Mongoose'];
 
@@ -71,14 +72,10 @@ const Portfolio = () => {
             </a>
           </section>
           <section className={`${classes.section} ${classes['iframe-box']}`}>
-            <iframe
-              className={classes.iframe}
-              src='https://www.youtube-nocookie.com/embed/yX4nKrUdzc4'
+            <LazyIframe
+              url='https://www.youtube-nocookie.com/embed/yX4nKrUdzc4'
               title='Michael Flohr: Eis mit Stil – Vegan Ice Cream App'
-              frameBorder='0'
-              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-              allowFullScreen
-            ></iframe>
+            />
           </section>
         </Card>
         <div className={classes['image--main']}>
