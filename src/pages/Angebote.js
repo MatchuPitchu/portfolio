@@ -109,7 +109,8 @@ const offers = [
         Projektes die Wirkungsmessung des netzwerk n basierend auf der{' '}
         <a href='https://www.phineo.org/kursbuch-wirkung' target='_blank' rel='noreferrer'>
           Phineo-Wirkungstreppe
-        </a>.
+        </a>
+        .
       </>
     ),
     activities: [
