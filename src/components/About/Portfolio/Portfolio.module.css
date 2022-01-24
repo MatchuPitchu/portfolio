@@ -42,6 +42,10 @@
   width: 80%;
 }
 
+.keypoint-customize {
+  margin-top: -0.2rem;
+}
+
 .btns {
   display: flex;
   flex-flow: row wrap;
@@ -111,7 +115,7 @@
 
   .card-header,
   .section {
-    padding: 0.3rem 0;
+    padding: 0.5rem 0;
     width: 100%;
   }
 

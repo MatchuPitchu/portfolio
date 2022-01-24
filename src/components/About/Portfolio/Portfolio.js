@@ -15,6 +15,8 @@ import eisMitStilDark from '../../../assets/portfolio/screenshot-eis-mit-stil-da
 import eisMitStilDarkWEBP from '../../../assets/portfolio/screenshot-eis-mit-stil-dark.webp';
 import Button from '../../UI/Button/Button';
 import LazyIframe from './LazyIframe';
+import List from '../../UI/List/List';
+import KeyPoint from '../../SVG/KeyPoint';
 
 const tags = ['React', 'Ionic', 'NodeJS mit Express', 'MongoDB mit Mongoose'];
 
@@ -37,15 +39,16 @@ const Portfolio = () => {
       <div className={classes['portfolio']}>
         <Card className={classes['card--customized']}>
           <div className={classes['card-header']}>
-            <H3Title>Vegan Ice Cream App "Eis mit Stil"</H3Title>
+            <H3Title>Vegan Ice Cream App</H3Title>
           </div>
           <section className={classes.section}>
             <Tags tags={tags} />
           </section>
           <section className={classes.section}>
             <p>
-              Als Abschlussprojekt an der WBS Coding School realisierte ich eine Vegan Ice Cream
-              App, die ich als Herzensprojekt weiterentwickeln möchte, wenn es meine Zeit erlaubt.
+              Als Abschlussprojekt an der WBS Coding School realisierte ich die Vegan Ice Cream App
+              "Eis mit Stil", die ich als Herzensprojekt weiterentwickeln möchte, wenn es meine Zeit
+              erlaubt.
             </p>
             <p>
               Worum geht es? Regelmäßig – und nicht nur im Sommer – begebe ich mich auf die Suche
@@ -58,6 +61,24 @@ const Portfolio = () => {
               heraus. Dies gab mir den Impuls, eine eigene Plattform aufzubauen, auf der veganes Eis
               gefunden, eingetragen und bewertet werden kann.
             </p>
+            <List>
+              <li>
+                <KeyPoint className={classes['keypoint-customize']} />
+                Eisläden mit veganem Angebot finden
+              </li>
+              <li>
+                <KeyPoint className={classes['keypoint-customize']} />
+                neue Eisläden auf der Karte eintragen
+              </li>
+              <li>
+                <KeyPoint className={classes['keypoint-customize']} />
+                Eis-Erlebnis und veganes Angebot bewerten
+              </li>
+              <li>
+                <KeyPoint className={classes['keypoint-customize']} />
+                Top-Eisläden als Favoriten speichern
+              </li>
+            </List>
           </section>
           <section className={`${classes.section} ${classes.btns}`}>
             <a href='https://eis-mit-stil.netlify.app' target='_blank' rel='noreferrer'>
