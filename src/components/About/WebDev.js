@@ -23,8 +23,8 @@ const WebDev = () => {
             <a href='https://www.plattform-n.org/' target='_blank' rel='noreferrer'>
               plattform n
             </a>
-            . Auf dieser Plattform sind mittlerweile über 10.000 Nutzer:innen angemeldet, die sich
-            in Gruppen und Projekten organisieren, sich austauschen und hilfreiche Tools für ihr
+            . Auf dieser Plattform sind mittlerweile 11.000 Nutzer:innen angemeldet, die sich in
+            Gruppen und Projekten organisieren, sich austauschen und hilfreiche Tools für ihr
             Engagement bereitgestellt bekommen. Das Besondere dieser Plattform sind zum einen die
             Werte, die dahinter stecken: Open Source, Green IT, Gemeinnützigkeit, Datenschutz und
             Privatsphäre. Zum anderen ist die plattform n Teil eines Verbundes von

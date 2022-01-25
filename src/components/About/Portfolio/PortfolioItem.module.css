@@ -1,0 +1,146 @@
+.portfolio-item {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.card--customized {
+  flex: 1 1 65%;
+  min-width: 300px;
+  height: 100%;
+  padding: 1rem 0;
+  background-color: var(
+    --color-bg-items-primary
+  ); /* only rendered in dark mode otherwise in light mode card bg of --bg-linear-gradient */
+}
+
+.card--customized h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.card--customized h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.card-header {
+  padding: var(--padding-less-y);
+  width: 100%;
+}
+
+.section {
+  padding: var(--padding-less-y);
+  width: 80%;
+}
+
+.keypoint-customize {
+  margin-top: -0.2rem;
+}
+
+.btns {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 2rem;
+  height: 100%;
+}
+
+.logo {
+  height: 3rem;
+  transition: transform 0.3s ease-out;
+  transform: scale(1.5);
+}
+
+.logo:hover {
+  transform: scale(1.7);
+  transition: transform 0.3s ease-out;
+}
+
+.iframe-box {
+  display: flex;
+  width: 100%;
+}
+
+.image--main {
+  flex: 1 1 30%;
+  align-self: flex-start;
+  transform: translate(-35%, 25%);
+  transition: all 0.3s ease;
+  border-radius: var(--border-radius);
+}
+
+.image--main:hover {
+  transform: translate(-30%, 20%);
+}
+
+.image--main img {
+  width: 120%; /* scale shifted image */
+  max-width: 400px;
+  height: 100%;
+  object-fit: contain;
+  box-shadow: var(--box-shadow);
+}
+
+.image-cutted-out img {
+  width: 140%;
+  box-shadow: none;
+}
+
+@media all and (max-width: 768px) {
+  .portfolio-item {
+    flex-flow: row wrap;
+    gap: 2rem;
+  }
+
+  .card--customized {
+    flex-basis: 100%;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .card-header,
+  .section {
+    padding: 0.5rem 0;
+    width: 100%;
+  }
+
+  .iframe-box {
+    justify-content: center;
+  }
+
+  .image--main {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    transform: none;
+    border-radius: var(--border-radius);
+    padding: 0 1rem;
+  }
+
+  .image--main:hover {
+    transform: none;
+  }
+
+  .image--main > a {
+    text-align: center;
+  }
+
+  .image--main img {
+    width: 100%;
+    min-width: 260px;
+    height: auto;
+    max-height: 350px;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: var(--box-shadow);
+  }
+
+  .image-cutted-out img {
+    box-shadow: none;
+  }
+}
