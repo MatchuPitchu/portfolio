@@ -23,17 +23,7 @@ const WebDev = () => {
             <a href='https://www.plattform-n.org/' target='_blank' rel='noreferrer'>
               plattform n
             </a>
-            . Auf dieser Plattform sind mittlerweile 11.000 Nutzer:innen angemeldet, die sich in
-            Gruppen und Projekten organisieren, sich austauschen und hilfreiche Tools für ihr
-            Engagement bereitgestellt bekommen. Das Besondere dieser Plattform sind zum einen die
-            Werte, die dahinter stecken: Open Source, Green IT, Gemeinnützigkeit, Datenschutz und
-            Privatsphäre. Zum anderen ist die plattform n Teil eines Verbundes von
-            sozial-ökologischen Plattformen, die sich unter dem Dach der{' '}
-            <a href='https://wechange.de/' target='_blank' rel='noreferrer'>
-              wechange Genossenschaft
-            </a>{' '}
-            zusammengefunden haben, um gemeinsam die technische und konzeptionelle Weiterentwicklung
-            zu beschleunigen.
+            .
           </p>
           <p>
             Nachdem ich in diesem Rahmen die Schnittstelle zwischen Programmierung und Bedürfnissen

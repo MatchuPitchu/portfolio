@@ -81,25 +81,21 @@ const PortfolioIceCreamApp = () => {
             <img src={logoPlaystore} className={classes.logo} alt='Logo Google Playstore' />
           </a>
         </section>
-        <section className={`${classes.section} ${classes['iframe-box']}`}>
-          <LazyIframe
-            url='https://www.youtube-nocookie.com/embed/yX4nKrUdzc4'
-            title='Michael Flohr: Eis mit Stil – Vegan Ice Cream App'
-          />
-        </section>
+        <LazyIframe
+          url='https://www.youtube-nocookie.com/embed/yX4nKrUdzc4?rel=0'
+          title='Michael Flohr: Eis mit Stil – Vegan Ice Cream App'
+        />
       </Card>
       <div className={classes['image--main']}>
-        <a href='https://eis-mit-stil.netlify.app' target='_blank' rel='noreferrer'>
-          <ImgWithFallback
-            src={isLight ? portfolio.imageSrc : portfolio.imageSrcDark || portfolio.imageSrc}
-            fallback={
-              isLight
-                ? portfolio.imageFallback
-                : portfolio.imageFallbackDark || portfolio.imageFallback
-            }
-            alt={portfolio.title}
-          />
-        </a>
+        <ImgWithFallback
+          src={isLight ? portfolio.imageSrc : portfolio.imageSrcDark || portfolio.imageSrc}
+          fallback={
+            isLight
+              ? portfolio.imageFallback
+              : portfolio.imageFallbackDark || portfolio.imageFallback
+          }
+          alt={portfolio.title}
+        />
       </div>
     </div>
   );

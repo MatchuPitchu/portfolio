@@ -35,22 +35,23 @@ const PortfolioPlattformN = () => {
         <section className={classes.section}>
           <p>
             In meiner ehrenamtlichen und später beruflichen Tätigkeit war ich seit den Anfängen 2014
-            unmittelbar in den Aufbau, das Community- und Projektmanagement der{' '}
+            bis 2021 unmittelbar in den Aufbau, das Community- und Projektmanagement der{' '}
             <a href='https://plattform-n.org/' target='_blank' rel='noreferrer'>
               Open Source-Kollaborationsplattform <i>plattform n</i>
             </a>{' '}
             involviert. Ziel der Plattform ist es, das Engagement für nachhaltige Hochschulen zu
-            erleichtern und zu fördern. Mittlerweile ist die Community auf 11.000 Nutzer:innen in
-            über 180 Gruppen und über 1.000 Projekten angewachsen. Eine Erfolgsgeschichte, wie aus
-            Ideen Projekte und konkrete Veränderungen in der Realität erwachsen können.
+            erleichtern und zu fördern. Das Besondere dabei sind auch die Werte, die dahinter
+            stecken: Open Source, Green IT, Gemeinnützigkeit, Datenschutz und Privatsphäre.
+            Mittlerweile ist die Community auf 11.000 Nutzer:innen in über 180 Gruppen und über
+            1.000 Projekten angewachsen. Eine Erfolgsgeschichte, wie aus Ideen Projekte und konkrete
+            Veränderungen in der Realität erwachsen können.
           </p>
           <p>
             Einen ausführlichen Einblick in die Geschichte und das Konzept der plattform n findet
             sich in diesem <Link to='/veroeffentlichungen/digitalisierung'>Artikel</Link>.
-            Gegenwärtig läuft die Planung und erste Schritte werden umgesetzt, die letztlich in den
-            Relaunch des Designs und der Code-Basis mit React münden sollen. Dies geschieht im
-            Verbund mit ähnlich aufgebauten sozial-ökologisch orientierten Plattformen, die sich
-            unter dem Dach der{' '}
+            Gegenwärtig werden erste Schritte umgesetzt, die in den Relaunch des Designs und der
+            Code-Basis mit React münden sollen. Dies geschieht im Verbund mit ähnlich aufgebauten
+            sozial-ökologisch orientierten Plattformen, die sich unter dem Dach der{' '}
             <a href='https://wechange.de/' target='_blank' rel='noreferrer'>
               wechange eG
             </a>{' '}
@@ -64,17 +65,15 @@ const PortfolioPlattformN = () => {
         </section>
       </Card>
       <div className={`${classes['image--main']} ${classes['image-cutted-out']}`}>
-        <a href='https://plattform-n.org' target='_blank' rel='noreferrer'>
-          <ImgWithFallback
-            src={isLight ? portfolio.imageSrc : portfolio.imageSrcDark || portfolio.imageSrc}
-            fallback={
-              isLight
-                ? portfolio.imageFallback
-                : portfolio.imageFallbackDark || portfolio.imageFallback
-            }
-            alt={portfolio.title}
-          />
-        </a>
+        <ImgWithFallback
+          src={isLight ? portfolio.imageSrc : portfolio.imageSrcDark || portfolio.imageSrc}
+          fallback={
+            isLight
+              ? portfolio.imageFallback
+              : portfolio.imageFallbackDark || portfolio.imageFallback
+          }
+          alt={portfolio.title}
+        />
       </div>
     </div>
   );
