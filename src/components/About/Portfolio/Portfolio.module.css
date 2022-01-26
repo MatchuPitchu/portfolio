@@ -21,7 +21,14 @@
   .container--portfolio {
     border-width: 0;
     margin: 0;
-    padding: 2rem 1rem;
-    background-color: var(--color-bg-items-primary);
+    padding: 2rem 0;
+  }
+
+  .h2--customized {
+    padding: 0 1rem;
+  }
+
+  .portfolio {
+    gap: 2rem;
   }
 }
