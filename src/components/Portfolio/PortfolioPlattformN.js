@@ -9,13 +9,13 @@ import H3Title from '../UI/Titles/H3Title';
 
 import classes from './PortfolioItem.module.css';
 
-import plattformJPG from '../../assets/portfolio/screenshot-plattform-n.png';
+import plattformPNG from '../../assets/portfolio/screenshot-plattform-n.png';
 import plattformWEBP from '../../assets/portfolio/screenshot-plattform-n.webp';
 
 const portfolio = {
   title: 'Screenshot Vegan Ice Cream App Eis mit Stil',
   imageSrc: plattformWEBP,
-  imageFallback: plattformJPG,
+  imageFallback: plattformPNG,
 };
 
 const tags = ['Projektmanagement', 'Community-Management', 'React Relaunch'];
