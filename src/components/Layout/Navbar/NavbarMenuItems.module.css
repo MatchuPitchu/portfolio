@@ -53,7 +53,7 @@
   border-bottom: none;
 }
 
-@media all and (max-width: 730px) {
+@media all and (max-width: 900px) {
   /* wrapper (menu-wrapper + menu-wrapper > div) only needed for mobile view to have animation effect */
   .menu-wrapper {
     width: 100%;

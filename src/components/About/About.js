@@ -8,7 +8,6 @@ import Education from './Tabs/Education';
 import Awards from './Tabs/Awards';
 import Engagement from './Tabs/Engagement';
 import classes from './About.module.css';
-import Pointer from '../UI/Pointer/Pointer';
 
 const tabs = [
   { area: 'skills', title: 'Kompetenzen' },
@@ -109,7 +108,6 @@ const About = () => {
           </div>
         </Card>
       </Container>
-      <Pointer to='/#webdev' />
     </section>
   );
 };

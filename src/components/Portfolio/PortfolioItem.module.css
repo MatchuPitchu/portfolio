@@ -8,9 +8,7 @@
   flex: 1 1 65%;
   min-width: 300px;
   height: 100%;
-  background-color: var(
-    --color-bg-items-primary
-  ); /* only rendered in dark mode otherwise in light mode card bg of --bg-linear-gradient */
+  background: var(--color-bg-items-primary);
 }
 
 .card--customized h2 {
@@ -90,7 +88,6 @@
 
   .card--customized {
     flex-basis: 100%;
-    background: transparent;
     border-radius: 0;
     box-shadow: none;
   }
@@ -105,8 +102,6 @@
     display: flex;
     justify-content: center;
     transform: none;
-    border-radius: var(--border-radius);
-    background-color: var(--color-bg-items-primary);
     padding: var(--padding-less-y);
   }
 

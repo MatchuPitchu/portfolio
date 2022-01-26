@@ -1,9 +1,10 @@
-import Container from '../Layout/Container';
-import H2Title from '../UI/Titles/H2Title';
-import Portfolio from './Portfolio/Portfolio';
-import classes from './WebDev.module.css';
+import Container from '../components/Layout/Container';
+import H2Title from '../components/UI/Titles/H2Title';
+import Portfolio from '../components/Portfolio/Portfolio';
 
-const WebDev = () => {
+import classes from './Webentwicklung.module.css';
+
+const Webentwicklung = () => {
   return (
     <section className={classes.webdev} id='webdev'>
       <Container className={classes['container--webdev']}>
@@ -41,4 +42,4 @@ const WebDev = () => {
   );
 };
 
-export default WebDev;
+export default Webentwicklung;

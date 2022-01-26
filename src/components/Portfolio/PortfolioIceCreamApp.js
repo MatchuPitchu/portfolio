@@ -1,27 +1,27 @@
 import { useContext } from 'react';
-import { ThemeContext } from '../../../store/ThemeContext';
-import ImgWithFallback from '../../ImgWithFallback';
-import KeyPoint from '../../SVG/KeyPoint';
-import Button from '../../UI/Button/Button';
-import Card from '../../UI/Card/Card';
-import List from '../../UI/List/List';
-import Tags from '../../UI/Tags/Tags';
-import H3Title from '../../UI/Titles/H3Title';
+import { ThemeContext } from '../../store/ThemeContext';
+import ImgWithFallback from '../ImgWithFallback';
+import KeyPoint from '../SVG/KeyPoint';
+import Button from '../UI/Button/Button';
+import Card from '../UI/Card/Card';
+import List from '../UI/List/List';
+import Tags from '../UI/Tags/Tags';
+import H3Title from '../UI/Titles/H3Title';
 import LazyIframe from './LazyIframe';
 import classes from './PortfolioItem.module.css';
 
-import logoPlaystore from '../../../assets/logos/logo-google-playstore.svg';
-import eisMitStilLight from '../../../assets/portfolio/screenshot-eis-mit-stil-light.jpg';
-import eisMitStilLightWEBP from '../../../assets/portfolio/screenshot-eis-mit-stil-light.webp';
-import eisMitStilDark from '../../../assets/portfolio/screenshot-eis-mit-stil-dark.jpg';
-import eisMitStilDarkWEBP from '../../../assets/portfolio/screenshot-eis-mit-stil-dark.webp';
+import logoPlaystore from '../../assets/logos/logo-google-playstore.svg';
+import eisMitStilLightJPG from '../../assets/portfolio/screenshot-eis-mit-stil-light.jpg';
+import eisMitStilLightWEBP from '../../assets/portfolio/screenshot-eis-mit-stil-light.webp';
+import eisMitStilDarkJPG from '../../assets/portfolio/screenshot-eis-mit-stil-dark.jpg';
+import eisMitStilDarkWEBP from '../../assets/portfolio/screenshot-eis-mit-stil-dark.webp';
 
 const portfolio = {
   title: 'Screenshot Vegan Ice Cream App Eis mit Stil',
   imageSrc: eisMitStilLightWEBP,
   imageSrcDark: eisMitStilDarkWEBP,
-  imageFallback: eisMitStilLight,
-  imageFallbackDark: eisMitStilDark,
+  imageFallback: eisMitStilLightJPG,
+  imageFallbackDark: eisMitStilDarkJPG,
 };
 
 const tags = ['React', 'Ionic', 'NodeJS mit Express', 'MongoDB mit Mongoose'];

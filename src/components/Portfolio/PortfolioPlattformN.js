@@ -1,16 +1,16 @@
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
-import { ThemeContext } from '../../../store/ThemeContext';
-import ImgWithFallback from '../../ImgWithFallback';
-import Button from '../../UI/Button/Button';
-import Card from '../../UI/Card/Card';
-import Tags from '../../UI/Tags/Tags';
-import H3Title from '../../UI/Titles/H3Title';
+import { ThemeContext } from '../../store/ThemeContext';
+import ImgWithFallback from '../ImgWithFallback';
+import Button from '../UI/Button/Button';
+import Card from '../UI/Card/Card';
+import Tags from '../UI/Tags/Tags';
+import H3Title from '../UI/Titles/H3Title';
 
 import classes from './PortfolioItem.module.css';
 
-import plattformJPG from '../../../assets/portfolio/screenshot-plattform-n.png';
-import plattformWEBP from '../../../assets/portfolio/screenshot-plattform-n.webp';
+import plattformJPG from '../../assets/portfolio/screenshot-plattform-n.png';
+import plattformWEBP from '../../assets/portfolio/screenshot-plattform-n.webp';
 
 const portfolio = {
   title: 'Screenshot Vegan Ice Cream App Eis mit Stil',

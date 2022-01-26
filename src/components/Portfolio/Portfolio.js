@@ -1,5 +1,5 @@
-import Container from '../../Layout/Container';
-import H2Title from '../../UI/Titles/H2Title';
+import Container from '../Layout/Container';
+import H2Title from '../UI/Titles/H2Title';
 import PortfolioIceCreamApp from './PortfolioIceCreamApp';
 import PortfolioPlattformN from './PortfolioPlattformN';
 import classes from './Portfolio.module.css';

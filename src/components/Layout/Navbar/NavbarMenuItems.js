@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import classes from './NavbarMenuItems.module.css';
 
 const paths = [
+  { path: '/webentwicklung', name: 'webentwicklung' },
   {
     path: '/veroeffentlichungen',
     name: 'veröffentlichungen',
@@ -71,10 +72,10 @@ const NavbarMenuItems = ({ isMenuOpen, onClose }) => {
     </ul>
   );
 
-  if (screenWidth > 730) return menu;
+  if (screenWidth > 900) return menu;
 
   // navbar is only shown if toggle is clicked or screen greater than 576px
-  if (screenWidth <= 730)
+  if (screenWidth <= 900)
     return (
       <AnimateHeight
         className={classes['menu-wrapper']}

@@ -30,7 +30,7 @@
   animation: var(--animation-rotate);
 }
 
-@media all and (max-width: 730px) {
+@media all and (max-width: 900px) {
   .navbar {
     position: relative;
     top: auto;

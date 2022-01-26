@@ -8,6 +8,7 @@ import Theme from './components/Theme';
 import Layout from './components/Layout/Layout';
 import Navbar from './components/Layout/Navbar/Navbar';
 import Home from './pages/Home';
+import Webentwicklung from './pages/Webentwicklung';
 import Veroeffentlichungen from './pages/Veroeffentlichungen';
 import DigitalisierungDetails from './components/Publications/DigitalisierungDetails';
 import SuffizienzDetails from './components/Publications/SuffizienzDetails';
@@ -78,6 +79,7 @@ const App = () => {
           <Suspense fallback={spinner}>
             <Routes>
               <Route path='/' element={<Home />} />
+              <Route path='/webentwicklung' element={<Webentwicklung />} />
               <Route path='/veroeffentlichungen/' element={<Veroeffentlichungen />} />
               <Route
                 path='/veroeffentlichungen/digitalisierung'
