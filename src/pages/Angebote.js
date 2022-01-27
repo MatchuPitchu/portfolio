@@ -4,8 +4,8 @@ import Map from '../components/Angebote/Map';
 import Container from '../components/Layout/Container';
 import classes from './Angebote.module.css';
 
-import laptopJPG from '../assets/laptop-javascript-clement-helardot-unsplash.jpg';
-import laptopWEBP from '../assets/webp/laptop-javascript-clement-helardot-unsplash.webp';
+import laptopJPG from '../assets/laptop-javascript-clement-helardot-unsplash-w1920.jpg';
+import laptopWEBP from '../assets/webp/laptop-javascript-clement-helardot-unsplash-w1920.webp';
 import beratungJPG from '../assets/beratung_michael-flohr_verband-der-schweizer-studierendenschaften.jpg';
 import beratungWEBP from '../assets/webp/beratung_michael-flohr_verband-der-schweizer-studierendenschaften.webp';
 import buecherregalJPG from '../assets/buecherregal-janko-ferlič-unsplash.jpg';
