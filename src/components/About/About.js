@@ -82,9 +82,10 @@ const About = () => {
         <div>
           <H2Title className={classes['h2-customized']}>Profil</H2Title>
           <p className={classes.p}>
-            In meinem Leben habe ich mich bereits mit allerlei Themen beschäftigt. Diese Übersicht
-            fasst die fachlichen Bereiche zusammen, in denen ich mich wohlfühle und die ich mit
-            meinen haupt- und freiberuflichen Tätigkeiten auch weiterhin mitgestalten möchte.
+            In meinem Leben habe ich mich bereits mit vielfältigen Themen tiefergehend beschäftigt.
+            Hier können Sie sich durchklicken, um einen Überblick über die Bereiche zu erhalten, in
+            denen ich mich wohlfühle und Expertise habe. Diese Felder möchte ich auch weiterhin
+            hauptberuflich und als Freelancer mitgestalten.
           </p>
         </div>
         <Card className={classes['card-customized']}>

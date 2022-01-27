@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Container from '../components/Layout/Container';
 import H1Title from '../components/UI/Titles/H1Title';
 import classes from './Kontakt.module.css';
@@ -7,8 +8,9 @@ const Kontakt = () => {
     <Container className={classes['container-customized']}>
       <H1Title>Kontakt</H1Title>
       <p>
-        Schreiben Sie mir, wenn Sie eine freiberufliche Unterstützung brauchen. Lassen Sie uns gerne
-        ins Gespräch kommen. Ich freue mich auf Ihre Nachricht.
+        Schreiben Sie mir, wenn Sie einen Freelancer suchen und in den unter{' '}
+        <Link to='/angebote'>Angebote</Link> aufgezählten Bereichen freiberufliche Unterstützung
+        brauchen. Lassen Sie uns gerne ins Gespräch kommen. Ich freue mich auf Ihre Nachricht.
       </p>
       {/* HEX Codierung */}
       <a
