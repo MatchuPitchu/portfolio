@@ -29,10 +29,6 @@
   width: 100%;
 }
 
-.btn:focus {
-  background-color: transparent;
-}
-
 .infoAndCoop1,
 .infoAndCoop2,
 .infoAndCoop3,
