@@ -1,5 +1,4 @@
 import { Link, Outlet } from 'react-router-dom';
-import Container from '../../components/Layout/Container';
 import HeadingWrapper from '../../components/Layout/HeadingWrapper';
 import Button from '../../components/UI/Button/Button';
 import H1Title from '../../components/UI/Titles/H1Title';
