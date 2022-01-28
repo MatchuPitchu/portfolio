@@ -55,9 +55,9 @@ const Network = () => {
   // console.log(JSON.stringify(transformedData));
 
   return (
-    <Container className={classes['container-customized']}>
-      <section className={classes.section}>
-        <H1Title classTitle={classes.title}>Netzwerke in der Thüringer Kulturpolitik</H1Title>
+    <section className={classes.section}>
+      <Container className={classes['container-customized']}>
+        <H1Title classTitle={classes.h1}>Netzwerke in der Thüringer Kulturpolitik</H1Title>
         <p className={classes.p}>
           Im Rahmen meiner{' '}
           <Link to='/veroeffentlichungen/kulturpolitik'>
@@ -88,9 +88,9 @@ const Network = () => {
             <Button ariaLabel='more information'>Ziele</Button>
           </Link>
         </div>
-      </section>
-      <Outlet />
-    </Container>
+        <Outlet />
+      </Container>
+    </section>
   );
 };
 

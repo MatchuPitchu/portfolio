@@ -11,12 +11,6 @@ const restPublications = [
     href: 'https://www.metropolis-verlag.de/Als-gaebe-es-ein-Morgen/1454/book.do',
   },
   {
-    date: '2021',
-    organization: 'Flohr, Michael',
-    content: `Transformation durch Digitalisierung gestalten: Die plattform n als Vernetzungs- und Kollaborationsplattform für nachhaltige Hochschulen. In: Leal Filho, Walter (Hg.): Digitalisierung und Nachhaltigkeit. Heidelberg: Springer Spektrum. https://doi.org/10.1007/978-3-662-61534-8_5`,
-    href: 'https://www.researchgate.net/publication/346082640_Transformation_durch_Digitalisierung_gestalten_Die_plattform_n_als_Vernetzungs-_und_Kollaborationsplattform_fur_nachhaltige_Hochschulen?_sg=Yrzxc7mXL2h6azL6DT0q2oFx0ngdIeQKSFOkM3ZW48E4EWtvhaTEquHej2_LFZq21T-iN1_xjb0zWnl1wCdkUeXxvZU6vvbo2NY1IK-q.v7PiPgV5ECwmrNZg1Ey2HsduR9Aa6e2lbeXbjw4_bF7vljLY3_7HnPn71QEQdbul6CTYNr5FSqi18dRlL_h5HQ',
-  },
-  {
     date: '2020',
     organization: 'Flohr, Michael',
     content: `Rezension zu Thomas Schmidt: Macht und Struktur im Theater. Asymmetrien der Macht. Wiesbaden: Springer VS 2019. In: Kulturpolitische Mitteilungen. Nr. 169. II/2020. S. 72.`,

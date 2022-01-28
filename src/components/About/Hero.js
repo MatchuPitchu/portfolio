@@ -12,7 +12,7 @@ const Hero = () => {
         <div className={classes.firstName}>Michael</div>
         <div className={classes.lastName}>Flohr</div>
       </H1Title>
-      <Container className={classes['customize-container']}>
+      <Container className={classes['container-customized']}>
         <div className={classes.presentation}>
           <h2>über mich</h2>
           <p>

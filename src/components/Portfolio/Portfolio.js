@@ -7,7 +7,7 @@ import classes from './Portfolio.module.css';
 const Portfolio = () => {
   return (
     <Container className={classes['container--portfolio']}>
-      <H2Title className={classes['h2--customized']}>Portfolio</H2Title>
+      <H2Title className={classes.h2}>Portfolio</H2Title>
       <div className={classes['portfolio']}>
         <PortfolioIceCreamApp />
         <PortfolioPlattformN />

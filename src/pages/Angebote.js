@@ -170,8 +170,8 @@ const offers = [
 const Angebote = () => {
   return (
     <Container className={classes['container-customized']}>
-      <div className={classes.description}>
-        <H1Title classTitle={classes.title}>Angebote</H1Title>
+      <section className={classes.description}>
+        <H1Title>Angebote</H1Title>
         <p>
           In der Vergangenheit war ich beruflich, freiberuflich und im ehrenamtlichen Kontext
           bereits in den verschiedensten Aufgabenbereichen tätig. Die untere Übersicht gibt einen
@@ -181,7 +181,7 @@ const Angebote = () => {
           Tätigkeitsfeldern wie <i>Beratung</i> und <i>Moderation & Vorträge</i>. In der Forschung
           bin ich aktuell nicht mehr aktiv.
         </p>
-      </div>
+      </section>
       <div className={classes['container-offers']}>
         {offers.map((offer) => (
           <CardOffers key={offer.id} offer={offer} />
