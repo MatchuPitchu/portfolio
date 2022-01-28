@@ -1,15 +1,4 @@
-.section {
-  flex: 100%;
-  padding: var(--padding-even-md);
-  margin: 1rem 0;
-}
-
-.container-customized {
-  padding: 2rem;
-}
-
 .h1 {
-  margin: 1rem 0 0.5rem 0;
   max-width: calc(100% - 200px);
 }
 
@@ -141,22 +130,8 @@
 }
 
 @media all and (max-width: 576px) {
-  .container-customized {
-    border: 0;
-  }
-
-  .section {
-    margin: 0;
-    padding: 0;
-  }
-
   .h1 {
     max-width: 100%;
-  }
-
-  .h1,
-  .p {
-    padding: 0 1rem;
   }
 
   .card-customized {

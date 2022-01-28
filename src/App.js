@@ -96,9 +96,9 @@ const App = () => {
               <Route path='/veroeffentlichungen/kulturpolitik' element={<KulturpolitikDetails />} />
               <Route path='/veroeffentlichungen/bne' element={<BNEDetails />} />
               <Route path='/netzwerke-kulturpolitik/' element={<NetzwerkeKulturpolitik />}>
-                <Route path='informationsnetzwerk' element={<Informationen />} />
-                <Route path='kooperationsnetzwerk' element={<Kooperationen />} />
-                <Route path='zielnetzwerk' element={<Ziele />} />
+                <Route path='information' element={<Informationen />} />
+                <Route path='kooperation' element={<Kooperationen />} />
+                <Route path='ziel' element={<Ziele />} />
               </Route>
               <Route path='/angebote' element={<Angebote />} />
               <Route path='/kontakt' element={<Kontakt />} />

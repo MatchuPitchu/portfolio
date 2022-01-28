@@ -1,10 +1,10 @@
-import Container from '../components/Layout/Container';
+import HeadingWrapper from '../components/Layout/HeadingWrapper';
 import H1Title from '../components/UI/Titles/H1Title';
 import classes from './Impressum.module.css';
 
 const Impressum = () => {
   return (
-    <Container className={classes['container-customized']}>
+    <HeadingWrapper className={classes.wrapper}>
       <H1Title>Impressum</H1Title>
       <div>
         <p>Michael Flohr</p>
@@ -12,21 +12,20 @@ const Impressum = () => {
       </div>
       <div>
         <p>
-          <span className={classes.bold}>Telefon:</span> +49 1577 536 22 85
+          <b>Telefon:</b> +49 1577 536 22 85
         </p>
         <p>
-          <span className={classes.bold}>E-Mail:</span> m.flohr@posteo.de
+          <b>E-Mail:</b> m.flohr@posteo.de
         </p>
       </div>
       <p>
-        <span className={classes.bold}>Umsatzsteuer-Identifikationsnummer:</span> Ich bin gemäß §19
-        UStG nicht umsatzsteuerpflichtig.
+        <b>Umsatzsteuer-Identifikationsnummer:</b> Ich bin gemäß §19 UStG nicht
+        umsatzsteuerpflichtig.
       </p>
       <p>
-        <span className={classes.bold}>V.i.S.d § 55 Abs. 2 RStV:</span> Michael Flohr,
-        Ehrenfelsstraße 13, 10318 Berlin
+        <b>V.i.S.d § 55 Abs. 2 RStV:</b> Michael Flohr, Ehrenfelsstraße 13, 10318 Berlin
       </p>
-    </Container>
+    </HeadingWrapper>
   );
 };
 

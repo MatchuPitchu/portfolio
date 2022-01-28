@@ -1,7 +1,6 @@
 import H1Title from '../components/UI/Titles/H1Title';
 import CardOffers from '../components/Angebote/CardOffers';
 import Map from '../components/Angebote/Map';
-import Container from '../components/Layout/Container';
 import classes from './Angebote.module.css';
 
 import laptopJPG from '../assets/laptop-javascript-clement-helardot-unsplash-w1920.jpg';
@@ -12,6 +11,8 @@ import buecherregalJPG from '../assets/buecherregal-janko-ferlič-unsplash.jpg';
 import buecherregalWEBP from '../assets/webp/buecherregal-janko-ferlič-unsplash.webp';
 import moderationJPG from '../assets/moderation_michael-flohr.jpg';
 import moderationWEBP from '../assets/webp/moderation_michael-flohr.webp';
+import HeadingWrapper from '../components/Layout/HeadingWrapper';
+import Container from '../components/Layout/Container';
 
 const offers = [
   {
@@ -169,26 +170,30 @@ const offers = [
 
 const Angebote = () => {
   return (
-    <Container className={classes['container-customized']}>
-      <section className={classes.description}>
-        <H1Title>Angebote</H1Title>
-        <p>
-          In der Vergangenheit war ich beruflich, freiberuflich und im ehrenamtlichen Kontext
-          bereits in den verschiedensten Aufgabenbereichen tätig. Die untere Übersicht gibt einen
-          guten Einblick. Seitdem ich 2021 meinen hauptberuflichen Fokus auf die Web- und
-          App-Entwicklung gelegt habe, möchte ich auch freiberuflich stärker in diesem Bereich
-          arbeiten. Gleichwohl freue ich mich auch weiterhin über Anfragen aus den anderen
-          Tätigkeitsfeldern wie <i>Beratung</i> und <i>Moderation & Vorträge</i>. In der Forschung
-          bin ich aktuell nicht mehr aktiv.
-        </p>
-      </section>
-      <div className={classes['container-offers']}>
-        {offers.map((offer) => (
-          <CardOffers key={offer.id} offer={offer} />
-        ))}
-        <Map />
-      </div>
-    </Container>
+    <>
+      <HeadingWrapper>
+        <section className={classes.description}>
+          <H1Title>Angebote</H1Title>
+          <p>
+            In der Vergangenheit war ich beruflich, freiberuflich und im ehrenamtlichen Kontext
+            bereits in den verschiedensten Aufgabenbereichen tätig. Die untere Übersicht gibt einen
+            guten Einblick. Seitdem ich 2021 meinen hauptberuflichen Fokus auf die Web- und
+            App-Entwicklung gelegt habe, möchte ich auch freiberuflich stärker in diesem Bereich
+            arbeiten. Gleichwohl freue ich mich auch weiterhin über Anfragen aus den anderen
+            Tätigkeitsfeldern wie <i>Beratung</i> und <i>Moderation & Vorträge</i>. In der Forschung
+            bin ich aktuell nicht mehr aktiv.
+          </p>
+        </section>
+      </HeadingWrapper>
+      <Container className={classes['container-customized']}>
+        <div className={classes['container-offers']}>
+          {offers.map((offer) => (
+            <CardOffers key={offer.id} offer={offer} />
+          ))}
+          <Map />
+        </div>
+      </Container>
+    </>
   );
 };
 

@@ -1,15 +1,15 @@
 import { resetCookieConsentValue } from 'react-cookie-consent';
-import Container from '../components/Layout/Container';
 import H1Title from '../components/UI/Titles/H1Title';
 import classes from './Datenschutz.module.css';
 import Button from '../components/UI/Button/Button';
+import HeadingWrapper from '../components/Layout/HeadingWrapper';
 
 const Datenschutz = () => {
   const handleResetConsent = () => resetCookieConsentValue();
 
   return (
-    <Container className={classes['container-customized']}>
-      <H1Title classTitle={classes['h1-title']}>Datenschutzerklärung</H1Title>
+    <HeadingWrapper className={classes.wrapper}>
+      <H1Title classTitle={classes.h1}>Datenschutzerklärung</H1Title>
       <section>
         <h2 className={classes.h2}>1. Datenschutz auf einen Blick</h2>
         <h3 className={classes.h3}>Allgemeine Hinweise</h3>
@@ -540,7 +540,7 @@ const Datenschutz = () => {
       <p>
         Quelle: <a href='https://www.e-recht24.de'>https://www.e-recht24.de</a>
       </p>
-    </Container>
+    </HeadingWrapper>
   );
 };
 

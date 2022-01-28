@@ -7,11 +7,12 @@ import BNE from '../components/Publications/BNE';
 import RestPublications from '../components/Publications/RestPublications';
 import classes from './Veroeffentlichungen.module.css';
 import H1Title from '../components/UI/Titles/H1Title';
+import HeadingWrapper from '../components/Layout/HeadingWrapper';
 
 const Veroeffentlichungen = () => {
   return (
     <section className={classes.publications}>
-      <Container className={classes['container-summary-customized']}>
+      <HeadingWrapper>
         <H1Title classTitle={classes.h1}>Veröffentlichungen</H1Title>
         <p className={classes.p}>
           In dieser Sammlung finden Sie kleinere und größere Studien und Artikel, in denen ich
@@ -19,7 +20,7 @@ const Veroeffentlichungen = () => {
           einer größeren Palette gewidmet: von der Digitalisierung, über nachhaltige und suffiziente
           Hochschulen, der Bildung für nachhaltige Entwicklung bis zur Kulturpolitik.
         </p>
-      </Container>
+      </HeadingWrapper>
       <Container className={classes['container-customized']}>
         <Digitalisierung />
         <Suffizienz />

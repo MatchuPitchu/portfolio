@@ -1,16 +1,11 @@
-.container-customized {
-  flex-direction: column;
-  align-items: center;
+.wrapper {
   gap: 2rem;
-  color: var(--color-text-shade);
 }
 
-.h1-title,
+.h1,
 .h2,
 .h3,
 .h4 {
-  color: var(--color-text);
-  font-weight: 600;
   -moz-hyphens: auto;
   -o-hyphens: auto;
   -webkit-hyphens: auto;
@@ -24,18 +19,7 @@
   font-size: 1rem;
 }
 
-.bold {
-  font-weight: 600;
-}
-
 .btn-box {
   display: flex;
   justify-content: center;
-}
-
-@media all and (max-width: 576px) {
-  .container-customized {
-    border: 0;
-    padding: var(--padding-even-sm);
-  }
 }

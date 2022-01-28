@@ -9,7 +9,6 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  /* gap: 2rem; */
   width: 100%;
 }
 
@@ -20,6 +19,5 @@
 
   .container {
     padding: 0;
-    /* gap: 0; */
   }
 }

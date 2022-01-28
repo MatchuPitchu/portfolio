@@ -1,0 +1,11 @@
+.container-customized {
+  flex-direction: column;
+  padding: var(--padding-even-md);
+}
+
+@media all and (max-width: 576px) {
+  .container-customized {
+    border: 0;
+    padding: 2rem 1rem;
+  }
+}

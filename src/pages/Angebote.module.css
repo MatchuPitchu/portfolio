@@ -1,6 +1,4 @@
 .description {
-  flex: 100%;
-  padding: var(--padding-less-y);
   margin-bottom: 2rem;
 }
 
@@ -14,8 +12,5 @@
 @media all and (max-width: 576px) {
   .container-customized {
     border: 0;
-  }
-  .container-offers {
-    gap: 6rem;
   }
 }

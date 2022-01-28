@@ -24,23 +24,14 @@
   }
 }
 
-.container--webdev {
-  gap: 0;
-}
-
 @media all and (max-width: 768px) {
   .webdev {
     margin: 0;
     padding: 0;
   }
 
-  .container--webdev {
-    border: 0;
-    padding: 2rem 1rem;
-  }
-
   .h1 {
-    max-width: 100%;
+    max-width: calc(100% - 40px);
     -moz-hyphens: auto;
     -o-hyphens: auto;
     -webkit-hyphens: auto;

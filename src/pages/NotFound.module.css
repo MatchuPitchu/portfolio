@@ -1,13 +1,4 @@
-.container-customized {
-  flex-direction: column;
+.wrapper {
   align-items: center;
   text-align: center;
-  gap: 0.5rem;
-}
-
-@media all and (max-width: 576px) {
-  .container-customized {
-    border: 0;
-    padding: var(--padding-even-sm);
-  }
 }

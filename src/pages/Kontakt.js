@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
-import Container from '../components/Layout/Container';
+import HeadingWrapper from '../components/Layout/HeadingWrapper';
 import H1Title from '../components/UI/Titles/H1Title';
 import classes from './Kontakt.module.css';
 
 const Kontakt = () => {
   return (
-    <Container className={classes['container-customized']}>
+    <HeadingWrapper className={classes.wrapper}>
       <H1Title>Kontakt</H1Title>
       <p>
         Schreiben Sie mir, wenn Sie einen Freelancer suchen und in den unter{' '}
@@ -19,7 +19,7 @@ const Kontakt = () => {
       >
         &#x6d;&#x2e;&#x66;&#x6c;&#x6f;&#x68;&#x72;&#x40;&#x70;&#x6f;&#x73;&#x74;&#x65;&#x6f;&#x2e;&#x64;&#x65;
       </a>
-    </Container>
+    </HeadingWrapper>
   );
 };
 

@@ -20,9 +20,9 @@ const paths = [
     path: '/netzwerke-kulturpolitik',
     name: 'netzwerke kulturpolitik',
     subnav: [
-      { path: '/informationsnetzwerk', name: 'informationsnetzwerk' },
-      { path: '/kooperationsnetzwerk', name: 'kooperationsnetzwerk' },
-      { path: '/zielnetzwerk', name: 'netzwerk der ziele' },
+      { path: '/information', name: 'informationsnetzwerk' },
+      { path: '/kooperation', name: 'kooperationsnetzwerk' },
+      { path: '/ziel', name: 'netzwerk der ziele' },
     ],
   },
   { path: '/angebote', name: 'angebote' },

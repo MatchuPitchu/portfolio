@@ -1,12 +1,12 @@
-import Container from '../components/Layout/Container';
 import H1Title from '../components/UI/Titles/H1Title';
 import Portfolio from '../components/Portfolio/Portfolio';
 import classes from './Webentwicklung.module.css';
+import HeadingWrapper from '../components/Layout/HeadingWrapper';
 
 const Webentwicklung = () => {
   return (
     <section className={classes.webdev}>
-      <Container className={classes['container--webdev']}>
+      <HeadingWrapper>
         <H1Title classTitle={classes.h1}>Webentwicklung</H1Title>
         <p className={classes.p}>
           2021 habe ich mich mit Leidenschaft und Wissbegierde intensiver in die Web- und
@@ -33,7 +33,7 @@ const Webentwicklung = () => {
           hatte. Das hat mir einmal mehr gezeigt, dass im Leben alles möglich ist, wenn nur die
           intrinsische Motivation vorhanden ist.
         </p>
-      </Container>
+      </HeadingWrapper>
       <Portfolio />
     </section>
   );
