@@ -27,7 +27,7 @@ const offers = [
         <a href='https://www.netzwerk-n.org/' target='_blank' rel='noreferrer'>
           netzwerk n e.V.
         </a>{' '}
-        have ich intensiv an der Entwicklung einer{' '}
+        habe ich an der Entwicklung einer{' '}
         <a href='https://plattform-n.org/' target='_blank' rel='noreferrer'>
           Open Source-Kollaborationsplattform
         </a>{' '}
