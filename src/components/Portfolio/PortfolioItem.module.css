@@ -80,6 +80,10 @@
   box-shadow: none;
 }
 
+.image {
+  filter: drop-shadow(30px -5px 8px rgba(0, 0, 0, 0.12));
+}
+
 @media all and (max-width: 768px) {
   .portfolio-item {
     flex-flow: row wrap;

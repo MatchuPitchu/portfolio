@@ -73,6 +73,7 @@ const PortfolioPlattformN = () => {
               : portfolio.imageFallbackDark || portfolio.imageFallback
           }
           alt={portfolio.title}
+          className={classes.image}
         />
       </div>
     </div>
