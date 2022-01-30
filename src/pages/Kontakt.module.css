@@ -13,16 +13,14 @@
 
 .img-box {
   flex: 1 0 auto;
-  border-radius: 50%;
-  overflow: hidden;
+  border-radius: 100px;
   z-index: 10;
 }
 
 .img {
   outline: 5px solid var(--color-tertiary);
-  border-radius: 50%;
+  border-radius: 100px;
   object-fit: cover;
-  overflow: hidden;
   max-width: 110px;
   max-height: 110px;
   transition: all 0.5s ease-out;
