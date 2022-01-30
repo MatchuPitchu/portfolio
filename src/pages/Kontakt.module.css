@@ -13,22 +13,22 @@
 
 .img-box {
   flex: 1 0 auto;
-  border-radius: 100px;
   z-index: 10;
 }
 
 .img {
-  outline: 5px solid var(--color-tertiary);
+  border: 5px solid var(--color-tertiary);
   border-radius: 100px;
   object-fit: cover;
   max-width: 110px;
   max-height: 110px;
   transition: all 0.5s ease-out;
   transition-delay: 0.1s;
+  box-shadow: var(--box-shadow);
 }
 
 .img:hover {
-  outline: 10px solid var(--color-tertiary);
+  box-shadow: 0 0 2px 5px var(--color-tertiary);
   transition: all 0.1s ease-out;
 }
 
