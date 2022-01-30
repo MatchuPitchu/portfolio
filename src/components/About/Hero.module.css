@@ -10,7 +10,6 @@
   background: var(--bg-linear-gradient);
   background-size: 400% 400%;
   animation: background-gradient 20s ease infinite;
-  gap: 2rem;
 }
 
 @keyframes background-gradient {
@@ -23,6 +22,10 @@
   100% {
     background-position: 0 50%;
   }
+}
+
+.h1 {
+  margin: 3rem 0 2rem 0;
 }
 
 .title {
@@ -74,12 +77,12 @@
 }
 
 .presentation {
-  flex: 1 1 35%;
+  flex: 1 1 45%;
   padding: var(--padding-even-md);
 }
 
 .images {
-  flex: 1 1 45%;
+  flex: 1 1 55%;
   height: 300px;
 }
 
