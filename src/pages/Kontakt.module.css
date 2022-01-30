@@ -13,6 +13,7 @@
 
 .img-box {
   flex: 1 0 auto;
+  border-radius: 50%;
   z-index: 10;
 }
 

@@ -1,4 +1,5 @@
 const ImgWithFallback = ({
+  classPicture,
   className,
   src,
   srcset,
@@ -10,7 +11,7 @@ const ImgWithFallback = ({
   ...rest
 }) => {
   return (
-    <picture>
+    <picture className={classPicture}>
       <source srcSet={srcset} sizes={sizes} type={type} />
       <img
         srcSet={fallbackSrcset}
