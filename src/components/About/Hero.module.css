@@ -89,7 +89,11 @@
 @media all and (max-width: 576px) {
   .hero {
     margin: 0;
-    padding: 2rem 0.5rem;
+    padding: 1rem 0.5rem;
+  }
+
+  .h1 {
+    margin: 2rem 0;
   }
 }
 

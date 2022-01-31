@@ -118,7 +118,7 @@ h1 {
   font-family: 'Kaushan Script', 'Jost', sans-serif;
   font-size: clamp(1.4rem, 0.4886rem + 4.0506vw, 3rem);
   letter-spacing: 4px;
-  line-height: clamp(1.8rem, 0.8316rem + 4.3038vw, 3.5rem);
+  line-height: clamp(2rem, 1.1456rem + 3.7975vw, 3.5rem);
 }
 
 h2 {
