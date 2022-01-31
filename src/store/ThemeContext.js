@@ -13,6 +13,7 @@ const ThemeContextProvider = ({ children }) => {
 
   const handleTheme = () => setIsLight((prev) => !prev);
 
+  // theme comes of media query and is not saved in localStorage
   // useEffect(() => {
   //   // get stored date when app is opened
   //   const data = localStorage.getItem('light-mode');

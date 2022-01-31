@@ -115,8 +115,8 @@ h3 {
 
 /* clamp refers to min viewport 360px and max viewport 992px */
 h1 {
+  font-family: 'Kaushan Script', 'Jost', sans-serif;
   font-size: clamp(1.4rem, 0.4886rem + 4.0506vw, 3rem);
-  font-weight: 900;
   letter-spacing: 4px;
   line-height: clamp(1.8rem, 0.8316rem + 4.3038vw, 3.5rem);
 }

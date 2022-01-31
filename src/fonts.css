@@ -1,3 +1,12 @@
+/* kaushan-script-regular - latin */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('./fonts/kaushan-script-v13-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('./fonts/kaushan-script-v13-latin-regular.woff') format('woff'); /* Modern Browsers */
+}
+
 /* jost-300 - latin  */
 @font-face {
   font-family: 'Jost';
