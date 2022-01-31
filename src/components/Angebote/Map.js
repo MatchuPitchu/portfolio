@@ -1,3 +1,5 @@
+import { useContext } from 'react';
+import { ThemeContext } from '../../store/ThemeContext';
 import Card from '../UI/Card/Card';
 import DWChart from 'react-datawrapper-chart';
 import H3Title from '../UI/Titles/H3Title';
@@ -11,9 +13,15 @@ const legend = [
 ];
 
 const Map = () => {
+  const { isLight } = useContext(ThemeContext);
+
   return (
     <Card className={classes['card-customize']}>
-      <DWChart className={classes.map} title='map' src='//datawrapper.dwcdn.net/EN7JW/15/' />
+      <DWChart
+        className={classes.map}
+        title='map'
+        src={`//datawrapper.dwcdn.net/EN7JW/16/${isLight ? '' : '?dark=true'}`}
+      />
       <div className={classes['legend-box']}>
         <figcaption className={classes.source}>Erstellt mit Datawrapper</figcaption>
         <H3Title>Legende</H3Title>

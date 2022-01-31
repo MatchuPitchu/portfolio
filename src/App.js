@@ -1,5 +1,4 @@
-import { useContext, lazy, Suspense } from 'react';
-import { ThemeContext } from './store/ThemeContext';
+import { lazy, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Container from './components/Layout/Container';
 import Spinner from './components/UI/Spinner/Spinner';
@@ -61,10 +60,6 @@ const Impressum = lazy(() => import('./pages/Impressum'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 const App = () => {
-  const { isLocalStorageChecked } = useContext(ThemeContext);
-
-  if (!isLocalStorageChecked) return null;
-
   const spinner = (
     <Container>
       <Spinner />

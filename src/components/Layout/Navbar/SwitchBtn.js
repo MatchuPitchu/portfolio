@@ -3,11 +3,11 @@ import { ThemeContext } from '../../../store/ThemeContext';
 import classes from './SwitchBtn.module.css';
 
 const SwitchBtn = () => {
-  const { isLight, handleStyleMode } = useContext(ThemeContext);
+  const { isLight, handleTheme } = useContext(ThemeContext);
 
   return (
     <button
-      onClick={handleStyleMode}
+      onClick={handleTheme}
       className={`${classes.switch} ${isLight ? '' : classes.night}`}
       aria-label='toggle dark light mode'
     >

@@ -1,33 +1,35 @@
-import { useState, useEffect, createContext } from 'react';
+import { useState, createContext } from 'react';
 
 export const ThemeContext = createContext({
   isLight: true,
-  handleStyleMode: () => {},
+  handleTheme: () => {},
 });
 
 const ThemeContextProvider = ({ children }) => {
-  const [isLight, setIsLight] = useState(true);
-  const [isLocalStorageChecked, setIsLocalStorageChecked] = useState(false);
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-  const handleStyleMode = () => setIsLight((prev) => !prev);
+  const [isLight, setIsLight] = useState(prefersDark ? false : true);
+  // const [isThemeChecked, setIsThemeChecked] = useState(false);
 
-  useEffect(() => {
-    // get stored date when app is opened
-    const data = localStorage.getItem('light-mode');
-    if (data) setIsLight(JSON.parse(data));
-    setIsLocalStorageChecked(true);
-  }, []);
+  const handleTheme = () => setIsLight((prev) => !prev);
 
-  useEffect(() => {
-    localStorage.setItem('light-mode', JSON.stringify(isLight));
-  }, [isLight]);
+  // useEffect(() => {
+  //   // get stored date when app is opened
+  //   const data = localStorage.getItem('light-mode');
+  //   if (data) setIsLight(JSON.parse(data));
+  //   setIsThemeChecked(true);
+  // }, []);
+
+  // useEffect(() => {
+  //   localStorage.setItem('light-mode', JSON.stringify(isLight));
+  // }, [isLight]);
 
   return (
     <ThemeContext.Provider
       value={{
         isLight,
-        handleStyleMode,
-        isLocalStorageChecked,
+        handleTheme,
+        // isThemeChecked,
       }}
     >
       {children}
