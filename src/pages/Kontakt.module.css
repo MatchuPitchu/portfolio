@@ -56,34 +56,5 @@
 
 .btn {
   width: 100%;
-  font: inherit;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
-  color: var(--color-primary-shade);
-  height: 50px;
-  text-align: center;
-  cursor: pointer;
-  background: transparent;
-  border: 1px solid var(--color-primary-shade);
   padding: var(--padding-less-y);
-  outline: none;
-  transition: all 1s ease-out;
-}
-
-.btn:hover,
-.btn:active,
-.btn:focus {
-  color: var(--color-text-shade);
-  border-color: transparent;
-  box-shadow: var(--box-shadow);
-}
-
-.btn:active {
-  background-color: var(--color-bg-transparent60);
-  transform: translateY(25px);
-}
-
-.btn:focus {
-  background-color: var(--color-bg-transparent60);
 }

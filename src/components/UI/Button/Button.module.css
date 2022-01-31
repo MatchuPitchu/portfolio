@@ -26,8 +26,13 @@
   box-shadow: var(--box-shadow);
 }
 
+.btn:active {
+  background-color: var(--color-bg-transparent60);
+  transform: translateY(25px);
+}
+
 .btn:focus {
-  background-color: var(--color-bg-transparent20);
+  background-color: var(--color-bg-transparent60);
 }
 
 .btn svg {

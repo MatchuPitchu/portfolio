@@ -7,6 +7,7 @@ import classes from './Kontakt.module.css';
 
 import imgProfilWEBP from '../assets/webp/michael-flohr-2021_web-profil-w220.webp';
 import imgProfilJPG from '../assets/michael-flohr-2021_web-profil-w220.jpg';
+import Button from '../components/UI/Button/Button';
 
 const Kontakt = () => {
   return (
@@ -37,7 +38,9 @@ const Kontakt = () => {
             // HEX Codierung
             href='&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6d;&#x2e;&#x66;&#x6c;&#x6f;&#x68;&#x72;&#x40;&#x70;&#x6f;&#x73;&#x74;&#x65;&#x6f;&#x2e;&#x64;&#x65;?subject=Kontaktanfrage über Website'
           >
-            <button className={classes.btn}>E-Mail schreiben </button>
+            <Button svgAnimation={false} className={classes.btn}>
+              E-Mail schreiben{' '}
+            </Button>
           </a>
         </div>
       </Container>

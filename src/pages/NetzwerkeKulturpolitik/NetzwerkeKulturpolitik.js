@@ -77,13 +77,19 @@ const Network = () => {
       </p>
       <div className={classes.buttons}>
         <Link to='information'>
-          <Button ariaLabel='more information'>Information</Button>
+          <Button svgAnimation={false} ariaLabel='more information'>
+            Information
+          </Button>
         </Link>
         <Link to='kooperation'>
-          <Button ariaLabel='more information'>Kooperation</Button>
+          <Button svgAnimation={false} ariaLabel='more information'>
+            Kooperation
+          </Button>
         </Link>
         <Link to='ziel'>
-          <Button ariaLabel='more information'>Ziele</Button>
+          <Button svgAnimation={false} ariaLabel='more information'>
+            Ziele
+          </Button>
         </Link>
       </div>
       <Outlet />
