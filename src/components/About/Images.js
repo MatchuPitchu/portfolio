@@ -1,6 +1,7 @@
 import classes from './Images.module.css';
 import ImgWithFallback from '../ImgWithFallback';
 
+// do not change name of michael-flohr_2021_web-w1200.jpg since it is used for Open Graph in index.html
 import michael1JPG from '../../assets/michael-flohr_2021_web-w1200.jpg';
 import michael1JPGmobile from '../../assets/michael-flohr_2021_web-w240.jpg';
 import michael1WEBP from '../../assets/webp/michael-flohr_2021_web-w1200.webp';
