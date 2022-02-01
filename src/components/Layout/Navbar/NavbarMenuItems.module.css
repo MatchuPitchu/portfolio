@@ -124,6 +124,6 @@
   .link--subnav:hover,
   .link--subnav.active,
   .menu-list .dropdown:hover {
-    box-shadow: inset 50rem 0 0 0 var(--color-bg-navbar-inset-shadow);
+    box-shadow: inset 100vw 0 0 0 var(--color-bg-navbar-inset-shadow);
   }
 }

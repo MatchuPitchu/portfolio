@@ -70,18 +70,18 @@
   --color-light: #fffdfa;
 
   --color-bg-body: #1f2028;
-  --color-bg-items-primary: #2e3039;
+  --color-bg-items-primary: #242528;
   --color-bg-items-secondary: #4d4632;
-  --color-bg-navbar: #1d1c1a;
+  --color-bg-navbar: #16171a;
   --color-bg-navbar-inset-shadow: #f7cc4b20;
 
-  --color-bg-transparent20: #ffffff20;
+  --color-bg-transparent20: #ffffff10;
   --color-bg-transparent60: #ffffff60;
 
-  --color-menu-items: #2e3039;
-  --color-bgitems: #2e3039;
+  --color-menu-items: #242528;
+  --color-bgitems: #242528;
 
-  --bg-linear-gradient: #1d1c1a;
+  --bg-linear-gradient: #16171a;
 
   transition: all 1s ease;
 }
