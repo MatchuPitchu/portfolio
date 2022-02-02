@@ -8,38 +8,53 @@
   gap: 0.5rem;
 }
 
-.imageBox1 {
+.img-box {
+  transition: all 0.3s ease;
+}
+
+.img-box--1 {
   flex-basis: calc(65% - 0.5rem);
-  height: auto;
   z-index: 2;
   transform: translate(0, 10%);
 }
 
-.imageBox2 {
+.img-box--2 {
   flex-basis: calc(35% - 0.5rem);
-  height: auto;
   z-index: 3;
   transform: translate(-20%, 40%);
 }
 
-.imageBox3 {
+.img-box--3 {
   flex-basis: 50%;
-  height: auto;
   z-index: 1;
   transform: translate(-10%, 0);
 }
 
-@media all and (max-width: 576px) {
-  .imageBox1,
-  .imageBox2,
-  .imageBox3 {
-    transform: none;
-  }
+.img-box--1:hover {
+  z-index: 4;
+  transform: translate(0, 10%) scale(1.05);
 }
 
-.image {
+.img-box--2:hover {
+  z-index: 4;
+  transform: translate(-20%, 40%) scale(1.05);
+}
+
+.img-box--3:hover {
+  z-index: 4;
+  transform: translate(-10%, 0) scale(1.05);
+}
+
+.img {
   width: 100%;
   height: auto;
-  object-fit: cover;
   box-shadow: var(--box-shadow);
+}
+
+@media all and (max-width: 576px) {
+  .img-box--1,
+  .img-box--2,
+  .img-box--3 {
+    transform: none;
+  }
 }

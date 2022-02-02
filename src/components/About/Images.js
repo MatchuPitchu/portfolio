@@ -22,7 +22,7 @@ const photos = [
     fallback: michael1JPG,
     fallbackSrcset: `${michael1JPGmobile} 240w, ${michael1JPG} 1200w`,
     sizes: '240px, 1200px',
-    class: classes.imageBox1,
+    class: classes['img-box--1'],
     alt: 'Michael Flohr',
   },
   {
@@ -31,7 +31,7 @@ const photos = [
     fallback: michael2JPG,
     fallbackSrcset: `${michael2JPGmobile} 210w, ${michael2JPG} 390w`,
     sizes: '210px, 390px',
-    class: classes.imageBox2,
+    class: classes['img-box--2'],
     alt: 'Michael Flohr',
   },
   {
@@ -40,7 +40,7 @@ const photos = [
     fallback: laptopJPG,
     fallbackSrcset: `${laptopJPGmobile} 240w, ${laptopJPG} 1920w`,
     sizes: '240px, 1920px',
-    class: classes.imageBox3,
+    class: classes['img-box--3'],
     alt: 'Laptop Beispielbild Clement Helardot Unsplash',
   },
 ];
@@ -49,14 +49,14 @@ const Images = () => {
   return (
     <div className={classes.images}>
       {photos.map((photo) => (
-        <div key={photo.src} className={photo.class}>
+        <div key={photo.src} className={`${classes['img-box']} ${photo.class}`}>
           <ImgWithFallback
             src={photo.src}
             srcset={photo.srcset}
             fallback={photo.fallback}
             fallbackSrcset={photo.fallbackSrcset}
             sizes={`(max-width: 576px) ${photo.sizes}`}
-            className={classes.image}
+            className={classes.img}
             alt={photo.alt}
           />
         </div>
