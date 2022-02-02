@@ -30,6 +30,11 @@
   transform: translate(-10%, 0);
 }
 
+/* if container is hovered, select elements that are not hovered */
+.images:hover .img-box:not(:hover) {
+  filter: blur(3px);
+}
+
 .img-box--1:hover {
   z-index: 4;
   transform: translate(0, 10%) scale(1.05);
