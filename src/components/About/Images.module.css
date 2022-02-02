@@ -15,19 +15,19 @@
 .img-box--1 {
   flex-basis: calc(65% - 0.5rem);
   z-index: 2;
-  transform: translate(0, 10%);
+  transform: translate(5%, 10%);
 }
 
 .img-box--2 {
   flex-basis: calc(35% - 0.5rem);
   z-index: 3;
-  transform: translate(-20%, 40%);
+  transform: translate(-5%, 40%);
 }
 
 .img-box--3 {
   flex-basis: 50%;
   z-index: 1;
-  transform: translate(-10%, 0);
+  transform: translate(-5%, 0);
 }
 
 /* if container is hovered, select elements that are not hovered */
@@ -37,29 +37,21 @@
 
 .img-box--1:hover {
   z-index: 4;
-  transform: translate(0, 10%) scale(1.05);
+  transform: translate(5%, 5%) scale(1.05);
 }
 
 .img-box--2:hover {
   z-index: 4;
-  transform: translate(-20%, 40%) scale(1.05);
+  transform: translate(-5%, 35%) scale(1.05);
 }
 
 .img-box--3:hover {
   z-index: 4;
-  transform: translate(-10%, 0) scale(1.05);
+  transform: translate(-5%, -5%) scale(1.05);
 }
 
 .img {
   width: 100%;
   height: auto;
   box-shadow: var(--box-shadow);
-}
-
-@media all and (max-width: 576px) {
-  .img-box--1,
-  .img-box--2,
-  .img-box--3 {
-    transform: none;
-  }
 }
