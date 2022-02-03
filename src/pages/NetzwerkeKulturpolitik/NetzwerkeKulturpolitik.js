@@ -55,45 +55,48 @@ const Network = () => {
   // console.log(JSON.stringify(transformedData));
 
   return (
-    <HeadingWrapper className={classes.wrapper}>
-      <H1Title classTitle={classes.h1}>Netzwerke in der Thüringer Kulturpolitik</H1Title>
-      <p>
-        Im Rahmen meiner{' '}
-        <Link to='/veroeffentlichungen/kulturpolitik'>
-          Dissertation über die Kulturpolitik in Thüringen
-        </Link>{' '}
-        führte ich unter anderem eine quantitative Netzwerkanalyse durch. Dieser methodische Ansatz
-        hilft zu verstehen, welche Akteure sich dem Politikfeld der Kulturpolitik zugehörig fühlen,
-        in welcher Beziehung sie zueinander stehen und wie sie interagieren. Das methodische
-        Vorgehen und die Ergebnisse können ausführlich in der Open Access-Veröffentlichung
-        nachgelesen werden. Hier möchte ich nur ein paar Auszüge vorstellen.
-      </p>
-      <p>
-        <i>
-          Hinweis: Die Netzwerkgrafiken können auf Smartphones nur beschränkt entdeckt werden. Erst
-          auf einem größeren Display sind mehr Funktionen freigeschaltet (wie die Suche und das
-          Hovern über Knotenpunkte) und Details sichtbar.
-        </i>
-      </p>
-      <div className={classes.buttons}>
-        <Link to='information'>
-          <Button svgAnimation={false} ariaLabel='more information'>
-            Information
-          </Button>
-        </Link>
-        <Link to='kooperation'>
-          <Button svgAnimation={false} ariaLabel='more information'>
-            Kooperation
-          </Button>
-        </Link>
-        <Link to='ziel'>
-          <Button svgAnimation={false} ariaLabel='more information'>
-            Ziele
-          </Button>
-        </Link>
-      </div>
-      <Outlet />
-    </HeadingWrapper>
+    <>
+      <HeadingWrapper>
+        <H1Title classTitle={classes.h1}>Netzwerke in der Thüringer Kulturpolitik</H1Title>
+        <p>
+          Im Rahmen meiner{' '}
+          <Link to='/veroeffentlichungen/kulturpolitik'>
+            Dissertation über die Kulturpolitik in Thüringen
+          </Link>{' '}
+          führte ich unter anderem eine quantitative Netzwerkanalyse durch. Dieser methodische
+          Ansatz hilft zu verstehen, welche Akteure sich dem Politikfeld der Kulturpolitik zugehörig
+          fühlen, in welcher Beziehung sie zueinander stehen und wie sie interagieren. Das
+          methodische Vorgehen und die Ergebnisse können ausführlich in der Open
+          Access-Veröffentlichung nachgelesen werden. Hier möchte ich nur ein paar Auszüge
+          vorstellen.
+        </p>
+        <p>
+          <i>
+            Hinweis: Die Netzwerkgrafiken können auf Smartphones nur beschränkt entdeckt werden.
+            Erst auf einem größeren Display sind mehr Funktionen freigeschaltet (wie die Suche und
+            das Hovern über Knotenpunkte) und Details sichtbar.
+          </i>
+        </p>
+        <div className={classes.buttons}>
+          <Link to='information'>
+            <Button svgAnimation={false} ariaLabel='more information'>
+              Information
+            </Button>
+          </Link>
+          <Link to='kooperation'>
+            <Button svgAnimation={false} ariaLabel='more information'>
+              Kooperation
+            </Button>
+          </Link>
+          <Link to='ziel'>
+            <Button svgAnimation={false} ariaLabel='more information'>
+              Ziele
+            </Button>
+          </Link>
+        </div>
+        <Outlet />
+      </HeadingWrapper>
+    </>
   );
 };
 

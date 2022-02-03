@@ -55,8 +55,10 @@ const Kooperationen = () => {
         height='1'
         alt='Zählmarke VG Wort'
       />
-      <Sigma dataPath='/data/02_networkCooperation.json' />
-      <Legend links={infoAndCoopNetworkLinks} />
+      <div className={classes['graph-box']}>
+        <Sigma dataPath='/data/02_networkCooperation.json' />
+        <Legend links={infoAndCoopNetworkLinks} />
+      </div>
     </section>
   );
 };

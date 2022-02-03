@@ -47,8 +47,10 @@ const Informationen = () => {
         height='1'
         alt='Zählmarke VG Wort'
       />
-      <Sigma dataPath='/data/01_networkInfoExchange.json' />
-      <Legend links={infoAndCoopNetworkLinks} />
+      <div className={classes['graph-box']}>
+        <Sigma dataPath='/data/01_networkInfoExchange.json' />
+        <Legend links={infoAndCoopNetworkLinks} />
+      </div>
     </section>
   );
 };

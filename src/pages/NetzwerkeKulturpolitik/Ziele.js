@@ -109,59 +109,62 @@ const Ziele = () => {
         height='1'
         alt='Zählmarke VG Wort'
       />
-      <Card className={classes['card-customized']}>
-        <ul className={classes.tabs}>
-          <li className={isOpen.goalsWeak ? classes.active : ''} onClick={onClickHandler}>
-            schwache Übereinstimmung
-          </li>
-          <li
-            className={isOpen.goalsFilteredStrong ? classes.active : ''}
-            onClick={() => onClickHandler('goalsFilteredStrong')}
-          >
-            starke Übereinstimmung
-          </li>
-          <li
-            className={isOpen.goalsFilteredNoIdea ? classes.active : ''}
-            onClick={() => onClickHandler('goalsFilteredNoIdea')}
-          >
-            keine Einschätzung möglich
-          </li>
-        </ul>
-        <div className={classes['tabs-content']}>
-          <AnimatingItem show={isOpen.goalsWeak}>
-            <div className={classes['tab-box']}>
-              <Sigma
-                dataPath='/data/03_networkGoalsFiltered1-2.json'
-                description={'gefiltert »schwach« und »gar nicht«'}
-              />
-              <Legend links={goalsLinksFilteredWeak} />
-            </div>
-          </AnimatingItem>
-          <AnimatingItem show={isOpen.goalsFilteredStrong}>
-            <div className={classes['tab-box']}>
-              <Sigma
-                dataPath='/data/04_networkGoalsFiltered4-5.json'
-                description={'gefiltert »hoch« und »sehr hoch«'}
-              />
-              <Legend links={goalsLinksFilteredStrong} />
-            </div>
-          </AnimatingItem>
-          <AnimatingItem show={isOpen.goalsFilteredNoIdea}>
-            <div className={classes['tab-box']}>
-              <Sigma
-                dataPath='/data/05_networkGoalsFiltered6.json'
-                description={'gefiltert »kann ich nicht einschätzen«'}
-              />
-              <div className={classes['legend-img']}>
-                <img
-                  src={isLight ? legendGoalsNoIdeaLight : legendGoalsNoIdeaDark}
-                  alt='Legende Netzwerk der kulturpolitischen Ziele (kann Akteur nicht einschätzen)'
+
+      <div className={classes['graph-box']}>
+        <Card className={classes['card-customized']}>
+          <ul className={classes.tabs}>
+            <li className={isOpen.goalsWeak ? classes.active : ''} onClick={onClickHandler}>
+              schwache Übereinstimmung
+            </li>
+            <li
+              className={isOpen.goalsFilteredStrong ? classes.active : ''}
+              onClick={() => onClickHandler('goalsFilteredStrong')}
+            >
+              starke Übereinstimmung
+            </li>
+            <li
+              className={isOpen.goalsFilteredNoIdea ? classes.active : ''}
+              onClick={() => onClickHandler('goalsFilteredNoIdea')}
+            >
+              keine Einschätzung möglich
+            </li>
+          </ul>
+          <div className={classes['tabs-content']}>
+            <AnimatingItem show={isOpen.goalsWeak}>
+              <div className={classes['tab-box']}>
+                <Sigma
+                  dataPath='/data/03_networkGoalsFiltered1-2.json'
+                  description={'gefiltert »schwach« und »gar nicht«'}
                 />
+                <Legend links={goalsLinksFilteredWeak} />
               </div>
-            </div>
-          </AnimatingItem>
-        </div>
-      </Card>
+            </AnimatingItem>
+            <AnimatingItem show={isOpen.goalsFilteredStrong}>
+              <div className={classes['tab-box']}>
+                <Sigma
+                  dataPath='/data/04_networkGoalsFiltered4-5.json'
+                  description={'gefiltert »hoch« und »sehr hoch«'}
+                />
+                <Legend links={goalsLinksFilteredStrong} />
+              </div>
+            </AnimatingItem>
+            <AnimatingItem show={isOpen.goalsFilteredNoIdea}>
+              <div className={classes['tab-box']}>
+                <Sigma
+                  dataPath='/data/05_networkGoalsFiltered6.json'
+                  description={'gefiltert »kann ich nicht einschätzen«'}
+                />
+                <div className={classes['legend-img']}>
+                  <img
+                    src={isLight ? legendGoalsNoIdeaLight : legendGoalsNoIdeaDark}
+                    alt='Legende Netzwerk der kulturpolitischen Ziele (kann Akteur nicht einschätzen)'
+                  />
+                </div>
+              </div>
+            </AnimatingItem>
+          </div>
+        </Card>
+      </div>
     </section>
   );
 };
