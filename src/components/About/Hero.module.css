@@ -59,25 +59,33 @@
 
 .h1--lastName {
   font-size: clamp(2rem, 1.0476rem + 4.7619vw, 4rem);
-  animation: slideInName 2s ease-out forwards;
-}
-
-@keyframes slideInName {
-  0% {
-    opacity: 0;
-  }
-  70% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  animation: slideIn 2s ease-out forwards;
 }
 
 .h1--subtitle {
   display: flex;
   font-size: clamp(1.3rem, 0.9667rem + 1.6667vw, 2rem);
   font-weight: 400;
+  animation: slideIn 1.5s ease-out backwards;
+  animation-delay: 2s;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+  70% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .container-customized {
