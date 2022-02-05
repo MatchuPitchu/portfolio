@@ -8,9 +8,10 @@ const Hero = () => {
   return (
     <section className={classes.hero}>
       <H1Title classTitle={classes.h1}>
-        <span className={classes.title}>Dr</span>
-        <span className={classes.firstName}>Michael</span>
-        <span className={classes.lastName}>Flohr</span>
+        <span className={classes['h1--title']}>Dr</span>
+        <span className={classes['h1--firstName']}>Michael</span>
+        <span className={classes['h1--lastName']}>Flohr</span>
+        <span className={classes['h1--subtitle']}>Webentwicklung & Nachhaltigkeit</span>
       </H1Title>
       <Container className={classes['container-customized']}>
         <div className={classes.presentation}>

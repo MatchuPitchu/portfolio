@@ -21,7 +21,7 @@
 .img-box--2 {
   flex-basis: calc(35% - 0.5rem);
   z-index: 3;
-  transform: translate(-5%, 40%);
+  transform: translate(-10%, 40%);
 }
 
 .img-box--3 {
@@ -42,7 +42,7 @@
 
 .img-box--2:hover {
   z-index: 4;
-  transform: translate(-5%, 35%) scale(1.05);
+  transform: translate(-10%, 35%) scale(1.05);
 }
 
 .img-box--3:hover {
