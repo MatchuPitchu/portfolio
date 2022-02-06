@@ -27,7 +27,9 @@ const BNE = () => {
         alt='Die staatliche Förderung der außerschulischen BNE in Deutschland'
       />
       <div className={classes.content}>
-        <h2>Die staatliche Förderung der außerschulischen BNE in Deutschland</h2>
+        <h2 className={classes.h2}>
+          Die staatliche Förderung der außerschulischen BNE in Deutschland
+        </h2>
         <p>
           Im Rahmen des Monitorings des Weltaktionsprogramms Bildung für nachhaltige Entwicklung
           (WAP BNE) wurde ich vom Institut Futur der FU Berlin beauftragt, einen ersten Überblick

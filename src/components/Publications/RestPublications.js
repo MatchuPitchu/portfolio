@@ -81,7 +81,9 @@ const restPublications = [
 const RestPublications = () => {
   return (
     <Card className={`${classes['card-customize']} ${classes['card-customize--restPubs']}`}>
-      <H2Title className={classes['h2-customize']}>Weitere Veröffentlichungen</H2Title>
+      <H2Title className={`${classes.h2} ${classes['h2--restPubs']}`}>
+        Weitere Veröffentlichungen
+      </H2Title>
       <div className={classes['restPubs-container']}>
         {restPublications.map((item, index) => (
           <StationPoint

@@ -14,28 +14,17 @@
   padding: 1.5rem;
 }
 
-.card-customize h2 {
+.h2 {
   padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--color-primary);
 }
 
-@media all and (max-width: 576px) {
-  .card-customize h2 {
-    -moz-hyphens: auto;
-    -o-hyphens: auto;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-  }
-}
-
-.card-customize h2::first-letter {
-  font-size: 3.3rem;
-  font-weight: bold;
+.h2::first-letter {
+  font-size: clamp(2rem, 1.5443rem + 2.0253vw, 2.8rem);
   color: var(--color-primary);
 }
 
-.h2-customize {
+.h2--restPubs {
   padding: var(--padding-even-md);
   margin: 1rem 0 0 0;
 }
@@ -100,10 +89,24 @@
   order: 12;
 }
 
+@media all and (max-width: 768px) {
+  .restPubs-container--content {
+    flex: 1 1 100%;
+  }
+}
+
 @media all and (max-width: 576px) {
   .card-customize,
   .card-customize--restPubs {
     border-radius: 0;
+  }
+
+  .h2 {
+    -moz-hyphens: auto;
+    -o-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
   }
 
   .restPubs-container--content {
@@ -123,11 +126,5 @@
   .restPubs-container--content:nth-child(11),
   .restPubs-container--content:nth-child(12) {
     order: 1;
-  }
-}
-
-@media all and (max-width: 768px) {
-  .restPubs-container--content {
-    flex: 1 1 100%;
   }
 }

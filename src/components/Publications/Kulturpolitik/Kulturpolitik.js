@@ -33,7 +33,7 @@ const Kulturpolitik = () => {
         alt='Kulturpolitik in Thüringen'
       />
       <div className={classes.content}>
-        <h2>Kulturpolitik in Thüringen</h2>
+        <h2 className={classes.h2}>Kulturpolitik in Thüringen</h2>
         <div className={classes.description}>
           <p>
             Kaum ein Politikfeld ist so vielfältig, symbolisch besetzt und normativ aufgeladen wie

@@ -28,7 +28,7 @@ const Suffizienz = () => {
         alt='Suffizienz an Hochschulen im ländlichen Raum'
       />
       <div className={classes.content}>
-        <h2>Suffizienz an Hochschulen im ländlichen Raum</h2>
+        <h2 className={classes.h2}>Suffizienz an Hochschulen im ländlichen Raum</h2>
         <p>
           Bislang steht die Nachhaltigkeitsstrategie der Suffizienz politisch, wirtschaftlich und
           gesellschaftlich im übermächtigen Schatten der Effizienz. Im Rahmen des von der

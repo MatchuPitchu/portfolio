@@ -20,7 +20,7 @@ const Netzwerke = () => {
         alt='Nachhaltigkeitsnetzwerke an Hochschulen'
       />
       <div className={classes.content}>
-        <h2>Netzwerke für die nachhaltige Entwicklung an Hochschulen</h2>
+        <h2 className={classes.h2}>Netzwerke für die nachhaltige Entwicklung an Hochschulen</h2>
         <p>
           Netzwerk, Vernetzung und Beziehung sind omnipräsente Begriffe, wenn es um Transformation
           und Veränderung hin zu mehr Nachhaltigkeit geht. In dieser kleinen, explorativen Studie

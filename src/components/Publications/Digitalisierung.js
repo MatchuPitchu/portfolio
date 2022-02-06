@@ -28,7 +28,7 @@ const Digitalisierung = () => {
         alt='Transformation durch Digitalisierung gestalten'
       />
       <div className={classes.content}>
-        <h2>Digitalisierung und Nachhaltigkeit</h2>
+        <h2 className={classes.h2}>Digitalisierung und Nachhaltigkeit</h2>
         <p>
           Im fünften Kapitel dieses Sammelbandes schreibe ich über das Themenfeld Digitalisierung,
           Nachhaltigkeit und Hochschule. Als Fallbeispiel dient die Online-Plattform{' '}
