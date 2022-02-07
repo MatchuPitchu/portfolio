@@ -15,7 +15,9 @@ const DigitalisierungsDetails = () => {
           <h1>Transformation durch Digitalisierung gestalten</h1>
         </div>
         <div className={classes['col-right']}>
-          <h2>Die vernachlässigte Strategie für eine nachhaltigere Gesellschaft</h2>
+          <h2>
+            Die plattform n als Vernetzungs- und Kollaborationsplattform für nachhaltige Hochschulen
+          </h2>
           <p>
             Aus dem Symposium Digitalisierung und Nachhaltigkeit: Chancen und Perspektiven für
             Deutsche Hochschulen, das im Frühjahr 2019 an der Hochschule für Angewandte
