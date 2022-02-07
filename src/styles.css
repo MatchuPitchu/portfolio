@@ -122,17 +122,17 @@ h1 {
 }
 
 h2 {
-  font-size: clamp(1.3rem, 0.9013rem + 1.7722vw, 2rem);
+  font-size: clamp(1.1rem, 0.5873rem + 2.2785vw, 2rem);
   font-weight: 900;
   letter-spacing: 1px;
-  line-height: clamp(1.7rem, 1.2443rem + 2.0253vw, 2.5rem);
+  line-height: clamp(1.3rem, 0.6165rem + 3.038vw, 2.5rem);
   margin: 0 0 0.4rem 0;
 }
 
 h3 {
-  font-size: clamp(1.2rem, 1.0291rem + 0.7595vw, 1.5rem);
+  font-size: clamp(1.1rem, 0.8722rem + 1.0127vw, 1.5rem);
   font-weight: 700;
-  line-height: clamp(1.5rem, 1.2722rem + 1.0127vw, 1.9rem);
+  line-height: clamp(1.3rem, 0.9582rem + 1.519vw, 1.9rem);
 }
 
 h4 {
