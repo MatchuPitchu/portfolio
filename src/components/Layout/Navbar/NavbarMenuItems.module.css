@@ -31,10 +31,10 @@
 
 .dropdown-sublist {
   display: none;
-  background-color: var(--color-bg-navbar);
-  box-shadow: var(--box-shadow);
   margin-top: 2px;
   padding: 0;
+  background-color: var(--color-bg-navbar);
+  box-shadow: var(--box-shadow);
 }
 
 .dropdown:hover .dropdown-sublist {
@@ -73,19 +73,13 @@
     box-shadow: var(--box-shadow);
   }
 
-  .dropdown {
-    flex: 0 1 auto;
-    width: 100%;
-    height: auto;
-  }
-
   .dropdown:last-of-type {
     border-bottom: none;
   }
 
   .dropdown-sublist {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     width: 100%;
     margin: 0 auto;
     box-shadow: none;
