@@ -20,7 +20,7 @@ const Map = () => {
       <DWChart
         className={classes.map}
         title='map'
-        src={`//datawrapper.dwcdn.net/EN7JW/16/${isLight ? '' : '?dark=true'}`}
+        src={`//datawrapper.dwcdn.net/EN7JW/16/?dark=${isLight ? 'false' : 'true'}`}
       />
       <div className={classes['legend-box']}>
         <figcaption className={classes.source}>Erstellt mit Datawrapper</figcaption>
