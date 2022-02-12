@@ -24,14 +24,14 @@ const quotes = [
     text: 'Ich kann allen Interessierten an Themen der Kulturpolitik und an der Entwicklung der ostdeutschen Länder, hier insbesondere Thüringens, die Lektüre dieses ausgezeichneten, klugen, tiefgründigen und sehr lesenswerten Buches nur empfehlen.',
     author: 'Prof. Dr. Thomas Schmidt',
     origin:
-      'Direktor Masterprogramm Theater- und Orchestermanagement an der Hochschule für Musik und Darstellende Kunst Frankfurt am Main, socialnet, 21.10.2019',
+      'Direktor Masterprogramm Theater- und Orchestermanagement Hochschule für Musik und Darstellende Kunst Frankfurt am Main, socialnet, 21.10.2019',
     href: 'https://www.socialnet.de/rezensionen/25072.php',
   },
   {
     id: '3',
     text: 'Wer ein empirisch ebenso präzise wie kritisch gearbeitetes Bild der dichten und geschichtsträchtigen Kulturlandschaft Thüringens sucht, der lese diese Studie. Es gibt derzeit nichts Informativeres und Besseres.',
     author: 'Prof. Dr. Frank Ettrich',
-    origin: 'ehem. Direktor der Willy Brandt School of Public Policy an der Universität Erfurt',
+    origin: 'ehem. Direktor Willy Brandt School of Public Policy Universität Erfurt',
     href: '',
   },
   {
@@ -39,14 +39,14 @@ const quotes = [
     text: 'Wirksame Kulturpolitik braucht neben engagierten Akteur*innen und ausreichenden Ressourcen auch Evidenz und theoretische Unterfütterung. Michael Flohr hat für das Kulturland Thüringen wichtige und bereichernde Analysen vorgelegt.',
     author: 'Prof. Dr. Benjamin-Immanuel Hoff',
     origin:
-      'Minister für Kultur, Bundes- und Europaangelegenheiten und Chef der Staatskanzlei des Freistaats Thüringen',
+      'Minister für Kultur, Bundes- und Europaangelegenheiten, Chef der Staatskanzlei Freistaat Thüringen',
     href: '',
   },
   {
     id: '5',
     text: 'Wer über die Breite und Vielfalt der Thüringer Kulturpolitik etwas wissen möchte: Mit diesem Buch wird sie und er umfassend, verständlich und in guter Sprache bedient.',
     author: 'apl. Prof. Dr. Alexander Thumfart',
-    origin: 'u.a. Mitglied im Kulturausschuss Landeshauptstadt Erfurt',
+    origin: 'u.a. Mitglied Kulturausschuss Erfurt',
     href: '',
   },
   {
@@ -54,7 +54,7 @@ const quotes = [
     text: 'Analytische Arbeiten sind rar. Vor diesem Hintergrund muss die Dissertation von Michael Flohr über Thüringen interessieren; sie ist in diesem Umfang und Methodenmix bislang singulär – in der fachlichen Qualität wie in der guten Lesbarkeit.',
     author: 'Dr. Tobias J. Knoblich',
     origin:
-      'Präsident der Kulturpolitischen Gesellschaft und Dezernent für Kultur und Stadtentwicklung der Landeshauptstadt Erfurt, Kulturpolitische Mitteilungen, 4 (2018)',
+      'Präsident Kulturpolitische Gesellschaft, Dezernent für Kultur & Stadtentwicklung Erfurt, Kulturpolitische Mitteilungen, 4 (2018)',
     href: rezensionKnoblich,
   },
   {
@@ -127,71 +127,63 @@ const quotes = [
 
 const QuotesCarousel = () => {
   const [index, setIndex] = useState(0);
-  const [slideInFromRight, setSlideInFromRight] = useState(false);
 
   const prevSlide = () => {
     if (index === 0) setIndex(quotes.length - 1); // restart carousel at the end
     if (index > 0) setIndex(index - 1);
-    setSlideInFromRight(false);
   };
 
   const nextSlide = () => {
     if (index === quotes.length - 1) setIndex(0); // restart carousel at the beginning
     if (index < quotes.length - 1) setIndex(index + 1);
-    setSlideInFromRight(true);
   };
 
   const findQuote = quotes.find((quote) => +quote.id === index + 1);
 
   return (
-    <>
-      <div className={classes['quotes-header']}>
-        {findQuote.href && (
-          <a
-            href={findQuote.href}
-            target='_blank'
-            rel='noreferrer'
-            className={classes['slider-link']}
-          >
-            <Icon className={classes.mark} icon={['fa', 'external-link-alt']} />
-            Rezension
-          </a>
-        )}
-        <div className={classes['slider-btn']}>
-          <button className={classes.btn} onClick={prevSlide} aria-label='previous quote'>
-            <Icon icon={['fa', 'caret-left']} />
-          </button>
-          <div className={classes['slider-btn__text']}>
-            Zitat {index + 1}/{quotes.length}
-          </div>
-          <button className={classes.btn} onClick={nextSlide} aria-label='next quote'>
-            <Icon icon={['fa', 'caret-right']} />
-          </button>
-        </div>
-      </div>
+    <div className={classes['slider']}>
       {quotes.map((quote, i) => {
         if (i === index) {
           return (
-            <div
-              key={quote.id}
-              className={
-                slideInFromRight
-                  ? `${classes.card} ${classes['slide-from-right']}`
-                  : `${classes.card} ${classes['slide-from-left']}`
-              }
-            >
+            <div key={quote.id} className={classes['fade-in']}>
               <Card className={classes.quote}>
-                <Icon className={classes.mark} icon={['fa', 'quote-left']} />
-                <p className={classes.text}>{quote.text}</p>
-                <p className={classes.author}>{quote.author}</p>
-                <div className={classes.origin}>{quote.origin}</div>
+                <button
+                  className={classes['btn--prev']}
+                  onClick={prevSlide}
+                  aria-label='previous quote'
+                >
+                  &#10094;
+                </button>
+                <button
+                  className={classes['btn--next']}
+                  onClick={nextSlide}
+                  aria-label='next quote'
+                >
+                  &#10095;
+                </button>
+                {findQuote.href ? (
+                  <a
+                    href={findQuote.href}
+                    target='_blank'
+                    rel='noreferrer'
+                    className={classes.link}
+                  >
+                    <Icon className={classes['link__icon']} icon={['fa', 'external-link-alt']} />
+                    Rezension
+                  </a>
+                ) : (
+                  <Icon className={classes['quote__mark']} icon={['fa', 'quote-left']} />
+                )}
+                <p className={classes['quote__text']}>{quote.text}</p>
+                <p className={classes['quote__author']}>{quote.author}</p>
+                <div className={classes['quote__origin']}>{quote.origin}</div>
               </Card>
             </div>
           );
         }
         return null;
       })}
-    </>
+    </div>
   );
 };
 
