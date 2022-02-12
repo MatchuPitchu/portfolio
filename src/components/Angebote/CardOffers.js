@@ -21,19 +21,19 @@ const CardOffers = ({ offer }) => {
         <ImgWithFallback src={offer.imageSrc} fallback={offer.imageFallback} alt={offer.title} />
       </div>
       <div className={classes['card-header']}>
-        <H2Title>{offer.title}</H2Title>
+        <H2Title className={classes.h2}>{offer.title}</H2Title>
       </div>
       <div className={classes.description}>
         <p>{offer.description}</p>
       </div>
       <div className={classes['activity-box']}>
-        <H3Title>Bereiche</H3Title>
+        <H3Title className={classes.h3}>Bereiche</H3Title>
         {offer.activities.map((item, index) => (
           <ActivityPoint key={index} item={item} />
         ))}
       </div>
       <div className={classes.references}>
-        <H3Title>Referenzen</H3Title>
+        <H3Title className={classes.h3}>Referenzen</H3Title>
         <ButtonExpand
           onClick={handleExpandClick}
           isExpanded={isExpanded}
