@@ -45,6 +45,61 @@
   width: auto;
 }
 
+.carbon {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #016c4a;
+  background-color: var(--color-bg-items-primary);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  user-select: none;
+}
+
+.carbon > * {
+  padding: 0 3px;
+}
+
+.carbon__link {
+  padding-bottom: 1px;
+}
+
+.carbon__description {
+  color: var(--color-light);
+  background-color: rgba(1, 108, 74, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+.p {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  text-align: center;
+  color: var(--color-text-shade);
+  opacity: 0.8;
+  margin: 0;
+  padding: var(--padding-even-sm);
+}
+
+.icon-react {
+  width: 2rem;
+  margin-left: 0.3rem;
+  padding: 0.2rem;
+  transition: padding 0.3s ease-out;
+  animation: var(--animation-rotate);
+}
+
+.icon-react:hover {
+  padding: 0;
+}
+
 .navlinks-box {
   display: flex;
   justify-content: center;
@@ -64,22 +119,4 @@
 .navlink:active {
   box-shadow: inset 0 -2.2rem 0 0 var(--color-menu-items);
   transition: all 0.3s ease-out;
-}
-
-.copyright {
-  text-align: center;
-  opacity: 0.8;
-  margin: 0;
-  padding: var(--padding-even-sm);
-}
-
-.icon-react {
-  width: 2rem;
-  transition: padding 0.3s ease-out;
-  padding: 0.1rem;
-  animation: var(--animation-rotate);
-}
-
-.icon-react:hover {
-  padding: 0;
 }

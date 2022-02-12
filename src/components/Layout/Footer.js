@@ -37,6 +37,22 @@ const Footer = () => {
           <img className={classes.logo} src={isLight ? github : githubDark} alt='Logo GitHub' />
         </a>
       </div>
+      <div className={classes.carbon}>
+        <div className={classes['carbon__text']}>
+          ~ 0.21g CO<sub>2</sub>
+        </div>
+        <div className={classes['carbon__link']}>Website Carbon Calculator</div>
+        <div className={classes['carbon__description']}>
+          weniger als 85% der getesteten Websites
+        </div>
+      </div>
+      <div className={classes.copyright}>
+        <p className={classes.p}>Built with passion and React</p>
+        <a href='https://reactjs.org/' rel='noreferrer' target='_blank'>
+          <img src={react} className={classes['icon-react']} alt='Logo React' />
+        </a>
+        <p className={classes.p}>Michael Flohr © 2022</p>
+      </div>
       <div className={classes['navlinks-box']}>
         <NavLink className={classes.navlink} to='/datenschutz'>
           Datenschutz
@@ -45,11 +61,6 @@ const Footer = () => {
           Impressum
         </NavLink>
       </div>
-      <p className={classes.copyright}>Built with passion and React</p>
-      <a href='https://reactjs.org/' rel='noreferrer' target='_blank'>
-        <img src={react} className={classes['icon-react']} alt='Logo React' />
-      </a>
-      <p className={classes.copyright}>Michael Flohr © 2022</p>
     </footer>
   );
 };

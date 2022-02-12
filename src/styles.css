@@ -90,6 +90,10 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background-color: var(--color-bg-items-secondary);
+}
+
 html {
   font-family: 'Jost', sans-serif;
   font-size: 16px;
