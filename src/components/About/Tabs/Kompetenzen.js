@@ -4,6 +4,7 @@ import classes from './Tabs.module.css';
 
 import html5 from '../../../assets/logos/logo-HTML5.svg';
 import css3 from '../../../assets/logos/logo-CSS3.svg';
+import sass from '../../../assets/logos/logo-sass-scss.svg';
 import javascript from '../../../assets/logos/logo-javascript.svg';
 import typescript from '../../../assets/logos/logo-typescript.svg';
 import nodejs from '../../../assets/logos/logo-nodejs.svg';
@@ -28,6 +29,7 @@ const webSkills = [
     tags: [
       { name: 'HTML5', logo: html5 },
       { name: 'CSS3', logo: css3 },
+      { name: 'Sass/SCSS', logo: sass },
       { name: 'JavaScript', logo: javascript },
       { name: 'TypeScript', logo: typescript },
       { name: 'Node.js', logo: nodejs },
@@ -94,9 +96,9 @@ const Kompetenzen = ({ isOpen }) => {
         {webSkills.map((element) => (
           <div key={element.title} className={classes['skill-box']}>
             <H3Title>{element.title}</H3Title>
-            <div className={classes['item']}>
+            <div className={classes.items}>
               {element.tags.map((item) => (
-                <div key={item.name} className={classes['item__text']}>
+                <div key={item.name} className={classes['items__item']}>
                   <img className={classes['logo-img']} src={item.logo} alt={item.name} />
                   <div className={classes['logo-label']}>{item.name}</div>
                 </div>
@@ -108,9 +110,9 @@ const Kompetenzen = ({ isOpen }) => {
         {tags.map((element) => (
           <div key={element.title} className={classes['skill-box']}>
             <H3Title>{element.title}</H3Title>
-            <div className={classes['item']}>
+            <div className={classes.items}>
               {element.tags.map((item) => (
-                <div key={item} className={classes['item__text']}>
+                <div key={item} className={classes['items__item']}>
                   {item}
                 </div>
               ))}
