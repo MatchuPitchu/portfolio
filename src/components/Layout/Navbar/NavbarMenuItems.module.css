@@ -20,7 +20,7 @@
 .link--subnav:hover,
 .link--subnav.active,
 .menu-list .dropdown:hover {
-  box-shadow: inset 0 3rem 0 0 var(--color-menu-items);
+  box-shadow: inset 0 2.7rem 0 0.09px var(--color-menu-items); /* 0.09px to avoid flickering in Chrome */
 }
 
 .dropdown {
