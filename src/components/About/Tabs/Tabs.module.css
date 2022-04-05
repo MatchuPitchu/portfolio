@@ -49,12 +49,12 @@
 
 .skill-box:nth-child(1),
 .skill-box:nth-child(4) {
-  flex: 1 0 calc(60% - 2rem);
+  flex: 1 0 calc(60% - 4rem);
 }
 
 .skill-box:nth-child(2),
 .skill-box:nth-child(3) {
-  flex: 1 0 calc(40% - 2rem);
+  flex: 1 0 calc(40% - 4rem);
 }
 
 .title {
