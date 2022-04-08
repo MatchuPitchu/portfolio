@@ -47,14 +47,17 @@
   width: 100%;
 }
 
-.skill-box:nth-child(1),
-.skill-box:nth-child(4) {
-  flex: 1 0 calc(60% - 4rem);
+.skill-box:nth-child(1) {
+  flex: 0 0 calc(60% - 2rem);
+}
+
+.skill-box:nth-child(3) {
+  flex: 0 0 calc(40% - 2rem);
 }
 
 .skill-box:nth-child(2),
-.skill-box:nth-child(3) {
-  flex: 1 0 calc(40% - 4rem);
+.skill-box:nth-child(4) {
+  flex: 1;
 }
 
 .title {
