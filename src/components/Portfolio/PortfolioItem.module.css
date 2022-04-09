@@ -59,13 +59,13 @@
 .image--main {
   flex: 1 1 30%;
   align-self: flex-start;
-  transform: translate(-35%, 25%);
+  transform: translate(-35%, 25%) scale(0.9);
   transition: all 0.3s ease;
   border-radius: var(--border-radius);
 }
 
 .image--main:hover {
-  transform: translate(-30%, 20%);
+  transform: translate(-35%, 25%) scale(1) rotate(2deg);
 }
 
 .image--main img {

@@ -106,14 +106,16 @@
   flex: 1 0 auto;
   display: flex;
   align-items: center;
+  font-size: 0.9rem;
   padding: var(--padding-less-y-sm);
+  background-color: var(--color-bg-transparent20);
   border: 1px solid var(--color-bg-transparent60);
   border-radius: var(--border-radius);
 }
 
-.items__item {
-  font-size: 0.9rem;
-  background-color: var(--color-bg-transparent20);
+.items__item:hover {
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-bg-transparent60);
 }
 
 .logo-img {
