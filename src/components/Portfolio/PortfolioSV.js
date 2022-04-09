@@ -44,7 +44,7 @@ const PortfolioSV = () => {
           </p>
         </section>
         <section className={`${classes.section} ${classes.btns}`}>
-          <a href='https://eis-mit-stil.netlify.app' target='_blank' rel='noreferrer'>
+          <a href='https://meinsvwissen.de' target='_blank' rel='noreferrer'>
             <Button ariaLabel='link'>Zur SV-App</Button>
           </a>
         </section>

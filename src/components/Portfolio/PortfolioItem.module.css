@@ -65,7 +65,7 @@
 }
 
 .image--main:hover {
-  transform: translate(-35%, 25%) scale(1) rotate(2deg);
+  transform: translate(-35%, 25%) scale(0.95) rotate(2deg);
 }
 
 .image--main img {
