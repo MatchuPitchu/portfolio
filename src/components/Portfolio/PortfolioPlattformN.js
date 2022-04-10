@@ -1,6 +1,4 @@
 import { Link } from 'react-router-dom';
-import { useContext } from 'react';
-import { ThemeContext } from '../../store/ThemeContext';
 import ImgWithFallback from '../ImgWithFallback';
 import Button from '../UI/Button/Button';
 import Card from '../UI/Card/Card';
@@ -9,20 +7,14 @@ import H3Title from '../UI/Titles/H3Title';
 
 import classes from './PortfolioItem.module.css';
 
-import plattformPNG from '../../assets/portfolio/screenshot-plattform-n.png';
+import plattformJPG from '../../assets/portfolio/screenshot-plattform-n.jpg';
 import plattformWEBP from '../../assets/portfolio/screenshot-plattform-n.webp';
+import plattform2JPG from '../../assets/portfolio/screenshot-plattform-n-2.jpg';
+import plattform2WEBP from '../../assets/portfolio/screenshot-plattform-n-2.webp';
 
-const portfolio = {
-  title: 'Screenshot Vegan Ice Cream App Eis mit Stil',
-  imageSrc: plattformWEBP,
-  imageFallback: plattformPNG,
-};
-
-const tags = ['Projektmanagement', 'Community-Management', 'React Relaunch'];
+const tags = ['Projektmanagement', 'Community-Management', 'React Relaunch', 'Django'];
 
 const PortfolioPlattformN = () => {
-  const { isLight } = useContext(ThemeContext);
-
   return (
     <div className={classes['portfolio-item']}>
       <Card className={`${classes['card--customized']} ${classes['card--customized-sm']}`}>
@@ -64,16 +56,16 @@ const PortfolioPlattformN = () => {
           </a>
         </section>
       </Card>
-      <div className={`${classes['image--main']} ${classes['image-cutted-out']}`}>
+      <div className={`${classes['image--main']} ${classes['image--flex']}`}>
         <ImgWithFallback
-          src={isLight ? portfolio.imageSrc : portfolio.imageSrcDark || portfolio.imageSrc}
-          fallback={
-            isLight
-              ? portfolio.imageFallback
-              : portfolio.imageFallbackDark || portfolio.imageFallback
-          }
-          alt={portfolio.title}
-          className={classes.image}
+          src={plattform2WEBP}
+          fallback={plattform2JPG}
+          alt='Screenshot Vegan Ice Cream App Eis mit Stil'
+        />
+        <ImgWithFallback
+          src={plattformWEBP}
+          fallback={plattformJPG}
+          alt='Screenshot Vegan Ice Cream App Eis mit Stil'
         />
       </div>
     </div>
