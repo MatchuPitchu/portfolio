@@ -4,6 +4,7 @@ import Section from '../../UI/Section/Section';
 import Card from '../../UI/Card/Card';
 import QuotesCarousel from './QuotesCarousel';
 import classes from '../PublicationsDetails.module.css';
+import { Link } from 'react-router-dom';
 
 const theses = [
   {
@@ -117,11 +118,12 @@ const KulturpolitikDetails = () => {
           </p>
           <p>
             Ausgehend von einer Dokumentenanalyse und den Ergebnissen leitfadengestützter
-            Experteninterviews und einer quantitativen Netzwerkerhebung unter kulturpolitischen
-            Akteuren zielt die Forschungsarbeit darauf ab, die inhaltliche Gestaltung des
-            Politikfelds (policy) zu beschreiben und zu erklären sowie die Effekte der policy
-            aufzudecken. Der theoretische Ansatz des akteurzentrierten Institutionalismus (Mayntz,
-            Scharpf 1995; Scharpf 2006) rahmt die Politikfeldanalyse.
+            Experteninterviews und einer{' '}
+            <Link to='/netzwerke-kulturpolitik'>quantitativen Netzwerkerhebung</Link> unter
+            kulturpolitischen Akteuren zielt die Forschungsarbeit darauf ab, die inhaltliche
+            Gestaltung des Politikfelds (policy) zu beschreiben und zu erklären sowie die Effekte
+            der policy aufzudecken. Der theoretische Ansatz des akteurzentrierten Institutionalismus
+            (Mayntz, Scharpf 1995; Scharpf 2006) rahmt die Politikfeldanalyse.
           </p>
           <img
             src='https://vg02.met.vgwort.de/na/260164499a15414fa3521e1de49375f2'
