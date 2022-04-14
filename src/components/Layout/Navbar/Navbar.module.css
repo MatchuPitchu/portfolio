@@ -11,7 +11,7 @@
 
 .navbar__container {
   display: flex;
-  max-width: 992px;
+  /* max-width: 992px; */
   margin: 0 auto;
   overflow: hidden; /* for moveIn animation mobile menu */
 }
@@ -30,7 +30,7 @@
   animation: var(--animation-rotate);
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1100px) {
   .navbar {
     position: relative;
     top: auto;
