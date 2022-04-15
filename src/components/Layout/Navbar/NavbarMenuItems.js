@@ -85,9 +85,11 @@ const NavbarMenuItems = ({ isMenuOpen, onClose }) => {
             target='_blank'
           >
             <img className={classes.logo} src={linkedin} alt='Logo LinkedIn' />
+            <img className={classes['logo--hidden']} src={linkedin} alt='Logo LinkedIn' />
           </a>
           <a href='https://www.xing.com/profile/Michael_Flohr9' rel='noreferrer' target='_blank'>
             <img className={classes.logo} src={xing} alt='Logo Xing' />
+            <img className={classes['logo--hidden']} src={xing} alt='Logo Xing' />
           </a>
           <a
             href='https://www.researchgate.net/profile/Michael-Flohr'
@@ -95,9 +97,15 @@ const NavbarMenuItems = ({ isMenuOpen, onClose }) => {
             target='_blank'
           >
             <img className={classes.logo} src={researchgate} alt='Logo ResearchGate' />
+            <img className={classes['logo--hidden']} src={researchgate} alt='Logo ResearchGate' />
           </a>
           <a href='https://github.com/MatchuPitchu' rel='noreferrer' target='_blank'>
             <img className={classes.logo} src={isLight ? github : githubDark} alt='Logo GitHub' />
+            <img
+              className={classes['logo--hidden']}
+              src={isLight ? github : githubDark}
+              alt='Logo GitHub'
+            />
           </a>
         </div>
       </li>
