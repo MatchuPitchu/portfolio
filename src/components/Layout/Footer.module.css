@@ -88,15 +88,13 @@
 }
 
 .icon-react {
-  width: 2rem;
+  width: 1.5rem;
   margin-left: 0.3rem;
-  padding: 0.2rem;
-  transition: padding 0.3s ease-out;
   animation: var(--animation-rotate);
 }
 
 .icon-react:hover {
-  padding: 0;
+  filter: invert(10%);
 }
 
 .navlinks-box {
