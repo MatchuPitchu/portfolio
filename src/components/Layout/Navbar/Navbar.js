@@ -6,6 +6,7 @@ import NavbarMenuBtn from './NavbarMenuBtn';
 import NavbarMenuItems from './NavbarMenuItems';
 import SwitchBtn from './SwitchBtn';
 import classes from './Navbar.module.css';
+import Icons from './Icons';
 
 const Navigation = () => {
   const { isLight } = useContext(ThemeContext);
@@ -40,6 +41,7 @@ const Navigation = () => {
             <span className='sr-only'>Home</span>
           </Link>
           <SwitchBtn />
+          <Icons isOnlyVisibleMobile={true} />
           <NavbarMenuBtn onToggleMenu={toggleMenuHandler} isMenuOpen={isMenuOpen} />
         </div>
         <NavbarMenuItems onClose={closeMenuHandler} isMenuOpen={isMenuOpen} />

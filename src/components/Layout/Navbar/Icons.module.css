@@ -1,0 +1,82 @@
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+  overflow: hidden;
+}
+
+.icons > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 2.7rem;
+  width: 2.7rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.3rem;
+  width: auto;
+  filter: grayscale(1) opacity(0.5);
+  transform: translateY(0.6rem);
+  transition: all 0.2s ease-out;
+}
+
+.logo--hidden {
+  height: 1.3rem;
+  width: auto;
+  opacity: 0;
+  transform: translateY(2rem);
+  transition: all 0.2s ease-out;
+}
+
+.icons > a:hover > .logo {
+  transform: translateY(-2rem);
+}
+
+.icons > a:hover > .logo--hidden {
+  opacity: 1;
+  transform: translateY(-0.7rem);
+}
+
+.icons > a:hover {
+  background-color: var(--color-bg-transparent60);
+}
+
+@media all and (max-width: 1100px) {
+  .icons {
+    padding: 1rem auto 1rem 1rem;
+  }
+
+  .logo {
+    transform: none;
+  }
+
+  .logo--hidden {
+    display: none;
+  }
+
+  .icons > a:hover {
+    background-color: transparent;
+  }
+
+  .icons > a:hover > .logo {
+    filter: grayscale(0) opacity(1);
+    transform: none;
+  }
+
+  .icons--desktop {
+    display: none;
+  }
+}
+
+@media all and (min-width: 1100px) {
+  /* only visible when Navbar Menu Button is needed */
+  .icons--mobile {
+    display: none;
+  }
+}
