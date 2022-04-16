@@ -1,42 +1,11 @@
-import { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
-import { ThemeContext } from '../../store/ThemeContext';
 import classes from './Footer.module.css';
 
-import linkedin from '../../assets/logos/logo-linkedin.svg';
-import xing from '../../assets/logos/logo-xing.svg';
-import researchgate from '../../assets/logos/logo-ResearchGate.svg';
-import github from '../../assets/logos/logo-github.svg';
-import githubDark from '../../assets/logos/logo-github-dark.svg';
 import react from '../../assets/logos/logo-reactjs.svg';
 
 const Footer = () => {
-  const { isLight } = useContext(ThemeContext);
-
   return (
     <footer className={classes.footer}>
-      <div className={classes.icons}>
-        <a
-          href='https://www.linkedin.com/in/dr-michael-flohr-952649211'
-          rel='noreferrer'
-          target='_blank'
-        >
-          <img className={classes.logo} src={linkedin} alt='Logo LinkedIn' />
-        </a>
-        <a href='https://www.xing.com/profile/Michael_Flohr9' rel='noreferrer' target='_blank'>
-          <img className={classes.logo} src={xing} alt='Logo Xing' />
-        </a>
-        <a
-          href='https://www.researchgate.net/profile/Michael-Flohr'
-          rel='noreferrer'
-          target='_blank'
-        >
-          <img className={classes.logo} src={researchgate} alt='Logo ResearchGate' />
-        </a>
-        <a href='https://github.com/MatchuPitchu' rel='noreferrer' target='_blank'>
-          <img className={classes.logo} src={isLight ? github : githubDark} alt='Logo GitHub' />
-        </a>
-      </div>
       <div className={classes.carbon}>
         <div className={classes['carbon__text']}>
           ~ 0.21g CO<sub>2</sub>
@@ -46,13 +15,6 @@ const Footer = () => {
           weniger als 85% der getesteten Websites
         </div>
       </div>
-      <div className={classes.copyright}>
-        <p className={classes.p}>Built with passion and React</p>
-        <a href='https://reactjs.org/' rel='noreferrer' target='_blank'>
-          <img src={react} className={classes['icon-react']} alt='Logo React' />
-        </a>
-        <p className={classes.p}>Michael Flohr © 2022</p>
-      </div>
       <div className={classes['navlinks-box']}>
         <NavLink className={classes.navlink} to='/datenschutz'>
           Datenschutz
@@ -60,6 +22,20 @@ const Footer = () => {
         <NavLink className={classes.navlink} to='/impressum'>
           Impressum
         </NavLink>
+      </div>
+      <div className={classes.copyright}>
+        <p className={classes.p}>
+          Built with passion and React
+          <a
+            className={classes['a--no-shadow']}
+            href='https://reactjs.org/'
+            rel='noreferrer'
+            target='_blank'
+          >
+            <img src={react} className={classes['icon-react']} alt='Logo React' />
+          </a>
+          Michael Flohr © 2022
+        </p>
       </div>
     </footer>
   );
