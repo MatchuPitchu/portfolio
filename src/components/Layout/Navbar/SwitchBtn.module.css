@@ -1,11 +1,11 @@
 .switch {
   position: relative;
   border: none;
-  margin: 0.4rem auto 0.4rem 1rem;
+  margin: 0.4rem auto 0.4rem 0.4rem;
   height: 27px;
-  width: 55px;
+  width: 60px;
   border-radius: var(--border-radius);
-  background-image: linear-gradient(aqua, skyblue);
+  background-image: linear-gradient(#8fb8d4, skyblue);
   cursor: pointer;
   box-shadow: var(--box-shadow);
 }
