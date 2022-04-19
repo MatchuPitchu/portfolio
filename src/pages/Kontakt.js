@@ -14,26 +14,27 @@ const Kontakt = () => {
     <HeadingWrapper className={classes.wrapper}>
       <H1Title>Kontakt</H1Title>
       <p>
-        Schreiben Sie mir, wenn Sie einen Freelancer suchen und in den unter{' '}
-        <Link to='/angebote'>Angebote</Link> aufgezählten Bereichen freiberufliche Unterstützung
-        brauchen. Lassen Sie uns gerne ins Gespräch kommen. Ich freue mich auf Ihre Nachricht.
+        Schreiben Sie mir, wenn Sie einen Freelancer suchen und freiberufliche Unterstützung
+        brauchen. Unter <Link to='/angebote'>Angebote</Link> finden Sie alle Bereiche, in denen ich
+        aktiv bin.
       </p>
       <Container className={classes['container--contact']}>
-        <div className={classes['img-box']}>
+        <figure className={classes['img-box']}>
           <ImgWithFallback
             src={imgProfilWEBP}
             fallback={imgProfilJPG}
             alt='Profilbild Michael Flohr'
-            className={classes.img}
+            className={classes['img-box__img']}
           />
-        </div>
+          <figcaption className={classes['img-box__caption']}>
+            » Lassen Sie uns ins Gespräch kommen. Ich freue mich auf Ihre Nachricht. «
+          </figcaption>
+        </figure>
         <div className={classes['data-box']}>
           <h2>
             <span className={classes.name}>Michael Flohr</span>
             <span className={classes.city}>Berlin</span>
           </h2>
-        </div>
-        <div className={classes['btn-box']}>
           <a
             // HEX Codierung
             href='&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x6d;&#x2e;&#x66;&#x6c;&#x6f;&#x68;&#x72;&#x40;&#x70;&#x6f;&#x73;&#x74;&#x65;&#x6f;&#x2e;&#x64;&#x65;?subject=Kontaktanfrage über Website'
