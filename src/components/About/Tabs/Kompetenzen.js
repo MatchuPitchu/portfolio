@@ -33,6 +33,7 @@ const webSkills = [
       { name: 'Sass/SCSS', logo: sass },
       { name: 'JavaScript', logo: javascript },
       { name: 'TypeScript', logo: typescript },
+      { name: 'Regular Expressions' },
       { name: 'Node.js', logo: nodejs },
       { name: 'SQL', logo: postgresql },
       { name: 'MongoDB', logo: mongodb },
@@ -99,10 +100,10 @@ const Kompetenzen = ({ isOpen }) => {
           <div key={element.title} className={classes['skill-box']}>
             <H3Title>{element.title}</H3Title>
             <div className={classes.items}>
-              {element.tags.map((item) => (
-                <div key={item.name} className={classes['items__item']}>
-                  <img className={classes['logo-img']} src={item.logo} alt={item.name} />
-                  <div className={classes['logo-label']}>{item.name}</div>
+              {element.tags.map(({ logo, name }) => (
+                <div key={name} className={classes['items__item']}>
+                  {logo && <img className={classes['logo-img']} src={logo} alt={name} />}
+                  <div className={classes['logo-label']}>{name}</div>
                 </div>
               ))}
             </div>
