@@ -7,7 +7,7 @@ const workExperience = [
     date: 'seit Oktober 2021',
     title: 'Webentwickler',
     organization: 'team neusta GmbH, Berlin',
-    content: `Web- und App-Frontend-Entwicklung auf Basis von HTML, CSS, JavaScript, React, Next.js`,
+    content: `Web- und App-Frontend-Entwicklung auf Basis von u.a. HTML, CSS, JavaScript, TypeScript, React und Redux`,
   },
   {
     date: 'Februar 2017 - Dezember 2020',

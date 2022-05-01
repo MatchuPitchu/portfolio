@@ -13,6 +13,7 @@ import moderationJPG from '../assets/moderation_michael-flohr.jpg';
 import moderationWEBP from '../assets/webp/moderation_michael-flohr.webp';
 import HeadingWrapper from '../components/Layout/HeadingWrapper';
 import Container from '../components/Layout/Container';
+import { Link } from 'react-router-dom';
 
 const offers = [
   {
@@ -33,7 +34,7 @@ const offers = [
         </a>{' '}
         für das Nachhaltigkeitsengagement an Hochschulen mitgewirkt. Daraus ergab sich der Impuls,
         stärker in die Programmierung einzusteigen. In einer 15-wöchigen Weiterbildung zum
-        Full-Stack Web & App Developer an der{' '}
+        "Full-Stack Web & App Developer" an der{' '}
         <a href='https://www.wbscodingschool.com/' target='_blank' rel='noreferrer'>
           WBS Coding School
         </a>{' '}
@@ -43,22 +44,15 @@ const offers = [
         <a href='https://www.team-neusta.de/' target='_blank' rel='noreferrer'>
           team neusta
         </a>{' '}
-        Unternehmensgruppe tätig.
+        Unternehmensgruppe tätig. Weitere Informationen zu diesem Bereich sind unter{' '}
+        <Link to='/webentwicklung'>Webentwicklung</Link> zu finden.
       </>
     ),
     activities: [
-      'App & Web Development',
       'HTML5, CSS3 und Responsive Web Design',
-      'Aufsetzen & Gestaltung von Webseiten auf WordPress-Basis mit kllimapositivem Hosting',
-      'Frontend Programmierung mit JavaScript, TypeScript, React, Ionic',
-      'Backend Programmierung mit Node.js (Express)',
-      'Version Control Systems (Git & GitHub)',
-      'Datenbanken und Datenbanken-Management: SQL, MongoDB',
-      'DevOps: Hosting, Deployment, Monitoring',
-      'APIs (REST)',
-      'Software Testing (TDD)',
-      'User Interface & User Experience',
-      'Agile Tools und Methoden (z.B. Scrum)',
+      'Single Page Applications (SPA) auf Basis von React oder Next.js',
+      'Cross-Plattform-App auf Basis von Ionic',
+      'Aufsetzen & Gestaltung von Webseiten auf WordPress-Basis mit klimapositivem Hosting',
     ],
     references: [
       'Eis mit Stil - Vegan Ice Cream App',
@@ -98,16 +92,18 @@ const offers = [
     imageFallback: buecherregalJPG,
     description: (
       <>
-        Durch meine Zeit der Promotion an der Universität Erfurt habe ich das Privileg erfahren,
-        intrinisch motiviert einen Forschungsgegenstand über einen längeren Zeitraum ergründen,
-        analysieren und verstehen zu dürfen. Zudem vermittelte mir dieser Lebensabschnitt, was
-        wissenschaftliches Denken und Arbeiten wirklich bedeutet. Vieles davon ist auch außerhalb
-        der Forschung essentiell und bereichernd – egal in welchem Tätigkeitsbereich. Inhaltlich
-        befasste ich mich bislang in Studien und praxisnahen Artikeln mit Kulturpolitik
-        (Politikfeld-/Netzwerkanalyse), Bildung für nachhaltige Entwicklung (staatliche Förderung),
-        nachhaltige Hochschulentwicklung (Netzwerkanalyse, Engagement), Digitalisierung und
-        Suffizienz an Hochschulen im ländlichen Raum. Darüber hinaus entwickelte ich innerhalb eines
-        Projektes die Wirkungsmessung des netzwerk n basierend auf der{' '}
+        Durch meine Zeit der{' '}
+        <Link to='/veroeffentlichungen/kulturpolitik'>Promotion an der Universität Erfurt</Link>{' '}
+        habe ich das Privileg erfahren, intrinisch motiviert einen Forschungsgegenstand über einen
+        längeren Zeitraum ergründen, analysieren und verstehen zu dürfen. Zudem vermittelte mir
+        dieser Lebensabschnitt, was wissenschaftliches Denken und Arbeiten wirklich bedeutet. Vieles
+        davon ist auch außerhalb der Forschung essentiell und bereichernd – egal in welchem
+        Tätigkeitsbereich. Inhaltlich befasste ich mich bislang in Studien und praxisnahen Artikeln
+        mit Kulturpolitik (Politikfeld-/<Link to='/netzwerke-kulturpolitik'>Netzwerkanalyse</Link>),
+        Bildung für nachhaltige Entwicklung (staatliche Förderung), nachhaltige Hochschulentwicklung
+        (Netzwerkanalyse, Engagement), Digitalisierung und Suffizienz an Hochschulen im ländlichen
+        Raum. Darüber hinaus entwickelte ich innerhalb eines Projektes die Wirkungsmessung des
+        netzwerk n basierend auf der{' '}
         <a href='https://www.phineo.org/kursbuch-wirkung' target='_blank' rel='noreferrer'>
           Phineo-Wirkungstreppe
         </a>

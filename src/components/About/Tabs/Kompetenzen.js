@@ -26,7 +26,7 @@ import bootstrap from '../../../assets/logos/logo-bootstrap-5.svg';
 
 const webSkills = [
   {
-    title: 'Web- & App-Entwicklung',
+    title: 'Webentwicklung',
     tags: [
       { name: 'HTML5', logo: html5 },
       { name: 'CSS3', logo: css3 },

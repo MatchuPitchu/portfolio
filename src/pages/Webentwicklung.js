@@ -38,7 +38,8 @@ const Webentwicklung = () => {
           </a>
           , auch wenn ich dies vor ein paar Jahren noch nicht wirklich als berufliche Option auf dem
           Schirm hatte. Das hat mir einmal mehr gezeigt, dass im Leben alles möglich ist, wenn nur
-          die intrinsische Motivation und der Spaß vorhanden ist.
+          die intrinsische Motivation und der Spaß vorhanden ist. Zu meinem favorisierten Tech-Stack
+          gehören aktuell TypeScript, JavaScript, SCSS/CSS, React und Next.js.
         </p>
       </HeadingWrapper>
       <Portfolio />
