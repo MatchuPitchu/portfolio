@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import H1Title from '../components/UI/Titles/H1Title';
 import CardOffers from '../components/Angebote/CardOffers';
 import Map from '../components/Angebote/Map';
@@ -13,7 +14,6 @@ import moderationJPG from '../assets/moderation_michael-flohr.jpg';
 import moderationWEBP from '../assets/webp/moderation_michael-flohr.webp';
 import HeadingWrapper from '../components/Layout/HeadingWrapper';
 import Container from '../components/Layout/Container';
-import { Link } from 'react-router-dom';
 
 const offers = [
   {

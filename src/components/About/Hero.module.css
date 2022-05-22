@@ -32,6 +32,7 @@
 .h1--title {
   font-size: clamp(1.3rem, 0.9667rem + 1.6667vw, 2rem);
   animation: slideInTitle 3s ease-out forwards;
+  margin-right: 0.5rem;
 }
 
 @keyframes slideInTitle {
@@ -51,15 +52,60 @@
   }
 }
 
+.rubberBand {
+  transition: all 0.3s ease-out;
+  animation-name: rubberBand;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes rubberBand {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    -ms-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    -ms-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    -ms-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    -ms-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    -ms-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
 .h1--firstName {
   font-size: clamp(2rem, 1.0476rem + 4.7619vw, 4rem);
   color: var(--color-primary);
-  margin-right: 0.5rem;
 }
 
 .h1--lastName {
   font-size: clamp(2rem, 1.0476rem + 4.7619vw, 4rem);
   animation: slideIn 2s ease-out forwards;
+  margin-left: 1rem;
 }
 
 .h1--subtitle {

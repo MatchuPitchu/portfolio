@@ -10,7 +10,7 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  row-gap: 0.5rem;
   position: relative;
   max-width: calc(100% - 100px);
   margin: 2rem 0 1.5rem 0;

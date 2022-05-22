@@ -1,15 +1,45 @@
+import { useState } from 'react';
 import H1Title from '../UI/Titles/H1Title';
 import Container from '../Layout/Container';
 import Images from './Images';
 import Pointer from '../UI/Pointer/Pointer';
 import classes from './Hero.module.css';
 
+const FIRSTNAME = 'Michael'.split('');
+
 const Hero = () => {
+  const [animated, setAnimated] = useState(FIRSTNAME.map((l) => false));
+
+  const handleMouseEnter = (index) => {
+    setAnimated((prev) => {
+      const newArr = [...prev];
+      newArr.splice(index, 1, true);
+      return newArr;
+    });
+  };
+
+  const handleAnimationEnd = (index) => {
+    setAnimated((prev) => {
+      const newArr = [...prev];
+      newArr.splice(index, 1, false);
+      return newArr;
+    });
+  };
+
   return (
     <section className={classes.hero}>
       <H1Title classTitle={classes.h1}>
-        <span className={classes['h1--title']}>Dr</span>
-        <span className={classes['h1--firstName']}>Michael</span>
+        <span className={classes['h1--title']}>Dr</span>{' '}
+        {FIRSTNAME.map((letter, index) => (
+          <span
+            key={index}
+            onMouseEnter={() => handleMouseEnter(index)}
+            onAnimationEnd={() => handleAnimationEnd(index)}
+            className={`${classes['h1--firstName']} ${animated[index] ? classes.rubberBand : ''}`}
+          >
+            {letter}
+          </span>
+        ))}
         <span className={classes['h1--lastName']}>Flohr</span>
         <span className={classes['h1--subtitle']}>Webentwicklung & Nachhaltigkeit</span>
       </H1Title>
