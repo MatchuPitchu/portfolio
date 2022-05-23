@@ -136,6 +136,7 @@
 
 .container-customized {
   border-width: 0.5rem;
+  background-color: var(--color-bg-boxes);
 }
 
 .presentation {
