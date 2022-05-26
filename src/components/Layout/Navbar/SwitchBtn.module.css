@@ -1,28 +1,46 @@
 .switch {
   position: relative;
   border: none;
-  margin: 0.4rem auto 0.4rem 0.4rem;
-  height: 27px;
-  width: 60px;
+  margin: 0.4rem 0.4rem 0.4rem auto;
+  height: 30px;
+  width: 52px;
   border-radius: var(--border-radius);
-  background-image: linear-gradient(#8fb8d4, skyblue);
+  border: 1px solid var(--ion-border-color);
+  background-image: linear-gradient(
+    var(--color-bg-items-secondary),
+    var(--color-bg-items-secondary)
+  );
   cursor: pointer;
   box-shadow: var(--box-shadow);
 }
-
 .switch.night {
-  background-image: linear-gradient(midnightblue, rebeccapurple);
+  background-image: linear-gradient(
+    var(--color-bg-items-secondary),
+    var(--color-bg-items-secondary)
+  );
 }
 
-.moon {
+.switch > .moon {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: #f8c143;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  box-shadow: 0px 0px 7px 5px #e1a61a;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.switch.night > .moon {
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  background: #fde833;
   position: absolute;
   top: 3px;
   left: 3px;
-  box-shadow: 0 0 10px #fde833;
+  box-shadow: 0 0 10px var(--ion-color-tertiary);
   z-index: 10;
   transition: all 0.3s ease;
 }
@@ -115,4 +133,17 @@
   height: 8px;
   width: 8px;
   transform: translate(-2px, 0);
+}
+
+@media all and (max-width: 1100px) {
+  .btn--desktop {
+    display: none;
+  }
+}
+
+@media all and (min-width: 1100px) {
+  /* only visible when Navbar Menu Button is needed */
+  .btn--mobile {
+    display: none;
+  }
 }

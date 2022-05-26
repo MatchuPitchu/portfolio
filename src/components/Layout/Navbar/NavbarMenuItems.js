@@ -3,6 +3,7 @@ import AnimateHeight from 'react-animate-height';
 import { NavLink } from 'react-router-dom';
 import Icons from './Icons';
 import classes from './NavbarMenuItems.module.css';
+import SwitchBtn from './SwitchBtn';
 
 const paths = [
   { path: '/webentwicklung', name: 'webentwicklung' },
@@ -72,6 +73,9 @@ const NavbarMenuItems = ({ isMenuOpen, onClose }) => {
       ))}
       <li>
         <Icons />
+      </li>
+      <li>
+        <SwitchBtn />
       </li>
     </ul>
   );

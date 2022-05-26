@@ -40,8 +40,8 @@ const Navigation = () => {
             {/* only for accessibility for screenreaders */}
             <span className='sr-only'>Home</span>
           </Link>
-          <SwitchBtn />
           <Icons isOnlyVisibleMobile={true} />
+          <SwitchBtn isOnlyVisibleMobile={true} />
           <NavbarMenuBtn onToggleMenu={toggleMenuHandler} isMenuOpen={isMenuOpen} />
         </div>
         <NavbarMenuItems onClose={closeMenuHandler} isMenuOpen={isMenuOpen} />
