@@ -1,9 +1,15 @@
-import { useState, createContext } from 'react';
+import { useState, createContext, useContext } from 'react';
 
 export const ThemeContext = createContext({
   isLight: true,
   handleTheme: () => {},
 });
+
+export const useThemeContext = () => {
+  const context = useContext(ThemeContext);
+  if (!context) throw new Error('useThemeContext must be used within ThemeContextProvider');
+  return context;
+};
 
 const ThemeContextProvider = ({ children }) => {
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;

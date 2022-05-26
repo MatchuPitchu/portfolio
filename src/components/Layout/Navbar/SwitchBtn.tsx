@@ -1,9 +1,8 @@
-import { useContext } from 'react';
-import { ThemeContext } from '../../../store/ThemeContext';
+import { useThemeContext } from '../../../store/ThemeContext';
 import classes from './SwitchBtn.module.css';
 
 const SwitchBtn = () => {
-  const { isLight, handleTheme } = useContext(ThemeContext);
+  const { isLight, handleTheme } = useThemeContext();
 
   return (
     <button
