@@ -1,7 +1,5 @@
-import { useState, useContext } from 'react';
-import { ThemeContext } from '../../../store/ThemeContext';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
 import NavbarMenuBtn from './NavbarMenuBtn';
 import NavbarMenuItems from './NavbarMenuItems';
 import SwitchBtn from './SwitchBtn';
@@ -9,7 +7,6 @@ import classes from './Navbar.module.css';
 import Icons from './Icons';
 
 const Navigation = () => {
-  const { isLight } = useContext(ThemeContext);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenuHandler = () => setIsMenuOpen((prev) => !prev);
@@ -33,10 +30,7 @@ const Navigation = () => {
               closeMenuHandler();
             }}
           >
-            <Icon
-              className={classes['navbar__icon']}
-              icon={isLight ? ['fa', 'sun'] : ['fa', 'moon']}
-            />
+            <span className='website-logo'>mf</span>
             {/* only for accessibility for screenreaders */}
             <span className='sr-only'>Home</span>
           </Link>
