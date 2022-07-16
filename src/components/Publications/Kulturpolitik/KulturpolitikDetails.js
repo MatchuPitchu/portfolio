@@ -96,8 +96,8 @@ const KulturpolitikDetails = () => {
             Kaum ein Politikfeld ist so vielfältig, symbolisch besetzt und normativ aufgeladen wie
             die Kulturpolitik. Im kooperativ-föderalistisch organisierten deutschen Bundesstaat sind
             es die Länder, die formal die Hauptverantwortung über das kulturelle Leben sowie den
-            Erhalt und die Gestaltung der bestehenden Kulturinfrastruktur. Bislang liegen leider nur
-            wenige politikwissenschaftliche Studien über dieses Politikfeld vor.
+            Erhalt und die Gestaltung der bestehenden Kulturinfrastruktur tragen. Bislang liegen
+            leider nur wenige politikwissenschaftliche Studien über dieses Politikfeld vor.
           </p>
           <p>
             Im Rahmen meiner Dissertation widmete ich mich dem selbsternannten “Kulturland
